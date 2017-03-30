@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The dudes behind making this software
+
+# TEAM AND AUTHORS
+
+    Travis Harley -- Web Manager / UI/UX Design 
+    Riley Hein    -- Frontend Developer Intern / UI/UX Design
+
+# TECHNOLOGY USED
+
+    HTML5
+    CSS3 / SASS
+	JavaScript
+    jQuery
+    PHP5
+    Bootstrap
+    WordPress
+
+# BUILT IN SALT LAKE CITY, UTAH

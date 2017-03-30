@@ -1,0 +1,99 @@
+/***********************************
+   BUTTONS
+***********************************/
+/* NOTE:
+** These btns have a dependency on bootstraps
+** .btn class. In order to use, your html class 
+** needs to have btn and then your choice of these.
+**/
+.btn-lg {
+    font-size: 1.3rem;
+}
+.btn-md {
+    font-size: 1.06rem;
+}
+
+.btn-orange{
+    color: $white;
+    background-color: $orangeTwo;
+    border-color: $orangeTwo;
+}
+.btn-orange:hover{
+    color: $white;
+    background-color: darken($orangeTwo, 10);
+    border-color: darken($orangeTwo, 10);
+}
+.btn-inverse-orange{
+    color: $orangeTwo;
+    background-color: $white;
+    border-color: $orangeTwo;
+}
+.btn-inverse-orange:hover{
+    color: $white;
+    background-color: $orangeTwo;
+    border-color: $orangeTwo;
+    transition: 0.5s ease;
+}
+.btn-green{
+    color: $white;
+    background-color: $green;
+    border-color: $green;
+}
+.btn-green:hover{
+    color: $white;
+    background-color: darken($green, 10);
+    border-color: darken($green, 10);
+}
+.btn-inverse-green{
+    color: $green;
+    background-color: $white;
+    border-color: $green;
+}
+.btn-inverse-green:hover{
+    color: $white;
+    background-color: $green;
+    border-color: $green;
+    transition: 0.5s ease;
+}
+.btn-purple{
+    color: $white;
+    background-color: $purple;
+    border-color: $purple;
+}
+.btn-purple:hover{
+    color: $white;
+    background-color: darken($purple, 10);
+    border-color: darken($purple, 10);
+}
+.btn-inverse-purple{
+    color: $purple;
+    background-color: $white;
+    border-color: $purple;
+}
+.btn-inverse-purple:hover{
+    color: $white;
+    background-color: $purple;
+    border-color: $purple ;
+    transition: 0.5s ease;
+}
+.btn-blue{
+    color: $white;
+    background-color: $blue;
+    border-color: $blue;
+}
+.btn-blue:hover{
+    color: $white;
+    background-color: darken($blue, 10);
+    border-color: darken($blue, 10);
+}
+.btn-inverse-blue{
+    color: $blue;
+    background-color: $white;
+    border-color: $blue;
+}
+.btn-inverse-blue:hover{
+    color: $white;
+    background-color: $blue;
+    border-color: $blue;
+    transition: 0.5s ease;
+}

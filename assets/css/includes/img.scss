@@ -1,0 +1,16 @@
+.img{
+	width: 100%;
+}
+
+@mixin background-img($image) {
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url($image);
+}
+
+.test-img{
+	@include background-img('../img/transformers.jpg');
+}
+

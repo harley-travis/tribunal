@@ -1,0 +1,71 @@
+@font-face{
+    font-family: gotham-book;
+    src: url('../fonts/rizepoint-fonts/gothamhtf-book-webfont.ttf');
+}
+@font-face{
+    font-family: gotham-thin;
+    src: url('../fonts/rizepoint-fonts/Gotham-Thin.otf');
+}
+@font-face{
+    font-family: gotham-bold;
+    src: url('../fonts/rizepoint-fonts/Gotham-Ultra.otf');
+}
+@font-face{
+    font-family: round-gotham;
+    src: url('../fonts/rizepoint-fonts/GothamRounded-Book.ttf');
+}
+@font-face{
+    font-family: round-italic;
+    src: url('../fonts/rizepoint-fonts/GothamRounded-BookItalic.ttf');
+}
+@font-face{
+    font-family: round-thin;
+    src: url('../fonts/rizepoint-fonts/GothamRnd-Light.otf');
+}
+@font-face{
+    font-family: round-bold;
+    src: url('../fonts/rizepoint-fonts/GothamRounded-Bold.ttf');
+}
+
+/* fonts */
+$gotham-book:   gotham-book;
+$gotham-thin:	gotham-thin;
+$gotham-bold:	gotham-bold;
+$round-gotham:	round-gotham;
+$round-italic:	round-italic;
+$round-thin:	round-thin;
+$round-bold:	round-bold;
+
+/* primary */
+$orangeOne:     #fc842a; /* darkest */
+$orangeTwo:     #fcb040; 
+$orangeThree:   #f4c540; /* lightest */
+$yellow:        #f7d569; 
+
+/* accents */
+$purple:        #a15a95;
+$blue:          #59bec9;
+$green:         #28b29a;
+$pink:          #e76b7c; 
+
+/* black and whites */
+$black:         #2c2929;
+$gray:          #6b6b6b;
+$lightGray:     #bbbcbc;
+$white:         #ffffff;
+$bgGray:        #fafafa;
+
+/* font-sizes */
+$banner-font:   3rem;
+
+/* screensize */
+$lg-desktop:    1500px;
+$md-desktop:    1440px;
+$sm-desktop:    1024px;
+$tablet:        768px;
+$lg-mobile:     425px;
+$md-mobile:     375px;
+$sm-moblie:     320px;
+
+
+
