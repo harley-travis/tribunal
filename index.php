@@ -2,18 +2,7 @@
 
 <div class="container-fluid pink-yellow">
 
-	<header>
-		<div class="container header-wrapper">
-			<div class="row">
-				<div class="col-lg-4 col-sm-6 logo">
-					<img src="assets/img/logo/white-logo.png" alt="RizePoint" class="logo-img">
-				</div><!-- logo -->
-				<div class="col-lg-8 col-sm-6 nav">
-					<?php include('includes/main-nav.php'); ?>
-				</div><!-- -->
-			</div><!-- row -->
-		</div><!-- header-wrapper -->
-	</header>
+	<?php include('includes/page-header.php'); ?>
 
 	<div class="container banner">
 		<div class="banner-wrapper">
