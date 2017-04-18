@@ -1,13 +1,8 @@
 body{}
 
-h1{
+h1, h2, h3, h4 ,h5, h6{
 	font-family: $gotham-bold;
 }
-h2{}
-h3{}
-h4{}
-h5{}
-h6{}
 
 p {
     font-family: $gotham-book;
@@ -15,3 +10,8 @@ p {
     line-height: 150%;
 }
 
+li {
+    font-family: gotham;
+    font-size: 1.2em;
+    line-height: 150%;
+}

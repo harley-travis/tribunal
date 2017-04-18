@@ -1,0 +1,72 @@
+/*
+Theme Name: The Living Tribunal
+Theme URI: http://www.rizepoint.com/
+Author: Travis Harley and Riley Hein
+Author URI: http://wordpress.org/
+Description: There are cosmic powers too powerful in the universe, that we harnessed this power into a site. This, is The Site of The Living Tribunal. Built in hidden valley konwn as Salt Lake City. Developed by Travis Harley and Riley Hein. 
+Version: 1.0
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/***************************
+  Variables 
+***************************/
+@import "assets/css/includes/variables";
+
+/***************************
+  BigSlide - Mobile Nav 
+***************************/
+@import "assets/css/includes/bigSlide";
+
+/***************************
+  BS overrides
+***************************/
+@import "assets/css/includes/overrides";
+
+/***************************
+  Generals
+***************************/
+@import "assets/css/includes/generals";
+
+/***************************
+  Rize - Internal Framework  
+***************************/
+@import "assets/css/includes/rize";
+
+/***************************
+  Header
+***************************/
+@import "assets/css/includes/header";
+
+/***************************
+  Marketo Forms
+***************************/
+@import "assets/css/includes/marketo";
+
+/***************************
+  Images and Icons
+***************************/
+@import "assets/css/includes/img";
+
+/***************************
+  Buttons
+***************************/
+@import "assets/css/includes/buttons";
+
+/* PAGES */
+/***************************
+  Home
+***************************/
+@import "assets/css/includes/home";
+
+/***************************
+  Mobile Responsive
+***************************/
+@import "assets/css/includes/responsive";
+
+/***************************
+  Footer
+***************************/
+@import "assets/css/includes/footer";
+

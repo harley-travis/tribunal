@@ -1,22 +1,20 @@
-/***********************************
-   BUTTONS
-***********************************/
 /* NOTE:
 ** These btns have a dependency on bootstraps
 ** .btn class. In order to use, your html class 
 ** needs to have btn and then your choice of these.
 **/
+
 .btn-lg {
     font-size: 1.3rem;
 }
 .btn-md {
     font-size: 1.06rem;
 }
-
 .btn-orange{
     color: $white;
     background-color: $orangeTwo;
     border-color: $orangeTwo;
+	@extend .box-shadow;
 }
 .btn-orange:hover{
     color: $white;
@@ -38,6 +36,7 @@
     color: $white;
     background-color: $green;
     border-color: $green;
+	@extend .box-shadow;
 }
 .btn-green:hover{
     color: $white;
@@ -59,6 +58,7 @@
     color: $white;
     background-color: $purple;
     border-color: $purple;
+	@extend .box-shadow;
 }
 .btn-purple:hover{
     color: $white;
@@ -80,6 +80,7 @@
     color: $white;
     background-color: $blue;
     border-color: $blue;
+	@extend .box-shadow;
 }
 .btn-blue:hover{
     color: $white;

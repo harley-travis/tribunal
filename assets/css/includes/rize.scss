@@ -6,11 +6,15 @@
 }
 .banner{
     @extend .parallax;
-    height: 380px;
+    height: 550px;
+	text-align: center;
+	margin: 0 auto;
 }
-.banner-wrapper{
+.banner-wrapper {
     position: relative;
     top: 35%;
+    max-width: 870px;
+    margin: 0 auto;
 }
 .banner h1{
     color: $white;
@@ -20,9 +24,23 @@
 	left: 0;
     right: 0;
 }
+
+/* shadows */
 .text-shadow{
     text-shadow: 0px 3px 33px $black;
 }
+.box-shadow{
+	box-shadow: black 0px 1px 5px -1px;
+}
+
+/* icons circles */
+.circle-icon{
+	width: 100%;
+	max-width: 275px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
 
 /* colors */
 /* color classes */
