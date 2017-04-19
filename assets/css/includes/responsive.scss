@@ -1,13 +1,34 @@
+/* 1500px */
 @media only screen and (max-width: $lg-desktop){}
 
+/* 1440px */
 @media only screen and (max-width: $md-desktop){}
 
+/* 1024px */
 @media only screen and (max-width: $sm-desktop){}
 
-@media only screen and (max-width: $tablet){}
+/* 768px */
+@media only screen and (max-width: $tablet){
+	
+	.circle-icon{
+		max-width: 175px;
+	}
+}
 
+/* 425px */
+@media only screen and (max-width: $lg-mobile){
+	
+	.circle-wrapper:first-child{
+		padding-top: 50px;
+	}
+	.circle-wrapper {
+		padding-bottom: 50px;
+	}
+	
+}
+
+/* 375px */
 @media only screen and (max-width: $lg-mobile){}
 
-@media only screen and (max-width: $lg-mobile){}
-
+/* 320px */
 @media only screen and (max-width: $lg-mobile){}

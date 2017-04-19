@@ -163,11 +163,29 @@ li {
   box-shadow: black 0px 1px 5px -1px; }
 
 /* icons circles */
-.circle-icon {
+.circle-row {
   width: 100%;
-  max-width: 275px;
-  border-radius: 50%;
+  max-width: 1170px;
   margin: 0 auto; }
+
+.circle-icon {
+  border-radius: 50%;
+  max-width: 200px;
+  padding: 30px;
+  margin: 0 auto; }
+
+.circle-icon-img {
+  width: 100%;
+  max-width: 150px; }
+
+.circle-header h4 {
+  text-align: center;
+  padding-top: 20px;
+  color: #6b6b6b; }
+
+.circle-text {
+  text-align: center;
+  font-size: 1.1rem; }
 
 /* colors */
 /* color classes */
@@ -362,6 +380,9 @@ li {
 .header-wrapper {
   padding-top: 20px; }
 
+.logo {
+  padding-top: 35px; }
+
 .logo-img {
   max-width: 250px; }
 
@@ -376,10 +397,13 @@ li {
 
 nav.upper-nav,
 .main-nav,
-.dropdown-menu {
+.dropdown-menu li {
   font-size: 1.3rem; }
 
 .search-icon {
+  color: #ffffff; }
+
+.upper-nav a {
   color: #ffffff; }
 
 .main-nav a {
@@ -390,7 +414,7 @@ nav.upper-nav,
   border: 2px solid white; }
 
 .play-icon {
-  font-size: 25px;
+  font-size: 20px;
   color: #6b6b6b;
   vertical-align: middle; }
 
@@ -566,6 +590,22 @@ span.mktoButtonWrap.mktoSimple {
 /***************************
   Mobile Responsive
 ***************************/
+/* 1500px */
+/* 1440px */
+/* 1024px */
+/* 768px */
+@media only screen and (max-width: 768px) {
+  .circle-icon {
+    max-width: 175px; } }
+/* 425px */
+@media only screen and (max-width: 425px) {
+  .circle-wrapper:first-child {
+    padding-top: 50px; }
+
+  .circle-wrapper {
+    padding-bottom: 50px; } }
+/* 375px */
+/* 320px */
 /***************************
   Footer
 ***************************/

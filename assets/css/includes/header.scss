@@ -1,6 +1,9 @@
 .header-wrapper {
     padding-top: 20px;
 }
+.logo{
+	padding-top: 35px;
+}
 .logo-img{
 	max-width: 250px;
 }
@@ -15,11 +18,16 @@
 }
 nav.upper-nav, 
 .main-nav,
-.dropdown-menu{
+.dropdown-menu li{
     font-size: 1.3rem;
 }
 .search-icon{
 	color: $white;
+}
+.upper-nav{
+	a{
+		color: $white;
+	}
 }
 .main-nav{
 	a{
@@ -31,7 +39,7 @@ nav.upper-nav,
 	border: 2px solid white;
 }
 .play-icon {
-    font-size: 25px;
+    font-size: 20px;
     color: $gray;
     vertical-align: middle;
 }

@@ -1,4 +1,4 @@
-<?php include('includes/header.php'); ?>
+<?php get_header(); ?>
 
 
 
@@ -10,7 +10,7 @@
 
 	<div class="container banner">
 		<div class="banner-wrapper">
-			<h1>The World's Most Powerful Brand, Quality, &amp; Safety Compliance Solution</h1>
+			<h1>The Industry Standard Platform For Brand, Quality, &amp; Safety Compliance</h1>
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
 	
@@ -18,7 +18,52 @@
 	
 </div><!-- container-fluid -->
 
-
+			<section class="container-fluid section-5">
+				<div class="container section-5-wrapper">
+					<div class="row circle-row">
+					
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 circle-wrapper">
+							<div class="circle-icon purple-bg">
+								<img src="<?php echo ROOT; ?>assets/img/icons/computer-icon-white.png" alt="Gather Better" class="circle-icon-img">
+							</div><!-- adv-icon -->
+							<div class="circle-header">
+								<h4>Gather Better</h4>
+							</div><!-- adv-header -->
+							<div class="circle-text">
+								<p>Collect relevant information more efficiently with mobile optimized tools and automated, consolidated processes</p>
+							</div><!-- adv-text -->
+						</div><!-- adv-wrapper -->
+						
+						
+						
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 circle-wrapper">
+							<div class="circle-icon green-bg">
+								<img src="<?php echo ROOT; ?>assets/img/icons/chart-time-icon-white.png" alt="See Earlier" class="circle-icon-img">
+							</div><!-- adv-icon -->
+							<div class="circle-header">
+								<h4>See Earlier</h4>
+							</div><!-- adv-header -->
+							<div class="circle-text">
+								<p>Empower every individual and group in the organization with relevant knowledge that improves performance and enables transparency</p>
+							</div><!-- adv-text -->
+						</div><!-- adv-wrapper -->
+						
+						
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 circle-wrapper">
+							<div class="circle-icon yellow-bg">
+								<img src="<?php echo ROOT; ?>assets/img/icons/rocket-icon-white.png" alt="Act Faster" class="circle-icon-img">
+							</div><!-- adv-icon -->
+							<div class="circle-header">
+								<h4>Act Faster</h4>
+							</div><!-- adv-header -->
+							<div class="circle-text">
+								<p>Act immediately on results from each assessment with real-time, global visibility into the insights and trends that matter</p>
+							</div><!-- adv-text -->
+						</div><!-- adv-wrapper -->
+						
+					</div><!-- row -->
+				</div><!-- section-5-wrapper -->
+			</section>
 
 
 
@@ -47,4 +92,4 @@
 
 </div>
 	
-<?php include('includes/footer.php'); ?>
+<?php get_footer(); ?>

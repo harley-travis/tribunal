@@ -2,6 +2,7 @@ $(document).ready(function() {
  
     var div = $('header');
     var logo = $('.logo-img'); 
+    var logoMain = $('.logo'); 
     var regular = $('.regular-logo'); 
     var white = $('.white-logo'); 
     var upperNav = $('.upper-nav'); 
@@ -30,6 +31,8 @@ $(document).ready(function() {
         $(rad).css('border',((p)>start) ? 'none' : '');    
         $(rad).css('color',((p)>start) ? '#FFFFFF' : '');    
         $(rad).css('box-shadow',((p)>start) ? 'black 0px 1px 5px -1px' : '');      
+        $(logoMain).css('padding-top',((p)>start) ? '35px' : '');      
+        $(logoMain).css('padding-top',((p)>start) ? '0px' : 'static');      
     });
  
 });

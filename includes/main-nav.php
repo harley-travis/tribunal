@@ -6,6 +6,7 @@
 		<li><a href="#">Contact Us</a></li>
 	</ul>
 </nav><!-- upper-nav -->
+
 <nav>
 	<ul class="nav nav-pills main-nav">
 		

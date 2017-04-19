@@ -34,11 +34,31 @@
 }
 
 /* icons circles */
+.circle-row {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
 .circle-icon{
-	width: 100%;
-	max-width: 275px;
-	border-radius: 50%;
-	margin: 0 auto;
+    border-radius: 50%;
+    max-width: 200px;
+    padding: 30px;
+    margin: 0 auto;
+}
+.circle-icon-img {
+    width: 100%;
+    max-width: 150px;
+}
+.circle-header{
+	h4{
+		text-align: center;
+		padding-top: 20px;
+		color: $gray;
+	}
+}
+.circle-text {
+    text-align: center;
+    font-size: 1.1rem;
 }
 
 

@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 22 of C:/xampp/htdocs/living-tribunal/assets/css/includes/header.scss
+        on line 25 of C:/xampp/htdocs/living-tribunal/assets/css/includes/header.scss
 
-17: .main-nav,
-18: .dropdown-menu{
-19:     font-size: 1.3rem;
-20: }
-21: .search-icon{
-22: 	color: $white;
+20: .main-nav,
+21: .dropdown-menu li{
+22:     font-size: 1.3rem;
 23: }
-24: .main-nav{
-25: 	a{
-26: 		color: $white;
-27: 	}
+24: .search-icon{
+25: 	color: $white;
+26: }
+27: .upper-nav{
+28: 	a{
+29: 		color: $white;
+30: 	}
 
 Backtrace:
-C:/xampp/htdocs/living-tribunal/assets/css/includes/header.scss:22
+C:/xampp/htdocs/living-tribunal/assets/css/includes/header.scss:25
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -61,4 +61,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 22 of C:/xampp/htdocs/living-tribunal/assets/css/includes/header.scss\A \A 17: .main-nav,\A 18: .dropdown-menu{\A 19:     font-size: 1.3rem;\A 20: }\A 21: .search-icon{\A 22: 	color: $white;\A 23: }\A 24: .main-nav{\A 25: 	a{\A 26: 		color: $white;\A 27: 	}"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 25 of C:/xampp/htdocs/living-tribunal/assets/css/includes/header.scss\A \A 20: .main-nav,\A 21: .dropdown-menu li{\A 22:     font-size: 1.3rem;\A 23: }\A 24: .search-icon{\A 25: 	color: $white;\A 26: }\A 27: .upper-nav{\A 28: 	a{\A 29: 		color: $white;\A 30: 	}"; }
