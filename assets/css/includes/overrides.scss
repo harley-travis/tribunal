@@ -2,3 +2,6 @@
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color: transparent !important;
+}

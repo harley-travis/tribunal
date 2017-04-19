@@ -13,6 +13,11 @@
 .nav{
 	float: right;
 }
+nav.upper-nav, 
+.main-nav,
+.dropdown-menu{
+    font-size: 1.3rem;
+}
 .search-icon{
 	color: $white;
 }

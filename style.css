@@ -108,6 +108,9 @@ li.desk-mainNav-li a {
   padding-right: 0 !important;
   padding-left: 0 !important; }
 
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color: transparent !important; }
+
 /***************************
   Generals
 ***************************/
@@ -370,6 +373,11 @@ li {
 
 .nav {
   float: right; }
+
+nav.upper-nav,
+.main-nav,
+.dropdown-menu {
+  font-size: 1.3rem; }
 
 .search-icon {
   color: #ffffff; }
