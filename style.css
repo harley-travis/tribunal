@@ -360,7 +360,31 @@ li {
   padding-top: 20px; }
 
 .logo-img {
-  max-width: 300px; }
+  max-width: 250px; }
+
+.regular-logo {
+  display: none; }
+
+.white-logo {
+  display: block; }
+
+.nav {
+  float: right; }
+
+.search-icon {
+  color: #ffffff; }
+
+.main-nav a {
+  color: #ffffff; }
+
+/* request a demo btn */
+.rad {
+  border: 2px solid white; }
+
+.play-icon {
+  font-size: 25px;
+  color: #6b6b6b;
+  vertical-align: middle; }
 
 /***************************
   Marketo Forms

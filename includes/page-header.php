@@ -2,7 +2,8 @@
 		<div class="container header-wrapper">
 			<div class="row">
 				<div class="col-lg-4 col-sm-6 logo">
-					<img src="<?php bloginfo('template_directory'); ?>/assets/img/logo/white-logo.png" alt="RizePoint" class="logo-img">
+					<img src="<?php bloginfo('template_directory'); ?>/assets/img/logo/white-logo.png" alt="RizePoint" class="logo-img white-logo">
+					<img src="<?php bloginfo('template_directory'); ?>/assets/img/logo/logo.png" alt="RizePoint" class="logo-img regular-logo">
 				</div><!-- logo -->
 				<div class="col-lg-8 col-sm-6 nav">
 					<?php include('main-nav.php'); ?>
