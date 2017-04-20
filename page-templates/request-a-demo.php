@@ -30,8 +30,7 @@
 			<h1>Demo</h1>
 		
 	</div><!--request-form-->
-	
-	<!-- test -->
+	<!--note-->
 </div><!--row-->
   
 <div class="row">
