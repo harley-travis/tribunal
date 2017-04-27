@@ -10,13 +10,27 @@
 
 	<div class="container banner">
 		<div class="banner-wrapper">
-			<h1>The Industry Standard Platform For Brand, Quality, &amp; Safety Compliance</h1>
+			<div class="row">
+			
+				<h1>The Industry Standard Platform For Brand, Quality, &amp; Safety Compliance</h1>
+			</div>
+			<div class="row">
+				<div class="banner-btns">
+					<a href="#" class="btn btn-lg btn-width btn-green">Watch a Video</a> <a href="#" class="btn btn-lg btn-width btn-inverse-white">Try It</a>
+				</div><!-- banner-btns -->
+			</div><!-- row -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
 	
-	
-	
+
 </div><!-- container-fluid -->
+			
+			
+
+			
+			
+			
+			
 
 			<section class="container-fluid section-5">
 				<div class="container section-5-wrapper">

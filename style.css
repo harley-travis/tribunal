@@ -159,7 +159,7 @@ li {
 .text-shadow {
   text-shadow: 0px 3px 33px #2c2929; }
 
-.box-shadow, .btn-orange, .btn-green, .btn-purple, .btn-blue {
+.box-shadow, .btn-orange, .btn-green, .btn-purple, .btn-blue, .btn-white {
   box-shadow: black 0px 1px 5px -1px; }
 
 /* icons circles */
@@ -494,10 +494,14 @@ span.mktoButtonWrap.mktoSimple {
 ** needs to have btn and then your choice of these.
 **/
 .btn-lg {
-  font-size: 1.3rem; }
+  font-size: 1.7rem; }
 
 .btn-md {
-  font-size: 1.06rem; }
+  font-size: 1.5rem; }
+
+.btn-width {
+  width: 100%;
+  max-width: 200px; }
 
 .btn-orange {
   color: #ffffff;
@@ -511,7 +515,6 @@ span.mktoButtonWrap.mktoSimple {
 
 .btn-inverse-orange {
   color: #fcb040;
-  background-color: #ffffff;
   border-color: #fcb040; }
 
 .btn-inverse-orange:hover {
@@ -532,7 +535,6 @@ span.mktoButtonWrap.mktoSimple {
 
 .btn-inverse-green {
   color: #28b29a;
-  background-color: #ffffff;
   border-color: #28b29a; }
 
 .btn-inverse-green:hover {
@@ -553,7 +555,6 @@ span.mktoButtonWrap.mktoSimple {
 
 .btn-inverse-purple {
   color: #a15a95;
-  background-color: #ffffff;
   border-color: #a15a95; }
 
 .btn-inverse-purple:hover {
@@ -574,13 +575,24 @@ span.mktoButtonWrap.mktoSimple {
 
 .btn-inverse-blue {
   color: #59bec9;
-  background-color: #ffffff;
   border-color: #59bec9; }
 
 .btn-inverse-blue:hover {
   color: #ffffff;
   background-color: #59bec9;
   border-color: #59bec9;
+  transition: 0.5s ease; }
+
+.btn-white {
+  background: #ffffff; }
+
+.btn-inverse-white {
+  color: #ffffff;
+  border-color: #ffffff; }
+
+.btn-inverse-white:hover {
+  color: #6b6b6b;
+  background: #ffffff;
   transition: 0.5s ease; }
 
 /* PAGES */

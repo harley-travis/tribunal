@@ -5,10 +5,14 @@
 **/
 
 .btn-lg {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
 }
 .btn-md {
-    font-size: 1.06rem;
+    font-size: 1.5rem;
+}
+.btn-width{
+	width: 100%;
+	max-width: 200px;
 }
 .btn-orange{
     color: $white;
@@ -23,7 +27,6 @@
 }
 .btn-inverse-orange{
     color: $orangeTwo;
-    background-color: $white;
     border-color: $orangeTwo;
 }
 .btn-inverse-orange:hover{
@@ -45,7 +48,6 @@
 }
 .btn-inverse-green{
     color: $green;
-    background-color: $white;
     border-color: $green;
 }
 .btn-inverse-green:hover{
@@ -67,7 +69,6 @@
 }
 .btn-inverse-purple{
     color: $purple;
-    background-color: $white;
     border-color: $purple;
 }
 .btn-inverse-purple:hover{
@@ -89,7 +90,6 @@
 }
 .btn-inverse-blue{
     color: $blue;
-    background-color: $white;
     border-color: $blue;
 }
 .btn-inverse-blue:hover{
@@ -98,3 +98,18 @@
     border-color: $blue;
     transition: 0.5s ease;
 }
+.btn-white{
+	background: $white;
+	@extend .box-shadow;
+}
+.btn-inverse-white{
+	color: $white;
+	border-color: $white;
+}
+.btn-inverse-white:hover{
+	color: $gray;
+	background: $white;
+	transition: 0.5s ease;
+}
+
+
