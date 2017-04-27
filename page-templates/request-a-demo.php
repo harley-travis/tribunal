@@ -27,7 +27,7 @@ get_header(); ?>
 	<div class="col-md-6 col-sm-12 col-xs-12 request-form">
 		<h3>Request A Free</h3>
 			<h1>Demo</h1>
-			<p>travis is a douche</p>
+			<p>travis is a real nicey</p>
 			<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>
 			<form id="mktoForm_457"></form>
 			<script>MktoForms2.loadForm("//app-ab09.marketo.com", "318-YYG-377", 457);</script>
