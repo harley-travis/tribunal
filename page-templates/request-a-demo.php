@@ -3,6 +3,14 @@
  * Template Name: Request A Demo
 */
 get_header(); ?>
+	
+	<style>
+
+		
+		
+		
+		
+</style>
 
 	<div class="container-fluid pink-yellow">
 		<?php get_template_part('includes/page-header'); ?>
@@ -28,6 +36,7 @@ get_header(); ?>
 		<h3>Request A Free</h3>
 			<h1>Demo</h1>
 			<p>travis is a real nicey</p>
+			<p>Travis has a fiat</p>
 			<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>
 			<form id="mktoForm_457"></form>
 			<script>MktoForms2.loadForm("//app-ab09.marketo.com", "318-YYG-377", 457);</script>
@@ -91,8 +100,10 @@ get_header(); ?>
 <div class="container-fluid request-brand">
 	<div class="request-brands-wrapper">
 	<div class="row">
-		<div class="request-brands">
+		<div class="request-brands-text">
 				<p>The Brands Who Trust RizePoint</p>
+		</div><!--request-brands-text-->		
+		
 		<div class="col-md-3 col-sm-6 col-xs-12 brand">
 			<img src="<?php the_field('request_icon_3'); ?>"></img>
 		</div>
@@ -106,7 +117,7 @@ get_header(); ?>
 			<img src="<?php the_field('request_icon_3'); ?>"></img>		
 		</div>
 	
-		</div><!--request-brands-->
+		
 	</div><!--row-->
 		<div class="request-client-button">
 			<btn-lg btn-green></btn-md>
