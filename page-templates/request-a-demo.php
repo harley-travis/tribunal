@@ -2,13 +2,12 @@
 /**
  * Template Name: Request A Demo
 */
-?>
-<?php get_template_part('/includes/header.php'); ?>
+get_header(); ?>
 
 	<div class="container-fluid pink-yellow">
-		<?php include('../includes/page-header.php'); ?>
+		<?php get_template_part('includes/page-header'); ?>
 
-		<div class="container banner">
+		<div class="container-banner">
 			<div class="banner-wrapper">
 			<h2>Request A Demo</h2>
 				<h3>The World's Most Powerful Brand, Quality, &amp; Safety Compliance Solution</h3>
@@ -18,16 +17,21 @@
 	</div><!-- container-fluid -->
 
 <div class="row">
-	<div class="col-md-6 col-sm-12 col-xs-12" request-video>
+	<div class="col-md-6 col-sm-12 col-xs-12 request-video">
 			<h1>Why Choose RizePoint?</h1>
 				<p>The Worlds Most Powerful Brand Quality &amp; Safety Compliance Solution</p>
 		<img src="<?php the_field('request_video'); ?>"></img>
 		
 	</div><!--request-video-->
 	
-	<div class="col-md-6 col-sm-12 col-xs-12" request-form>
+	<div class="col-md-6 col-sm-12 col-xs-12 request-form">
 		<h3>Request A Free</h3>
 			<h1>Demo</h1>
+			
+			<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>
+			<form id="mktoForm_457"></form>
+			<script>MktoForms2.loadForm("//app-ab09.marketo.com", "318-YYG-377", 457);</script>
+
 		
 	</div><!--request-form-->
 
@@ -39,7 +43,7 @@
 
 			<div class="col-md-4 col-sm-4 col-xs-12 circle-wrapper">
 				<div class="circle-icon purple-bg">
-					<img src="<?php the_field('request_icon_1'); ?>"></img>
+					<img src="<?php the_field('request_icon_1'); ?>" class="circle-icon-img"></img>
 				</div><!--circle-icon-->
 				<div class="circle-header">
 					<h4>Gather Better</h4>
@@ -48,13 +52,13 @@
 					<p></p>
 				</div><!--circle-text-->
 			</div><!--circle-wrapper-->
-		</div><!--row circle-row-->
+
 		
-		<div class="row circle-row">
+
 
 			<div class="col-md-4 col-sm-4 col-xs-12 circle-wrapper">
 				<div class="circle-icon pink-bg">
-					<img src="<?php the_field('request_icon_2'); ?>"></img>
+					<img src="<?php the_field('request_icon_2'); ?>" class="circle-icon-img"></img>
 				</div><!--circle-icon-->
 				<div class="circle-header">
 					<h4>See Earlier</h4>
@@ -63,13 +67,13 @@
 					<p></p>
 				</div><!--circle-text-->
 			</div><!--circle-wrapper-->
-		</div><!--row circle-row-->
+
 		
-		<div class="row circle-row">
+
 
 			<div class="col-md-4 col-sm-4 col-xs-12 circle-wrapper">
 				<div class="circle-icon blue-bg">
-					<img src="<?php the_field('request_icon_3'); ?>"></img>
+					<img src="<?php the_field('request_icon_3'); ?>" class="circle-icon-img"></img>
 					
 				</div><!--circle-icon-->
 				<div class="circle-header">
@@ -84,13 +88,22 @@
 	</div><!--request-icons-->
 </div><!--row-->
 
-<div class="container-fluid">
+<div class="container-fluid request-brand">
 	<div class="request-brands-wrapper">
 	<div class="row">
 		<div class="request-brands">
 				<p>The Brands Who Trust RizePoint</p>
-		<div class="col-md-3 col-sm-6 col-xs-12">
-	
+		<div class="col-md-3 col-sm-6 col-xs-12 brand">
+			<img src="<?php the_field('request_icon_3'); ?>"></img>
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12 brand">
+			<img src="<?php the_field('request_icon_3'); ?>"></img>
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12 brand">
+			<img src="<?php the_field('request_icon_3'); ?>"></img>
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12 brand">
+			<img src="<?php the_field('request_icon_3'); ?>"></img>		
 		</div>
 	
 		</div><!--request-brands-->
@@ -105,4 +118,4 @@
 
 
 
-<?php get_template_part('/includes/footer.php'); ?>
+<?php get_footer(); ?>
