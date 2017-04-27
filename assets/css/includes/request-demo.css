@@ -1,15 +1,19 @@
 /* Scss Document */
 .circle-row {
   width: 100%;
-  max-width: 960px;
+  max-width: 930px;
   margin: 0 auto;
-  padding: 100px 0px 100px 0px; }
+  padding: 150px 0px 100px 0px; }
 
 .request-brands-wrapper {
   background: gray;
-  width: 100%;
-  max-width: 1050px; }
+  width: 100%; }
 
 .request-brands {
   text-align: center;
   padding: 40px 0px 40px 0px; }
+
+.request-brands-text {
+  text-align: center;
+  padding: 50px 0px 80px 0px;
+  color: gainsboro; }
