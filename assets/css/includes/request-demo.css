@@ -1,0 +1,15 @@
+/* Scss Document */
+.circle-row {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 100px 0px 100px 0px; }
+
+.request-brands-wrapper {
+  background: gray;
+  width: 100%;
+  max-width: 1050px; }
+
+.request-brands {
+  text-align: center;
+  padding: 40px 0px 40px 0px; }
