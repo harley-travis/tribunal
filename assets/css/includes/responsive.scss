@@ -13,16 +13,44 @@
 	.circle-icon{
 		max-width: 175px;
 	}
+	/* BIG SLIDE */
+	.main-nav,
+	.upper-nav{
+    	display: none; 
+	}
+	.nav{
+		padding-top: 35px;
+	}
+  	a.menu-link {
+   		display: initial; 
+	}
+
+    .mobile-nav {
+    	display: initial; 
+	}
+	.logo, .nav{
+		padding-top: 5px;
+	}
 }
 
 /* 425px */
 @media only screen and (max-width: $lg-mobile){
 	
+	body{
+		text-align: center;
+	}
 	.circle-wrapper:first-child{
 		padding-top: 50px;
 	}
 	.circle-wrapper {
 		padding-bottom: 50px;
+	}
+	.visible {
+		display: none;
+	}
+	.footer-social,
+	.right-divider-section{
+		text-align: center;
 	}
 	
 }
@@ -31,4 +59,16 @@
 @media only screen and (max-width: $lg-mobile){}
 
 /* 320px */
-@media only screen and (max-width: $lg-mobile){}
+@media only screen and (max-width: $lg-mobile){
+	
+	.regular-logo,
+	.logo-img{
+		max-width: 200px;
+	}
+	.nav{
+		padding-top: 0;
+	}
+	.right-divider-section{
+		font-size: 1.1rem;
+	}
+}

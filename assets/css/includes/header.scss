@@ -13,8 +13,11 @@
 .white-logo{
 	display: block;
 }
+
+/* MAIN NAV */
 .nav{
 	float: right;
+	clear: right;
 }
 nav.upper-nav, 
 .main-nav,
@@ -28,15 +31,27 @@ nav.upper-nav,
 	a{
 		color: $white;
 	}
+	li a {
+		color: $white;
+	}
 }
 .main-nav{
 	a{
 		color: $white;
 	}
 }
-/* request a demo btn */
+.nav-pills>li>a:last-child {
+    padding: 5px;
+    margin: 5px;
+}
+
+/* REQUEST A DEMO BTN */
 .rad{
 	border: 2px solid white;
+}
+
+.nav>li>a.rad:focus, .nav>li>a.rad:hover{
+	background-color: darken($green, 10) !important;
 }
 .play-icon {
     font-size: 20px;

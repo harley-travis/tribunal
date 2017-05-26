@@ -1,53 +1,49 @@
+a.menu-link,
+a.menu-link:focus,
+a.menu-link:hover,
+a.menu-link:visited {
+  text-decoration: none; 
+}
 .panel-nav {
-    position: fixed;
-    right: -15.625em; /*left or right and the width of your navigation panel*/
-    width: 15.625em; /*should match the above value*/
+  position: fixed;
+  right: -15.625em;
+  width: 15.625em; 
 }
 .wrap {
-    position: relative;
+  position: relative; 
 }
 a.menu-link {
-    display: none;
-    text-decoration: none;
-    background-color: #FD4233;
-    padding: 7px;
-    color: #fff;
-    font-size: 2rem;
-}
-a.menu-link:hover{
-    text-decoration: none;
-    color: #f5f5f5;
-}
-a.menu-link:visited{
-    color: #fff;
-    text-decoration: none;
-}
-a.menu-link:focus{
-    text-decoration: none;
+  display: none;
+  padding: 6px 7px 4px 7px;
+  color: $white;
+  font-size: 2rem;
+  border: 2px solid $white;
+  border-radius: 5px; 
+  float: right;
 }
 nav#menu {
-    background-color: #f5f5f5;
+  background-color: #f5f5f5; 
 }
 ul.desk-mainNav {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0; 
 }
 li.desk-mainNav-li {
-    padding: 15px;
-    text-align: center;
-    border-bottom: 1px solid #DAD7D7;
-    cursor: pointer;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #DAD7D7;
+  cursor: pointer; 
 }
-li.desk-mainNav-li:hover{
-    background-color: #FD4233;
-    color: #fff;
-    transition: 0.5s ease;
+li.desk-mainNav-li:hover {
+  color: #fff;
+  transition: 0.5s ease; 
 }
-li.desk-mainNav-li:hover a{
-    color: #fff;
-    text-decoration: none;
-    transition: 0.5s ease;
+li.desk-mainNav-li:hover a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s ease; 
 }
 li.desk-mainNav-li a {
-    color: black;
+  color: #000; 
 }
+

@@ -6,23 +6,26 @@
 }
 .banner{
     @extend .parallax;
-    height: 550px;
-	text-align: center;
-	margin: 0 auto;
+    height: 400px;
+	margin-top: 100px;
 }
 .banner-wrapper {
-    position: relative;
-    top: 35%;
     max-width: 870px;
+	width: 100%;
+	text-align: center;
     margin: 0 auto;
+	margin-top: 45px;
 }
 .banner h1{
     color: $white;
     font-size: $banner-font;
-    text-align: center;
-	position: absolute;
-	left: 0;
-    right: 0;
+}
+.banner-btns {
+    margin-top: 50px;
+
+	a{
+		margin: 15px;
+	}
 }
 
 /* shadows */
@@ -30,7 +33,7 @@
     text-shadow: 0px 3px 33px $black;
 }
 .box-shadow{
-	box-shadow: black 0px 1px 5px -1px;
+	box-shadow: 1px 2px 10px -6px $black;
 }
 
 /* icons circles */
@@ -61,6 +64,16 @@
     font-size: 1.1rem;
 }
 
+/* box features */
+.box-feature-wrapper {
+    margin-bottom: 35px;
+}
+.box-feature {
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+	margin-bottom: 15px;
+}
 
 /* colors */
 /* color classes */

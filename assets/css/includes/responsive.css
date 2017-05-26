@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$lg-desktop".
-        on line 2 of C:/xampp/htdocs/living-tribunal/assets/css/includes/responsive.scss
+        on line 2 of C:\xampp\htdocs\living-tribunal\assets\css\includes\responsive.scss
 
 1: /* 1500px *\/
 2: @media only screen and (max-width: $lg-desktop){}
@@ -11,7 +11,7 @@ Error: Undefined variable: "$lg-desktop".
 7: /* 1024px *\/
 
 Backtrace:
-C:/xampp/htdocs/living-tribunal/assets/css/includes/responsive.scss:2
+C:\xampp\htdocs\living-tribunal\assets\css\includes\responsive.scss:2
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:540:in `block in run_interp_no_strip'
@@ -50,4 +50,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$lg-desktop\".\A         on line 2 of C:/xampp/htdocs/living-tribunal/assets/css/includes/responsive.scss\A \A 1: /* 1500px */\A 2: @media only screen and (max-width: $lg-desktop){}\A 3: \A 4: /* 1440px */\A 5: @media only screen and (max-width: $md-desktop){}\A 6: \A 7: /* 1024px */"; }
+  content: "Error: Undefined variable: \"$lg-desktop\".\A         on line 2 of C:\xampp\htdocs\living-tribunal\assets\css\includes\responsive.scss\A \A 1: /* 1500px */\A 2: @media only screen and (max-width: $lg-desktop){}\A 3: \A 4: /* 1440px */\A 5: @media only screen and (max-width: $md-desktop){}\A 6: \A 7: /* 1024px */"; }

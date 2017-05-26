@@ -1,0 +1,180 @@
+.home-intro-wrapper, 
+.home-section-two-wrapper{
+    text-align: center;
+    padding: 50px 0;
+}
+.home-intro-top{
+	margin-bottom: 45px;
+}
+
+/* INDUSTRY FEATURES */
+.feature-container{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	color: $white;
+	position: relative;
+	
+	h2{
+		padding: 15px 0 35px 0;
+	}
+}
+.img-pointer {
+    position: absolute;
+    top: -50px;
+    height: 0;
+    width: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    z-index: 10;
+}
+.pointer-1{
+	left: -10px;
+	border-bottom: 30px solid $purple;
+}
+.pointer-2{
+	left: 284px;
+	border-bottom: 30px solid $pink;
+}
+.pointer-3{
+	left: 578px;
+	border-bottom: 30px solid $orangeTwo;
+}
+.pointer-4{
+	left: 872px;
+	border-bottom: 30px solid $green;
+}
+.feature-btns{
+	text-align: center;
+}
+.feature-btn-wrapper {
+    padding: 50px;
+}
+.fl{
+	text-align: right;
+}
+.fr{
+	text-align: left;
+}
+
+
+/* SECTION 3 */
+.home-section-three-wrapper {
+    position: relative;
+}
+.home-section-three {
+    height: 815px;
+    background: $purple;
+}
+.home-mobile-auditor-wrapper {
+    padding-top: 85px;
+}
+.hma-wrapper-wrapper,
+.home-management-console{
+	
+	ul{
+		padding: 0;
+		margin: 0;
+	}
+	li{
+		list-style: none;
+	}
+}
+.home-mobile-auditor {
+    background: $green;
+    color: $white;
+	position: absolute;
+    z-index: 99;
+    width: 100%;
+	-webkit-clip-path: polygon(100% 0, 100% 4%, 0 85%, 0 0);
+	clip-path: polygon(100% 0, 100% 4%, 0 85%, 0 0);
+    height: 800px;
+    padding-top: 25px;
+    padding-left: 35px;
+	
+	h2{
+		text-align: center;
+	}
+}
+.home-management-console {
+    background: $purple;
+    color: $white;
+	position: absolute;
+    text-align: right;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    padding-top: 400px;
+    padding-right: 35px;
+}
+.home-mobile-auditor-cta,
+.home-management-console-cta{
+    padding-top: 35px;
+}
+.hma-icon {
+    font-size: 30rem !important;
+    color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: -3%;
+    bottom: 0;
+    top: 50%;
+}
+.hmc-icon {
+    color: rgba(0,0,0,0.1);
+    font-size: 30rem !important;
+    position: absolute;
+    right: 0;
+    top: 15%;
+    bottom: 0;
+}
+
+/* SYSTEM FEATURES SECTION 	*/
+.system-features{
+	background-color: $purple;
+	color: $white;
+}
+
+/* SECTION 4*/
+.section-four-wrapper {
+    text-align: center;
+}
+.brag-time {
+    padding: 50px;
+    text-align: center;
+}
+.customer-logo {
+    display: flex;
+    flex-wrap: wrap;
+    height: 130px;
+    align-items: center;
+}
+.customerLogo-img {
+    width: auto;
+    max-width: 100%;
+    padding: 15px;
+    height: auto;
+    max-height: 120px;
+    margin: 0 auto;
+}
+.visible{
+	display: block;
+}
+
+/* SECTION 5*/
+.section-five{
+	background-color: $lightGray;
+}
+.section-five-wrapper {
+    padding: 50px 0;
+}
+.circle-content {
+    padding: 100px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
