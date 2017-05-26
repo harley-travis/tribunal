@@ -24,6 +24,17 @@
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/assets/css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/assets/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/style.css">
+		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/assets/css/font-awesome.min.css">
 			
+		<!-- jquery -->
+		<script src="<?php bloginfo('template_directory'); ?>/assets/js/3.2.0/jquery-3.2.0.slim.min.js"></script>
+		
+		<!-- INIT BIGSLIDE -->
+		<script>
+			$(document).ready(function() {
+				$('.menu-link').bigSlide();
+			});
+	
+		</script>	
 	</head>
 	<body>

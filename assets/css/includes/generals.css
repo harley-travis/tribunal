@@ -1,19 +1,17 @@
 /*
-Error: Undefined variable: "$gotham-bold".
-        on line 4 of C:/xampp/htdocs/2017/assets/css/includes/generals.scss
+Error: Undefined variable: "$gotham-book".
+        on line 2 of C:\xampp\htdocs\living-tribunal\assets\css\includes\generals.scss
 
-1: body{}
-2: 
-3: h1{
-4: 	font-family: $gotham-bold;
-5: }
-6: h2{}
-7: h3{}
-8: h4{}
-9: h5{}
+1: body{
+2: 	font-family: $gotham-book;
+3: 	color: $textColor;
+4: }
+5: 
+6: h1, h2, h3, h4 ,h5, h6{
+7: 	font-family: $gotham-bold;
 
 Backtrace:
-C:/xampp/htdocs/2017/assets/css/includes/generals.scss:4
+C:\xampp\htdocs\living-tribunal\assets\css\includes\generals.scss:2
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -59,4 +57,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$gotham-bold\".\A         on line 4 of C:/xampp/htdocs/2017/assets/css/includes/generals.scss\A \A 1: body{}\A 2: \A 3: h1{\A 4: 	font-family: $gotham-bold;\A 5: }\A 6: h2{}\A 7: h3{}\A 8: h4{}\A 9: h5{}"; }
+  content: "Error: Undefined variable: \"$gotham-book\".\A         on line 2 of C:\xampp\htdocs\living-tribunal\assets\css\includes\generals.scss\A \A 1: body{\A 2: 	font-family: $gotham-book;\A 3: 	color: $textColor;\A 4: }\A 5: \A 6: h1, h2, h3, h4 ,h5, h6{\A 7: 	font-family: $gotham-bold;"; }

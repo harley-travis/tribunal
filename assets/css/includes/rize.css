@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 20 of C:\xampp\htdocs\tribunal\assets\css\includes\rize.scss
+        on line 20 of C:\xampp\htdocs\living-tribunal\assets\css\includes\rize.scss
 
-15:     top: 35%;
-16:     max-width: 870px;
-17:     margin: 0 auto;
+15: 	text-align: center;
+16:     margin: 0 auto;
+17: 	margin-top: 45px;
 18: }
 19: .banner h1{
 20:     color: $white;
 21:     font-size: $banner-font;
-22:     text-align: center;
-23: 	position: absolute;
-24: 	left: 0;
-25:     right: 0;
+22: }
+23: .banner-btns {
+24:     margin-top: 50px;
+25: 
 
 Backtrace:
-C:\xampp\htdocs\tribunal\assets\css\includes\rize.scss:20
+C:\xampp\htdocs\living-tribunal\assets\css\includes\rize.scss:20
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -61,4 +61,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 20 of C:\xampp\htdocs\tribunal\assets\css\includes\rize.scss\A \A 15:     top: 35%;\A 16:     max-width: 870px;\A 17:     margin: 0 auto;\A 18: }\A 19: .banner h1{\A 20:     color: $white;\A 21:     font-size: $banner-font;\A 22:     text-align: center;\A 23: 	position: absolute;\A 24: 	left: 0;\A 25:     right: 0;"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 20 of C:\xampp\htdocs\living-tribunal\assets\css\includes\rize.scss\A \A 15: 	text-align: center;\A 16:     margin: 0 auto;\A 17: 	margin-top: 45px;\A 18: }\A 19: .banner h1{\A 20:     color: $white;\A 21:     font-size: $banner-font;\A 22: }\A 23: .banner-btns {\A 24:     margin-top: 50px;\A 25: "; }

@@ -5,3 +5,8 @@
 .nav>li>a:focus, .nav>li>a:hover{
 	background-color: transparent !important;
 }
+
+a:focus, a:hover{
+	color: $orangeTwo;
+	text-decoration: none;
+}
