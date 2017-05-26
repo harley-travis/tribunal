@@ -1,14 +1,41 @@
-/* Scss Document */
-.request-icons {
-  width: 100%;
-  max-width: 1440px;
-  margin: auto; }
+/*
+Error: Invalid CSS after "get_header()": expected "{", was "; ?>"
+        on line 6 of C:\xampp\htdocs\wordpress\wp-content\themes\tribunal\assets\css\includes\products.scss
 
-.circle-row {
-  width: 100%;
-  max-width: 930px;
-  margin: 0 auto;
-  padding: 150px 0px 100px 0px; }
+1: /* Scss Document *\/
+2: <?php 
+3: /**
+4:  * Template Name: Products
+5: *\/
+6: get_header(); ?>
+7: 	<style>
+8: 		
+9: 		.banner-buttons{
+10: 			border: 1px white solid;
+11: 			border-radius: 5px;
 
-img {
-  width: 100%; }
+Backtrace:
+C:\xampp\htdocs\wordpress\wp-content\themes\tribunal\assets\css\includes\products.scss:6
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:1179:in `expected'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:1115:in `expected'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:1110:in `tok!'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:655:in `block'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:649:in `ruleset'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:674:in `block_child'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:664:in `block_contents'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:126:in `stylesheet'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:403:in `_to_tree'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:278:in `render'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:420:in `run'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/bin/sass:13:in `<top (required)>'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `load'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"get_header()\": expected \"{\", was \"; ?>\"\A         on line 6 of C:\xampp\htdocs\wordpress\wp-content\themes\tribunal\assets\css\includes\products.scss\A \A 1: /* Scss Document */\A 2: <?php \A 3: /**\A 4:  * Template Name: Products\A 5: */\A 6: get_header(); ?>\A 7: 	<style>\A 8: 		\A 9: 		.banner-buttons{\A 10: 			border: 1px white solid;\A 11: 			border-radius: 5px;"; }
