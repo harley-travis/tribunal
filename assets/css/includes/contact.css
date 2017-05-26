@@ -1,0 +1,47 @@
+/* Scss Document */
+.contact-wrapper {
+  width: 100%;
+  max-width: 960px;
+  font-family: "gotham-book";
+  margin: auto; }
+
+.contact-text {
+  font-size: 21px;
+  padding: 40px 40px 70px 40px;
+  font-weight: 600; }
+
+.contact-form {
+  background-color: lightblue;
+  padding-top: 25px;
+  margin-top: 40px;
+  padding-bottom: 25px; }
+  .contact-form .h2 {
+    text-align: center;
+    color: white; }
+
+.contact-details {
+  margin-top: 40px;
+  margin-bottom: 70px; }
+
+#contact-map {
+  height: 450px;
+  width: 100%; }
+
+.contact-email {
+  margin-top: 15px;
+  border-top: 1px gray solid; }
+  .contact-email a {
+    color: orange; }
+
+@media only screen and (max-width: 1024px) {
+  .contact-details {
+    margin-left: 40px; }
+
+  .contact-email {
+    margin-left: 40px; } }
+@media only screen and (max-width: 425px) {
+  .contact-details {
+    margin-left: 20px; }
+
+  .contact-email {
+    margin-left: 20px; } }

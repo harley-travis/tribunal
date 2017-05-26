@@ -1,4 +1,22 @@
 /* Scss Document */
+.request-choose p {
+  margin-top: -5px; }
+
+.request-demo h3 {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px; }
+.request-demo h1 {
+  font-size: 66px;
+  padding: none;
+  margin: none;
+  margin-top: -10px; }
+
+.request-wrapper {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto; }
+
 .circle-row {
   width: 100%;
   max-width: 930px;
@@ -6,14 +24,62 @@
   padding: 150px 0px 100px 0px; }
 
 .request-brands-wrapper {
-  background: gray;
-  width: 100%; }
+  padding: 0px 0px 100px 0px;
+  width: 100%;
+  text-align: center; }
 
-.request-brands {
+.request-brand {
   text-align: center;
   padding: 40px 0px 40px 0px; }
 
 .request-brands-text {
   text-align: center;
-  padding: 50px 0px 80px 0px;
-  color: gainsboro; }
+  padding: 10px 0px 80px 0px;
+  font-weight: bold; }
+
+.request-icons {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto; }
+
+@media only screen and (max-width: 768px) {
+  .request-video {
+    text-align: center;
+    padding-top: 35px; }
+
+  .request-form {
+    text-align: center;
+    padding-top: 35px; } }
+@media only screen and (max-width: 450px) {
+  .request-video {
+    text-align: center;
+    padding-top: 35px; }
+
+  .request-form {
+    text-align: center;
+    padding-top: 35px; }
+
+  .circle-row {
+    text-align: center; } }
+@media only screen and (max-width: 375px) {
+  .request-video {
+    text-align: center;
+    padding-top: 35px; }
+
+  .request-form {
+    text-align: center;
+    padding-top: 35px; }
+
+  .circle-row {
+    text-align: center; } }
+@media only screen and (max-width: 320px) {
+  .request-video {
+    text-align: center;
+    padding-top: 35px; }
+
+  .request-form {
+    text-align: center;
+    padding-top: 35px; }
+
+  .circle-row {
+    text-align: center; } }

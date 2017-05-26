@@ -3,14 +3,7 @@
  * Template Name: Request A Demo
 */
 get_header(); ?>
-	
-	<style>
 
-		
-		
-		
-		
-</style>
 
 	<div class="container-fluid pink-yellow">
 		<?php get_template_part('includes/page-header'); ?>
@@ -24,19 +17,24 @@ get_header(); ?>
 		</div><!-- banner -->
 	</div><!-- container-fluid -->
 
+<div class="container request-wrapper">
+
 <div class="row">
-	<div class="col-md-6 col-sm-12 col-xs-12 request-video">
-			<h1>Why Choose RizePoint?</h1>
+	<div class="col-md-6 col-sm-12 col-xs-12 request-video blue-text">
+			<div class="request-choose">
+				<h1>Why Choose RizePoint?</h1>
 				<p>The Worlds Most Powerful Brand Quality &amp; Safety Compliance Solution</p>
-		<img src="<?php the_field('request_video'); ?>"></img>
-		
+			</div><!--request-choose-->
+				<div class="video-size">
+					<iframe width="510" height="280" src="https://www.youtube.com/embed/Snt-nDronqE" frameborder="0" allowfullscreen></iframe>
+				</div><!--video-size-->
 	</div><!--request-video-->
 	
-	<div class="col-md-6 col-sm-12 col-xs-12 request-form">
-		<h3>Request A Free</h3>
-			<h1>Demo</h1>
-			<p>travis is a real nicey</p>
-			<p>Travis has a fiat</p>
+	<div class="col-md-6 col-sm-12 col-xs-12 request-form purple-text">
+			<div class="request-demo">
+				<h3>Request A Free</h3>
+				<h1>Demo</h1>
+			</div><!--request-demo-->
 			<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>
 			<form id="mktoForm_457"></form>
 			<script>MktoForms2.loadForm("//app-ab09.marketo.com", "318-YYG-377", 457);</script>
@@ -52,7 +50,7 @@ get_header(); ?>
 
 			<div class="col-md-4 col-sm-4 col-xs-12 circle-wrapper">
 				<div class="circle-icon purple-bg">
-					<img src="<?php the_field('request_icon_1'); ?>" class="circle-icon-img"></img>
+					<img src="<?php echo ROOT; ?>/assets/img/icons/computer-icon-white.png" class="circle-icon-img"></img>
 				</div><!--circle-icon-->
 				<div class="circle-header">
 					<h4>Gather Better</h4>
@@ -67,7 +65,7 @@ get_header(); ?>
 
 			<div class="col-md-4 col-sm-4 col-xs-12 circle-wrapper">
 				<div class="circle-icon pink-bg">
-					<img src="<?php the_field('request_icon_2'); ?>" class="circle-icon-img"></img>
+					<img src="<?php echo ROOT; ?>/assets/img/icons/chart-time-icon-white.png" class="circle-icon-img"></img>
 				</div><!--circle-icon-->
 				<div class="circle-header">
 					<h4>See Earlier</h4>
@@ -82,7 +80,7 @@ get_header(); ?>
 
 			<div class="col-md-4 col-sm-4 col-xs-12 circle-wrapper">
 				<div class="circle-icon blue-bg">
-					<img src="<?php the_field('request_icon_3'); ?>" class="circle-icon-img"></img>
+					<img src="<?php echo ROOT; ?>/assets/img/icons/rocket-icon-white.png" class="circle-icon-img"></img>
 					
 				</div><!--circle-icon-->
 				<div class="circle-header">
@@ -97,24 +95,26 @@ get_header(); ?>
 	</div><!--request-icons-->
 </div><!--row-->
 
-<div class="container-fluid request-brand">
+</div><!--request-wrapper-->
+
+<div class="container-fluid request-brand lightGray-bg">
 	<div class="request-brands-wrapper">
 	<div class="row">
-		<div class="request-brands-text">
+		<div class="request-brands-text gray-text">
 				<p>The Brands Who Trust RizePoint</p>
 		</div><!--request-brands-text-->		
 		
 		<div class="col-md-3 col-sm-6 col-xs-12 brand">
-			<img src="<?php the_field('request_icon_3'); ?>"></img>
+			<img src="<?php echo ROOT; ?>assets/img/clients/wendys-resources.jpg" class="wendys-icon-img"></img>
 		</div>
 		<div class="col-md-3 col-sm-6 col-xs-12 brand">
-			<img src="<?php the_field('request_icon_3'); ?>"></img>
+			<img src="<?php echo ROOT; ?>assets/img/clients/ihg-resources.jpg" class="ihg-icon-img"></img>
 		</div>
 		<div class="col-md-3 col-sm-6 col-xs-12 brand">
-			<img src="<?php the_field('request_icon_3'); ?>"></img>
+			<img src="<?php echo ROOT; ?>assets/img/clients/buffalowildwings-resources.jpg" class="buffalo-icon-img"></img>
 		</div>
 		<div class="col-md-3 col-sm-6 col-xs-12 brand">
-			<img src="<?php the_field('request_icon_3'); ?>"></img>		
+			<img src="<?php echo ROOT; ?>assets/img/clients/originals/harmons-logo.png" class="harmons-icon-img"></img>		
 		</div>
 	
 		
