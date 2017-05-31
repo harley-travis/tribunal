@@ -265,3 +265,37 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28b29a', endColorstr='#28b29a',GradientType=1 );
 }
 
+/* SLANTS AKA CANDY CANES */
+.slant-wrapper {
+	padding-top: 145px;
+}
+.slant-content-wrapper{
+	width: 100%;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.slant-wrapper .slant {
+	z-index: 1;
+	position: relative;
+	margin-bottom: -20px;
+}
+.slant-wrapper .slant:before {
+	content: '';
+	display: block;
+	background: inherit;
+	position: absolute;
+	top: -6px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	-webkit-transform: skewY(10.5deg);
+	transform: skewY(10.5deg);
+	-webkit-transform-origin: 100%;
+	transform-origin: 100%;
+	box-shadow: 0 -8px 8px 0 rgba(0, 0, 0, 0.05), 0 -12px 28px 0 rgba(0, 0, 0, 0.05);
+}
+
+
+
