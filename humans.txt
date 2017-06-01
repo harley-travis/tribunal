@@ -1,5 +1,5 @@
 # humanstxt.org/
-# The dudes behind making this software
+# The dudes behind making this website
 
 # TEAM AND AUTHORS
 
@@ -10,7 +10,7 @@
 
     HTML5
     CSS3 / SASS
-	JavaScript
+    JavaScript
     jQuery
     PHP5
     Bootstrap
