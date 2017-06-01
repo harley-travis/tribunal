@@ -63,6 +63,18 @@
     text-align: center;
     font-size: 1.1rem;
 }
+.circle-icon.industry-circle.purple-bg:hover{
+	background-color: darken($purple, 10);
+}
+.circle-icon.industry-circle.pink-bg:hover{
+	background-color: darken($pink, 10);
+}
+.circle-icon.industry-circle.orangeTwo-bg:hover{
+	background-color: darken($orangeTwo, 10);
+}
+.circle-icon.industry-circle.green-bg:hover{
+	background-color: darken($green, 10);
+}
 
 /* box features */
 .box-feature-wrapper {

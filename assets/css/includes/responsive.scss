@@ -1,17 +1,99 @@
 /* 1500px */
-@media only screen and (max-width: $lg-desktop){}
+@media only screen and (max-width: $lg-desktop){
+	.sf-pointer-3{
+		left: 900px;
+	}
+	.sf-pointer-2 {
+		left: 495px;
+	}
+	
+}
 
 /* 1440px */
-@media only screen and (max-width: $md-desktop){}
+@media only screen and (max-width: $md-desktop){
+	.home-circle-row {
+		padding: 0px 100px;
+	}
+}
 
 /* 1024px */
-@media only screen and (max-width: $sm-desktop){}
+@media only screen and (max-width: $sm-desktop){
+	.circle-wrapper {
+		margin-bottom: 50px;
+	}
+}
 
 /* 768px */
 @media only screen and (max-width: $tablet){
-	
+	/*rize.scss*/
 	.circle-icon{
 		max-width: 175px;
+	}
+	.modal-open .modal{
+		top: 10%;
+	}
+	
+	/* HOME */
+	.home-section-two-wrapper {
+		padding: 50px 0 80px 0;
+	}
+	.mobile-auditor-size {
+		height: 1015px;
+	}
+	.ma-slant-right {
+		text-align: center;
+		position: inherit;
+		margin-top: 40px;
+	}
+	.ma-slant-left {
+		text-align: center;
+	}
+	.slant-content-wrapper ul {
+		text-align: center;
+		margin-top: 35px;
+	}
+	.ma-slant-img {
+		max-width: 450px;
+	}
+	.management-console-size {
+		height: 900px;
+	}
+	.mc-slant-right {
+		text-align: center;
+	}
+	.mc-slant-left {
+		text-align: center;
+		padding-top: 35px;
+	}
+	.mc-slant-img {
+		max-width: 600px;
+	}
+	.system-features-section {
+		padding-top: 100px;
+	}
+	.visible {
+		display: none;
+	}
+	.home-circle-row {
+		padding: 0;
+	}
+	.req-left {
+		text-align: center;
+	}
+	.req-right {
+		display: none;
+	}
+	.circle-content {
+		padding: 0;
+	}
+	.system-features-section {
+		display: none;
+	}
+	.home-switch-zero{
+	display: none;
+	}
+	.home-switch-one{
+		display: block;
 	}
 	/* BIG SLIDE */
 	.main-nav,
@@ -39,24 +121,42 @@
 	body{
 		text-align: center;
 	}
+	.container{
+		padding: 0 15px;
+	}
 	.circle-wrapper:first-child{
-		padding-top: 50px;
+		padding-top: 0;
 	}
 	.circle-wrapper {
-		padding-bottom: 50px;
+		padding-bottom: 0;
 	}
-	.visible {
-		display: none;
+	.circle-content {
+		padding: 15px;
 	}
-	.footer-social,
-	.right-divider-section{
+	/* HOME */
+	.banner {
+		height: 465px;
+		margin-top: 0;
+	}	
+	.home-section-two-wrapper {
+		padding: 50px 0 0 0;
+	}
+	.footer-social{
+		text-align: center;
+	}
+	.right-divider-section {
 		text-align: center;
 	}
 	
 }
 
 /* 375px */
-@media only screen and (max-width: $lg-mobile){}
+@media only screen and (max-width: $lg-mobile){
+	/* HOME */
+	.banner {
+		height: 510px;
+	}
+}
 
 /* 320px */
 @media only screen and (max-width: $lg-mobile){

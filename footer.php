@@ -8,7 +8,7 @@
 						<span>RizePoint is the world's most robust compliance software. Now anyone can gather franchise information, collect data, and preform corrective action, thus ensuring that companies keep their brand standards.</span>
 					</div><!-- footer-card -->
 					<div class="footer-card">
-						<a href="#" class="btn btn-lg btn-inverse-white">Request A Free Demo</a>
+						<a href="#" class="btn btn-lg btn-white">Request A Free Demo</a>
 					</div><!-- footer-card -->
 				</div><!-- footer-col -->
 				<div class="footer-col col-md-3 col-sm-6 col-xs-12">
@@ -104,5 +104,19 @@
 		<script src="<?php bloginfo('template_directory'); ?>/assets/js/bootstrap.min.js"></script>		
 		<script src="<?php bloginfo('template_directory'); ?>/assets/js/bigslide.js"></script>
 		<script src="<?php bloginfo('template_directory'); ?>/assets/js/headScroll.js"></script>
+		<script>
+						
+			// BS collapse hide one show other
+			var $industryTarget = $('#industry-target');
+			$industryTarget.on('show.bs.collapse','.collapse', function() {
+				$industryTarget.find('.collapse.in').collapse('hide');
+			});
+			var $systemFeatures = $('#system-features');
+			$systemFeatures.on('show.bs.collapse','.collapse', function() {
+				$systemFeatures.find('.collapse.in').collapse('hide').removeClass('collapse-wrapper');
+				$('.feature-drop').addClass('collapse-wrapper');
+			});
+			
+		</script>	
 	</body>
 </html>

@@ -1,5 +1,5 @@
 .header-wrapper {
-    padding-top: 20px;
+    padding-top: 20px !important;
 }
 .logo{
 	padding-top: 35px;
@@ -52,6 +52,7 @@ nav.upper-nav,
 
 .nav>li>a.rad:focus, .nav>li>a.rad:hover{
 	background-color: darken($green, 10) !important;
+	border: 2px solid $green;
 }
 .play-icon {
     font-size: 20px;

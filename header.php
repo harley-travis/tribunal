@@ -15,6 +15,7 @@
 		
 		<!-- meta -->
 		<meta charset="utf-8">
+		<link rel="icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" type="image/gif" sizes="16x16">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="mobile-web-app-capable" content="yes" />
@@ -29,12 +30,11 @@
 		<!-- jquery -->
 		<script src="<?php bloginfo('template_directory'); ?>/assets/js/3.2.0/jquery-3.2.0.slim.min.js"></script>
 		
-		<!-- INIT BIGSLIDE -->
 		<script>
+			// init big slide
 			$(document).ready(function() {
 				$('.menu-link').bigSlide();
 			});
-	
 		</script>	
 	</head>
 	<body>

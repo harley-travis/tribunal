@@ -1,6 +1,6 @@
 /*
 Error: Invalid CSS after "get_header()": expected "{", was "; ?>"
-        on line 6 of C:\xampp\htdocs\wordpress\wp-content\themes\tribunal\assets\css\includes\products.scss
+        on line 6 of C:\xampp\htdocs\living-tribunal\assets\css\includes\products.scss
 
 1: /* Scss Document *\/
 2: <?php 
@@ -15,7 +15,7 @@ Error: Invalid CSS after "get_header()": expected "{", was "; ?>"
 11: 			border-radius: 5px;
 
 Backtrace:
-C:\xampp\htdocs\wordpress\wp-content\themes\tribunal\assets\css\includes\products.scss:6
+C:\xampp\htdocs\living-tribunal\assets\css\includes\products.scss:6
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:1179:in `expected'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:1115:in `expected'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:1110:in `tok!'
@@ -38,4 +38,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"get_header()\": expected \"{\", was \"; ?>\"\A         on line 6 of C:\xampp\htdocs\wordpress\wp-content\themes\tribunal\assets\css\includes\products.scss\A \A 1: /* Scss Document */\A 2: <?php \A 3: /**\A 4:  * Template Name: Products\A 5: */\A 6: get_header(); ?>\A 7: 	<style>\A 8: 		\A 9: 		.banner-buttons{\A 10: 			border: 1px white solid;\A 11: 			border-radius: 5px;"; }
+  content: "Error: Invalid CSS after \"get_header()\": expected \"{\", was \"; ?>\"\A         on line 6 of C:\xampp\htdocs\living-tribunal\assets\css\includes\products.scss\A \A 1: /* Scss Document */\A 2: <?php \A 3: /**\A 4:  * Template Name: Products\A 5: */\A 6: get_header(); ?>\A 7: 	<style>\A 8: 		\A 9: 		.banner-buttons{\A 10: 			border: 1px white solid;\A 11: 			border-radius: 5px;"; }

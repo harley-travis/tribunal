@@ -1,623 +1,68 @@
 /*
-Theme Name: The Living Tribunal
-Theme URI: http://www.rizepoint.com/
-Author: Travis Harley and Riley Hein
-Author URI: http://wordpress.org/
-Description: There are cosmic powers too powerful in the universe, that we harnessed this power into a site. This, is The Site of The Living Tribunal. Built in hidden valley konwn as Salt Lake City. Developed by Travis Harley and Riley Hein. 
-Version: 1.0
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
+Error: Invalid CSS after "get_header()": expected "{", was "; ?>"
+        on line 6 of C:/xampp/htdocs/living-tribunal/assets/css/includes/products.scss
+        from line 71 of C:\xampp\htdocs\living-tribunal\style.scss
+
+1: /* Scss Document *\/
+2: <?php 
+3: /**
+4:  * Template Name: Products
+5: *\/
+6: get_header(); ?>
+7: 	<style>
+8: 		
+9: 		.banner-buttons{
+10: 			border: 1px white solid;
+11: 			border-radius: 5px;
+
+Backtrace:
+C:/xampp/htdocs/living-tribunal/assets/css/includes/products.scss:6
+C:\xampp\htdocs\living-tribunal\style.scss:71
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:1179:in `expected'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:1115:in `expected'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:1110:in `tok!'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:655:in `block'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:649:in `ruleset'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:674:in `block_child'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:664:in `block_contents'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:126:in `stylesheet'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:403:in `_to_tree'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:309:in `to_tree'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:324:in `block in visit_import'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:88:in `block in with_import'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:88:in `with_import'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:20:in `render'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:278:in `render'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:420:in `run'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/bin/sass:13:in `<top (required)>'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `load'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 */
-/***************************
-  Variables 
-***************************/
-@font-face {
-  font-family: gotham-book;
-  src: url("assets/fonts/rizepoint-fonts/gothamhtf-book-webfont.ttf"); }
-@font-face {
-  font-family: gotham-thin;
-  src: url("assets/fonts/rizepoint-fonts/Gotham-Thin.otf"); }
-@font-face {
-  font-family: gotham-ultra;
-  src: url("assets/fonts/rizepoint-fonts/Gotham-Ultra.otf"); }
-@font-face {
-  font-family: gotham-bold;
-  src: url("assets/fonts/rizepoint-fonts/Gotham-Bold.otf"); }
-@font-face {
-  font-family: round-gotham;
-  src: url("assets/fonts/rizepoint-fonts/GothamRounded-Book.ttf"); }
-@font-face {
-  font-family: round-italic;
-  src: url("assets/fonts/rizepoint-fonts/GothamRounded-BookItalic.ttf"); }
-@font-face {
-  font-family: round-thin;
-  src: url("assets/fonts/rizepoint-fonts/GothamRnd-Light.otf"); }
-@font-face {
-  font-family: round-bold;
-  src: url("assets/fonts/rizepoint-fonts/GothamRounded-Bold.ttf"); }
-/* fonts */
-/* primary */
-/* darkest */
-/* lightest */
-/* accents */
-/* black and whites */
-/* font-sizes */
-/* screensize */
-/***************************
-  BigSlide - Mobile Nav 
-***************************/
-.panel-nav {
-  position: fixed;
-  right: -15.625em;
-  /*left or right and the width of your navigation panel*/
-  width: 15.625em;
-  /*should match the above value*/ }
-
-.wrap {
-  position: relative; }
-
-a.menu-link {
-  display: none;
-  text-decoration: none;
-  background-color: #FD4233;
-  padding: 7px;
-  color: #fff;
-  font-size: 2rem; }
-
-a.menu-link:hover {
-  text-decoration: none;
-  color: #f5f5f5; }
-
-a.menu-link:visited {
-  color: #fff;
-  text-decoration: none; }
-
-a.menu-link:focus {
-  text-decoration: none; }
-
-nav#menu {
-  background-color: #f5f5f5; }
-
-ul.desk-mainNav {
-  padding: 0;
-  margin: 0; }
-
-li.desk-mainNav-li {
-  padding: 15px;
-  text-align: center;
-  border-bottom: 1px solid #DAD7D7;
-  cursor: pointer; }
-
-li.desk-mainNav-li:hover {
-  background-color: #FD4233;
-  color: #fff;
-  transition: 0.5s ease; }
-
-li.desk-mainNav-li:hover a {
-  color: #fff;
-  text-decoration: none;
-  transition: 0.5s ease; }
-
-li.desk-mainNav-li a {
-  color: black; }
-
-/***************************
-  BS overrides
-***************************/
-.container-fluid {
-  padding-right: 0 !important;
-  padding-left: 0 !important; }
-
-.nav > li > a:focus, .nav > li > a:hover {
-  background-color: transparent !important; }
-
-/***************************
-  Generals
-***************************/
-h1, h2, h3, h4, h5, h6 {
-  font-family: gotham-bold; }
-
-p {
-  font-family: gotham-book;
-  font-size: 1.5em;
-  line-height: 150%; }
-
-li {
-  font-family: gotham;
-  font-size: 1.2em;
-  line-height: 150%; }
-
-/***************************
-  Rize - Internal Framework  
-***************************/
-.parallax, .banner {
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.banner {
-  height: 550px;
-  text-align: center;
-  margin: 0 auto; }
-
-.banner-wrapper {
-  position: relative;
-  top: 35%;
-  max-width: 870px;
-  margin: 0 auto; }
-
-.banner h1 {
-  color: #ffffff;
-  font-size: 4rem;
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0; }
-
-/* shadows */
-.text-shadow {
-  text-shadow: 0px 3px 33px #2c2929; }
-
-.box-shadow, .btn-orange, .btn-green, .btn-purple, .btn-blue, .btn-white {
-  box-shadow: black 0px 1px 5px -1px; }
-
-/* icons circles */
-.circle-row {
-  width: 100%;
-  max-width: 1170px;
-  margin: 0 auto; }
-
-.circle-icon {
-  border-radius: 50%;
-  max-width: 200px;
-  padding: 30px;
-  margin: 0 auto; }
-
-.circle-icon-img {
-  width: 100%;
-  max-width: 150px; }
-
-.circle-header h4 {
-  text-align: center;
-  padding-top: 20px;
-  color: #6b6b6b; }
-
-.circle-text {
-  text-align: center;
-  font-size: 1.1rem; }
-
-/* colors */
-/* color classes */
-.orangeOne-bg {
-  background-color: #fc842a; }
-
-.orangeOne-text {
-  color: #fc842a; }
-
-.orangeTwo-bg {
-  background-color: #fcb040; }
-
-.orangeTwo-text {
-  color: #fcb040; }
-
-.orangeThree-bg {
-  background-color: #f4c540; }
-
-.orangeThree-text {
-  color: #f4c540; }
-
-.yellow-bg {
-  background-color: #f7d569; }
-
-.yellow-text {
-  color: #f7d569; }
-
-.purple-bg {
-  background-color: #a15a95; }
-
-.purple-text {
-  color: #a15a95; }
-
-.blue-bg {
-  background-color: #59bec9; }
-
-.blue-text {
-  color: #59bec9; }
-
-.green-bg {
-  background-color: #28b29a; }
-
-.green-text {
-  color: #28b29a; }
-
-.pink-bg {
-  background-color: #e76b7c; }
-
-.ping-text {
-  color: #e76b7c; }
-
-.black-bg {
-  background-color: #2c2929; }
-
-.black-text {
-  color: #2c2929; }
-
-.gray-bg {
-  background-color: #6b6b6b; }
-
-.gray-text {
-  color: #6b6b6b; }
-
-.lightGray-bg {
-  background-color: #bbbcbc; }
-
-.lightGray-text {
-  color: #bbbcbc; }
-
-.white-bg {
-  background-color: #ffffff; }
-
-.white-text {
-  color: #ffffff; }
-
-.extraGray-bg {
-  background-color: #fafafa; }
-
-.extraGray-text {
-  color: #fafafa; }
-
-/* Gradients */
-/* purple to pink */
-.purple-pink {
-  background: #7abcff;
-  background: -moz-linear-gradient(-45deg, #7abcff 0%, #a15a95 0%, #e76b7c 100%);
-  background: -webkit-linear-gradient(-45deg, #7abcff 0%, #a15a95 0%, #e76b7c 100%);
-  background: linear-gradient(135deg, #7abcff 0%, #a15a95 0%, #e76b7c 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#e76b7c',GradientType=1 ); }
-
-.pink-purple {
-  background: #7abcff;
-  background: -moz-linear-gradient(-45deg, #7abcff 0%, #e76b7c 0%, #a15a95 100%);
-  background: -webkit-linear-gradient(-45deg, #7abcff 0%, #e76b7c 0%, #a15a95 100%);
-  background: linear-gradient(135deg, #7abcff 0%, #e76b7c 0%, #a15a95 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#a15a95',GradientType=1 ); }
-
-.purple-pink-orange {
-  background: #a15a95;
-  background: -moz-linear-gradient(-45deg, #a15a95 0%, #e76b7c 50%, #fc842a 100%);
-  background: -webkit-linear-gradient(-45deg, #a15a95 0%, #e76b7c 50%, #fc842a 100%);
-  background: linear-gradient(135deg, #a15a95 0%, #e76b7c 50%, #fc842a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a15a95', endColorstr='#fc842a',GradientType=1 ); }
-
-.orange-pink-purple {
-  background: #fc842a;
-  background: -moz-linear-gradient(-45deg, #fc842a 0%, #e76b7c 50%, #a15a95 100%);
-  background: -webkit-linear-gradient(-45deg, #fc842a 0%, #e76b7c 50%, #a15a95 100%);
-  background: linear-gradient(135deg, #fc842a 0%, #e76b7c 50%, #a15a95 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc842a', endColorstr='#a15a95',GradientType=1 ); }
-
-.pink-yellow {
-  background: #e76b7c;
-  background: -moz-linear-gradient(-45deg, #e76b7c 0%, #f7d569 100%);
-  background: -webkit-linear-gradient(-45deg, #e76b7c 0%, #f7d569 100%);
-  background: linear-gradient(135deg, #e76b7c 0%, #f7d569 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e76b7c', endColorstr='#f7d569',GradientType=1 ); }
-
-.yellow-pink {
-  background: #f7d569;
-  background: -moz-linear-gradient(-45deg, #f7d569 0%, #e76b7c 100%);
-  background: -webkit-linear-gradient(-45deg, #f7d569 0%, #e76b7c 100%);
-  background: linear-gradient(135deg, #f7d569 0%, #e76b7c 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7d569', endColorstr='#e76b7c',GradientType=1 ); }
-
-.purple-blue {
-  background: #a15a95;
-  background: -moz-linear-gradient(-45deg, #a15a95 0%, #59bec9 100%);
-  background: -webkit-linear-gradient(-45deg, #a15a95 0%, #59bec9 100%);
-  background: linear-gradient(135deg, #a15a95 0%, #59bec9 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a15a95', endColorstr='#59bec9',GradientType=1 ); }
-
-.blue-purple {
-  background: #59bec9;
-  background: -moz-linear-gradient(-45deg, #59bec9 0%, #a15a95 100%);
-  background: -webkit-linear-gradient(-45deg, #59bec9 0%, #a15a95 100%);
-  background: linear-gradient(135deg, #59bec9 0%, #a15a95 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59bec9', endColorstr='#a15a95',GradientType=1 ); }
-
-.blue-green {
-  background: #59bec9;
-  background: -moz-linear-gradient(-45deg, #59bec9 0%, #28b29a 100%);
-  background: -webkit-linear-gradient(-45deg, #59bec9 0%, #28b29a 100%);
-  background: linear-gradient(135deg, #59bec9 0%, #28b29a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59bec9', endColorstr='#28b29a',GradientType=1 ); }
-
-.green-blue {
-  background: #28b29a;
-  background: -moz-linear-gradient(-45deg, #28b29a 0%, #59bec9 100%);
-  background: -webkit-linear-gradient(-45deg, #28b29a 0%, #59bec9 100%);
-  background: linear-gradient(135deg, #28b29a 0%, #59bec9 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28b29a', endColorstr='#59bec9',GradientType=1 ); }
-
-.green-yellow {
-  background: #28b29a;
-  background: -moz-linear-gradient(-45deg, #28b29a 0%, #f7d569 100%);
-  background: -webkit-linear-gradient(-45deg, #28b29a 0%, #f7d569 100%);
-  background: linear-gradient(135deg, #28b29a 0%, #f7d569 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28b29a', endColorstr='#f7d569',GradientType=1 ); }
-
-.orange-yellow {
-  background: #fc842a;
-  background: -moz-linear-gradient(-45deg, #fc842a 0%, #f7d569 100%);
-  background: -webkit-linear-gradient(-45deg, #fc842a 0%, #f7d569 100%);
-  background: linear-gradient(135deg, #fc842a 0%, #f7d569 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc842a', endColorstr='#f7d569',GradientType=1 ); }
-
-.yellow-orange {
-  background: #f7d569;
-  background: -moz-linear-gradient(-45deg, #f7d569 0%, #fc842a 100%);
-  background: -webkit-linear-gradient(-45deg, #f7d569 0%, #fc842a 100%);
-  background: linear-gradient(135deg, #f7d569 0%, #fc842a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7d569', endColorstr='#fc842a',GradientType=1 ); }
-
-.green-blue-purple {
-  background: #28b29a;
-  background: -moz-linear-gradient(-45deg, #28b29a 0%, #59bec9 50%, #a15a95 100%, #a15a95 100%);
-  background: -webkit-linear-gradient(-45deg, #28b29a 0%, #59bec9 50%, #a15a95 100%, #a15a95 100%);
-  background: linear-gradient(135deg, #28b29a 0%, #59bec9 50%, #a15a95 100%, #a15a95 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28b29a', endColorstr='#a15a95',GradientType=1 ); }
-
-.purple-blue-green {
-  background: #28b29a;
-  background: -moz-linear-gradient(-45deg, #28b29a 0%, #a15a95 0%, #59bec9 50%, #28b29a 100%);
-  background: -webkit-linear-gradient(-45deg, #28b29a 0%, #a15a95 0%, #59bec9 50%, #28b29a 100%);
-  background: linear-gradient(135deg, #28b29a 0%, #a15a95 0%, #59bec9 50%, #28b29a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28b29a', endColorstr='#28b29a',GradientType=1 ); }
-
-/***************************
-  Header
-***************************/
-.header-wrapper {
-  padding-top: 20px; }
-
-.logo {
-  padding-top: 35px; }
-
-.logo-img {
-  max-width: 250px; }
-
-.regular-logo {
-  display: none; }
-
-.white-logo {
-  display: block; }
-
-.nav {
-  float: right; }
-
-nav.upper-nav,
-.main-nav,
-.dropdown-menu li {
-  font-size: 1.3rem; }
-
-.search-icon {
-  color: #ffffff; }
-
-.upper-nav a {
-  color: #ffffff; }
-
-.main-nav a {
-  color: #ffffff; }
-
-/* request a demo btn */
-.rad {
-  border: 2px solid white; }
-
-.play-icon {
-  font-size: 20px;
-  color: #6b6b6b;
-  vertical-align: middle; }
-
-/***************************
-  Marketo Forms
-***************************/
-/* MARKETO FORMS */
-.mktoForm, .mktoForm .mktoFormCol {
-  width: 100% !important; }
-
-.mktoForm .mktoFieldWrap input, .mktoForm .mktoFieldDescriptor input {
-  width: 100% !important;
-  height: 45px;
-  padding-left: 0.75em !important;
-  margin-bottom: .75em;
-  color: #cf842a !important;
-  font-size: 15px; }
-
-.mktoForm .mktoButtonRow span {
-  background-color: rgba(255, 0, 0, 0) !important; }
-
-.mktoForm .mktoButtonRow span button.mktoButton {
-  color: #fff !important;
-  border: none !important;
-  padding: .625em 1em;
-  background-color: orange !important;
-  font-size: 21px !important;
-  background-image: none !important;
-  border-radius: 5px; }
-
-span.mktoButtonWrap.mktoLight {
-  margin-left: 0 !important; }
-
-.mktoForm .mktoButtonWrap.mktoLight {
-  border-radius: 7px !important;
-  background: orange !important;
-  border: none !important;
-  box-shadow: none !important; }
-
-.mktoForm .mktoButtonWrap.mktoLight .mktoButton {
-  box-shadow: none !important;
-  font-weight: normal !important;
-  padding: 0 15px 0 15px !important;
-  width: 100% !important; }
-
-.mktoForm .mktoFieldWrap {
-  float: none !important; }
-
-.mktoForm .mktoAsterix {
-  display: none !important; }
-
-span.mktoButtonWrap.mktoSimple {
-  margin-left: 0 !important; }
-
-.mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
-  margin-top: 15px; }
-
-/***************************
-  Images and Icons
-***************************/
-.img {
-  width: 100%; }
-
-.test-img {
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../img/transformers.jpg"); }
-
-/***************************
-  Buttons
-***************************/
-/* NOTE:
-** These btns have a dependency on bootstraps
-** .btn class. In order to use, your html class 
-** needs to have btn and then your choice of these.
-**/
-.btn-lg {
-  font-size: 1.7rem; }
-
-.btn-md {
-  font-size: 1.5rem; }
-
-.btn-width {
-  width: 100%;
-  max-width: 200px; }
-
-.btn-orange {
-  color: #ffffff;
-  background-color: #fcb040;
-  border-color: #fcb040; }
-
-.btn-orange:hover {
-  color: #ffffff;
-  background-color: #fb9b0e;
-  border-color: #fb9b0e; }
-
-.btn-inverse-orange {
-  color: #fcb040;
-  border-color: #fcb040; }
-
-.btn-inverse-orange:hover {
-  color: #ffffff;
-  background-color: #fcb040;
-  border-color: #fcb040;
-  transition: 0.5s ease; }
-
-.btn-green {
-  color: #ffffff;
-  background-color: #28b29a;
-  border-color: #28b29a; }
-
-.btn-green:hover {
-  color: #ffffff;
-  background-color: #1f8876;
-  border-color: #1f8876; }
-
-.btn-inverse-green {
-  color: #28b29a;
-  border-color: #28b29a; }
-
-.btn-inverse-green:hover {
-  color: #ffffff;
-  background-color: #28b29a;
-  border-color: #28b29a;
-  transition: 0.5s ease; }
-
-.btn-purple {
-  color: #ffffff;
-  background-color: #a15a95;
-  border-color: #a15a95; }
-
-.btn-purple:hover {
-  color: #ffffff;
-  background-color: #804877;
-  border-color: #804877; }
-
-.btn-inverse-purple {
-  color: #a15a95;
-  border-color: #a15a95; }
-
-.btn-inverse-purple:hover {
-  color: #ffffff;
-  background-color: #a15a95;
-  border-color: #a15a95;
-  transition: 0.5s ease; }
-
-.btn-blue {
-  color: #ffffff;
-  background-color: #59bec9;
-  border-color: #59bec9; }
-
-.btn-blue:hover {
-  color: #ffffff;
-  background-color: #3ba8b4;
-  border-color: #3ba8b4; }
-
-.btn-inverse-blue {
-  color: #59bec9;
-  border-color: #59bec9; }
-
-.btn-inverse-blue:hover {
-  color: #ffffff;
-  background-color: #59bec9;
-  border-color: #59bec9;
-  transition: 0.5s ease; }
-
-.btn-white {
-  background: #ffffff; }
-
-.btn-inverse-white {
-  color: #ffffff;
-  border-color: #ffffff; }
-
-.btn-inverse-white:hover {
-  color: #6b6b6b;
-  background: #ffffff;
-  transition: 0.5s ease; }
-
-/* PAGES */
-/***************************
-  Home
-***************************/
-/***************************
-  Mobile Responsive
-***************************/
-/* 1500px */
-/* 1440px */
-/* 1024px */
-/* 768px */
-@media only screen and (max-width: 768px) {
-  .circle-icon {
-    max-width: 175px; } }
-/* 425px */
-@media only screen and (max-width: 425px) {
-  .circle-wrapper:first-child {
-    padding-top: 50px; }
-
-  .circle-wrapper {
-    padding-bottom: 50px; } }
-/* 375px */
-/* 320px */
-/***************************
-  Footer
-***************************/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"get_header()\": expected \"{\", was \"; ?>\"\A         on line 6 of C:/xampp/htdocs/living-tribunal/assets/css/includes/products.scss\A         from line 71 of C:\xampp\htdocs\living-tribunal\style.scss\A \A 1: /* Scss Document */\A 2: <?php \A 3: /**\A 4:  * Template Name: Products\A 5: */\A 6: get_header(); ?>\A 7: 	<style>\A 8: 		\A 9: 		.banner-buttons{\A 10: 			border: 1px white solid;\A 11: 			border-radius: 5px;"; }

@@ -6,6 +6,9 @@ body{
 h1, h2, h3, h4 ,h5, h6{
 	font-family: $gotham-bold;
 }
+h2{
+	font-size: 4rem;
+}
 
 p {
     font-family: $gotham-book;
@@ -17,4 +20,8 @@ li {
     font-family: gotham;
     font-size: 1.5rem;
     line-height: 150%;
+}
+
+.clear{
+	clear: both;
 }
