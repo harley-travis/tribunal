@@ -70,7 +70,6 @@ get_header(); ?>
 		
 		.button{
 			margin: 0 auto;
-			background: teal;
 			padding: 5px 15px 5px 15px;
 			margin: 20px;
 			border-radius: 5px;
@@ -105,12 +104,12 @@ get_header(); ?>
 		}
 		
 		.man-text h2{
-			color:seagreen;
+			
 			
 		}
 		
 		.man-text2 h2{
-			color:seagreen;
+			
 		}
 		
 		.aud-wrapper{
@@ -129,12 +128,12 @@ get_header(); ?>
 		}
 		
 		.aud-text h2{
-			color:coral;
+			
 			
 		}
 		
 		.aud-text2 h2{
-			color:coral;
+			
 		}
 		
 		.man-content{
@@ -144,7 +143,7 @@ get_header(); ?>
 		}
 		
 		.man-content2{
-			background:gainsboro;
+			background: lightGray-bg;
 			padding-top:40px;
 			padding-bottom:40px;
 		}
@@ -156,7 +155,6 @@ get_header(); ?>
 		}
 		
 		.aud-content2{
-			background:gainsboro;
 			padding-top:40px;
 			padding-bottom:40px;
 		}
@@ -171,7 +169,7 @@ get_header(); ?>
 			.container-banner{
 				position:relative;
 				z-index: 10;
-				padding-bottom: 400px;
+				padding-bottom: 285px;
 				padding-top: 300px;
 		
 				}
@@ -182,12 +180,20 @@ get_header(); ?>
 				position:relative;
 				z-index: 10;
 				margin-top: -80px;
-				margin-bottom:-180px;
+				
 		
 				}
 		}
 		
 		@media only screen and (max-width: 768px){
+			.container-banner{
+				position:relative;
+				z-index: 10;
+				margin-top: -190px;
+				margin-bottom:-180px;
+		
+				}
+			
 			.banner-wrapper-title{
 				margin-top: -120px;
 				margin-bottom: -120px;
@@ -253,7 +259,7 @@ get_header(); ?>
 			
 			.aud-vid{
 				display: none;
-				max-width: 400px;
+				
 			}
 		}
 		@media only screen and (max-width: 375px){
@@ -320,25 +326,26 @@ get_header(); ?>
 	</style>
 
 	
-		<div class="container-fluid pink-yellow">
-		<?php get_template_part('includes/page-header'); ?>
-
-		<div class="container-banner title">
-			<div class="banner-wrapper-title">
-				<div class="row">
-					<div class="col-md-6 col-sm-12 col-xs-12">
-						<h1>Rizepoint Products</h1>
-						<button class="banner-buttons">Download Datasheet</button>
-						<button class="banner-buttons">Request A Demo</button>
-					</div>
-				</div>
-			</div><!-- banner-wrapper -->
-		</div><!-- banner -->
-	</div><!-- container-fluid -->
 	
+	<div class="container-fluid pink-yellow">
+		<header class="wrap push">
+		<?php get_template_part('includes/page-header'); ?>
+		<div class="container header-wrapper">
+			<div class="container banner wrap push">
+				<div class="banner-wrapper">
+					<h1>Products</h1>
+					<div class="banner-btns">
+						<button type="button" class="btn btn-lg btn-width btn-inverse-white orange-text" data-toggle="modal" data-target="#homeVideo">Watch Video</button> <a href="#" class="btn btn-lg btn-width btn-inverse-white">Free Demo</a>
+					</div><!-- banner-btns -->
+				</div><!-- banner-wrapper -->
+			</div><!-- banner -->
+		</div><!-- container-fluid -->
+		</div>
+		</header>
+	</div>
 
 
-<div class="row">
+<div class="content-wrapper">
 	<div class="request-icons">
 		<div class="row circle-row">
 
@@ -395,7 +402,7 @@ get_header(); ?>
 </div><!--products-intro-copy-->
 
 <div class="button-pos">
-	<button class="button">Download Datasheet</button><!--button-->
+	<button class="button btn-green">Download Datasheet</button>
 </div><!--button-pos-->
 
 <div class="container-fluid management-console">
@@ -422,7 +429,7 @@ get_header(); ?>
 			</div>
 				
 			<div class="col-md-7 col-sm-6 col-xs-12 man-text">
-				<h2>Cover All The Bases, Everytime.</h2>
+				<h2 class="man-text green-text">Cover All The Bases, Everytime.</h2>
 				<p>Create site audit forms that cover every compliance requirement you face.<br>Build customized assessment forms. Push audit forms out to inspection teams. Schedule audits and view audit schedules.
 				</p>
 			</div>
@@ -430,11 +437,11 @@ get_header(); ?>
 	</div><!--man-wrapper-->
 </div><!--man-content-->
 
-<div class="container-fluid man-content2">
+<div class="container-fluid man-content2 extraGray-bg">
 	<div class="man-wrapper">
 		<div class="row">
 			<div class="col-md-7 col-sm-6 col-xs-12 man-text2">
-				<h2>Cover All The Bases, Everytime.</h2>
+				<h2 class="man-text green-text">Cover All The Bases, Everytime.</h2>
 				<p>Correct negative assessment results immediately with automated corrective action tasks.<br>Assign corrective action tasks. Issue notifications, alerts and reminders. Monitor action plan completion.
 				</p>
 			</div>
@@ -454,7 +461,7 @@ get_header(); ?>
 			</div>
 			
 			<div class="col-md-7 col-sm-6 col-xs-12 man-text">
-				<h2>The Right Data, To All The Right People.</h2>
+				<h2 class="man-text green-text">The Right Data, To All The Right People.</h2>
 				<p>Shar business intelligence acrosss your entire organization.<br> Use management dashboards to view top-level details. Drill down to specific data points. View reporting wherever, whenever.
 				</p>
 			</div>
@@ -463,8 +470,8 @@ get_header(); ?>
 </div><!--man-content-->
 
 <div class="button-pos">
-	<button class="button">Download Datasheet</button>
-	<button class="button">Request A Demo</button>
+	<button class="button btn-green">Download Datasheet</button>
+	<button class="button btn-green">Request A Demo</button>
 </div><!--button-pos-->
 
 
@@ -477,19 +484,19 @@ get_header(); ?>
 		<div class="container-banner">
 			<div class="banner-wrapper">
 			<h1>Mobile Auditor</h1>
-				<button class="banner-buttons">Download Datasheet</button>
+				<button class="banner-buttons btn-green">Download Datasheet</button>
 				
 			</div><!-- banner-wrapper -->
 		</div><!-- banner -->
 	</div><!-- container-fluid -->
 </div><!--management-console-->
 
-<div class="aud-vid">
+<div class="aud-vid orangeOne-text">
 <h2>Bluetooth Thermocouple Intgration</h2>
 	<iframe width="640" height="480" src="https://www.youtube.com/embed/D9smvW50xEI" frameborder="0" allowfullscreen></iframe>
 </div><!--aud-vid-->
 
-<div class="container-fluid aud-content2">
+<div class="container-fluid aud-content2 extraGray-bg">
 	<div class="aud-wrapper">
 		<div class="row">
 			<div class="col-md-5 col-sm-6 col-xs-12 aud-img">
@@ -497,7 +504,7 @@ get_header(); ?>
 			</div>
 				
 			<div class="col-md-7 col-sm-6 col-xs-12 aud-text">
-				<h2>Cover All The Bases, Everytime.</h2>
+				<h2 class="aud-text orangeOne-text">Cover All The Bases, Everytime.</h2>
 				<p>Create site audit forms that cover every compliance requirement you face.<br>Build customized assessment forms. Push audit forms out to inspection teams. Schedule audits and view audit schedules.
 				</p>
 			</div>
@@ -509,7 +516,7 @@ get_header(); ?>
 	<div class="aud-wrapper">
 		<div class="row">
 			<div class="col-md-7 col-sm-6 col-xs-12 aud-text2">
-				<h2>Cover All The Bases, Everytime.</h2>
+				<h2 class="aud-text2 orangeOne-text">Cover All The Bases, Everytime.</h2>
 				<p>Correct negative assessment results immediately with automated corrective action tasks.<br>Assign corrective action tasks. Issue notifications, alerts and reminders. Monitor action plan completion.
 				</p>
 			</div>
@@ -521,7 +528,7 @@ get_header(); ?>
 	</div><!--man-wrapper-->
 </div><!--man-content-->
 
-<div class="container-fluid aud-content2">
+<div class="container-fluid aud-content2 extraGray-bg">
 	<div class="aud-wrapper">
 		<div class="row">
 			<div class="col-md-5 col-sm-6 col-xs-12 aud-img">
@@ -529,16 +536,18 @@ get_header(); ?>
 			</div>
 			
 			<div class="col-md-7 col-sm-6 col-xs-12 aud-text">
-				<h2>The Right Data, To All The Right People.</h2>
+				<h2 class="aud-text orangeOne-text">The Right Data, To All The Right People.</h2>
 				<p>Shar business intelligence acrosss your entire organization.<br> Use management dashboards to view top-level details. Drill down to specific data points. View reporting wherever, whenever.
 				</p>
 			</div>
 		</div><!--row-->
 	</div><!--man-wrapper-->
 	<div class="button-pos">
-		<button class="button">Download Datasheet</button>
-		<button class="button">Request A Demo</button>
+		<button class="button btn-orange">Download Datasheet</button>
+		<button class="button btn-orange">Request A Demo</button>
 	</div><!--button-pos-->	
 </div><!--man-content-->
 
+
+<?php get_footer(); ?>
 
