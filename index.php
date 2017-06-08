@@ -3,7 +3,7 @@
 <div class="container-fluid orange-pink-purple">
 	<?php include('includes/page-header.php'); ?>
 	<div class="container banner wrap push">
-		<div class="banner-wrapper">
+		<div class="home-banner-wrapper">
 			<h1>The Industry Standard Platform For Brand, Quality, &amp; Safety Compliance</h1>
 			<div class="banner-btns">
 				<button type="button" class="btn btn-lg btn-width btn-white orange-text" data-toggle="modal" data-target="#homeVideo">Watch a Video</button> <a href="#" class="btn btn-lg btn-width btn-inverse-white">Try It</a>
@@ -252,48 +252,42 @@
 	</div>
 </section><!-- home-intro -->
 
-
-
 <section class="container-fluid home-section-two lightGray-bg wrap push">
 	<div class="container home-section-two-wrapper">
-
-			<h2 class="green-text">Empowering You To Build A High Performance Organization</h2>
-			<p>RizePoint software clearly aligns and unifies field teams, regional management, and executive leadership around the organization's compliance performance. Our customers gather better data, see necessary actions earlier, and act faster to correct issues before they become costly liabilities.</p>
-
-		
-			<div class="col-lg-3 col-md-6 col-sm-6 col-sm-12 circle-wrapper">
-				<div class="circle-icon">
-					<img src="<?php echo ROOT; ?>assets/img/icons/minified-small/money-black.png" alt="Gather Better" class="circle-icon-img">
-				</div><!-- purple-bg -->
-				<div class="circle-header">
-					<h4>Improve Revenue And Profitability</h4>
-				</div><!-- circle-header -->
-			</div><!-- circle-wrapper -->
-			<div class="col-lg-3 col-md-6 col-sm-6 col-sm-12 circle-wrapper">
-				<div class="circle-icon">
-					<img src="<?php echo ROOT; ?>assets/img/icons/minified-small/trend-lines-black.png" alt="Gather Better" class="circle-icon-img">
-				</div><!-- purple-bg -->
-				<div class="circle-header">
-					<h4>Ensure Ongoing Compliance</h4>
-				</div><!-- circle-header -->
-			</div><!-- circle-wrapper -->
-			<div class="col-lg-3 col-md-6 col-sm-6 col-sm-12 circle-wrapper">
-				<div class="circle-icon">
-					<img src="<?php echo ROOT; ?>assets/img/icons/minified-small/checkmark-black.png" alt="Gather Better" class="circle-icon-img">
-				</div><!-- purple-bg -->
-				<div class="circle-header">
-					<h4>Strengthen Operational Quality</h4>
-				</div><!-- circle-header -->
-			</div><!-- circle-wrapper -->
-			<div class="col-lg-3 col-md-6 col-sm-6 col-sm-12 circle-wrapper">
-				<div class="circle-icon">
-					<img src="<?php echo ROOT; ?>assets/img/icons/minified-small/gears-black.png" alt="Gather Better" class="circle-icon-img">
-				</div><!-- purple-bg -->
-				<div class="circle-header">
-					<h4>Maintain Greater Visibility</h4>
-				</div><!-- circle-header -->
-			</div><!-- circle-wrapper -->
-	
+		<h2 class="green-text">Empowering You To Build A High Performance Organization</h2>
+		<p>RizePoint software clearly aligns and unifies field teams, regional management, and executive leadership around the organization's compliance performance. Our customers gather better data, see necessary actions earlier, and act faster to correct issues before they become costly liabilities.</p>
+		<div class="col-lg-3 col-md-6 col-sm-6 col-sm-12 circle-wrapper">
+			<div class="circle-icon">
+				<img src="<?php echo ROOT; ?>assets/img/icons/minified-small/money-black.png" alt="Gather Better" class="circle-icon-img">
+			</div><!-- purple-bg -->
+			<div class="circle-header">
+				<h4>Improve Revenue And Profitability</h4>
+			</div><!-- circle-header -->
+		</div><!-- circle-wrapper -->
+		<div class="col-lg-3 col-md-6 col-sm-6 col-sm-12 circle-wrapper">
+			<div class="circle-icon">
+				<img src="<?php echo ROOT; ?>assets/img/icons/minified-small/trend-lines-black.png" alt="Gather Better" class="circle-icon-img">
+			</div><!-- purple-bg -->
+			<div class="circle-header">
+				<h4>Ensure Ongoing Compliance</h4>
+			</div><!-- circle-header -->
+		</div><!-- circle-wrapper -->
+		<div class="col-lg-3 col-md-6 col-sm-6 col-sm-12 circle-wrapper">
+			<div class="circle-icon">
+				<img src="<?php echo ROOT; ?>assets/img/icons/minified-small/checkmark-black.png" alt="Gather Better" class="circle-icon-img">
+			</div><!-- purple-bg -->
+			<div class="circle-header">
+				<h4>Strengthen Operational Quality</h4>
+			</div><!-- circle-header -->
+		</div><!-- circle-wrapper -->
+		<div class="col-lg-3 col-md-6 col-sm-6 col-sm-12 circle-wrapper">
+			<div class="circle-icon">
+				<img src="<?php echo ROOT; ?>assets/img/icons/minified-small/gears-black.png" alt="Gather Better" class="circle-icon-img">
+			</div><!-- purple-bg -->
+			<div class="circle-header">
+				<h4>Maintain Greater Visibility</h4>
+			</div><!-- circle-header -->
+		</div><!-- circle-wrapper -->
 	</div><!-- home-section-two-wrapper -->
 </section><!-- home-section-two -->
 		
@@ -562,7 +556,7 @@
 		</div><!-- cirlce-content -->
 	</section>
 
-<section class="container-fluid raq wrap push">
+<section class="container-fluid purple-bg wrap push">
 	<div class="container raq-wrapper">
 		<div class="col-md-6 col-sm-12 req-left">
 			<div class="req-title">

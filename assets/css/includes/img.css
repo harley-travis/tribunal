@@ -1,0 +1,9 @@
+.img {
+  width: 100%; }
+
+.test-img {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/transformers.jpg"); }

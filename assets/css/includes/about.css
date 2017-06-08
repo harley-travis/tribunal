@@ -1,0 +1,135 @@
+.about-videos {
+  padding-top: 50px; }
+
+.about-video-container {
+  padding-bottom: 35px; }
+
+.center {
+  text-align: center; }
+
+.timeline-heading h2 {
+  padding: 50px 0 100px 0; }
+
+.avengers {
+  padding-top: 100px; }
+
+.avengers-wrapper {
+  padding-bottom: 50px; }
+
+.avengers-fluid {
+  text-align: center;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto; }
+
+.avenger {
+  display: inline-block;
+  padding: 4px 2px; }
+
+.avenger-img {
+  width: 100%;
+  max-width: 120px; }
+
+.avengers-cta {
+  padding: 50px; }
+
+/* TIMELINE */
+.timeline {
+  position: relative; }
+
+.timeline::before {
+  content: '';
+  background: #28B29A;
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.timeline-item {
+  width: 100%;
+  margin-bottom: 20px; }
+
+.timeline-item:nth-child(even) .timeline-content {
+  float: right;
+  padding: 40px 30px 10px 30px; }
+
+.timeline-item:nth-child(even) .timeline-content .date {
+  right: auto;
+  left: 0; }
+
+.timeline-item:nth-child(even) .timeline-content::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  top: 30px;
+  left: -15px;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #f5f5f5 transparent transparent; }
+
+.timeline-item::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.timeline-content.js--fadeInLeft.box-shadow {
+  padding: 40px 30px 10px 30px; }
+
+.timeline-content {
+  position: relative;
+  width: 45%;
+  padding: 10px 30px;
+  border-radius: 4px;
+  background: #f5f5f5; }
+
+.timeline-content::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  top: 30px;
+  right: -15px;
+  border-width: 10px 0 10px 15px;
+  border-color: transparent transparent transparent #f5f5f5; }
+
+.timeline-img {
+  width: 30px;
+  height: 30px;
+  background: #28B29A;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-top: 25px;
+  margin-left: -15px; }
+
+.timeline-card {
+  padding: 0 !important; }
+
+.timeline-card p {
+  padding: 0 20px; }
+
+.timeline-card a {
+  margin-left: 20px; }
+
+.timeline-img-header {
+  height: 200px;
+  position: relative;
+  margin-bottom: 20px; }
+
+.timeline-img-header h2 {
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 5px;
+  left: 20px; }
+
+.date {
+  background: #E76B7C;
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0; }

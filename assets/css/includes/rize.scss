@@ -20,6 +20,17 @@
     color: $white;
     font-size: $banner-font;
 }
+.home-banner-wrapper {
+    max-width: 870px;
+	width: 100%;
+	text-align: center;
+    margin: 0 auto;
+	margin-top: 45px;
+	
+	h1{
+		font-size: $home-banner-font;
+	}
+}
 .banner-btns {
     margin-top: 50px;
 
@@ -134,7 +145,7 @@
 .pink-bg{
 	background-color: $pink;
 }
-.ping-text{
+.pink-text{
 	color: $pink;
 }
 .black-bg{
@@ -290,7 +301,7 @@
 .slant-wrapper .slant {
 	z-index: 1;
 	position: relative;
-	margin-bottom: -20px;
+	margin-bottom: -70px;
 }
 .slant-wrapper .slant:before {
 	content: '';

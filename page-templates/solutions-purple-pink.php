@@ -4,118 +4,6 @@
 */
 get_header(); ?>
 
-<style>
-	
-	.solutions-section-one-wrapper {
-		padding: 50px 0;
-	}
-	.solutions-section-one-wrapper h2{
-		padding-bottom: 35px;
-		text-align: center;
-	}
-	.persona-list {
-		padding-bottom: 50px;
-		overflow: hidden;
-	}
-	.persona-image {
-		cursor: pointer;
-		text-align: center;
-	}
-	.persona-cta-btn {
-		padding-top: 35px;
-	}
-	.solutions-section-one {
-		padding-bottom: 200px;
-	}
-	.solutions-system-features{
-		color: white;
-	}
-	.persona-img{
-		width: 100%;
-		max-width: 200px;
-	}
-	.case-sheets {
-		padding-bottom: 120px;
-	}
-	.case-box-img{
-		width: 100%;
-		max-width: 250px;
-	}
-	.solutions-testimony-wrapper {
-		color: white;
-		text-align: center;
-	}
-	.solutions-testimony-size {
-		height: 360px;
-	}
-	.rad-solutions{
-		color: white;
-	}
-	.persona-title {
-		text-align: center;
-		padding-top: 10px;
-	}
-	.case-sheets-wrapper {
-		padding: 70px 0;
-		text-align: center;
-		padding-top: 375px;
-	}
-	.case-sheets-wrapper h2{
-		padding-bottom: 35px;
-	}
-	.case-box-wrapper {
-		padding-bottom: 50px;
-	}
-	.slant-wrapper .solutions-features-size:after {
-		content: '';
-		display: block;
-		background: inherit;
-		position: absolute;
-		top: -6px;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		z-index: -1;
-		-webkit-transform: skewY(10.5deg);
-		transform: skewY(10.5deg);
-		-webkit-transform-origin: 100%;
-		transform-origin: 100%;
-		box-shadow: 0 -8px 8px 0 rgba(0, 0, 0, 0.05), 0 -12px 28px 0 rgba(0, 0, 0, 0.05);
-		height: 1130px;
-	}
-	.slant-wrapper .solutions-testimony-size:after {
-		content: '';
-		display: block;
-		background: inherit;
-		position: absolute;
-		top: -6px;
-		left: 0;
-		right: 0;
-		bottom: -20%;
-		z-index: -1;
-		-webkit-transform: skewY(10.5deg);
-		transform: skewY(10.5deg);
-		-webkit-transform-origin: 100%;
-		transform-origin: 100%;
-		box-shadow: 0 -8px 8px 0 rgba(0, 0, 0, 0.05), 0 -12px 28px 0 rgba(0, 0, 0, 0.05);
-		background: black;
-		height: 535px;
-		background: #59bec9; /*blue*/
-	}
-	.solutions-section-four {
-		padding-top: 160px;
-	}
-	.testimony {
-		max-width: 700px;
-		margin: 0 auto;
-		padding: 15px;
-	}
-	.witness {
-		font-style: italic;
-	}
-	
-</style>
-
 <div class="container-fluid purple-pink">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
@@ -184,7 +72,7 @@ get_header(); ?>
 				</div><!-- persona-title -->
 			</div><!-- persona-wrapper -->
 		</div><!-- persona-list -->
-		<div class="row">
+		
 		
 		
 			<!-- persona-1 -->
@@ -243,7 +131,7 @@ get_header(); ?>
 				</div><!-- persona-info-text -->
 			</div><!-- persona-info-wrapper -->
 			
-		</div><!-- row -->
+		
 	</div><!-- solutions-section-one-wrapper -->
 </section><!-- solutions-section-one -->
 
@@ -373,62 +261,62 @@ get_header(); ?>
 <section class="container-fluid case-sheets wrap push">
 	<div class="container case-sheets-wrapper">
 		<h2 class="purple-text">Case Studies &amp; Datasheets</h2>
-		<div class="col-md-4 col-sm-12 col-xs-12 case-box">
+		<div class="col-md-4 col-sm-6 col-xs-12 case-box">
 			<a href="#" target="_blank">
 				<div class="case-box-wrapper hovereffect">
 					<img src="<?php echo ROOT; ?>/assets/img/clients/wendys.png" class="case-box-img" alt="">
 					<div class="overlay">
-						<h4>Wendy's</h4>
+						<h4>Wendy's Casestudy</h4>
 					</div><!-- overlay -->
 				</div><!-- case-box-wrapper -->
 			</a>
 		</div><!-- case-box -->
-		<div class="col-md-4 col-sm-12 col-xs-12 case-box">
+		<div class="col-md-4 col-sm-6 col-xs-12 case-box">
 			<a href="#" target="_blank">
 				<div class="case-box-wrapper hovereffect">
 					<img src="<?php echo ROOT; ?>/assets/img/clients/wendys.png" class="case-box-img" alt="">
 					<div class="overlay">
-						<h4>Wendy's</h4>
+						<h4>Wendy's Casestudy</h4>
 					</div><!-- overlay -->
 				</div><!-- case-box-wrapper -->
 			</a>
 		</div><!-- case-box -->
-		<div class="col-md-4 col-sm-12 col-xs-12 case-box">
+		<div class="col-md-4 col-sm-6 col-xs-12 case-box">
 			<a href="#" target="_blank">
 				<div class="case-box-wrapper hovereffect">
 					<img src="<?php echo ROOT; ?>/assets/img/clients/wendys.png" class="case-box-img" alt="">
 					<div class="overlay">
-						<h4>Wendy's</h4>
+						<h4>Wendy's Casestudy</h4>
 					</div><!-- overlay -->
 				</div><!-- case-box-wrapper -->
 			</a>
 		</div><!-- case-box -->
-		<div class="col-md-4 col-sm-12 col-xs-12 case-box">
+		<div class="col-md-4 col-sm-6 col-xs-12 case-box">
 			<a href="#" target="_blank">
 				<div class="case-box-wrapper hovereffect">
 					<img src="<?php echo ROOT; ?>/assets/img/clients/wendys.png" class="case-box-img" alt="">
 					<div class="overlay">
-						<h4>Wendy's</h4>
+						<h4>Wendy's Casestudy</h4>
 					</div><!-- overlay -->
 				</div><!-- case-box-wrapper -->
 			</a>
 		</div><!-- case-box -->
-		<div class="col-md-4 col-sm-12 col-xs-12 case-box">
+		<div class="col-md-4 col-sm-6 col-xs-12 case-box">
 			<a href="#" target="_blank">
 				<div class="case-box-wrapper hovereffect">
 					<img src="<?php echo ROOT; ?>/assets/img/clients/wendys.png" class="case-box-img" alt="">
 					<div class="overlay">
-						<h4>Wendy's</h4>
+						<h4>Wendy's Casestudy</h4>
 					</div><!-- overlay -->
 				</div><!-- case-box-wrapper -->
 			</a>
 		</div><!-- case-box -->
-		<div class="col-md-4 col-sm-12 col-xs-12 case-box">
+		<div class="col-md-4 col-sm-6 col-xs-12 case-box">
 			<a href="#" target="_blank">
 				<div class="case-box-wrapper hovereffect">
 					<img src="<?php echo ROOT; ?>/assets/img/clients/wendys.png" class="case-box-img" alt="">
 					<div class="overlay">
-						<h4>Wendy's</h4>
+						<h4>Wendy's Casestudy</h4>
 					</div><!-- overlay -->
 				</div><!-- case-box-wrapper -->
 			</a>
