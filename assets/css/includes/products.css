@@ -1,41 +1,228 @@
-/*
-Error: Invalid CSS after "get_header()": expected "{", was "; ?>"
-        on line 6 of C:\xampp\htdocs\living-tribunal\assets\css\includes\products.scss
+.banner-buttons {
+  border: 1px white solid;
+  border-radius: 5px;
+  background: none;
+  padding: 5px 15px 5px 15px;
+  margin: 20px; }
 
-1: /* Scss Document *\/
-2: <?php 
-3: /**
-4:  * Template Name: Products
-5: *\/
-6: get_header(); ?>
-7: 	<style>
-8: 		
-9: 		.banner-buttons{
-10: 			border: 1px white solid;
-11: 			border-radius: 5px;
+.request-icons {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto; }
 
-Backtrace:
-C:\xampp\htdocs\living-tribunal\assets\css\includes\products.scss:6
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:1179:in `expected'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:1115:in `expected'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:1110:in `tok!'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:655:in `block'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:649:in `ruleset'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:674:in `block_child'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:664:in `block_contents'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:126:in `stylesheet'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:42:in `parse'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:403:in `_to_tree'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:278:in `render'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:420:in `run'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/bin/sass:13:in `<top (required)>'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `load'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"get_header()\": expected \"{\", was \"; ?>\"\A         on line 6 of C:\xampp\htdocs\living-tribunal\assets\css\includes\products.scss\A \A 1: /* Scss Document */\A 2: <?php \A 3: /**\A 4:  * Template Name: Products\A 5: */\A 6: get_header(); ?>\A 7: 	<style>\A 8: 		\A 9: 		.banner-buttons{\A 10: 			border: 1px white solid;\A 11: 			border-radius: 5px;"; }
+.circle-row {
+  width: 100%;
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 100px 0px 100px 0px; }
+
+img {
+  width: 100%; }
+
+.products-intro-copy {
+  width: 100%;
+  max-width: 930px;
+  margin: 0 auto;
+  text-align: center; }
+
+.grad-back {
+  position: absolute;
+  z-index: 5; }
+
+.container-banner {
+  position: relative;
+  z-index: 10;
+  padding-bottom: 150px;
+  padding-top: 200px; }
+
+.title {
+  padding: 250px !important; }
+
+.banner-wrapper {
+  text-align: center;
+  padding-bottom: 15px;
+  color: white; }
+
+.banner-wrapper-title {
+  text-align: center;
+  padding-bottom: 15px;
+  color: white; }
+
+.button {
+  margin: 0 auto;
+  background: teal;
+  padding: 5px 15px 5px 15px;
+  margin: 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  text-align: center; }
+
+.button-pos {
+  text-align: center;
+  margin-top: 40px; }
+
+.management-console {
+  padding-top: 50px; }
+
+.man-wrapper {
+  width: 100%;
+  max-width: 1050px;
+  padding: 15px 50px 15px 50px;
+  margin: auto; }
+
+.man-img {
+  padding-right: 90px; }
+
+.man-img2 {
+  padding-left: 90px; }
+
+.man-text h2 {
+  color: seagreen; }
+
+.man-text2 h2 {
+  color: seagreen; }
+
+.aud-wrapper {
+  width: 100%;
+  max-width: 1080px;
+  padding: 15px 50px 15px 50px;
+  margin: auto; }
+
+.aud-img {
+  padding-right: 90px; }
+
+.aud-img2 {
+  padding-left: 90px; }
+
+.aud-text h2 {
+  color: coral; }
+
+.aud-text2 h2 {
+  color: coral; }
+
+.man-content {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.man-content2 {
+  background: gainsboro;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.aud-content {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.aud-content2 {
+  background: gainsboro;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.aud-vid {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 110px; }
+
+@media only screen and (max-width: 2560px) {
+  .container-banner {
+    position: relative;
+    z-index: 10;
+    padding-bottom: 400px;
+    padding-top: 300px; } }
+@media only screen and (max-width: 1440px) {
+  .container-banner {
+    position: relative;
+    z-index: 10;
+    margin-top: -80px;
+    margin-bottom: -180px; } }
+@media only screen and (max-width: 768px) {
+  .banner-wrapper-title {
+    margin-top: -120px;
+    margin-bottom: -120px; }
+
+  .container-banner {
+    position: relative;
+    z-index: 10;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 85px; } }
+@media only screen and (max-width: 425px) {
+  .circle-row {
+    padding: 10px 0px 10px 0px; }
+
+  .banner-wrapper-title {
+    margin-top: -120px;
+    margin-bottom: -120px; }
+
+  .container-banner {
+    position: relative;
+    z-index: 10;
+    margin-top: -195px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; }
+
+  .banner-wrapper {
+    margin-top: -75px; }
+
+  .management-console {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: -37px; }
+
+  .man-img {
+    padding-right: 0px; }
+
+  .man-img2 {
+    padding-left: 0px; }
+
+  .aud-img2 {
+    padding-left: 0px; }
+
+  .aud-img {
+    padding-right: 0px; }
+
+  .aud-vid {
+    display: none;
+    max-width: 400px; } }
+@media only screen and (max-width: 375px) {
+  .circle-row {
+    padding: 10px 0px 10px 0px; }
+
+  .banner-wrapper-title {
+    margin-top: -120px;
+    margin-bottom: -120px; }
+
+  .container-banner {
+    position: relative;
+    z-index: 10;
+    margin-top: -195px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; }
+
+  .banner-wrapper {
+    margin-top: -100px; }
+
+  .banner-wrapper h1 {
+    font-size: 30px; }
+
+  .management-console {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: -37px; }
+
+  .man-img {
+    padding-right: 0px; }
+
+  .man-img2 {
+    padding-left: 0px; }
+
+  .aud-img2 {
+    padding-left: 0px; }
+
+  .aud-img {
+    padding-right: 0px; }
+
+  .aud-vid {
+    display: none;
+    max-width: 400px; } }
