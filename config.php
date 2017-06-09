@@ -1,5 +1,5 @@
 <?php
 // Root Paths
-define("ROOT","http://agamotto.rizepoint.com/wp-content/themes/the-living-tribunal/");
+define("ROOT","http://landing.rizepoint.com/wp-content/themes/the-living-tribunal/");
 
 ?>
