@@ -1,248 +1,232 @@
-	.content-wrapper{
-		width:100%;
-		
-		margin-left: auto;
-		margin-right:auto;
+.content-wrapper{
+	width:100%;
+	margin-left: auto;
+	margin-right:auto;
+}
+.careers-why{
+	width:100%;
+	margin-bottom: 70px;
+
+}
+.careers-why-title{
+	text-align: center;
+	padding-top:50px;
+	padding-bottom: 100px;
+}
+.careers-why-text{
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:70px;
+	font-weight:700;
+	text-align: right;
+}
+.careers-why-text ul li{
+	list-style:none;
+	padding-top: 25px;
+	font-size: 2rem;
+	padding-bottom: 10px;
+}
+.careers-why-video{
+	width:40%;
+}
+.values-wrapper{
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.careers-values{
+	max-width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.careers-values-title{
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:100px;
+}
+
+.careers-values-text{
+	float: right;
+	padding: 0px 0px 125px 0px;
+	margin-right: 150px;
+
+}
+
+.careers-values-icons ul li{
+	list-style: none;
+}
+
+.careers-values-icons{
+	width: 100%;
+	max-width:300;
+}
+
+.values-img-wrapper{
+	width: 100%;
+	max-width: 300px;
+	margin-top: -25px;
+
+}
+
+.values-img-wrapper ul li{
+	list-style: none;
+}
+
+.careers-values-text ul li{
+	list-style:none;
+	text-align: left;
+
+}
+
+.careers-values-text ul li span{
+	line-height: 230%;
+
+}
+
+.left-ls{
+	font-family: gotham-bold;
+	font-size: 4rem;
+	text-align: right;
+}
+.right-ls{
+	text-align: left;
+	font-size: 3rem;
+}
+
+
+.culture-wrapper{
+	padding-bottom: 150px;	
+}
+
+.careers-culture-title{
+	text-align: center;
+	padding: 30px 0;
+}
+
+.careers-culture-text{
+	padding-bottom: 50px;
+}
+
+.careers-culture-text ul li{
+	list-style: none;
+	padding-bottom: 15px;
+	font-size: 20px;
+	font-weight:500;
+}
+
+.location-wrapper{
+	width:100%;
+	padding-bottom: 60px;
+
+}
+
+.careers-locations {
+	max-width: 1500px;
+	margin-left: auto;
+}
+
+.locations-title{
+	padding-top: 50px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+
+.location-content{
+	max-width: 1500px;
+}
+
+.careers-locations-text ul li{
+	list-style: none;
+}
+
+
+.careers-locations-text{
+	padding-top: 65px;
+	padding-left: 65px;
+	padding-bottom: 100px;
+}
+
+.careers-locations-img{
+	width: 100%;
+	max-width: 600px;
+	float:left;
+	padding-right: 100px;
+}
+
+.careers-job-title{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.locations-content{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1500px;
+}
+
+
+@media only screen and (max-width: 1024px){
+	.careers-values-text{
+		margin-right: 300px;
 	}
-	
-	.careers-why{
-		width:100%;
-    	margin-bottom: 70px;
+
+	.careers-why-video{
+		width: 100%;
+	}
+	.careers-values-text ul li span{
+		padding-right: 106px;
+	}
+
+	.values-img-wrapper{
+		margin-left:100px;
+	}
+
+	.careers-why-text{
+		text-align: left;
+	}
+	.locations-content {
 
 	}
-	
-	.careers-why-title{
-		text-align: center;
-		padding-top:50px;
-		padding-bottom: 100px;
+
+	.careers-locations-img{
+		width: 50%;
+		padding:1px;
+
 	}
-	
-	.careers-why-text{
-		margin-left:auto;
-		margin-right:auto;
-		margin-bottom:70px;
-		font-weight:700;
-		text-align: right;
+
+	.careers-job-text{
+		padding-bottom: 45px;
 	}
-	
-	.careers-why-text ul li{
-		list-style:none;
-		padding-top: 25px;
-		font-size: 2rem;
-		padding-bottom: 10px;
-	}
-	
-	.careers-why-video{
-		width:40%;
-	}
-	
-	.values-wrapper{
-		width: 100%;
-		padding-top: 50px;
-		padding-bottom: 50px;
-		
-		
-	}
-	
-	.values-content{
-		
-	}
-	
-	
-	.careers-values{
-		max-width: 1500px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
-	.careers-values-title{
-		text-align:center;
-		padding-top:50px;
-		padding-bottom:100px;
-	}
-	
-	.careers-values-text{
-		float: right;
-		padding: 0px 0px 125px 0px;
-		margin-right: 150px;
-		
-	}
-	
-	.careers-values-icons ul li{
-		list-style: none;
-	}
-	
-	.careers-values-icons{
-		width: 100%;
-		max-width:;
-	}
-	
-	.values-img-wrapper{
-		width: 100%;
-		max-width: 300px;
-		margin-top: -25px;
-		
-	}
-	
-	.values-img-wrapper ul li{
-		list-style: none;
-	}
-	
-	.careers-values-text ul li{
-		list-style:none;
-		text-align: left;
-		
-	}
-	
+}
+
+@media only screen and (max-width: 768px){
 	.careers-values-text ul li span{
-		line-height: 230%;
-		
+		padding-right: 1px;
 	}
-	
-	.left-ls{
-		font-family: gotham-bold;
-		font-size: 4rem;
-		text-align: right;
+
+	.values-img-wrapper{
+		padding-bottom: 25px
 	}
-	.right-ls{
-		text-align: left;
-		font-size: 3rem;
+	.careers-values-text{
+		float:none;
+
 	}
-	
-	
-	.culture-wrapper{
-		padding-bottom: 150px;	
-	}
-	
-	.careers-culture-title{
-		text-align: center;
-		padding: 30px 0;
-	}
-	
-	.careers-culture-text{
-		padding-bottom: 50px;
-	}
-	
-	.careers-culture-text ul li{
-		list-style: none;
-		padding-bottom: 15px;
-		font-size: 20px;
-		font-weight:500;
-	}
-	
-	.location-wrapper{
-		width:100%;
-		padding-bottom: 60px;
-		
-	}
-	
-	.careers-locations {
-		max-width: 1500px;
-		margin-left: auto;
-	}
-	
-	.locations-title{
-		padding-top: 50px;
-		padding-bottom: 100px;
-		text-align: center;
-	}
-	
-	
-	.location-content{
-		max-width: 1500px;
-	}
-	
-	.careers-locations-text ul li{
-		list-style: none;
-	}
-	
-	
-	.careers-locations-text{
-		padding-top: 65px;
-		padding-left: 65px;
-		padding-bottom: 100px;
-	}
-	
+
 	.careers-locations-img{
 		width: 100%;
-		max-width: 600px;
-		float:left;
-		padding-right: 100px;
+		padding:1px;
+
 	}
-	
-	.careers-job-title{
+
+	.careers-locations-img{
 		text-align: center;
-		padding-top: 50px;
-		padding-bottom: 100px;
 	}
-	
-	.locations-content{
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 1500px;
+}
+
+@media only screen and (max-width: 375px){
+	.values-img-wrapper{
+		margin-left: 1px;
 	}
-	
-	
-	@media only screen and (max-width: 1024px){
-		.careers-values-text{
-			margin-right: 300px;
-		}
-		
-		.careers-why-video{
-			width: 100%;
-		}
-		.careers-values-text ul li span{
-			padding-right: 106px;
-		}
-		
-		.values-img-wrapper{
-			margin-left:100px;
-		}
-		
-		.careers-why-text{
-			text-align: left;
-		}
-		.locations-content {
-			
-		}
-		
-		.careers-locations-img{
-			width: 50%;
-			padding:1px;
-			
-		}
-		
-		.careers-job-text{
-			padding-bottom: 45px;
-		}
-	}
-	
-	@media only screen and (max-width: 768px){
-		.careers-values-text ul li span{
-			padding-right: 1px;
-		}
-		
-		.values-img-wrapper{
-			padding-bottom: 25px
-		}
-		.careers-values-text{
-			float:none;
-			
-		}
-		
-		.careers-locations-img{
-			width: 100%;
-			padding:1px;
-			
-		}
-		
-		.careers-locations-img{
-			text-align: center;
-		}
-	}
-	
-	@media only screen and (max-width: 375px){
-		.values-img-wrapper{
-			margin-left: 1px;
-		}
-	}
+}
