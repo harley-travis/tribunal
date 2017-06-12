@@ -1,0 +1,45 @@
+	.do-intro{
+		padding-top: 100px;
+		padding-bottom: 200px;
+	}
+	
+	.circle-row{
+		padding-top: 130px;
+	}
+	
+		.aud-vid{
+		    margin: auto;
+			text-align: center;
+			padding-bottom: 110px;
+			padding-left: 50px;
+			padding-right: 50px;
+			width: 100%;
+			max-width: 1200px;
+	}
+	
+	.do-clients-title{
+		    text-align: center;
+			padding-bottom: 30px;
+			padding-top:80px;
+	}
+
+	@media only screen and (max-width: 1024px){
+		.do-intro{
+			padding-top: 40px;
+			padding-bottom: 50px;
+		}
+		
+		.do-clients-title{
+			padding-top: 1px;
+		}
+		
+		.button-pos{
+			padding-bottom: 50px;
+		}
+	}
+	
+	@media only screen and (max-width: 1024px){
+		.do-intro{
+			padding-bottom:1px;
+		}
+	}
