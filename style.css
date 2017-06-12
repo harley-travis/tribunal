@@ -1310,6 +1310,56 @@ span.mktoButtonWrap.mktoSimple {
   display: none; }
 
 /***************************
+  BLOG
+***************************/
+.blog-archive {
+  padding-top: 35px; }
+
+.blog-list {
+  list-style: none; }
+
+.blog-post {
+  padding: 16px;
+  height: 600px; }
+
+.post-bg {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.blog-author {
+  font-size: .9rem; }
+
+.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+  width: 100%;
+  height: auto; }
+
+.screen-reader-text {
+  color: #28b29a;
+  font-size: 3rem; }
+
+.page-numbers {
+  padding-right: 7px;
+  font-size: 1.7rem; }
+
+.pagination {
+  padding-top: 50px; }
+
+.press-loop ul, .blog-categories ul {
+  padding-left: 3px;
+  margin: 0; }
+
+.press-loop ul li, .blog-categories ul li {
+  list-style: none; }
+
+.press-loop ul li {
+  padding-bottom: 10px; }
+
+.pagination-location {
+  padding-bottom: 40px; }
+
+/***************************
   Request a Demo
 ***************************/
 /* Scss Document */
@@ -1330,12 +1380,6 @@ span.mktoButtonWrap.mktoSimple {
   width: 100%;
   max-width: 1080px;
   margin: auto; }
-
-.circle-row {
-  width: 100%;
-  max-width: 930px;
-  margin: 0 auto;
-  padding: 150px 0px 100px 0px; }
 
 .request-brands-wrapper {
   padding: 0px 0px 100px 0px;
@@ -1411,12 +1455,6 @@ span.mktoButtonWrap.mktoSimple {
   width: 100%;
   max-width: 1440px;
   margin: auto; }
-
-.circle-row {
-  width: 100%;
-  max-width: 930px;
-  margin: 0 auto;
-  padding: 100px 0px 100px 0px; }
 
 img {
   width: 100%; }
@@ -1986,14 +2024,22 @@ footer {
     left: 500px; }
 
   .sf-pointer-3 {
-    left: 880px; } }
+    left: 880px; }
+
+  /* BLOG */
+  .blog-post {
+    height: 600px; } }
 /* 1500px */
 @media only screen and (max-width: 1500px) {
   .sf-pointer-3 {
     left: 900px; }
 
   .sf-pointer-2 {
-    left: 495px; } }
+    left: 495px; }
+
+  /* BLOG */
+  .blog-post {
+    height: 665px; } }
 /* 1440px */
 @media only screen and (max-width: 1440px) {
   .home-circle-row {
@@ -2015,7 +2061,11 @@ footer {
     padding-top: 85px; }
 
   .case-sheets {
-    padding-bottom: 0; } }
+    padding-bottom: 0; }
+
+  /* BLOG */
+  .blog-post {
+    height: 700px; } }
 /* 768px */
 @media only screen and (max-width: 768px) {
   /*rize.scss*/
@@ -2145,7 +2195,14 @@ footer {
     top: 30px;
     left: -15px;
     border-width: 10px 15px 10px 0;
-    border-color: transparent #f5f5f5 transparent transparent; } }
+    border-color: transparent #f5f5f5 transparent transparent; }
+
+  /* BLOG */
+  .blog-list {
+    padding: 0; }
+
+  .sidebar {
+    padding: 50px 0; } }
 /* 425px */
 @media only screen and (max-width: 425px) {
   body {
@@ -2207,7 +2264,21 @@ footer {
     display: none; }
 
   .case-hidden {
-    display: block; } }
+    display: block; }
+
+  /* BLOG */
+  .blog-post {
+    text-align: left;
+    padding: 0;
+    height: auto; }
+
+  .blog-post:first-child {
+    margin-top: 35px; }
+
+  .sidebar {
+    text-align: left; }
+    .sidebar li {
+      text-align: left; } }
 /* 375px */
 @media only screen and (max-width: 375px) {
   /* HOME */

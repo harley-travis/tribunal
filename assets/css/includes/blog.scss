@@ -1,0 +1,47 @@
+.blog-archive {
+padding-top: 35px;
+}
+.blog-list{
+	list-style: none;
+}
+.blog-post{
+	padding: 16px;
+	height: 600px;
+}
+.post-bg {
+	height: 200px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.blog-author{
+	font-size: .9rem;
+}
+.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+	width: 100%;
+	height: auto;
+}
+.screen-reader-text {
+	color: $green;
+	font-size: 3rem;
+}
+.page-numbers {
+	padding-right: 7px;
+	font-size: 1.7rem;
+}
+.pagination {
+	padding-top: 50px;
+}
+.press-loop ul, .blog-categories ul{
+	padding-left: 3px;
+	margin: 0;
+}
+.press-loop ul li, .blog-categories ul li{
+	list-style: none;
+}
+.press-loop ul li{
+	padding-bottom: 10px;
+}
+.pagination-location{
+	padding-bottom: 40px;
+}

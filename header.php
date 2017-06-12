@@ -1,3 +1,14 @@
+<?php 
+/**
+ * The head of our theme
+ *
+ * @package WordPress
+ * @subpackage RizePoint
+ * @since RizePoint 1.0
+ *
+ *
+ */
+?>
 <!DOCTYPE html>
 <!--[if IE 7]>
 <html class="ie ie7" <?php language_attributes(); ?>>
@@ -9,7 +20,7 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 	<head>
-		<title>Home | RizePoint</title>
+		<title><?php the_title('RizePoint | ')?></title>
 		
 		<?php require_once(dirname(__FILE__)."/config.php"); ?>
 		
@@ -32,9 +43,11 @@
 		
 		<script>
 			// init big slide
-			$(document).ready(function() {
-				$('.menu-link').bigSlide();
+			jQuery(document).ready(function() {
+				jQuery('.menu-link').bigSlide();
 			});
+			
 		</script>	
+		<?php wp_head(); ?>
 	</head>
 	<body>
