@@ -1901,6 +1901,126 @@ img {
   .values-img-wrapper {
     margin-left: 1px; } }
 /***************************
+  Rize and Shine
+***************************/
+.rize-content {
+  padding-top: 50px;
+  padding-bottom: 100px; }
+
+.rize-text-title h4 {
+  border-bottom: 1px solid teal;
+  font-size: 3rem; }
+
+.rize-text-content {
+  padding-top: 40px; }
+
+.rize-img {
+  width: 100%;
+  max-width: 600px; }
+
+.rize-stories {
+  padding: 50px; }
+
+.our-partners {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 70px;
+  text-align: center; }
+
+.partners-logos {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.rize-logos {
+  padding-right: 100px;
+  margin-bottom: 100px; }
+
+.inquiry {
+  border-top: 1px solid gray;
+  padding-bottom: 50px; }
+
+@media only screen and (max-width: 1440px) {
+  .rize-img {
+    padding-bottom: 25px; } }
+/***************************
+  What We Do
+***************************/
+.do-intro {
+  padding-top: 100px;
+  padding-bottom: 200px; }
+
+.circle-row {
+  padding-top: 130px; }
+
+.aud-vid {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 110px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  max-width: 1200px; }
+
+.do-clients-title {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 80px; }
+
+@media only screen and (max-width: 1024px) {
+  .do-intro {
+    padding-top: 40px;
+    padding-bottom: 50px; }
+
+  .do-clients-title {
+    padding-top: 1px; }
+
+  .button-pos {
+    padding-bottom: 50px; } }
+@media only screen and (max-width: 1024px) {
+  .do-intro {
+    padding-bottom: 1px; } }
+/***************************
+  View Our Partners
+***************************/
+.view-img {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  width: 100%;
+  max-width: 450px; }
+
+.view-title {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.view-content1 {
+  padding-bottom: 150px; }
+
+/* Scss Document */
+/***************************
+  Partners
+***************************/
+.partners-text {
+  margin-top: 50px; }
+
+.partners-form {
+  background: lightGray;
+  padding: 20px;
+  box-shadow: 10px 10px 5px #888888;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px; }
+
+.partners-form h3 {
+  font-size: 3rem; }
+
+.partners-form h1 {
+  margin-top: -12px;
+  font-size: 6rem; }
+
+/***************************
   Contact us
 ***************************/
 /* Scss Document */
