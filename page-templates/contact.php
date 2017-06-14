@@ -8,7 +8,7 @@ get_header(); ?>
 	<div class="container-fluid pink-yellow">
 		<?php get_template_part('includes/page-header'); ?>
 
-		<div class="container-banner">
+		<div class="container banner">
 			<div class="banner-wrapper">
 			<h2>Contact Us</h2>
 				<h3>The World's Most Powerful Brand, Quality, &amp; Safety Compliance Solution</h3>
