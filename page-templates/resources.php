@@ -1,7 +1,9 @@
 <?php
 /*
-Template Name: Resources Dev
+Template Name: Resources 
 */
+
+get_header();
 ?>
 
 <?php 
@@ -77,10 +79,18 @@ Template Name: Resources Dev
 
 ?>
 
-    <div class="resource-banner" style="background-image: url('<?php the_field('banner-img'); ?>');">
-        <h2 class="resoure-heading"><?php the_field('banner-heading'); ?></h2>
-    </div><!-- resource-banner -->  
-
+<div class="container-fluid pink-yellow">
+	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
+	<div class="container banner wrap push">
+		<div class="banner-wrapper">
+			<h1>Resources</h1>
+			<div class="banner-btns">
+				<a href="#" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">RizePoint Blog</a> <a href="#" class="btn btn-lg btn-width-lg btn-inverse-white">Newsroom</a>
+			</div><!-- banner-btns -->
+		</div><!-- banner-wrapper -->
+	</div><!-- banner -->
+</div><!-- container-fluid -->
+   
     <div class="tabs">
         <div class="tab-links-wrapper">
             <label for="show-menu" class="show-menu">Show Tabs</label>
@@ -322,10 +332,7 @@ Template Name: Resources Dev
                             <?php endif; ?>
                         </div><!-- container -->
                     </div><!-- TAB2 -->
-                    
-                    
-                    
-                    
+
                     <div class="seo">
                         <p><?php the_field('seo-text'); ?></p>
                         <?php while (have_posts()) : the_post(); ?>
@@ -343,19 +350,7 @@ Template Name: Resources Dev
     ---------------------->
     
     <style>
-		.resource-info-title {
-			text-align: left;
-			background: rgba(0,0,0,0.5);
-			padding: 10px;
-			border-bottom: 1px solid #ddd;
-			width: 100%;
-			bottom: 0;
-			color: #fff;
-			height: 45px;
-		}	
-		.resource-info-title a {
-    color: white;
-}
+
 	</style>
     
     <script>
@@ -368,3 +363,5 @@ Template Name: Resources Dev
             });
         });
     </script>
+    
+   <?php get_footer(); ?>

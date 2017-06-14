@@ -1310,8 +1310,9 @@ span.mktoButtonWrap.mktoSimple {
   display: none; }
 
 /***************************
-  BLOG
+  Blog
 ***************************/
+/* BLOG OVERVIEW */
 .blog-archive {
   padding-top: 35px; }
 
@@ -1359,6 +1360,797 @@ span.mktoButtonWrap.mktoSimple {
 .pagination-location {
   padding-bottom: 40px; }
 
+/* BLOG POST */
+.indie-blog {
+  padding-top: 35px; }
+
+.small-header {
+  padding-bottom: 50px; }
+
+.attachment-.size-.wp-post-image {
+  height: auto; }
+
+.post-title {
+  padding-bottom: 10px; }
+
+.blog-post-author {
+  margin-bottom: 20px;
+  float: left;
+  clear: both; }
+
+.blog-content h2 {
+  font-size: 3rem;
+  color: #6B6B6B; }
+
+.blog-content p {
+  font-size: 1.3em; }
+
+.bio-img {
+  width: 100%;
+  max-width: 250px; }
+
+.authorBio {
+  border: 1px solid #eee;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  width: 100%; }
+
+.authorImg {
+  padding: 0 15px 15px 0; }
+
+.athDesc {
+  font-size: 1.5rem;
+  font-style: italic; }
+
+/***************************
+  Resources
+***************************/
+/***********************************
+   RESOURCES CSS
+***********************************/
+.resource-banner {
+  height: 50vh;
+  max-height: 400px;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  position: relative; }
+
+h2.resoure-heading {
+  background: rgba(252, 139, 46, 0.9);
+  padding: 10px;
+  width: 53%;
+  font-family: 'GothamRounded-Book' !important;
+  position: absolute;
+  color: #fff;
+  top: 30%;
+  font-size: 2rem;
+  text-align: right; }
+
+.resource-container {
+  padding-top: 20px; }
+
+.tab-content-wrapper {
+  margin-bottom: 30px; }
+
+.resource-col-title {
+  text-align: center;
+  background: #EAEBED;
+  padding: 10px;
+  border-bottom: 1px solid #ddd; }
+
+.resource-col {
+  padding-top: 30px;
+  text-align: center;
+  float: left !important; }
+
+.resource-col-wrapper {
+  height: 320px;
+  background-size: cover;
+  background-position: 50% 15%;
+  position: relative; }
+
+.resource-col-cs-wrapper {
+  position: relative; }
+
+.resource-col-title-1 {
+  position: absolute;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  bottom: 0;
+  color: #fff;
+  width: 100%; }
+
+.resource-col-title {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  bottom: 0;
+  color: #fff; }
+
+.resource-col-title a,
+.resource-col-title-1 a {
+  color: #fff; }
+
+img.resource-col-img {
+  width: 100%; }
+
+.resource-modal {
+  width: 35% !important; }
+
+.videoWrapper h4 {
+  text-align: left; }
+
+/***********************************
+   RESOURCES TAB 1
+***********************************/
+.headline-posts-container,
+.headline-col-2-wrapper,
+.headline-col-3-wrapper {
+  height: 700px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px; }
+
+.headline-col-1 {
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 15%;
+  padding: 0 0 0 15px;
+  background-repeat: no-repeat;
+  transition: all 300ms ease-out;
+  -webkit-transition: all 300ms ease-out;
+  -webkit-transform: translateZ(0); }
+
+.headline-wrapper {
+  position: relative;
+  height: 100%;
+  overflow: hidden; }
+
+.headline-post {
+  background-size: cover;
+  height: 100%;
+  background-position: 50% 15%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: all .5s ease; }
+
+.headline-post:hover {
+  transform: scale(1.1); }
+
+.frontPostImg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-size: cover;
+  width: 100%;
+  background-position: 50% 15%;
+  transition: all 0.5s ease; }
+
+.frontPostImg:hover {
+  transform: scale(1.1); }
+
+.hc2-1-post,
+.hc2-2-post,
+.hc3-1-post,
+.hc3-2-post {
+  background-size: cover;
+  background-position: 50% 15%;
+  background-repeat: no-repeat;
+  transition: all 300ms ease-out;
+  overflow: hidden;
+  -webkit-transition: all 300ms ease-out;
+  -webkit-transform: translateZ(0); }
+
+h3.headline-heading {
+  background: rgba(252, 139, 46, 0.7);
+  color: #fff;
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  left: 0;
+  width: 100%; }
+
+.headline-col-2,
+.headline-col-3 {
+  height: 100%; }
+
+.headline-col-3 {
+  padding: 0 15px 0 0px; }
+
+.hc2-1-post {
+  height: 58%;
+  position: relative;
+  margin-bottom: 14px;
+  overflow: hidden; }
+
+.hc2-2-post {
+  height: 40%;
+  position: relative; }
+
+h3.subheadline-heading {
+  background: rgba(252, 139, 46, 0.7);
+  color: #fff;
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  padding: 17px;
+  font-size: 1.2rem;
+  width: 100%; }
+
+.hc3-1-post {
+  height: 40%;
+  position: relative;
+  margin-bottom: 14px; }
+
+.hc3-2-post {
+  position: relative;
+  height: 58%; }
+
+.resource-thmb-loop {
+  overflow: auto;
+  /* THIS BEAUTIFY ADJUSTS THE STUPID HEIGHT OF THE PARENT DIV */
+  width: 100%; }
+
+/***********************************
+   RESOURCES DATASHEET TAB
+***********************************/
+.hovereffect {
+  overflow: hidden; }
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  padding: 40px 30px 0 30px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  transform: scale(1.1); }
+
+h3.overlay-heading,
+.overlay-text {
+  color: #fff !important;
+  margin-top: 60px; }
+
+/***********************************
+   ABOUT US PAGE/COMPANYRP TEMPLATE
+***********************************/
+.our-story {
+  max-width: 66.75rem !important; }
+
+/***********************************
+   TABS ON THE RESOURCES PAGE
+***********************************/
+.tabs {
+  width: 100%;
+  display: inline-block; }
+
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+  display: block;
+  clear: both;
+  content: ''; }
+
+.tab-links-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: #FAFAFA; }
+
+ul.tab-links {
+  padding: 25px 0 0 0;
+  margin: 0; }
+
+.tab-links li {
+  margin: 0px 5px;
+  float: left;
+  list-style: none; }
+
+.tab-links a {
+  padding: 15px 25px;
+  display: inline-block;
+  border-radius: 3px 3px 0px 0px;
+  font-size: 16px;
+  font-weight: 600;
+  background: #FA943F;
+  color: #4c4c4c;
+  transition: all linear 0.15s;
+  text-decoration: none;
+  color: #fff; }
+
+.tab-links a:hover {
+  background: #fcb040;
+  text-decoration: none; }
+
+li.active a, li.active a:hover {
+  background: #fff;
+  color: #FA943F; }
+
+/*----- Content of Tabs -----*/
+.tab-content {
+  padding: 15px;
+  background: #fff; }
+
+.tab {
+  display: none;
+  overflow: auto; }
+
+.tab.active {
+  display: block; }
+
+/***********************************
+   TAB RESPONSIVE JUNK
+***********************************/
+.show-menu {
+  font-family: gotham-book;
+  text-decoration: none;
+  color: #fff;
+  background: #fcb040;
+  text-align: center;
+  padding: 20px;
+  display: none;
+  font-size: 1em;
+  font-weight: 600;
+  width: 100%; }
+
+input[type=checkbox] {
+  display: none; }
+
+.resource-info-title {
+  text-align: left;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  bottom: 0;
+  color: #ffffff;
+  height: 45px; }
+
+.resource-info-title a {
+  color: #ffffff; }
+
+/***********************************
+   MOBILE STYLES KEEPING IT FRESH
+***********************************/
+@media only screen and (max-width: 828px) {
+  h2.resoure-heading {
+    top: 20%; }
+
+  a.welcome-btn {
+    max-width: 100%; }
+
+  .message-wrapper {
+    margin-top: 70px !important; }
+
+  .slick-initialized .slick-slide {
+    padding: 15px; } }
+@media screen and (max-width: 760px) {
+  ul.tab-menu {
+    position: static;
+    display: none; }
+
+  li.tab-list {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 1px 0; }
+
+  ul.tab-menu li.tab-list, li.tab-list a {
+    width: 100%; }
+
+  li.tab-list a {
+    background: orange;
+    color: white; }
+
+  ul.tab-links, ul.news-tab {
+    display: none; }
+
+  input[type=checkbox]:checked ~ #tab-menu {
+    display: block;
+    padding: 0 !important;
+    margin: 0;
+    width: 100%; }
+
+  .show-menu {
+    display: block; }
+
+  .how-we-explain {
+    padding: 30px; }
+
+  .explain-wrapper {
+    padding: 30px 40px 20px 40px; }
+
+  .hw-cta-btn-wrapper {
+    margin-bottom: 30px; }
+
+  .pa-banner-wrapper {
+    top: 15%; } }
+@media only screen and (max-width: 640px) {
+  .welcome-message {
+    text-align: center; }
+
+  .headline-col-1 {
+    margin-bottom: 30px;
+    padding: 0; }
+
+  .headline-col-2, .headline-col-3 {
+    padding: 0;
+    height: auto; }
+
+  .hc2-2-post {
+    margin-top: 30px; }
+
+  .hc3-1-post {
+    margin-bottom: 30px;
+    margin-top: 20px; }
+
+  .headline-col-2-wrapper {
+    margin-bottom: 12px; }
+
+  .hc2-1-post,
+  .hc2-2-post,
+  .hc3-1-post,
+  .hc3-2-post {
+    height: 50%; }
+
+  .resource-col {
+    padding-left: 0;
+    padding-right: 0; }
+
+  .headline-posts-container, .headline-col-2-wrapper, .headline-col-3-wrapper {
+    border-bottom: none; }
+
+  .resource-col-title {
+    position: absolute; }
+
+  .resource-modal {
+    width: 100% !important; }
+
+  .right-hr {
+    right: 0; }
+
+  .displayOn {
+    display: none; }
+
+  .displayOff {
+    display: block; } }
+@media only screen and (max-width: 476px) {
+  h2.resoure-heading {
+    top: initial;
+    bottom: 0;
+    margin: 0;
+    width: 100%; } }
+/***************************
+  Newsroom
+***************************/
+/***********************************
+   NEWSROOM 
+***********************************/
+.news-banner {
+  background: #eee;
+  background-image: url("http://landing.rizepoint.com/wp-content/uploads/2016/02/Demo-v2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  padding: 70px;
+  text-align: center;
+  position: relative; }
+
+.news-banner-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30%; }
+
+.icon {
+  font-size: 5rem; }
+
+ul.news-tab {
+  border-bottom: #eee 1px solid;
+  overflow: auto;
+  padding-bottom: 30px; }
+
+li.news-icon-title {
+  list-style: none;
+  text-align: center;
+  display: inline-block; }
+
+.n-icon {
+  color: #6b6b6b;
+  padding-bottom: 10px;
+  width: 100%; }
+
+.n-icon:hover {
+  color: #bbbcbc; }
+
+.n-icon:active, .ntext:active {
+  outline: none; }
+
+.news-icon-title a, .news-icon-title a:active {
+  color: #6d6d6d !important; }
+
+li.active a, li.active a:hover {
+  outline: none !important; }
+
+.news-banner h2, .news-banner h3 {
+  color: #fff;
+  text-shadow: 0px 0px 30px #000; }
+
+section.news-archive article .news-post h3 {
+  font-size: 1.5em !important;
+  line-height: 33px !important; }
+
+ul.news-articles-list {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+section.press-releases-archive article hr, section.press-release article hr {
+  border-color: #f8c671 !important;
+  border-width: 1px !important; }
+
+section.news-archive article .news-post h3 {
+  text-transform: uppercase !important;
+  color: #6b6b6b !important; }
+
+/* this is for the home page thing with 3 icons*/
+.compliance-solutions {
+  background: transparent !important; }
+
+h3.newsroom-title-thing {
+  font-size: 3.125em;
+  line-height: 1em;
+  letter-spacing: 2px;
+  font-family: "verbsemibold";
+  text-transform: uppercase;
+  margin-bottom: 0; }
+
+hr.newsroom-title-heading {
+  border-color: #f8c671;
+  border-width: 1px;
+  max-width: 250px;
+  margin-bottom: 3rem; }
+
+article.article-newsroom-wrapper {
+  padding: 2rem 1rem; }
+
+.news-post {
+  overflow: auto; }
+
+img.newsroom-icon-png-img {
+  width: 100%;
+  max-width: 150px; }
+
+img.news-post-img {
+  max-width: 100%;
+  max-height: 200px;
+  float: left; }
+
+/***********************************
+   MOBILE STYLES KEEPING IT FRESH
+***********************************/
+@media only screen and (max-width: 828px) {
+  h2.resoure-heading {
+    top: 20%; }
+
+  a.welcome-btn {
+    max-width: 100%; }
+
+  .message-wrapper {
+    margin-top: 70px !important; }
+
+  .slick-initialized .slick-slide {
+    padding: 15px; } }
+@media screen and (max-width: 760px) {
+  ul.tab-menu {
+    position: static;
+    display: none; }
+
+  li.tab-list {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 1px 0; }
+
+  ul.tab-menu li.tab-list, li.tab-list a {
+    width: 100%; }
+
+  li.tab-list a {
+    background: orange;
+    color: white; }
+
+  ul.tab-links, ul.news-tab {
+    display: none; }
+
+  input[type=checkbox]:checked ~ #tab-menu {
+    display: block;
+    padding: 0 !important;
+    margin: 0;
+    width: 100%; }
+
+  .show-menu {
+    display: block; }
+
+  .how-we-explain {
+    padding: 30px; }
+
+  .explain-wrapper {
+    padding: 30px 40px 20px 40px; }
+
+  .hw-cta-btn-wrapper {
+    margin-bottom: 30px; }
+
+  .pa-banner-wrapper {
+    top: 15%; } }
+@media only screen and (max-width: 640px) {
+  .welcome-message {
+    text-align: center; }
+
+  .headline-col-1 {
+    margin-bottom: 30px;
+    padding: 0; }
+
+  .headline-col-2, .headline-col-3 {
+    padding: 0;
+    height: auto; }
+
+  .hc2-2-post {
+    margin-top: 30px; }
+
+  .hc3-1-post {
+    margin-bottom: 30px;
+    margin-top: 20px; }
+
+  .headline-col-2-wrapper {
+    margin-bottom: 12px; }
+
+  .hc2-1-post,
+  .hc2-2-post,
+  .hc3-1-post,
+  .hc3-2-post {
+    height: 50%; }
+
+  .resource-col {
+    padding-left: 0;
+    padding-right: 0; }
+
+  .headline-posts-container, .headline-col-2-wrapper, .headline-col-3-wrapper {
+    border-bottom: none; }
+
+  .resource-col-title {
+    position: absolute; }
+
+  .resource-modal {
+    width: 100% !important; }
+
+  .spark-content-wrapper {
+    padding: 40px; }
+
+  .product-section-wrapper {
+    padding: 50px 20px 50px 20px; }
+
+  .ps-right, .products-content-area {
+    text-align: center; }
+
+  img.product-section-img {
+    max-width: none; }
+
+  section.solutions-single aside .products-banner-section hr {
+    position: relative;
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px; }
+
+  .right-hr {
+    right: 0; }
+
+  .products-content-area {
+    padding: 30px 0 30px 0; }
+
+  .displayOn {
+    display: none; }
+
+  .displayOff {
+    display: block; }
+
+  .content-area {
+    text-align: center;
+    padding-top: 30px; }
+
+  /* newsroom */
+  .n-icon {
+    width: auto;
+    padding-right: 15px;
+    font-size: 2.4em; }
+
+  li.news-icon-title {
+    padding-top: 30px; }
+
+  .how-we-right h3 {
+    padding-top: 35px;
+    text-align: center; }
+
+  .how-we-right li {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid; }
+
+  .how-we-right, .how-we-left {
+    text-align: center; }
+
+  .how-we-cta {
+    top: 17em; }
+
+  .blue-way-text {
+    padding-bottom: 35px; }
+
+  .pa-right {
+    margin-top: 50px; }
+
+  img.wp-logo-img {
+    padding: 0px 0 60px 0; } }
+@media only screen and (max-width: 500px) {
+  article.products-banner-text {
+    margin-top: -251px;
+    width: 70%; } }
+@media only screen and (max-width: 476px) {
+  h2.resoure-heading {
+    top: initial;
+    bottom: 0;
+    margin: 0;
+    width: 100%; }
+
+  section.engage-block,
+  section.roi-block {
+    padding: 45px; }
+
+  .blue-way-jay {
+    padding: 50px; }
+
+  .how-we-explain {
+    padding: 10px; }
+
+  .how-we-video-wrapper h3 {
+    display: none; }
+
+  .how-we-info-left, .how-we-info-right {
+    padding: 0;
+    padding-top: 35px;
+    padding-bottom: 35px; }
+
+  .how-we-customers {
+    padding: 0; }
+
+  .how-we-cta {
+    top: 10em; }
+
+  .how-we-section-2 {
+    padding: 10px;
+    padding-bottom: 35px; }
+
+  .explain-wrapper {
+    padding: 30px 15px 20px 15px; }
+
+  .how-we-cta h3 {
+    text-shadow: none; } }
+@media only screen and (max-width: 373px) {
+  .pa-banner-wrapper {
+    top: 0%; } }
 /***************************
   Request a Demo
 ***************************/
@@ -1673,6 +2465,10 @@ img {
 .banner-wrapper {
   max-width: 1440px; }
 
+.bluth-stand {
+  width: 100%;
+  max-width: 300px; }
+
 .error-mes {
   padding-top: 40px;
   padding-bottom: 100px; }
@@ -1949,9 +2745,6 @@ img {
 .do-intro {
   padding-top: 100px;
   padding-bottom: 200px; }
-
-.circle-row {
-  padding-top: 130px; }
 
 .aud-vid {
   margin: auto;
@@ -2398,7 +3191,14 @@ footer {
   .sidebar {
     text-align: left; }
     .sidebar li {
-      text-align: left; } }
+      text-align: left; }
+
+  /* BLOG POST */
+  .featured-post-img-wrapper {
+    padding-top: 35px; }
+
+  .blog-post-author {
+    float: none; } }
 /* 375px */
 @media only screen and (max-width: 375px) {
   /* HOME */

@@ -29,6 +29,7 @@ ul.news-tab {
 li.news-icon-title {
     list-style: none;
     text-align: center;
+	display: inline-block;
 }
 .n-icon{
     color: #6b6b6b;
@@ -101,7 +102,15 @@ img.news-post-img {
     max-height: 200px;
     float: left;
 }
-
+.press-list{
+	ul{
+		padding: 0;
+		margin: 0;
+	}
+	li{
+		list-style: none;
+	}
+}
 
 
 

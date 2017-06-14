@@ -285,13 +285,20 @@
 			text-align: left;
 		}
 	}
+	/* BLOG POST */
+	.featured-post-img-wrapper {
+		padding-top: 35px;
+	}
+	.blog-post-author{
+		float: none;
+	}
 }
 
 /* 375px */
 @media only screen and (max-width: $md-mobile){
 	/* HOME */
 	.banner {
-		height: 340px;
+		height: 485px;
 	}
 	
 	/* Solutions */
@@ -305,7 +312,10 @@
 
 /* 320px */
 @media only screen and (max-width: $sm-moblie){
-	
+	/* Home */
+	.slant-content-wrapper h3 {
+		font-size: 4rem;
+	}
 	.regular-logo,
 	.logo-img{
 		max-width: 200px;

@@ -248,7 +248,7 @@ h3.overlay-heading,
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    background-color: #EAEBED;
+    background-color: $lightGray;
 }
 ul.tab-links {
     padding: 25px 0 0 0;
@@ -263,9 +263,9 @@ ul.tab-links {
     padding:15px 25px;
     display:inline-block;
     border-radius:3px 3px 0px 0px;
-    background:#FA943F;
     font-size:16px;
     font-weight:600;
+	background: #FA943F;
     color:#4c4c4c;
     transition:all linear 0.15s;
     text-decoration: none;
@@ -306,7 +306,7 @@ li.tab-list a {
 
 }
 .show-menu {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: $gotham-book;
 	text-decoration: none;
 	color: #fff;
 	background: #fcb040;
@@ -324,7 +324,19 @@ input[type=checkbox]:checked ~ #tab-menu {
 
 }
 
-
+.resource-info-title {
+	text-align: left;
+	background: rgba(0,0,0,0.5);
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	width: 100%;
+	bottom: 0;
+	color: $white;
+	height: 45px;
+}	
+.resource-info-title a {
+	color: $white;
+}
 
 
 
@@ -446,7 +458,6 @@ input[type=checkbox]:checked ~ #tab-menu {
     }
   
 }
-
 
 @media only screen and (max-width: 476px){
     
