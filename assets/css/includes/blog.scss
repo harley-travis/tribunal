@@ -1,3 +1,4 @@
+/* BLOG OVERVIEW */
 .blog-archive {
 padding-top: 35px;
 }
@@ -44,4 +45,46 @@ padding-top: 35px;
 }
 .pagination-location{
 	padding-bottom: 40px;
+}
+/* BLOG POST */
+.indie-blog {
+    padding-top: 35px;
+}
+.small-header {
+    padding-bottom: 50px;
+}
+.attachment-.size-.wp-post-image {
+    height: auto;
+}
+.post-title{
+	padding-bottom: 10px;
+}
+.blog-post-author {
+    margin-bottom: 20px;
+    float: left;
+    clear: both;
+}
+.blog-content h2 {
+    font-size: 3rem;
+    color: #6B6B6B;
+}
+.blog-content p{
+	font-size: 1.3em;
+}
+.bio-img{
+	width: 100%;
+	max-width: 250px;
+}
+.authorBio {
+    border: 1px solid #eee;
+    margin-bottom: 35px;
+    margin-top: 35px;
+	width: 100%;
+}
+.authorImg {
+    padding: 0 15px 15px 0;
+}
+.athDesc {
+    font-size: 1.5rem;
+    font-style: italic;
 }
