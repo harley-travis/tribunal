@@ -42,18 +42,18 @@
 					<div class="footer-card">
 						<h5>Solutions By industries</h5>
 						<ul>
-							<li><a href="#">Food Service</a></li>
-							<li><a href="#">Hospitality</a></li>
-							<li><a href="#">Retail</a></li>
-							<li><a href="#">CSR</a></li>
-							<li><a href="#">FSMA</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/solutions-food-service">Food Service</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/solutions-hospitality">Hospitality</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/solutions-retail">Retail</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/csr">CSR</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/fsma">FSMA</a></li>
 						</ul>
 					</div><!-- footer-card -->
 					<div class="footer-card">
 						<h5>Products</h5>
 						<ul>
-							<li><a href="#">Management Console</a></li>
-							<li><a href="#">Mobile Auditor</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/products#mc">Management Console</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/products#ma">Mobile Auditor</a></li>
 						</ul>
 					</div><!-- footer-card -->
 				</div><!-- footer-col -->
@@ -61,15 +61,15 @@
 					<div class="footer-card">
 						<h5>Company</h5>
 						<ul>
-							<li><a href="#">About Us</a></li>
-							<li><a href="#">Resources</a></li>
-							<li><a href="#">Careers</a></li>
-							<li><a href="#">Newsroom</a></li>
-							<li><a href="#">Blog</a></li>
-							<li><a href="#">Community Relations</a></li>
-							<li><a href="#">Awards</a></li>
-							<li><a href="#">Trust.RizePoint.com</a></li>
-							<li><a href="#">Contact Us</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/company">About Us</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/resources">Resources</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/careers">Careers</a></li>
+							<li><a href="https://rizepoint.com/news/">Newsroom</a></li>
+							<li><a href="https://rizepoint.com/blog/">Blog</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/rize-shine">Community Relations</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/awards">Awards</a></li>
+							<li><a href="http://trust.rizepoint.com/">Trust.RizePoint.com</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/contact-us">Contact Us</a></li>
 						</ul>
 					</div><!-- footer-card -->
 				</div><!-- footer-col -->
@@ -78,19 +78,19 @@
 				<div class="top-divider">
 					<div class="footer-social">
 						<ul>
-							<li><a href="#"><i class="fa fa-facebook white-text social-icon"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter white-text social-icon"></i></a></li>
-							<li><a href="#"><i class="fa fa-youtube-play white-text social-icon"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin white-text social-icon"></i></a></li>
-							<li><a href="#"><i class="fa fa-instagram white-text social-icon"></i></a></li>
+							<li><a href="https://www.facebook.com/rizepoint/"><i class="fa fa-facebook white-text social-icon"></i></a></li>
+							<li><a href="https://twitter.com/RizePoint"><i class="fa fa-twitter white-text social-icon"></i></a></li>
+							<li><a href="https://www.youtube.com/channel/UCyZX-t_xThWbG9WVo2GzFIA"><i class="fa fa-youtube-play white-text social-icon"></i></a></li>
+							<li><a href="https://www.linkedin.com/company-beta/77852/"><i class="fa fa-linkedin white-text social-icon"></i></a></li>
+							<li><a href="https://www.instagram.com/rizepoint/"><i class="fa fa-instagram white-text social-icon"></i></a></li>
 						</ul>
 					</div><!-- footer-social -->
 				</div><!-- top-divider -->
 				<div class="bottom-divider">
 					<div class="col-md-4 col-sm-6 col-xs-12 left-divider-section">
 						<ul>
-							<li><a href="#">Terms of Use</a></li>
-							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/termsandconditions">Terms of Use</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/privacypolicy">Privacy Policy</a></li>
 						</ul>
 					</div><!-- left-divider-sections -->
 					<div class="col-md-8 col-sm-6 col-xs-12 right-divider-section">
@@ -107,16 +107,18 @@
 		<script>
 						
 			// BS collapse hide one show other
-			var $industryTarget = $('#industry-target');
+			var $industryTarget = jQuery('#industry-target');
 			$industryTarget.on('show.bs.collapse','.collapse', function() {
 				$industryTarget.find('.collapse.in').collapse('hide');
 			});
-			var $systemFeatures = $('#system-features');
+			var $systemFeatures = jQuery('#system-features');
 			$systemFeatures.on('show.bs.collapse','.collapse', function() {
 				$systemFeatures.find('.collapse.in').collapse('hide').removeClass('collapse-wrapper');
-				$('.feature-drop').addClass('collapse-wrapper');
+				jQuery('.feature-drop').addClass('collapse-wrapper');
 			});
 			
 		</script>	
+		
+		<?php wp_footer(); ?>
 	</body>
 </html>
