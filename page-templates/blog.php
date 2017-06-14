@@ -42,8 +42,15 @@ get_header(); ?>
 						<a href="<?php the_permalink() ?>"><h3 class="blue-text"><?php the_title() ?></h3></a>
 
 						<!-- once ACF installed -->
-						<span class="blog-author"><?php //if(get_field('title_author_bio'))  :   ?> <p>By: <?php //the_field('title_author_bio') ?><?php the_author(); ?></p> 
-							<?php //endif ; ?></span>
+						<span class="blog-author">
+							<?php if(get_field('title_author_bio'))  :  ?> <p>By: <?php the_field('title_author_bio') ?></p> 
+							<?php endif ; ?>
+						</span>
+							
+						
+					
+							
+							
 
 						<hr>
 						<p><?php if ( function_exists( 'ADDTOANY_SHARE_SAVE_KIT' ) ) { ADDTOANY_SHARE_SAVE_KIT(); } ?></p>
