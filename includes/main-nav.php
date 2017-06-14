@@ -1,9 +1,9 @@
 <nav class="upper-nav">
 	<ul class="nav nav-pills">
 <!--		<li><span class="glyphicon glyphicon-search search-icon" aria-hidden="true"></span></li>-->
-		<li><a href="#">Support</a></li>
-		<li><a href="#">Partners</a></li>
-		<li><a href="#">Contact Us</a></li>
+		<li><a href="https://rizepoint.zendesk.com/hc/en-us">Support</a></li>
+		<li><a href="<?php echo ROOT_URL; ?>/partners">Partners</a></li>
+		<li><a href="<?php echo ROOT_URL; ?>/contact-us">Contact Us</a></li>
 	</ul>
 </nav><!-- upper-nav -->
 
@@ -14,8 +14,8 @@
 		<li role="presentation" class="dropdown">
 			<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
 			<ul class="dropdown-menu">
-				<li><a href="#">Management Console</a></li>
-				<li><a href="#">Mobile Auditor</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/products#mc">Management Console</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/products#ma">Mobile Auditor</a></li>
 				<li><a href="#">Search Driven Analytics</a></li>
 				<li role="separator" class="divider"></li>
 				<li><a href="#"><span class="glyphicon glyphicon-play-circle play-icon" aria-hidden="true"></span> &nbsp; Watch A Quick Demo</a></li>
@@ -25,9 +25,10 @@
 		<li role="presentation" class="dropdown">
 			<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Industries <span class="caret"></span></a>
 			<ul class="dropdown-menu">
-				<li><a href="#">Management Console</a></li>
-				<li><a href="#">Mobile Auditor</a></li>
-				<li><a href="#">Search Driven Analytics</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/solutions-food-service">Food Service</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/solutions-hospitality">Hospitality</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/solutions-retail">Retail</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/solutions-other">Other Industries</a></li>
 				<li role="separator" class="divider"></li>
 				<li><a href="#"><span class="glyphicon glyphicon-play-circle play-icon" aria-hidden="true"></span> &nbsp; Watch A Quick Demo</a></li>
 			</ul>
@@ -36,7 +37,7 @@
 		<li role="presentation" class="dropdown">
 			<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Clients <span class="caret"></span></a>
 			<ul class="dropdown-menu">
-				<li><a href="#">Case Studies</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/5299-2">Case Studies</a></li>
 				<li role="separator" class="divider"></li>
 				<li><a href="#"><span class="glyphicon glyphicon-play-circle play-icon" aria-hidden="true"></span> &nbsp; Watch A Testimonial</a></li>
 			</ul>
@@ -45,13 +46,18 @@
 		<li role="presentation" class="dropdown">
 			<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Company <span class="caret"></span></a>
 			<ul class="dropdown-menu">
-				<li><a href="#">Case Studies</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/company">About Us</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/what-we-do">What We Do</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/leadership">Leadership</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/resources">Resources</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/careers">Careers</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/contact-us">Contact Us</a></li>
 				<li role="separator" class="divider"></li>
 				<li><a href="#"><span class="glyphicon glyphicon-play-circle play-icon" aria-hidden="true"></span> &nbsp; Watch A Testimonial</a></li>
 			</ul>
 		</li>
 		
-		<li role="presentation"><a href="#" class="rad">Request A Demo</a></li>
+		<li role="presentation"><a href="<?php echo ROOT_URL; ?>/request-a-demo" class="rad">Request A Demo</a></li>
 	</ul>
 </nav>
 
@@ -65,8 +71,8 @@
 			<li role="presentation" class="dropdown">
 				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
 				<ul class="dropdown-menu">
-					<li><a href="#">Management Console</a></li>
-					<li><a href="#">Mobile Auditor</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/products#mc">Management Console</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/products#ma">Mobile Auditor</a></li>
 					<li><a href="#">Search Driven Analytics</a></li>
 					<li role="separator" class="divider"></li>
 					<li><a href="#"><span class="glyphicon glyphicon-play-circle play-icon" aria-hidden="true"></span> &nbsp; Watch A Quick Demo</a></li>
@@ -76,9 +82,10 @@
 			<li role="presentation" class="dropdown">
 				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Industries <span class="caret"></span></a>
 				<ul class="dropdown-menu">
-					<li><a href="#">Management Console</a></li>
-					<li><a href="#">Mobile Auditor</a></li>
-					<li><a href="#">Search Driven Analytics</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/solutions-food-service">Food Service</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/solutions-hospitality">Hospitality</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/solutions-retail">Retail</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/solutions-other">Other Industries</a></li>
 					<li role="separator" class="divider"></li>
 					<li><a href="#"><span class="glyphicon glyphicon-play-circle play-icon" aria-hidden="true"></span> &nbsp; Watch A Quick Demo</a></li>
 				</ul>
@@ -87,7 +94,7 @@
 			<li role="presentation" class="dropdown">
 				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Clients <span class="caret"></span></a>
 				<ul class="dropdown-menu">
-					<li><a href="#">Case Studies</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/5299-2">Case Studies</a></li>
 					<li role="separator" class="divider"></li>
 					<li><a href="#"><span class="glyphicon glyphicon-play-circle play-icon" aria-hidden="true"></span> &nbsp; Watch A Testimonial</a></li>
 				</ul>
@@ -96,13 +103,18 @@
 			<li role="presentation" class="dropdown">
 				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Company <span class="caret"></span></a>
 				<ul class="dropdown-menu">
-					<li><a href="#">Case Studies</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/company">About Us</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/what-we-do">What We Do</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/leadership">Leadership</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/resources">Resources</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/careers">Careers</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/contact">Contact Us</a></li>
 					<li role="separator" class="divider"></li>
 					<li><a href="#"><span class="glyphicon glyphicon-play-circle play-icon" aria-hidden="true"></span> &nbsp; Watch A Testimonial</a></li>
 				</ul>
 			</li>
 
-			<li role="presentation"><a href="#" class="btn btn-lg btn-green">Request A Demo</a></li>
+			<li role="presentation"><a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-green">Request A Demo</a></li>
 		</ul>
 	</nav>
 </div><!-- mobile-hom-wrapper -->
