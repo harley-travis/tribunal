@@ -10,7 +10,7 @@ get_header(); ?>
 		<div class="banner-wrapper">
 			<h1>RizePoint Blog</h1>
 			<div class="banner-btns">
-				<a href="#" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">Newsroom</a> <a href="#" class="btn btn-lg btn-width-lg btn-inverse-white">Resources</a>
+				<a href="<?php echo ROOT_URL;?>/news" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">Newsroom</a> <a href="<?php echo ROOT_URL; ?>/resources" class="btn btn-lg btn-width-lg btn-inverse-white">Resources</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->

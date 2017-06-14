@@ -5,21 +5,22 @@
 get_header(); ?>
 
 
-	<div class="container-fluid pink-yellow">
-		<?php get_template_part('includes/page-header'); ?>
 
-		<div class="container-banner">
-			<div class="banner-wrapper">
-			<h2>Request A Demo</h2>
-				<h3>The World's Most Powerful Brand, Quality, &amp; Safety Compliance Solution</h3>
-				
-			</div><!-- banner-wrapper -->
-		</div><!-- banner -->
-	</div><!-- container-fluid -->
+<div class="container-fluid orange-yellow">
+	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
+	<div class="container banner wrap push">
+		<div class="banner-wrapper">
+			<h1>Request A Demo</h1>
+			<div class="banner-btns">
+				<a href="<?php echo ROOT; ?>/blog" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">RizePoint Blog</a> <a href="<?php echo ROOT_URL; ?>/resources" class="btn btn-lg btn-width-lg btn-inverse-white">Resources</a>
+			</div><!-- banner-btns -->
+		</div><!-- banner-wrapper -->
+	</div><!-- banner -->
+</div><!-- container-fluid -->
 
 <div class="container request-wrapper">
 
-<div class="row">
+
 	<div class="col-md-6 col-sm-12 col-xs-12 request-video blue-text">
 			<div class="request-choose">
 				<h1>Why Choose RizePoint?</h1>
@@ -42,9 +43,9 @@ get_header(); ?>
 		
 	</div><!--request-form-->
 
-</div><!--row-->
+
   
-<div class="row">
+
 	<div class="request-icons">
 		<div class="row circle-row">
 
@@ -93,13 +94,13 @@ get_header(); ?>
 		</div><!--row circle-row-->
 		
 	</div><!--request-icons-->
-</div><!--row-->
+
 
 </div><!--request-wrapper-->
 
 <div class="container-fluid request-brand lightGray-bg">
 	<div class="request-brands-wrapper">
-	<div class="row">
+
 		<div class="request-brands-text gray-text">
 				<p>The Brands Who Trust RizePoint</p>
 		</div><!--request-brands-text-->		
@@ -118,7 +119,7 @@ get_header(); ?>
 		</div>
 	
 		
-	</div><!--row-->
+
 		<div class="request-client-button">
 			<btn-lg btn-green></btn-md>
 		</div><!--request-client-button-->

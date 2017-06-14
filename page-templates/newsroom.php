@@ -4,13 +4,22 @@
 */
 get_header(); ?>
 
+<style>
+/*
+	.news-icon-wrapper {
+    text-align: center;
+}
+*/
+</style>
+
+
 <div class="container-fluid purple-blue-green">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
 			<h1>Newsroom</h1>
 			<div class="banner-btns">
-				<a href="#" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">RizePoint Blog</a> <a href="#" class="btn btn-lg btn-width-lg btn-inverse-white">Resources</a>
+				<a href="<?php echo ROOT_URL; ?>/blog" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">RizePoint Blog</a> <a href="<?php echo ROOT_URL; ?>/resources" class="btn btn-lg btn-width-lg btn-inverse-white">Resources</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
@@ -34,7 +43,7 @@ get_header(); ?>
 			  </a>
 			</li>
 			<li class="col-lg-2 col-md-4 col-sm-12 news-icon-title" onclick="location.href='http://rizepoint.com/blog/'">
-				<a href="">
+				<a href="<?php echo ROOT_URL; ?>/blog">
 					<img src="http://rizepoint.com/wp-content/uploads/2016/10/blog-01.png" alt="" class="newsroom-icon-png-img"><br>
 					<span class="ntext">Blog</span>
 				</a>

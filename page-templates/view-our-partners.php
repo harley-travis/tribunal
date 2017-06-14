@@ -11,7 +11,7 @@ get_header(); ?>
 		<div class="banner-wrapper">
 			<h1>Our Partners</h1>
 			<div class="banner-btns">
-				<button type="button" class="btn btn-lg btn-width btn-inverse-white orange-text" data-toggle="modal" data-target="#banner-video">Learn More</button> <a href="#" class="btn btn-lg btn-width btn-inverse-white">Become A Partner</a>
+				<button type="button" class="btn btn-lg btn-width btn-inverse-white orange-text" data-toggle="modal" data-target="#banner-video">Learn More</button> <a href="<?php echo ROOT_URL; ?>/partners" class="btn btn-lg btn-width btn-inverse-white">Become A Partner</a>
 
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
@@ -78,7 +78,7 @@ get_header(); ?>
 </div><!--container-fluid-->
 
 <div class="button-pos">
-	<button class="button btn-green">Become A Partner</button>
+	<button class="button btn-green" href="<?php echo ROOT_URL; ?>/partners">Become A Partner</button>
 </div><!--button-pos-->
 
 

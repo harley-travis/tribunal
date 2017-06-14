@@ -10,7 +10,7 @@ get_header(); ?>
 		<div class="banner-wrapper">
 			<h1>About Us</h1>
 			<div class="banner-btns">
-				<a href="#" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">Meet The Executives</a> <a href="#" class="btn btn-lg btn-width-lg btn-inverse-white">Join RizePoint</a>
+				<a href="<?php echo ROOT_URL; ?>/leadership" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">Meet The Executives</a> <a href="<?php echo ROOT_URL; ?>/careers" class="btn btn-lg btn-width-lg btn-inverse-white">Join RizePoint</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
@@ -333,7 +333,7 @@ get_header(); ?>
 	</div><!-- avengers-fluid -->
 
 	<div class="container avengers-cta center">
-		<a href="#" class="btn btn-lg btn-green">Meet Our Executives</a> 
+		<a href="<?php echo ROOT_URL; ?>//leadership" class="btn btn-lg btn-green">Meet Our Executives</a> 
 	</div><!-- avengers-cta -->
 </section><!-- avengers -->
 

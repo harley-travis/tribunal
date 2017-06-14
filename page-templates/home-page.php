@@ -15,7 +15,7 @@ get_header(); ?>
 		<div class="home-banner-wrapper">
 			<h1>The Industry Standard Platform For Brand, Quality, &amp; Safety Compliance</h1>
 			<div class="banner-btns">
-				<button type="button" class="btn btn-lg btn-width btn-white orange-text" data-toggle="modal" data-target="#homeVideo">Watch a Video</button> <a href="#" class="btn btn-lg btn-width btn-inverse-white">Try It</a>
+				<button type="button" class="btn btn-lg btn-width btn-white orange-text" data-toggle="modal" data-target="#homeVideo">Watch a Video</button> <a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-width btn-inverse-white">Try It</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
@@ -133,7 +133,7 @@ get_header(); ?>
 						1
 					</div><!-- modal-body -->
 					<div class="modal-footer">
-						<button type="button" class="btn btn-inverse-green btn-medium">Learn More</button> <button type="button" class="btn btn-green btn-medium">Request A Demo</button>
+						<a href="<?php echo ROOT_URL; ?>/solutions-food-service" button type="button" class="btn btn-inverse-green btn-medium">Learn More</a> <a href="<?php echo ROOT_URL; ?>/request-a-demo" button type="button" class="btn btn-green btn-medium">Request A Demo</a>
 					</div>
 				</div><!-- modal-content -->
 			</div><!-- modal-dialog -->
@@ -149,7 +149,7 @@ get_header(); ?>
 						2
 					</div><!-- modal-body -->
 					<div class="modal-footer">
-						<button type="button" class="btn btn-inverse-green btn-medium">Learn More</button> <button type="button" class="btn btn-green btn-medium">Request A Demo</button>
+						<a href="<?php echo ROOT_URL; ?>/solutions-hospitality" button type="button" class="btn btn-inverse-green btn-medium">Learn More</a> <a href="<?php echo ROOT_URL; ?>/request-a-demo" button type="button" class="btn btn-green btn-medium">Request A Demo</a>
 					</div>
 				</div><!-- modal-content -->
 			</div><!-- modal-dialog -->
@@ -165,7 +165,7 @@ get_header(); ?>
 						3
 					</div><!-- modal-body -->
 					<div class="modal-footer">
-						<button type="button" class="btn btn-inverse-green btn-medium">Learn More</button> <button type="button" class="btn btn-green btn-medium">Request A Demo</button>
+						<a href="<?php echo ROOT_URL; ?>/solutions-retail" button type="button" class="btn btn-inverse-green btn-medium">Learn More</a> <a href="<?php echo ROOT_URL; ?>/request-a-demo" button type="button" class="btn btn-green btn-medium">Request A Demo</a>
 					</div>
 				</div><!-- modal-content -->
 			</div><!-- modal-dialog -->
@@ -181,7 +181,7 @@ get_header(); ?>
 						4
 					</div><!-- modal-body -->
 					<div class="modal-footer">
-						<button type="button" class="btn btn-inverse-green btn-medium">Learn More</button> <button type="button" class="btn btn-green btn-medium">Request A Demo</button>
+						<a href="<?php echo ROOT_URL; ?>/solutions-other" button type="button" class="btn btn-inverse-green btn-medium">Learn More</a> <a href="<?php echo ROOT_URL; ?>/request-a-demo" button type="button" class="btn btn-green btn-medium">Request A Demo</a>
 					</div>
 				</div><!-- modal-content -->
 			</div><!-- modal-dialog -->
@@ -200,10 +200,10 @@ get_header(); ?>
 			</div><!-- feature-video-demo -->
 			<div class="feature-btns">
 				<div class="col-md-6 col-sm-12 feature-btn-wrapper fl">
-					<a href="#" class="btn btn-lg btn-inverse-white">Request A Demo</a>
+					<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-inverse-white">Request A Demo</a>
 				</div><!-- feature-btn-wrapper -->
 				<div class="col-md-6 col-sm-12 feature-btn-wrapper fr">
-					<a href="#" class="btn btn-lg btn-inverse-white">Learn More</a>
+					<a href="<?php echo ROOT_URL; ?>/solutions-food-service" class="btn btn-lg btn-inverse-white">Learn More</a>
 				</div><!-- feature-btn-wrapper -->
 			</div><!-- feature-btns -->
 		</div><!-- home-box-feature-1 -->
@@ -217,10 +217,10 @@ get_header(); ?>
 			</div><!-- feature-video-demo -->
 			<div class="feature-btns">
 				<div class="col-md-6 col-sm-12 feature-btn-wrapper fl">
-					<a href="#" class="btn btn-lg btn-inverse-white">Request A Demo</a>
+					<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-inverse-white">Request A Demo</a>
 				</div><!-- feature-btn-wrapper -->
 				<div class="col-md-6 col-sm-12 feature-btn-wrapper fr">
-					<a href="#" class="btn btn-lg btn-inverse-white">Learn More</a>
+					<a href="<?php echo ROOT_URL; ?>/solutions-hospitality" class="btn btn-lg btn-inverse-white">Learn More</a>
 				</div><!-- feature-btn-wrapper -->
 			</div><!-- feature-btns -->
 		</div><!-- home-box-feature-1 -->
@@ -234,10 +234,10 @@ get_header(); ?>
 			</div><!-- feature-video-demo -->
 			<div class="feature-btns">
 				<div class="col-md-6 col-sm-12 feature-btn-wrapper fl">
-					<a href="#" class="btn btn-lg btn-inverse-white">Request A Demo</a>
+					<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-inverse-white">Request A Demo</a>
 				</div><!-- feature-btn-wrapper -->
 				<div class="col-md-6 col-sm-12 feature-btn-wrapper fr">
-					<a href="#" class="btn btn-lg btn-inverse-white">Learn More</a>
+					<a href="<?php echo ROOT_URL; ?>/solutions-retail" class="btn btn-lg btn-inverse-white">Learn More</a>
 				</div><!-- feature-btn-wrapper -->
 			</div><!-- feature-btns -->
 		</div><!-- home-box-feature-1 -->
@@ -251,10 +251,10 @@ get_header(); ?>
 			</div><!-- feature-video-demo -->
 			<div class="feature-btns">
 				<div class="col-md-6 col-sm-12 feature-btn-wrapper fl">
-					<a href="#" class="btn btn-lg btn-inverse-white">Request A Demo</a>
+					<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-inverse-white">Request A Demo</a>
 				</div><!-- feature-btn-wrapper -->
 				<div class="col-md-6 col-sm-12 feature-btn-wrapper fr">
-					<a href="#" class="btn btn-lg btn-inverse-white">Learn More</a>
+					<a href="<?php echo ROOT_URL; ?>/solutions-other" class="btn btn-lg btn-inverse-white">Learn More</a>
 				</div><!-- feature-btn-wrapper -->
 			</div><!-- feature-btns -->
 		</div><!-- home-box-feature-1 -->
@@ -270,7 +270,7 @@ get_header(); ?>
 		<img src="<?php echo ROOT; ?>assets/img/logo/bx/rizepoint-bx-logo.png" alt="" class="bx-img">
 	</div><!-- bx-img-wrapper -->
 	<div class="bx-btn-wrapper">
-		<a href="#" class="btn btn-lg btn-orange">Learn More</a>
+		<a href="<?php echo ROOT_URL; ?>/brand-experience" class="btn btn-lg btn-orange">Learn More</a>
 	</div><!-- bx-btn-wrapper -->
 </section><!-- bx-section -->
 
@@ -374,7 +374,7 @@ get_header(); ?>
 							<li>Schedule audits and view audit schedules</li>				
 						</ul>
 						<div class="home-management-console-cta">
-							<a href="#" class="btn btn-md btn-green">Learn More</a>
+							<a href="<?php echo ROOT_URL; ?>/products#mc" class="btn btn-md btn-green">Learn More</a>
 						</div><!-- home-management-console-cta -->
 					</div><!-- slant-right -->
 				</div><!-- home-switch-zero -->
@@ -389,7 +389,7 @@ get_header(); ?>
 							<li>Schedule audits and view audit schedules</li>				
 						</ul>
 						<div class="home-management-console-cta">
-							<a href="#" class="btn btn-md btn-green">Learn More</a>
+							<a href="<?php echo ROOT_URL; ?>/products#ma" class="btn btn-md btn-green">Learn More</a>
 						</div><!-- home-management-console-cta -->
 					</div><!-- slant-right -->
 					<div class="col-md-6 col-sm-12 mc-slant-left">

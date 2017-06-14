@@ -11,7 +11,7 @@ get_header(); ?>
 		<div class="banner-wrapper">
 			<h1>Become A Partner</h1>
 			<div class="banner-btns">
-				<button type="button" class="btn btn-lg btn-width btn-inverse-white orange-text" data-toggle="modal" data-target="#banner-video">View Partners</button> <a href="#" class="btn btn-lg btn-width btn-inverse-white">Become A Partner</a>
+				<a href="<?php echo ROOT_URL; ?>/view-our-partners" class="btn btn-lg btn-width btn-inverse-white">View Partners</button> <a href="#partner" class="btn btn-lg btn-width btn-inverse-white">Become A Partner</a>
 
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
@@ -45,7 +45,7 @@ get_header(); ?>
 	</div><!--partners-text-->
 	
 	<div class="col-md-5 col-sm-12 col-xs-12 partners-form purple-text">
-	<h3>Become A</h3>
+	<h3 id="partner">Become A</h3>
 	<h1>Partner</h1>
 		<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>
 		<form id="mktoForm_457"></form>

@@ -85,7 +85,7 @@ get_header();
 		<div class="banner-wrapper">
 			<h1>Resources</h1>
 			<div class="banner-btns">
-				<a href="#" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">RizePoint Blog</a> <a href="#" class="btn btn-lg btn-width-lg btn-inverse-white">Newsroom</a>
+				<a href="<?php echo ROOT_URL; ?>/blog" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">RizePoint Blog</a> <a href="<?php echo ROOT_URL; ?>/newsroom" class="btn btn-lg btn-width-lg btn-inverse-white">Newsroom</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->

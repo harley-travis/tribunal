@@ -16,7 +16,7 @@ get_header(); ?>
 			<h1>Frank Maylett</h1>
 			<h3>President &amp; Chief Executive Officer</h3>
 			<div class="banner-btns">
-				<a href="#" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">RizePoint Leadership</a> <a href="#" class="btn btn-lg btn-width-lg btn-inverse-white">Connect With Frank</a>
+				<a href="<?php echo ROOT_URL; ?>/leadership" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">RizePoint Leadership</a> <a href="https://www.linkedin.com/in/frank-maylett-2898b01/" target="_blank" class="btn btn-lg btn-width-lg btn-inverse-white">Connect With Frank</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->

@@ -3,53 +3,7 @@
  * Template Name: What We Do
  */
 get_header(); ?>
-<style>
-	.do-intro{
-		padding-top: 100px;
-		padding-bottom: 200px;
-	}
-	
-	.circle-row{
-		padding-top: 130px;
-	}
-	
-		.aud-vid{
-		    margin: auto;
-			text-align: center;
-			padding-bottom: 110px;
-			padding-left: 50px;
-			padding-right: 50px;
-			width: 100%;
-			max-width: 1200px;
-	}
-	
-	.do-clients-title{
-		    text-align: center;
-			padding-bottom: 30px;
-			padding-top:80px;
-	}
 
-	@media only screen and (max-width: 1024px){
-		.do-intro{
-			padding-top: 40px;
-			padding-bottom: 50px;
-		}
-		
-		.do-clients-title{
-			padding-top: 1px;
-		}
-		
-		.button-pos{
-			padding-bottom: 50px;
-		}
-	}
-	
-	@media only screen and (max-width: 1024px){
-		.do-intro{
-			padding-bottom:1px;
-		}
-	}
-</style>
 
 <div class="container-fluid purple-blue">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
@@ -57,7 +11,7 @@ get_header(); ?>
 		<div class="banner-wrapper">
 			<h1>What We Do</h1>
 			<div class="banner-btns">
-				<button type="button" class="btn btn-lg btn-width btn-inverse-white orange-text" data-toggle="modal" data-target="#banner-video">Management Console</button> <a href="#" class="btn btn-lg btn-width btn-inverse-white">Mobile Auditor</a>
+				<a href="<?php echo ROOT_URL; ?>/products#mc" class="btn btn-lg btn-width btn-inverse-white">Management Console</a> <a href="<?php echo ROOT_URL; ?>/products#ma" class="btn btn-lg btn-width btn-inverse-white">Mobile Auditor</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
@@ -72,7 +26,7 @@ get_header(); ?>
 			</p>
 			
 			<div class="button-pos">
-				<button class="button btn-green">Download Datasheet</button>
+				<button class="button btn-green" target="_blank">Download Datasheet</button>
 			</div><!--button-pos-->
 
 		</div><!--do-text-->
@@ -362,8 +316,8 @@ get_header(); ?>
 
 
 	<div class="button-pos">
-		<button class="button btn-orange">Download Datasheet</button>
-		<button class="button btn-orange">Request A Demo</button>
+		<button class="button btn-orange" target="_blank">Download Datasheet</button>
+		<button class="button btn-orange" href="<?php echo ROOT_URL; ?>/request-a-demo">Request A Demo</button>
 	</div><!--button-pos-->	
 
 

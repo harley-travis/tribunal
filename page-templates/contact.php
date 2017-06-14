@@ -82,7 +82,7 @@ var map=new google.maps.Map(document.getElementById("contact-map"),mapProp);
 
 <div class="contact-wrapper">
 	<div class="contact-email">
-		<p>For<a href="#">Public Relations</a> inquiries, contact <a href="#">pr&commat;rizepoint.com</a></p>
+		<p>ForPublic Relations inquiries, contact <a href="mailto:pr@rizepoint.com">pr&commat;rizepoint.com</a></p>
 	</div><!--contact-details-->
 </div><!--contact-wrapper-->
 

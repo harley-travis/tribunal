@@ -16,7 +16,7 @@ get_header(); ?>
 			<h1>Tim Harris</h1>
 			<h3>Senior Vice President of Product</h3>
 			<div class="banner-btns">
-				<a href="#" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">RizePoint Leadership</a> <a href="#" class="btn btn-lg btn-width-lg btn-inverse-white">Connect With Tim</a>
+				<a href="<?php echo ROOT_URL; ?>/leadership" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">RizePoint Leadership</a> <a href="https://www.linkedin.com/in/mitharris/" target="_blank" class="btn btn-lg btn-width-lg btn-inverse-white">Connect With Tim</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->

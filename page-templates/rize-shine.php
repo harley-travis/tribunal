@@ -11,7 +11,7 @@ get_header(); ?>
 		<div class="banner-wrapper">
 			<h1>Rize &#38; Shine</h1>
 			<div class="banner-btns">
-				<button type="button" class="btn btn-lg btn-width btn-inverse-white orange-text" data-toggle="modal" data-target="#banner-video">Watch the</Video></button> <a href="#" class="btn btn-lg btn-width btn-inverse-white">The Blog</a>
+				<button type="button" class="btn btn-lg btn-width btn-inverse-white orange-text" data-toggle="modal" data-target="#banner-video">Watch the</Video></button> <a href="<?php echo ROOT_URL; ?>/blog" class="btn btn-lg btn-width btn-inverse-white">The Blog</a>
 
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->

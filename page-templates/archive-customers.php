@@ -6,7 +6,7 @@
 		<div class="banner-wrapper">
 			<h1>Our Clients</h1>
 			<div class="banner-btns">
-				<a type="button" class="btn btn-lg btn-width btn-inverse-white orange-text">Case Studies</a> <a href="#" class="btn btn-lg btn-width btn-inverse-white">Free Demo</a>
+				<a href ="<?php echo ROOT_URL; ?>/5299-2" type="button" class="btn btn-lg btn-width btn-inverse-white orange-text">Case Studies</a> <a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-width btn-inverse-white">Free Demo</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
@@ -47,7 +47,7 @@
 		<?php wp_reset_query(); ?>
 
 		<div class="clients-cta">
-			<a href="#" class="btn btn-lg btn-green">Join The Club</a>
+			<a href="<?php echo ROOT_URL; ?>/careers" class="btn btn-lg btn-green">Join The Club</a>
 		</div><!-- clients-cta -->
 	</div><!-- clients-loop-wrapper -->
 </section><!-- clients-loop -->

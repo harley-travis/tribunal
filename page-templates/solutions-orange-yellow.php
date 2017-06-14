@@ -4,7 +4,7 @@
 */
 get_header(); ?>
 
-<div class="container-fluid purple-pink">
+<div class="container-fluid orange-yellow">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">

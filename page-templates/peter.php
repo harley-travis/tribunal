@@ -16,7 +16,7 @@ get_header(); ?>
 			<h1>Peter Johnson</h1>
 			<h3>Vice President of People Operations</h3>
 			<div class="banner-btns">
-				<a href="#" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">RizePoint Leadership</a> <a href="#" class="btn btn-lg btn-width-lg btn-inverse-white">Connect With Peter</a>
+				<a href="<?php echo ROOT_URL; ?>/leadership" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">RizePoint Leadership</a> <a href="https://www.linkedin.com/in/peternjohnson/" target="_blank" class="btn btn-lg btn-width-lg btn-inverse-white">Connect With Peter</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->

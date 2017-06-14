@@ -14,7 +14,7 @@ get_header(); ?>
 		<div class="banner-wrapper">
 			<h1>Case Studies</h1>
 			<div class="banner-btns">
-				<a href="#" class="btn btn-lg btn-width btn-inverse-white orange-text">View Clients</a> <a href="#" class="btn btn-lg btn-width btn-inverse-white">Free Demo</a>
+				<a href="<?php echo ROOT_URL; ?>/customers" class="btn btn-lg btn-width btn-inverse-white orange-text">View Clients</a> <a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-width btn-inverse-white">Free Demo</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
