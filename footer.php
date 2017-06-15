@@ -45,8 +45,10 @@
 							<li><a href="<?php echo ROOT_URL; ?>/solutions-food-service">Food Service</a></li>
 							<li><a href="<?php echo ROOT_URL; ?>/solutions-hospitality">Hospitality</a></li>
 							<li><a href="<?php echo ROOT_URL; ?>/solutions-retail">Retail</a></li>
-							<li><a href="<?php echo ROOT_URL; ?>/csr">CSR</a></li>
-							<li><a href="<?php echo ROOT_URL; ?>/fsma">FSMA</a></li>
+							<li><a href="https://rizepoint.com/csr/" target="_blank">Responsible Sourcing</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/solution-fsma">FSMA</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/solution-it">IT As The Driver</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/solution-state-department">State Departments</a></li>
 						</ul>
 					</div><!-- footer-card -->
 					<div class="footer-card">
@@ -64,11 +66,11 @@
 							<li><a href="<?php echo ROOT_URL; ?>/company">About Us</a></li>
 							<li><a href="<?php echo ROOT_URL; ?>/resources">Resources</a></li>
 							<li><a href="<?php echo ROOT_URL; ?>/careers">Careers</a></li>
-							<li><a href="https://rizepoint.com/news/">Newsroom</a></li>
-							<li><a href="https://rizepoint.com/blog/">Blog</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/newsroom/">Newsroom</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/blog/">Blog</a></li>
 							<li><a href="<?php echo ROOT_URL; ?>/rize-shine">Community Relations</a></li>
 							<li><a href="<?php echo ROOT_URL; ?>/awards">Awards</a></li>
-							<li><a href="http://trust.rizepoint.com/">Trust.RizePoint.com</a></li>
+							<li><a href="http://trust.rizepoint.com/" target="_blank">Trust.RizePoint.com</a></li>
 							<li><a href="<?php echo ROOT_URL; ?>/contact-us">Contact Us</a></li>
 						</ul>
 					</div><!-- footer-card -->

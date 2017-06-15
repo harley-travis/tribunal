@@ -21,7 +21,7 @@ get_header(); ?>
 <div class="container-fluid">
 	<div class="container rize-content">
 		<p>
-			RIZE &#38; SHINE encompasses our existing efforts to be a good corporate citizen. From our stem scholarship partnership with canyons school district to our diversity efforts, RIZE & SHINE formalizes our community, philanthropy, and environmental commitments.
+			RIZE &#38; SHINE encompasses our existing efforts to be a good corporate citizen. From our stem scholarship partnership with canyons school district to our diversity efforts, RIZE &amp; SHINE formalizes our community, philanthropy, and environmental commitments.
 			<br><br>
 			In 2016, our RIZE &#38; SHINE efforts will include 4 quarterly service days, in-kind software donations, and employee donations. Our volunteer program alone will amount to more than 2,500 hours spent in the community each year. We plan to expand these programs every year and be a Silicon Slopes leader in CSR.
 			<br><br>
@@ -33,7 +33,7 @@ get_header(); ?>
 <div class="">
 	<div class="container rize-stories">
 		<div class="col-md-6 col-sm-12 col-xs-12 rize-img-wrapper">
-			<img src="<?php echo ROOT; ?>assets\img\blog\frank.jpg" alt="" class="rize-img">
+			<img src="<?php echo ROOT; ?>assets/img/employees/ec/frank-maylett.jpg" alt="" class="rize-img">
 		</div><!--rize-img-->
 		<div class="col-md-6 col-sm-12 col-xs-12 rize-text">
 			<div class="rize-text-title">
@@ -49,7 +49,7 @@ get_header(); ?>
 <div class="container-fluid lightGray-bg">
 	<div class="container rize-stories">
 		<div class="col-md-6 col-sm-12 col-xs-12 rize-img-wrapper">
-			<img src="<?php echo ROOT; ?>assets\img\blog\frank.jpg" class="rize-img">
+			<img src="<?php echo ROOT; ?>assets/img/employees/ec/frank-maylett.jpg" class="rize-img">
 		</div><!--rize-img-->
 		<div class="col-md-6 col-sm-12 col-xs-12 rize-text">
 			<div class="rize-text-title">
@@ -62,10 +62,9 @@ get_header(); ?>
 	</div><!--rize-stories-2-->
 </div>
 	
-	
 	<div class="container rize-stories">
 		<div class="col-md-6 col-sm-12 col-xs-12 rize-img-wrapper">
-			<img src="<?php echo ROOT; ?>assets\img\blog\frank.jpg" alt="" class="rize-img">
+			<img src="<?php echo ROOT; ?>assets/img/employees/ec/frank-maylett.jpg" alt="" class="rize-img">
 		</div><!--rize-img--> 
 		<div class="col-md-6 col-sm-12 col-xs-12 rize-text">
 			<div class="rize-text-title">
@@ -75,9 +74,7 @@ get_header(); ?>
 				<p>A sustainable food system means growing, distributing, and disposing of food in a safe and ecological way. With our volunteer and corporate giving efforts, we support organizations that provide access, education, and resources for sustainable food initiatives.</p>
 			</div><!--rize-text-content-->
 		</div><!--rize-text-->
-		
 	</div><!--rize-stories-->
-	
 </div><!--container-fluid-->
 
 <div class="container-fluid">
@@ -102,7 +99,7 @@ get_header(); ?>
 	</div><!--partners-logos-->
 	
 	<div class=" container inquiry">
-			<p>Please send in-kind donations and sponsorship inquiries to whitney.mccarthy@rizepoint.com</p>
+		<p>Please send in-kind donations and sponsorship inquiries to <a href="mailto:pr@rizepoint.com">pr@rizepoint.com</a></p>
 		</div><!--inquiry-->
 </div><!--container-fluid-->
 

@@ -1,14 +1,14 @@
 <?php 
 /**
- * Template Name: Solutions | Green-Blue-Purple
+ * Template Name: Solutions | FSMA
 */
 get_header(); ?>
 
-<div class="container-fluid green-blue">
+<div class="container-fluid blue-green">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1>Hospitality</h1>
+			<h1>FSMA</h1>
 			<div class="banner-btns">
 				<button type="button" class="btn btn-lg btn-width btn-inverse-white orange-text" data-toggle="modal" data-target="#banner-video">Watch Video</button> <a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-width btn-inverse-white">Free Demo</a>
 			</div><!-- banner-btns -->

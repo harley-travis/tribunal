@@ -4,41 +4,34 @@
  */
 get_header(); ?>
 
-
 <div class="container-fluid purple-blue">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
 			<h1>What We Do</h1>
 			<div class="banner-btns">
-				<a href="<?php echo ROOT_URL; ?>/products#mc" class="btn btn-lg btn-width btn-inverse-white">Management Console</a> <a href="<?php echo ROOT_URL; ?>/products#ma" class="btn btn-lg btn-width btn-inverse-white">Mobile Auditor</a>
+				<a href="<?php echo ROOT_URL; ?>/products#mc" class="btn btn-lg btn-inverse-white">Management Console</a> <a href="<?php echo ROOT_URL; ?>/products#ma" class="btn btn-lg btn-width btn-inverse-white">Mobile Auditor</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
 </div><!-- container-fluid -->
 
-
 <div class="container-fluid">
 	<div class="container do-text">
 		<div class="do-intro">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula urna erat, in accumsan nunc tincidunt vel. Integer vitae auctor nibh. Mauris rhoncus elit sed augue bibendum pharetra. Fusce vitae eleifend dolor, in faucibus odio. Phasellus congue pharetra tristique. Nam aliquam est enim, non sagittis felis ornare et. Duis dignissim at orci vel facilisis. Duis et metus mollis, pellentesque felis vitae, finibus enim.
-			</p>
-			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula urna erat, in accumsan nunc tincidunt vel. Integer vitae auctor nibh. Mauris rhoncus elit sed augue bibendum pharetra. Fusce vitae eleifend dolor, in faucibus odio. Phasellus congue pharetra tristique. Nam aliquam est enim, non sagittis felis ornare et. Duis dignissim at orci vel facilisis. Duis et metus mollis, pellentesque felis vitae, finibus enim.</p>
 			<div class="button-pos">
-				<button class="button btn-green" target="_blank">Download Datasheet</button>
+				<button class="btn btn-lg btn-green" target="_blank">Download Datasheet</button>
 			</div><!--button-pos-->
-
 		</div><!--do-text-->
 	</div><!--do-intro-->
 </div><!--container-fluid-->
 
-
-<section id="system-features" class="container-fluid slant-wrapper wrap push">	
+<section id="system-features" class="container-fluid wrap push">	
 	<section class="solutions-system-features-wrapper">
-		<div class="slant purple-bg solutions-features-size">
-			<div class="slant-content-wrap">
-				<div class="system-features solutions-system-features">
+		<div class="purple-bg solutions-features-size">
+			<div class="content-wrap">
+				<div class="system-features solutions-system-features wwd-features">
 					<div class="container system-features-wrapper">
 						<h2>System Features</h2>
 						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-1" aria-expanded="false" aria-controls="collapseExample">
@@ -157,10 +150,7 @@ get_header(); ?>
 	</section><!-- solutions-system-features-wrapper -->
 </section><!-- slant-wrapper -->
 
-
-
-
-<div class="content-wrapper">
+<div class="content-wrapper wwd-cw">
 	<div class="request-icons">
 		<div class="row circle-row">
 
@@ -176,9 +166,6 @@ get_header(); ?>
 				</div><!--circle-text-->
 			</div><!--circle-wrapper-->
 
-		
-
-
 			<div class="col-md-4 col-sm-4 col-xs-12 circle-wrapper">
 				<div class="circle-icon orangeTwo-bg">
 					<img src="<?php echo ROOT; ?>assets/img/icons/chart-time-icon-white.png" class="circle-icon-img"></img>
@@ -190,9 +177,6 @@ get_header(); ?>
 					<p></p>
 				</div><!--circle-text-->
 			</div><!--circle-wrapper-->
-
-		
-
 
 			<div class="col-md-4 col-sm-4 col-xs-12 circle-wrapper">
 				<div class="circle-icon green-bg">
@@ -211,15 +195,10 @@ get_header(); ?>
 	</div><!--request-icons-->
 </div><!--row-->
 
-
-
 <div class="aud-vid orangeOne-text">
-<h2>Bluetooth Thermocouple Intgration</h2>
-	<script src="https://fast.wistia.com/embed/medias/wmvwv72z9m.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_wmvwv72z9m videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+	<h2>Bluetooth Thermocouple Intgration</h2>
+		<script src="https://fast.wistia.com/embed/medias/wmvwv72z9m.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_wmvwv72z9m videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
 </div><!--aud-vid-->
-
-
-
 
 <div class="container-fluid aud-content2 extraGray-bg">
 	<div class="aud-wrapper">
@@ -271,7 +250,7 @@ get_header(); ?>
 </div><!--man-content-->
 
 <div class="do-clients-title">
-	<h3>Some Of Our Clients</h3>
+	<h2 class="green-text">Some Of Our Clients</h>
 </div><!--do-clients-title-->
 
 <div class="container-fluid">
@@ -281,13 +260,13 @@ get_header(); ?>
 		</div><!--do-clients-title-->
 		<div class="do-logo">
 			<div class="col-md-4 col-sm-12 col-xs-12 do-client-img">
-				<img src="<?php echo ROOT; ?>assets/img/clients/ritz-carlton.png">
+				<img src="<?php echo ROOT; ?>assets/img/clients/ritz-carlton.png" class="wwd-img">
 			</div><!--do-client-img-->
 			<div class="col-md-4 col-sm-12 col-xs-12 do-client-img">
-				<img src="<?php echo ROOT; ?>assets/img/clients/chilies.png">
+				<img src="<?php echo ROOT; ?>assets/img/clients/chilies.png" class="wwd-img">
 			</div><!--do-client-img-->
 			<div class="col-md-4 col-sm-12 col-xs-12 do-client-img">
-				<img src="<?php echo ROOT; ?>assets/img/clients/hard-rock.png">
+				<img src="<?php echo ROOT; ?>assets/img/clients/hard-rock.png" class="wwd-img">
 			</div><!--do-client-img-->
 			
 		</div><!--do-logo-->
@@ -301,24 +280,22 @@ get_header(); ?>
 		</div><!--do-clients-title-->
 		<div class="do-logo">
 			<div class="col-md-4 col-sm-12 col-xs-12 do-client-img">
-				<img src="<?php echo ROOT; ?>assets/img/clients/ritz-carlton.png">
+				<img src="<?php echo ROOT; ?>assets/img/clients/ritz-carlton.png" class="wwd-img">
 			</div><!--do-client-img-->
 			<div class="col-md-4 col-sm-12 col-xs-12 do-client-img">
-				<img src="<?php echo ROOT; ?>assets/img/clients/chilies.png">
+				<img src="<?php echo ROOT; ?>assets/img/clients/chilies.png" class="wwd-img">
 			</div><!--do-client-img-->
 			<div class="col-md-4 col-sm-12 col-xs-12 do-client-img">
-				<img src="<?php echo ROOT; ?>assets/img/clients/hard-rock.png">
+				<img src="<?php echo ROOT; ?>assets/img/clients/hard-rock.png" class="wwd-img">
 			</div><!--do-client-img-->
 			
 		</div><!--do-logo-->
 	</div><!--do-clients-->
 </div><!--container-fluid-->
 
-
-	<div class="button-pos">
-		<button class="button btn-orange" target="_blank">Download Datasheet</button>
-		<button class="button btn-orange" href="<?php echo ROOT_URL; ?>/request-a-demo">Request A Demo</button>
-	</div><!--button-pos-->	
-
+<div class="container bottom-btn-wrapper">
+	<a class="btn btn-green" target="_blank">Download Datasheet</a>
+	<a class="btn btn-green" href="<?php echo ROOT_URL; ?>/request-a-demo">Request A Demo</a>
+</div><!--button-pos-->	
 
 <?php get_footer(); ?>

@@ -1,5 +1,6 @@
 .clients-heading h2 {
-  padding-bottom: 50px; }
+  padding-bottom: 15px;
+  line-height: 50px; }
 
 .client-box-img {
   width: 100%;

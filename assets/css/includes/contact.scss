@@ -2,7 +2,7 @@
 .contact-wrapper{
 	width:100%;
 	max-width:960px;
-	font-family: "gotham-book";
+	font-family: $gotham-book;
 	margin:auto;
 }
 .contact-text{
@@ -13,16 +13,12 @@
 .contact-form{
 	.h2{
 		text-align: center;
-		color: white;
+		color: $white;
 
 	}
-	background-color: lightblue;
     padding-top: 25px;
     margin-top: 40px;
     padding-bottom: 25px;
-}
-.details-text{
-
 }
 .contact-details{
 	margin-top: 40px;
@@ -33,15 +29,13 @@
 	width: 100%;
 	
 }
-
 .contact-email{	
 	margin-top:15px;
-	border-top:1px gray solid;
+	padding-bottom: 35px;
 	a{
-		color: orange;
+		color: $orangeTwo;
 	}
 }
-
 
 @media only screen and (max-width: 1024px){
 	.contact-details{

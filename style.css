@@ -1939,6 +1939,12 @@ img.news-post-img {
   max-height: 200px;
   float: left; }
 
+.press-list ul {
+  padding: 0;
+  margin: 0; }
+.press-list li {
+  list-style: none; }
+
 /***********************************
    MOBILE STYLES KEEPING IT FRESH
 ***********************************/
@@ -2187,11 +2193,6 @@ img.news-post-img {
   padding: 10px 0px 80px 0px;
   font-weight: bold; }
 
-.request-icons {
-  width: 100%;
-  max-width: 1440px;
-  margin: auto; }
-
 @media only screen and (max-width: 768px) {
   .request-video {
     text-align: center;
@@ -2244,17 +2245,13 @@ img.news-post-img {
   margin: 20px; }
 
 .request-icons {
-  width: 100%;
-  max-width: 1440px;
-  margin: auto; }
+  padding-top: 50px; }
 
 img {
   width: 100%; }
 
 .products-intro-copy {
-  width: 100%;
-  max-width: 930px;
-  margin: 0 auto;
+  padding-top: 50px;
   text-align: center; }
 
 .grad-back {
@@ -2270,25 +2267,18 @@ img {
 .title {
   padding: 250px !important; }
 
+.product-banner-btn-wrapper {
+  margin-top: 35px; }
+
 .banner-wrapper {
   text-align: center;
   padding-bottom: 15px;
-  color: white; }
+  color: #ffffff; }
 
 .banner-wrapper-title {
   text-align: center;
   padding-bottom: 15px;
-  color: white; }
-
-.button {
-  margin: 0 auto;
-  background: teal;
-  padding: 5px 15px 5px 15px;
-  margin: 20px;
-  border-radius: 5px;
-  border: none;
-  color: white;
-  text-align: center; }
+  color: #ffffff; }
 
 .button-pos {
   text-align: center;
@@ -2309,12 +2299,6 @@ img {
 .man-img2 {
   padding-left: 90px; }
 
-.man-text h2 {
-  color: seagreen; }
-
-.man-text2 h2 {
-  color: seagreen; }
-
 .aud-wrapper {
   width: 100%;
   max-width: 1080px;
@@ -2327,18 +2311,11 @@ img {
 .aud-img2 {
   padding-left: 90px; }
 
-.aud-text h2 {
-  color: coral; }
-
-.aud-text2 h2 {
-  color: coral; }
-
 .man-content {
   padding-top: 40px;
   padding-bottom: 40px; }
 
 .man-content2 {
-  background: gainsboro;
   padding-top: 40px;
   padding-bottom: 40px; }
 
@@ -2347,7 +2324,6 @@ img {
   padding-bottom: 40px; }
 
 .aud-content2 {
-  background: gainsboro;
   padding-top: 40px;
   padding-bottom: 40px; }
 
@@ -2464,10 +2440,6 @@ img {
 /* Scss Document */
 .banner-wrapper {
   max-width: 1440px; }
-
-.bluth-stand {
-  width: 100%;
-  max-width: 300px; }
 
 .error-mes {
   padding-top: 40px;
@@ -2700,8 +2672,7 @@ img {
   Rize and Shine
 ***************************/
 .rize-content {
-  padding-top: 50px;
-  padding-bottom: 100px; }
+  padding-top: 50px; }
 
 .rize-text-title h4 {
   border-bottom: 1px solid teal;
@@ -2746,6 +2717,12 @@ img {
   padding-top: 100px;
   padding-bottom: 200px; }
 
+.wwd-features {
+  padding: 50px; }
+
+.wwd-cw {
+  padding: 50px; }
+
 .aud-vid {
   margin: auto;
   text-align: center;
@@ -2757,8 +2734,15 @@ img {
 
 .do-clients-title {
   text-align: center;
-  padding-bottom: 30px;
   padding-top: 80px; }
+
+.wwd-img {
+  max-width: 250px; }
+
+.bottom-btn-wrapper {
+  padding-bottom: 35px;
+  text-align: center;
+  padding-top: 50px; }
 
 @media only screen and (max-width: 1024px) {
   .do-intro {
@@ -2820,7 +2804,7 @@ img {
 .contact-wrapper {
   width: 100%;
   max-width: 960px;
-  font-family: "gotham-book";
+  font-family: gotham-book;
   margin: auto; }
 
 .contact-text {
@@ -2829,13 +2813,12 @@ img {
   font-weight: 600; }
 
 .contact-form {
-  background-color: lightblue;
   padding-top: 25px;
   margin-top: 40px;
   padding-bottom: 25px; }
   .contact-form .h2 {
     text-align: center;
-    color: white; }
+    color: #ffffff; }
 
 .contact-details {
   margin-top: 40px;
@@ -2847,9 +2830,9 @@ img {
 
 .contact-email {
   margin-top: 15px;
-  border-top: 1px gray solid; }
+  padding-bottom: 35px; }
   .contact-email a {
-    color: orange; }
+    color: #fcb040; }
 
 @media only screen and (max-width: 1024px) {
   .contact-details {
@@ -3203,7 +3186,7 @@ footer {
 @media only screen and (max-width: 375px) {
   /* HOME */
   .banner {
-    height: 340px; }
+    height: 485px; }
 
   /* Solutions */
   .slant-wrapper .solutions-testimony-size:after {
@@ -3213,6 +3196,10 @@ footer {
     padding-top: 100px; } }
 /* 320px */
 @media only screen and (max-width: 320px) {
+  /* Home */
+  .slant-content-wrapper h3 {
+    font-size: 4rem; }
+
   .regular-logo,
   .logo-img {
     max-width: 200px; }

@@ -4,18 +4,18 @@
 */
 get_header(); ?>
 
-
-	<div class="container-fluid pink-yellow">
-		<?php get_template_part('includes/page-header'); ?>
-
-		<div class="container banner">
-			<div class="banner-wrapper">
-			<h2>Contact Us</h2>
-				<h3>The World's Most Powerful Brand, Quality, &amp; Safety Compliance Solution</h3>
-				
-			</div><!-- banner-wrapper -->
-		</div><!-- banner -->
-	</div><!-- container-fluid -->
+<div class="container-fluid pink-yellow">
+	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
+	<div class="container banner wrap push">
+		<div class="banner-wrapper">
+			<h1>Contact Us</h1>
+			<h3>The World's Most Powerful Brand, Quality, &amp; Safety Compliance Solution</h3>
+			<div class="banner-btns">
+				<a href="<?php echo ROOT_URL; ?>/company" class="btn btn-lg btn-inverse-white">About RizePoint</a> <a href="<?php echo ROOT_URL; ?>/clients" target="_blank" class="btn btn-lg btn-inverse-white">Customers</a>
+			</div><!-- banner-btns -->
+		</div><!-- banner-wrapper -->
+	</div><!-- banner -->
+</div><!-- container-fluid -->
 	
 <div class="contact-wrapper">	
 <div class="contact-container">
@@ -25,7 +25,7 @@ get_header(); ?>
 			<br>
 			<p>Get in touch now to get started.</p>
 		</div><!--contact-text-->
-		<div class="col-md-6 col-sm-12 col-xs-12 contact-form white-text">
+		<div class="col-md-6 col-sm-12 col-xs-12 contact-form blue-bg white-text">
 			<h2>Fill Out The Form, You'll be Hearing From Us Soon</h2>
 			<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>
 			<form id="mktoForm_457"></form>
@@ -59,6 +59,12 @@ get_header(); ?>
 </div><!--contact-details-->
 </div><!--contact-wrapper-->
 
+<div class="contact-wrapper">
+	<div class="contact-email">
+		<p>ForPublic Relations inquiries, contact <a href="mailto:pr@rizepoint.com">pr&commat;rizepoint.com</a></p>
+	</div><!--contact-details-->
+</div><!--contact-wrapper-->
+
 <div class="container-fluid">
 <div id="contact-map">
 
@@ -74,17 +80,10 @@ var map=new google.maps.Map(document.getElementById("contact-map"),mapProp);
 	</script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRpEaE5Xmip8iOsz3zCcomouI4SMFUk04&callback=myMap"></script>
 
-	
 </div><!--contact-map-->
-
-
 </div><!--container-fluid-->
 
-<div class="contact-wrapper">
-	<div class="contact-email">
-		<p>ForPublic Relations inquiries, contact <a href="mailto:pr@rizepoint.com">pr&commat;rizepoint.com</a></p>
-	</div><!--contact-details-->
-</div><!--contact-wrapper-->
+
 
 
 

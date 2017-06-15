@@ -5,13 +5,13 @@
 get_header(); ?>
 
 <style>
-/*
-	.news-icon-wrapper {
-    text-align: center;
+	ul.press-list {
+    padding: 0;
 }
-*/
+	.press-release-post {
+    padding-bottom: 50px;
+}
 </style>
-
 
 <div class="container-fluid purple-blue-green">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
@@ -19,7 +19,7 @@ get_header(); ?>
 		<div class="banner-wrapper">
 			<h1>Newsroom</h1>
 			<div class="banner-btns">
-				<a href="<?php echo ROOT_URL; ?>/blog" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">RizePoint Blog</a> <a href="<?php echo ROOT_URL; ?>/resources" class="btn btn-lg btn-width-lg btn-inverse-white">Resources</a>
+				<a href="<?php echo ROOT_URL; ?>/blog" class="btn btn-lg btn-inverse-white">RizePoint Blog</a> <a href="<?php echo ROOT_URL; ?>/resources" class="btn btn-lg btn-width-lg btn-inverse-white">Resources</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
@@ -31,13 +31,13 @@ get_header(); ?>
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="tab-menu" class="news-tab container-medium" data-tab>
 			<li class="col-lg-2 col-md-4 col-sm-12 news-icon-title active">
-			  <a href="#panel1">
+			  <a href="<?php echo ROOT_URL; ?>/newsroom">
 				  <img src="http://rizepoint.com/wp-content/uploads/2016/10/press-01.png" alt="" class="newsroom-icon-png-img"><br>
-				  <span class="ntext">Press</span>
+				  <span class="ntext">Newsroom</span>
 			  </a>
 			</li>
 			<li class="col-lg-2 col-md-4 col-sm-12 news-icon-title">
-			  <a href="#panel2">
+			  <a href="<?php echo ROOT_URL; ?>/in-the-news">
 				  <img src="http://rizepoint.com/wp-content/uploads/2016/10/news-01.png" alt="" class="newsroom-icon-png-img"><br>
 				  <span class="ntext">News</span>
 			  </a>
@@ -49,19 +49,19 @@ get_header(); ?>
 				</a>
 			</li>
 			<li class="col-lg-2 col-md-4 col-sm-12 news-icon-title" onclick="location.href='http://rizepoint.com/solutions/corporate-responsibility/'">
-				<a href="">
+				<a href="<?php echo ROOT_URL; ?>/rize-shine">
 					<img src="http://rizepoint.com/wp-content/uploads/2016/10/csr-01-new.png" alt="" class="newsroom-icon-png-img"><br>
 					<span class="ntext">CSR</span>
 				</a>
 			</li>
 			<li class="col-lg-2 col-md-4 col-sm-12 news-icon-title">
-				<a href="/awards">
+				<a href="<?php echo ROOT_URL; ?>/awards">
 					<img src="http://rizepoint.com/wp-content/uploads/2016/10/awards.png" alt="" class="newsroom-icon-png-img"><br>
 					<span class="ntext">Awards</span>
 				</a>
 			</li>
 			<li class="col-lg-2 col-md-4 col-sm-12 news-icon-title">
-				<a href="#panel6">
+				<a href="<?php echo ROOT_URL; ?>/media">
 					<img src="http://rizepoint.com/wp-content/uploads/2016/10/multimedia-01.png" alt="" class="newsroom-icon-png-img"><br>
 					<span class="ntext">Media</span>
 				</a>
@@ -74,39 +74,58 @@ get_header(); ?>
             <section class="press-releases-archive">
                 <div class="">
                     <article class="<?php if ($src[0]) : ?> post-image<?php endif ; ?>">
-                       <?php include  __DIR__ . "/../includes/press.php"; ?>
+						<section class="press-releases-archive">
+							<div class="">
+								<article class="col-md-12 columns<?php if ($src[0]) : ?> post-image<?php endif ; ?>">
+
+									<?php
+									$type = 'press_releases';
+									$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+									$args = [
+										'post_type'      => $type,
+										'post_status'    => 'publish',
+										'orderby'        => 'date',
+										'posts_per_page' => '10',
+										'paged'          => $paged
+									];
+
+									$wp_query = null;
+									$wp_query = new WP_Query($args);
+									if( $wp_query->have_posts() ) : 
+									?>
+									<ul class="press-list">
+									  <?php while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+										<?php $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' ); ?>
+										<li>
+											<div class="press-release-post">
+												<?php if ($src) : ?>
+
+												<?php endif ; ?>
+												<a href="<?php the_permalink() ?>"><h3><?php the_title() ?></h3></a>
+												<hr>
+												<div class="post-content">
+													<?php get_excerpt(450, get_the_id()) ?>
+												</div>
+											</div>
+										</li>
+									  <?php endwhile; ?>
+									 </ul>
+									<?php endif;  ?>
+
+									<?php if ($wp_query->max_num_pages > 1) : ?>
+										<?php echo the_posts_pagination(); ?>
+									<?php endif; ?>
+
+									<?php wp_reset_query(); ?>
+
+								</article>
+							</div>
+						</section>
                     </article>
                 </div>
             </section>
         </div><!-- panel1 -->
-        <div class="content" id="panel2">
-            <!-- NEWS -->
-            <section class="news-archive">
-                <div class="">
-                    <article class="<?php if ($src[0]) : ?> post-image<?php endif ; ?>">
-                       <?php include  __DIR__ . "/../includes/news.php"; ?>
-                    </article>
-                </div><!-- row -->
-            </section>
-        </div><!-- panel 2 -->
-        <div class="content" id="panel3">
-            <!-- BLOG -->
-        </div>
-        <div class="content" id="panel4">
-            <!-- CSR -->
-        </div>
-        <div class="content container-medium" id="panel5">
-            <!-- AWARDS -->
-        </div>
-        <div class="content container-medium" id="panel6">
-            <!-- MEDIA -->
-            <article class="article-newsroom-wrapper">
-                <h3 class="newsroom-title-thing">Media Contact</h3>
-                <hr class="newsroom-title-heading">
-                <p>If you are interested in contacting us, you can reach us by email or phone. We will respond within 24 hours. </p>
-                <p>Email us at <a href="mailto:pr@rizepoint.com">pr@rizepoint.com</a> or call us at <a href="tel:801-285-9827">801-285-9827</a></p>
-            </article>
-        </div>
+       
     </div><!-- tabs-content -->    
 </div><!-- icon-news-columns -->
 

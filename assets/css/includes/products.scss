@@ -1,302 +1,218 @@
-		.banner-buttons{
-			border: 1px white solid;
-			border-radius: 5px;
-			background:none;
-			padding: 5px 15px 5px 15px;
-			margin: 20px;
-			
-		}
-		
-		
-		.request-icons {
-			width: 100%;
-			max-width: 1440px;
-			margin: auto;
-		}
+.banner-buttons{
+	border: 1px white solid;
+	border-radius: 5px;
+	background:none;
+	padding: 5px 15px 5px 15px;
+	margin: 20px;
+}
+.request-icons {
+	padding-top: 50px;
+}
+img {
+	width: 100%;
+}
+.products-intro-copy{
+	padding-top: 50px;
+	text-align: center;
+}
+.grad-back{
+	position: absolute;
+	z-index: 5;
+}
+.container-banner{
+	position:relative;
+	z-index: 10;
+	padding-bottom: 150px;
+	padding-top: 200px;
+}
+.title{
+	padding: 250px !important;
+}
+.product-banner-btn-wrapper{
+	margin-top: 35px;
+}
+.banner-wrapper{
+	text-align:center;
+	padding-bottom:15px;
+	color: $white;
+}
+.banner-wrapper-title{
+	text-align:center;
+	padding-bottom:15px;
+	color: $white;
+}
+.button-pos {
+	text-align: center;
+	margin-top: 40px
+}
+.management-console{
+	padding-top:50px;
+}
+.man-wrapper{
+	width: 100%;
+	max-width: 1050px;
+	padding: 15px 50px 15px 50px;
+	margin: auto;
+}
+.man-img {
+	padding-right: 90px;
+}
+.man-img2 {
+	padding-left: 90px;
+}
+.aud-wrapper{
+	width: 100%;
+	max-width: 1080px;
+	padding: 15px 50px 15px 50px;
+	margin: auto;
+}
+.aud-img {
+	padding-right: 90px;
+}
+.aud-img2 {
+	padding-left: 90px;
+}
+.man-content{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.man-content2{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.aud-content {
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.aud-content2{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.aud-vid{
+	margin: auto;
+	text-align: center;
+	padding-bottom: 110px;
+}
 
-		img {
-			width: 100%;
+@media only screen and (max-width: 2560px){
+	.container-banner{
+		position:relative;
+		z-index: 10;
+		padding-bottom: 400px;
+		padding-top: 300px;
+
 		}
-		
-		.products-intro-copy{
-			width: 100%;
-			max-width: 930px;
-			margin: 0 auto;
-			text-align: center;
+}
+
+@media only screen and (max-width: 1440px){
+	.container-banner{
+		position:relative;
+		z-index: 10;
+		margin-top: -80px;
+		margin-bottom:-180px;
+
 		}
-		
-		.grad-back{
-			position: absolute;
-			z-index: 5;
-		}
-		
-		.container-banner{
-			position:relative;
-			z-index: 10;
-			padding-bottom: 150px;
-    		padding-top: 200px;
-			
-		}
-		
-		.title{
-			padding: 250px !important;
-		}
-		
-		.banner-wrapper{
-			text-align:center;
-			padding-bottom:15px;
-			color:white;
-		}
-		
-		.banner-wrapper-title{
-			text-align:center;
-			padding-bottom:15px;
-			color:white;
-		}
-		
-		.button{
-			margin: 0 auto;
-			background: teal;
-			padding: 5px 15px 5px 15px;
-			margin: 20px;
-			border-radius: 5px;
-			border: none;
-			color: white;
-			text-align: center;
-		}
-		
-		.button-pos {
-			text-align: center;
-			margin-top: 40px
-			
-		}
-		
-		.management-console{
-			padding-top:50px;
-		}
-		
-		.man-wrapper{
-			width: 100%;
-			max-width: 1050px;
-    		padding: 15px 50px 15px 50px;
-			margin: auto;
-		}
-		
-		.man-img {
-			padding-right: 90px;
-		}
-		
-		.man-img2 {
-			padding-left: 90px;
-		}
-		
-		.man-text h2{
-			color:seagreen;
-			
-		}
-		
-		.man-text2 h2{
-			color:seagreen;
-		}
-		
-		.aud-wrapper{
-			width: 100%;
-			max-width: 1080px;
-    		padding: 15px 50px 15px 50px;
-			margin: auto;
-		}
-		
-		.aud-img {
-			padding-right: 90px;
-		}
-		
-		.aud-img2 {
-			padding-left: 90px;
-		}
-		
-		.aud-text h2{
-			color:coral;
-			
-		}
-		
-		.aud-text2 h2{
-			color:coral;
-		}
-		
-		.man-content{
-			padding-top:40px;
-			padding-bottom:40px;
-			
-		}
-		
-		.man-content2{
-			background:gainsboro;
-			padding-top:40px;
-			padding-bottom:40px;
-		}
-		
-		.aud-content {
-			padding-top:40px;
-			padding-bottom:40px;
-			
-		}
-		
-		.aud-content2{
-			background:gainsboro;
-			padding-top:40px;
-			padding-bottom:40px;
-		}
-		
-		.aud-vid{
-			margin: auto;
-			text-align: center;
-			padding-bottom: 110px;
-		}
-		
-		@media only screen and (max-width: 2560px){
-			.container-banner{
-				position:relative;
-				z-index: 10;
-				padding-bottom: 400px;
-				padding-top: 300px;
-		
-				}
-		}
-		
-		@media only screen and (max-width: 1440px){
-			.container-banner{
-				position:relative;
-				z-index: 10;
-				margin-top: -80px;
-				margin-bottom:-180px;
-		
-				}
-		}
-		
-		@media only screen and (max-width: 768px){
-			.banner-wrapper-title{
-				margin-top: -120px;
-				margin-bottom: -120px;
-				
-			}
-			.container-banner{
-				position:relative;
-				z-index: 10;
-				margin-bottom:0px;
-				margin-top:0px;
-				padding-bottom: 85px;
-		
-				}
-		}
-		
-		@media only screen and (max-width: 425px){
-			.circle-row{
-				padding: 10px 0px 10px 0px
-			}
-			
-			.banner-wrapper-title{
-				margin-top: -120px;
-				margin-bottom: -120px;
-				
-			}
-			
-			
-			.container-banner{
-				position:relative;
-				z-index: 10;
-				margin-top: -195px;
-				margin-bottom: 0px;
-				padding-bottom: 0px;
-		
-				}
-			
-			.banner-wrapper{
-				margin-top: -75px;
-			}
-			
-			.management-console{
-				padding-top: 10px;
-				padding-bottom: 0px;
-				margin-bottom: -37px;
-				
-			}
-			
-			.man-img{
-				padding-right: 0px;
-			}
-			
-			.man-img2{
-				padding-left: 0px;
-			}
-			
-			.aud-img2{
-				padding-left: 0px;
-			}
-			
-			.aud-img{
-				padding-right: 0px;
-			}
-			
-			.aud-vid{
-				display: none;
-				max-width: 400px;
-			}
-		}
-		@media only screen and (max-width: 375px){
-			.circle-row{
-				padding: 10px 0px 10px 0px
-			}
-			
-			.banner-wrapper-title{
-				margin-top: -120px;
-				margin-bottom: -120px;
-				
-			}
-			
-			
-			.container-banner{
-				position:relative;
-				z-index: 10;
-				margin-top: -195px;
-				margin-bottom: 0px;
-				padding-bottom: 0px;
-		
-				}
-			
-			.banner-wrapper{
-				margin-top: -100px;
-				
-			}
-			.banner-wrapper h1 {
-				font-size:30px;
-			}
-			
-			.management-console{
-				padding-top: 10px;
-				padding-bottom: 0px;
-				margin-bottom: -37px;
-				
-			}
-			
-			.man-img{
-				padding-right: 0px;
-			}
-			
-			.man-img2{
-				padding-left: 0px;
-			}
-			
-			.aud-img2{
-				padding-left: 0px;
-			}
-			
-			.aud-img{
-				padding-right: 0px;
-			}
-			
-			.aud-vid{
-				display: none;
-				max-width: 400px;
-			}
-		}
+}
+
+@media only screen and (max-width: 768px){
+	.banner-wrapper-title{
+		margin-top: -120px;
+		margin-bottom: -120px;
+
+	}
+	.container-banner{
+		position:relative;
+		z-index: 10;
+		margin-bottom:0px;
+		margin-top:0px;
+		padding-bottom: 85px;
+	}
+}
+
+@media only screen and (max-width: 425px){
+	.circle-row{
+		padding: 10px 0px 10px 0px
+	}
+
+	.banner-wrapper-title{
+		margin-top: -120px;
+		margin-bottom: -120px;
+
+	}
+	.container-banner{
+		position:relative;
+		z-index: 10;
+		margin-top: -195px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.banner-wrapper{
+		margin-top: -75px;
+	}
+	.management-console{
+		padding-top: 10px;
+		padding-bottom: 0px;
+		margin-bottom: -37px;
+	}
+	.man-img{
+		padding-right: 0px;
+	}
+	.man-img2{
+		padding-left: 0px;
+	}
+	.aud-img2{
+		padding-left: 0px;
+	}
+	.aud-img{
+		padding-right: 0px;
+	}
+	.aud-vid{
+		display: none;
+		max-width: 400px;
+	}
+}
+@media only screen and (max-width: 375px){
+	.circle-row{
+		padding: 10px 0px 10px 0px
+	}
+	.banner-wrapper-title{
+		margin-top: -120px;
+		margin-bottom: -120px;
+
+	}
+	.container-banner{
+		position:relative;
+		z-index: 10;
+		margin-top: -195px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.banner-wrapper{
+		margin-top: -100px;
+	}
+	.banner-wrapper h1 {
+		font-size:30px;
+	}
+	.management-console{
+		padding-top: 10px;
+		padding-bottom: 0px;
+		margin-bottom: -37px;
+	}
+	.man-img{
+		padding-right: 0px;
+	}
+	.man-img2{
+		padding-left: 0px;
+	}
+	.aud-img2{
+		padding-left: 0px;
+	}
+	.aud-img{
+		padding-right: 0px;
+	}
+	.aud-vid{
+		display: none;
+		max-width: 400px;
+	}
+}
 

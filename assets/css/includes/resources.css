@@ -1,20 +1,21 @@
 /*
-Error: Undefined variable: "$gotham-book".
-        on line 5 of C:\xampp\htdocs\living-tribunal\assets\css\includes\contact.scss
+Error: Undefined variable: "$lightGray".
+        on line 251 of C:\xampp\htdocs\living-tribunal\assets\css\includes\resources.scss
 
-1: /* Scss Document *\/
-2: .contact-wrapper{
-3: 	width:100%;
-4: 	max-width:960px;
-5: 	font-family: $gotham-book;
-6: 	margin:auto;
-7: }
-8: .contact-text{
-9: 	font-size: 21px;
-10: 	padding: 40px 40px 70px 40px;
+246: }
+247: .tab-links-wrapper {
+248:     display: flex;
+249:     flex-flow: row wrap;
+250:     justify-content: center;
+251:     background-color: $lightGray;
+252: }
+253: ul.tab-links {
+254:     padding: 25px 0 0 0;
+255:     margin: 0;
+256: }
 
 Backtrace:
-C:\xampp\htdocs\living-tribunal\assets\css\includes\contact.scss:5
+C:\xampp\htdocs\living-tribunal\assets\css\includes\resources.scss:251
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -60,4 +61,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$gotham-book\".\A         on line 5 of C:\xampp\htdocs\living-tribunal\assets\css\includes\contact.scss\A \A 1: /* Scss Document */\A 2: .contact-wrapper{\A 3: 	width:100%;\A 4: 	max-width:960px;\A 5: 	font-family: $gotham-book;\A 6: 	margin:auto;\A 7: }\A 8: .contact-text{\A 9: 	font-size: 21px;\A 10: 	padding: 40px 40px 70px 40px;"; }
+  content: "Error: Undefined variable: \"$lightGray\".\A         on line 251 of C:\xampp\htdocs\living-tribunal\assets\css\includes\resources.scss\A \A 246: }\A 247: .tab-links-wrapper {\A 248:     display: flex;\A 249:     flex-flow: row wrap;\A 250:     justify-content: center;\A 251:     background-color: $lightGray;\A 252: }\A 253: ul.tab-links {\A 254:     padding: 25px 0 0 0;\A 255:     margin: 0;\A 256: }"; }

@@ -1,45 +1,49 @@
+.do-intro{
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+.wwd-features{
+	padding: 50px;
+}
+.wwd-cw{
+	padding: 50px;
+}
+.aud-vid{
+	margin: auto;
+	text-align: center;
+	padding-bottom: 110px;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 100%;
+	max-width: 1200px;
+}
+.do-clients-title{
+	text-align: center;
+	padding-top:80px;
+}
+.wwd-img{
+	max-width: 250px;
+}
+.bottom-btn-wrapper {
+    padding-bottom: 35px;
+    text-align: center;
+    padding-top: 50px;
+}
+@media only screen and (max-width: 1024px){
 	.do-intro{
-		padding-top: 100px;
-		padding-bottom: 200px;
+		padding-top: 40px;
+		padding-bottom: 50px;
 	}
-	
-	.circle-row{
-		padding-top: 130px;
-	}
-	
-		.aud-vid{
-		    margin: auto;
-			text-align: center;
-			padding-bottom: 110px;
-			padding-left: 50px;
-			padding-right: 50px;
-			width: 100%;
-			max-width: 1200px;
-	}
-	
 	.do-clients-title{
-		    text-align: center;
-			padding-bottom: 30px;
-			padding-top:80px;
+		padding-top: 1px;
 	}
+	.button-pos{
+		padding-bottom: 50px;
+	}
+}
 
-	@media only screen and (max-width: 1024px){
-		.do-intro{
-			padding-top: 40px;
-			padding-bottom: 50px;
-		}
-		
-		.do-clients-title{
-			padding-top: 1px;
-		}
-		
-		.button-pos{
-			padding-bottom: 50px;
-		}
+@media only screen and (max-width: 1024px){
+	.do-intro{
+		padding-bottom:1px;
 	}
-	
-	@media only screen and (max-width: 1024px){
-		.do-intro{
-			padding-bottom:1px;
-		}
-	}
+}
