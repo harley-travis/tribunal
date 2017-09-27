@@ -1,20 +1,16 @@
-.partners-text{
-	margin-top: 50px;
+.partners-form {
+    background: #d3d3d3;
+    padding: 20px;
+    box-shadow: 10px 10px 5px #888;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
 }
-.partners-form{
-	background: lightGray;
-	padding: 20px;
-	box-shadow: 10px 10px 5px #888888;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	width: 100%;
-	max-width: 500px;
-	border-radius: 5px;
+.partners-form h3 {
+    font-size: 3rem;
 }
-.partners-form h3{
-	font-size: 3rem;
-}
-.partners-form h1{
-	margin-top: -12px;
-	font-size: 6rem;
+.partners-form h1 {
+    margin-top: -12px;
+    font-size: $banner-font;
 }

@@ -4,210 +4,378 @@
 */
 get_header(); ?>
 
+<style>
+.products-video-wrapper {
+    max-width: 900px;
+    padding: 50px 0;
+}
+.products-video-btn {
+    padding-top: 35px;
+}
+.management-bg {
+    background-repeat: no-repeat;
+    height: 550px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.product-banner{
+	margin-top: 160px !important;
+}
+	.products-img{
+		width: 100%;
+		max-width: 300px;
+	}
+	@media only screen and (max-width: 1440px){
+		.aud-content-mobile{
+			display:none;
+		}	
+		.man-content2-mobile{
+			display:none;
+		}
+	}
+	
+	@media only screen and (max-width: 425px){
+		.banner-wrapper{
+			margin-top: 1px;
+		}
+		.banner-wrapper h2{
+			font-size:  3rem;
+		}
+		.products-intro-copy{
+			padding: 15px;
+		}
+		.products-video-btn a {
+    		margin-top: 11px;
+		}
+		.aud-content{
+			display:none;
+		}
+		.aud-content-mobile{
+			display:inline;
+		}
+		.man-content2{
+			display:none;
+		}
+		.man-content2-mobile{
+			display:inline;
+		}
+	
+	@media only screen and (max-width: 375px){
+		.banner {
+    height: 520px;
+}
+		.products-intro-copy {
+    padding: 15px;
+}
+	}
+</style>
+
 <div class="container-fluid purple-blue-green">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
 			<h1>Products</h1>
+			<h2>Drive Operational and Quality Improvement</h2>
 			<div class="banner-btns">
-				<a href="<?php echo ROOT; ?>/blog" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">RizePoint Blog</a> <a href="<?php echo ROOT_URL; ?>/resources" class="btn btn-lg btn-width-lg btn-inverse-white">Resources</a>
+				<a href="<?php echo ROOT_URL; ?>/case-studies" class="btn btn-lg btn-inverse-white">Case Studies</a> <a href="<?php echo ROOT_URL; ?>/resources" class="btn btn-lg btn-width-lg btn-inverse-white">Resources</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
 </div><!-- container-fluid -->
 		
-<div class="content-wrapper">
-	<div class="request-icons">
-		<div class="row circle-row">
-			<div class="col-md-4 col-sm-4 col-xs-12 circle-wrapper">
-				<div class="circle-icon orangeOne-bg">
-					<img src="<?php echo ROOT; ?>assets/img/icons/computer-icon-white.png" class="circle-icon-img"></img>
-				</div><!--circle-icon-->
-				<div class="circle-header">
-					<h4>Gather Better</h4>
-				</div><!--circle-header-->
-				<div class="circle-text">
-					<p></p>
-				</div><!--circle-text-->
-			</div><!--circle-wrapper-->
 
-			<div class="col-md-4 col-sm-4 col-xs-12 circle-wrapper">
-				<div class="circle-icon pink-bg">
-					<img src="<?php echo ROOT; ?>assets/img/icons/chart-time-icon-white.png" class="circle-icon-img"></img>
-				</div><!--circle-icon-->
-				<div class="circle-header">
-					<h4>See Earlier</h4>
-				</div><!--circle-header-->
-				<div class="circle-text">
-					<p></p>
-				</div><!--circle-text-->
-			</div><!--circle-wrapper-->
-
-			<div class="col-md-4 col-sm-4 col-xs-12 circle-wrapper">
-				<div class="circle-icon purple-bg">
-					<img src="<?php echo ROOT; ?>assets/img/icons/rocket-icon-white.png" class="circle-icon-img"></img>
-				</div><!--circle-icon-->
-				<div class="circle-header">
-					<h4>Act Faster</h4>
-				</div><!--circle-header-->
-				<div class="circle-text">
-					<p></p>
-				</div><!--circle-text-->
-			</div><!--circle-wrapper-->
-		</div><!--row circle-row-->
-		
-	</div><!--request-icons-->
-</div><!--row-->
-
-<div class="container-fluid">
+<div class="container-fluid wrap push">
 	<div class="container products-intro-copy">
-		<p>The RizePoint Mobile Auditor&reg; app and the cloudbased RizePoint Management Console team up to give you a single view into your compliance data. With this powerful brand, quality, and safety auditing system in your corner, you'll gather better data, see issuses earlier, and act to resolve those issues faster- before they affect your customers' experiences.</p>
+		<p>Brand standards. Quality assurance. Safety. Managing these kinds of details is critical to your business success—but ensuring compliance and consistency can become challenging as your business grows.</p>
+		<p>RizePoint’s Mobile Auditor® app and cloud-based Management Console team up in one quality management software solution to give you a comprehensive view into your compliance data. With this powerful quality management solution in your corner, you’ll gather better data, see issues earlier, and act to resolve those issues faster—before they affect your brand experience.</p>
 	</div>
 </div><!--products-intro-copy-->
 
-<div class="button-pos">
-	<a class="btn btn-lg btn-inverse-white">Download Datasheet</a>
-</div><!--button-pos-->
+<div class="container-fluid products-video wrap push">
+	<div class="container products-video-wrapper">
+		<script src="https://fast.wistia.com/embed/medias/06y97s7g3f.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_06y97s7g3f videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+	</div><!-- products-video-wrapper -->
+</div><!-- products-video -->
 
-<div id="mc" class="container-fluid management-console">
-	<div class="container-fluid">
-		<div class="grad-back">
-			<img src="<?php echo ROOT; ?>assets/img/gradients/green-teal-decal.png">
-		</div><!--div-grad-->
-		<div class="container-banner">
-			<div class="banner-wrapper">
-			<h1>Management Console</h1>
-				<div class="product-banner-btn-wrapper">
-					<a class="btn btn-lg btn-inverse-white">Download Datasheet</a>
-				</div>
-			</div><!-- banner-wrapper -->
-		</div><!-- banner -->
-	</div><!-- container-fluid -->
-</div><!--management-console-->
 
-<div class="container-fluid man-content">
-	<div class="man-wrapper">
-		<div class="row">
-			<div class="col-md-5 col-sm-6 col-xs-12 man-img">
-				<img src="<?php echo ROOT; ?>assets/img/software/auditor.png">
-			</div>
-			<div class="col-md-7 col-sm-6 col-xs-12 man-text">
-				<h2 class="green-text">Cover All The Bases, Everytime.</h2>
-				<p>Create site audit forms that cover every compliance requirement you face.<br>Build customized assessment forms. Push audit forms out to inspection teams. Schedule audits and view audit schedules.
-				</p>
-			</div>
-		</div><!--row-->
-	</div><!--man-wrapper-->
-</div><!--man-content-->
-
-<div class="container-fluid man-content2 lightGray-bg">
-	<div class="man-wrapper">
-		<div class="row">
-			<div class="col-md-7 col-sm-6 col-xs-12 man-text2">
-				<h2 class="green-text">Cover All The Bases, Everytime.</h2>
-				<p>Correct negative assessment results immediately with automated corrective action tasks.<br>Assign corrective action tasks. Issue notifications, alerts and reminders. Monitor action plan completion.
-				</p>
-			</div>
-			
-			<div class="col-md-5 col-sm-6 col-xs-12 man-img2">
-				<img src="<?php echo ROOT; ?>assets/img/software/cam-dashboard.png">
-			</div>
-		</div><!--row-->
-	</div><!--man-wrapper-->
-</div><!--man-content-->
-
-<div class="container-fluid man-content">
-	<div class="man-wrapper">
-		<div class="row">
-			<div class="col-md-5 col-sm-6 col-xs-12 man-img">
-				<img src="<?php echo ROOT; ?>assets/img/software/scoring.png">
-			</div>
-			<div class="col-md-7 col-sm-6 col-xs-12 man-text">
-				<h2 class="green-text">The Right Data, To All The Right People.</h2>
-				<p>Shar business intelligence acrosss your entire organization.<br> Use management dashboards to view top-level details. Drill down to specific data points. View reporting wherever, whenever.
-				</p>
-			</div>
-		</div><!--row-->
-	</div><!--man-wrapper-->
-</div><!--man-content-->
-
-<div class="button-pos">
-	<a class="btn btn-lg btn-green" target="_blank">Download Datasheet</a>
-	<a class="btn btn-lg btn-green" href="<?php echo ROOT; ?>/request-a-demo">Request A Demo</a>
-</div><!--button-pos-->
-
-<div id="ma" class="container-fluid management-console">
-	<div class="container-fluid">
-		<div class="grad-back">
-			<img src="<?php echo ROOT; ?>assets/img/gradients/pink-orange-decal.png">
-		</div><!--div-grad-->
-		<div class="container-banner">
-			<div class="banner-wrapper">
+<div id="ma" class="container-fluid management-bg wrap push" style="background-image: url(<?php echo ROOT; ?>/assets/img/gradients/pink-orange-decal.png);">
+	<div class="container banner product-banner">
+		<div class="banner-wrapper">
 			<h1>Mobile Auditor</h1>
-				<div class="product-banner-btn-wrapper">
-					<a class="btn btn-lg btn-inverse-white">Download Datasheet</a>
-				</div>
-			</div><!-- banner-wrapper -->
-		</div><!-- banner -->
-	</div><!-- container-fluid -->
-</div><!--management-console-->
+			<div class="banner-btns">
+				<a href="https://rizepoint.com/wp-content/uploads/2017/08/RP_Datasheet-FullSolution.pdf" target="_blank" class="btn btn-lg btn-inverse-white">Download Datasheet</a>
+			</div><!-- banner-btns -->
+		</div><!-- banner-wrapper -->
+	</div><!-- banner -->
+</div><!-- container-fluid -->
 
-<div class="aud-vid orangeOne-text">
-<h2>Bluetooth Thermocouple Intgration</h2>
-	<script src="https://fast.wistia.com/embed/medias/wmvwv72z9m.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_wmvwv72z9m videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
-</div><!--aud-vid-->
-
-<div class="container-fluid aud-content2 lightGray-bg">
+<div class="container-fluid aud-content2 lightGray-bg wrap push">
 	<div class="aud-wrapper">
 		<div class="row">
 			<div class="col-md-5 col-sm-6 col-xs-12 aud-img">
-				<img src="<?php echo ROOT; ?>assets/img/software/cam-dashboard.png">
+				<img src="<?php echo ROOT; ?>assets/img/products/ma-homescreen.png" class="products-img">
 			</div>
-				
 			<div class="col-md-7 col-sm-6 col-xs-12 aud-text">
-				<h2 class="orangeOne-text">Cover All The Bases, Everytime.</h2>
-				<p>Create site audit forms that cover every compliance requirement you face.<br>Build customized assessment forms. Push audit forms out to inspection teams. Schedule audits and view audit schedules.
-				</p>
+				<h2 class="orangeOne-text">From front door to final report. Fast.</h2>
+				<h3>Inspect every location efficiently using a proven, time-tested <a href="<?php echo ROOT_URL; ?>/mobile-auditor-product-feature/">mobile audit app</a>.</h3>
+				<ul>
+					<li>Perform audits using smartphones, tablets, or web browser</li>
+					<li>Go anywhere with offline access</li>
+					<li>Conduct temperature checks with <a href="<?php echo ROOT_URL; ?>/thermocouple-integration/">thermocouple device integration</a></li>
+					<li>Guide evaluations with step-by-step navigation</li>
+				</ul>
+				<div class="products-video-btn">
+					<a class="btn btn-md btn-green" data-toggle="modal" data-target="#ma-one">View Video</a>
+				</div>
 			</div>
 		</div><!--row-->
 	</div><!--man-wrapper-->
 </div><!--man-content-->
 
-<div class="container-fluid aud-content">
+
+<div class="container-fluid aud-content wrap push">
 	<div class="aud-wrapper">
 		<div class="row">
 			<div class="col-md-7 col-sm-6 col-xs-12 aud-text2">
-				<h2 class="orangeOne-text">Cover All The Bases, Everytime.</h2>
-				<p>Correct negative assessment results immediately with automated corrective action tasks.<br>Assign corrective action tasks. Issue notifications, alerts and reminders. Monitor action plan completion.
-				</p>
+				<h2 class="orangeOne-text">Broken to fixed. Quick.</h2>
+				<h3>See negative assessment results transformed into immediate corrective action.</h3>
+				<ul>
+					<li>Call out important details</li>
+					<li>Attach files, videos, and annotate images</li>
+					<li>Sync audit app results for immediate use</li>
+				</ul>
 			</div>
 			
 			<div class="col-md-5 col-sm-6 col-xs-12 aud-img2">
-				<img src="<?php echo ROOT; ?>assets/img/software/cam-dashboard.png">
+				<img src="<?php echo ROOT; ?>assets/img/products/preconfigured-comments.png" class="products-img">
 			</div>
 		</div><!--row-->
 	</div><!--man-wrapper-->
 </div><!--man-content-->
 
-<div class="container-fluid aud-content2 lightGray-bg">
+<div class="container-fluid aud-content-mobile wrap push">
 	<div class="aud-wrapper">
 		<div class="row">
-			<div class="col-md-5 col-sm-6 col-xs-12 aud-img">
-				<img src="<?php echo ROOT; ?>assets/img/software/scoring.png">
+			<div class="col-md-5 col-sm-6 col-xs-12 aud-img2">
+				<img src="<?php echo ROOT; ?>assets/img/products/preconfigured-comments.png" class="products-img">
 			</div>
-			
-			<div class="col-md-7 col-sm-6 col-xs-12 aud-text">
-				<h2 class="orangeOne-text">The Right Data, To All The Right People.</h2>
-				<p>Shar business intelligence acrosss your entire organization.<br> Use management dashboards to view top-level details. Drill down to specific data points. View reporting wherever, whenever.
-				</p>
+		
+			<div class="col-md-7 col-sm-6 col-xs-12 aud-text2">
+				<h2 class="orangeOne-text">Broken to fixed. Quick.</h2>
+				<h3>See negative assessment results transformed into immediate corrective action.</h3>
+				<ul>
+					<li>Call out important details</li>
+					<li>Attach files, videos, and annotate images</li>
+					<li>Sync audit app results for immediate use</li>
+				</ul>
 			</div>
 		</div><!--row-->
 	</div><!--man-wrapper-->
-	<div class="button-pos product-banner-btn-wrapper">
-		<a class="btn btn-lg btn-green" target="_blank">Download Datasheet</a>
-		<a class="btn btn-lg btn-green" href="<?php echo ROOT_URL; ?>/request-a-demo">Request A Demo</a>
-	</div><!--button-pos-->	
 </div><!--man-content-->
+
+
+
+<div id="mc" class="container-fluid management-bg wrap push" style="background-image: url(<?php echo ROOT; ?>/assets/img/gradients/green-teal-decal.png);">
+	<div class="container banner product-banner">
+		<div class="banner-wrapper">
+			<h1>Management Console</h1>
+			<div class="banner-btns">
+				<a href="https://rizepoint.com/wp-content/uploads/2017/08/RP_Datasheet-FullSolution.pdf" target="_blank" class="btn btn-lg btn-inverse-white">Download Datasheet</a> 
+			</div><!-- banner-btns -->
+		</div><!-- banner-wrapper -->
+	</div><!-- banner -->
+</div><!-- container-fluid -->
+
+<div class="container-fluid man-content wrap push">
+	<div class="man-wrapper">
+		<div class="row">
+			<div class="col-md-5 col-sm-6 col-xs-12 man-img">
+				<img src="<?php echo ROOT; ?>assets/img/products/ma-audit-form-3-nav.png" class="products-img">
+			</div>
+			<div class="col-md-7 col-sm-6 col-xs-12 man-text">
+				<h2 class="green-text">Evaluate what matters. When it matters.</h2>
+				<h3>Create audit forms that cover every compliance requirement you face.</h3>
+				<ul>
+					<li>Build <a href="<?php echo ROOT_URL; ?>/audit-form-creation/">customized assessment forms</a></li>
+					<li>Push audit forms out to inspection teams</li>
+					<li><a href="<?php echo ROOT_URL; ?>/audit-scheduling/">Schedule inspections</a> and view group schedules</li>
+					<li>Manage audit approval process</li>
+				</ul>
+			</div>
+		</div><!--row-->
+	</div><!--man-wrapper-->
+</div><!--man-content-->
+
+<div class="container-fluid man-content2 lightGray-bg wrap push">
+	<div class="man-wrapper">
+		<div class="row">
+			<div class="col-md-7 col-sm-6 col-xs-12 man-text2">
+				<h2 class="green-text">Take action. Now.</h2>
+				<h3>Correct out-of-compliance audit results immediately with automated corrective action.</h3>
+				<ul>
+					<li>Define <a href="<?php echo ROOT_URL; ?>/automated-corrective-action/">corrective action</a> plan and approval processes</li>
+					<li>Issue assignments, notifications, alerts, and reminders</li>
+					<li>Track corrective actions through completion for full audit remediation</li>
+					<li>Initiate independent corrective action plans outside of audit processes</li>
+				</ul>
+				<div class="products-video-btn">
+					<a href="#" class="btn btn-md btn-green" data-toggle="modal" data-target="#mc-two">View Video</a>
+				</div>
+			</div>
+			
+			<div class="col-md-5 col-sm-6 col-xs-12 man-img2">
+				<img src="<?php echo ROOT; ?>assets/img/products/corrective-action-plan-widget-ahp.png" class="products-img">
+			</div>
+		</div><!--row-->
+	</div><!--man-wrapper-->
+</div><!--man-content-->
+
+<div class="container-fluid man-content wrap push">
+	<div class="man-wrapper">
+		<div class="row">
+			<div class="col-md-5 col-sm-6 col-xs-12 man-img">
+				<img src="<?php echo ROOT; ?>assets/img/products/management-dashboards.png" class="products-img">
+			</div>
+			<div class="col-md-7 col-sm-6 col-xs-12 man-text">
+				<h2 class="green-text">The right data. Right away.</h2>
+				<h3>Provide quality experience insights across your entire organization.</h3>
+				<ul>
+					<li>View evaluation results using audit feedback reports</li>
+					<li>Use pre-built <a href="<?php echo ROOT_URL; ?>/management-console-interface/">management dashboards</a> to view top-level details and drill into specifics</li>
+					<li>Create ad-hoc reports with <a href="<?php echo ROOT_URL; ?>/search-driven-analytics/">search-driven analytics</a></li>
+					<li>View business intelligence data wherever, whenever</li>
+				</ul>
+				<div class="products-video-btn">
+					<a class="btn btn-md btn-green" data-toggle="modal" data-target="#mc-three">View Video</a>
+					<a href="<?php echo ROOT; ?>/assets/docs/datasheets/business-intelligence-june-2017.pdf" target="_blank" class="btn btn-md btn-green">Learn More</a>
+				</div>
+			</div>
+		</div><!--row-->
+	</div><!--man-wrapper-->
+</div><!--man-content-->
+
+<div class="container-fluid man-content2 lightGray-bg wrap push">
+	<div class="man-wrapper">
+		<div class="row">
+			<div class="col-md-7 col-sm-6 col-xs-12 man-text2">
+				<h2 class="green-text">Supplier Details. All in one place.</h2>
+				<h3>Automate and streamline supplier onboarding processes.</h3>
+				<ul>
+					<li>Define <a href="<?php echo ROOT_URL; ?>/rizepoint-onboarding/">onboarding</a> tasks to be completed</li>
+					<li>Display supplier tasks on suppliers’ home pages</li>
+					<li>Allow suppliers to directly input information and upload documents</li>
+					<li>Share requirements documents across your supply chain</li>
+				</ul>
+				
+			</div>
+			<div class="col-md-5 col-sm-6 col-xs-12 man-img2">
+				<img src="<?php echo ROOT; ?>assets/img/products/onboarding-circle-min.png" class="products-img">
+			</div>
+		</div><!--row-->
+	</div><!--man-wrapper-->
+</div><!--man-content-->
+
+
+<div class="container-fluid man-content wrap push">
+	<div class="man-wrapper">
+		<div class="row">
+			<div class="col-md-5 col-sm-6 col-xs-12 man-img2">
+				<img src="<?php echo ROOT; ?>assets/img/products/ahp-3.png" class="products-img">
+			</div>
+			<div class="col-md-7 col-sm-6 col-xs-12 man-text">
+				<h2 class="green-text">Fulfill all your needs. With one platform.</h2>
+				<h3>Get everything you want in one complete quality management solution.</h3>
+				<ul>
+					<li>Set role-based permissions so your users see only what they need</li>
+					<li>Share key details using <a href="<?php echo ROOT_URL; ?>/automated-communication-tools/">automated communication tools</a></li>
+					<li>Configure RizePoint to match your organizational set-up</li>
+					<li>Sync your data using the RizePoint <a href="<?php echo ROOT_URL; ?>/api-framework/">API framework</a></li>
+				</ul>
+				<div class="products-video-btn">
+					<a class="btn btn-md btn-green" data-toggle="modal" data-target="#mc-three">View Video</a>
+					<a href="<?php echo ROOT; ?>/assets/docs/datasheets/business-intelligence-june-2017.pdf" target="_blank" class="btn btn-md btn-green">Learn More</a>
+				</div>
+			</div>
+			
+		</div><!--row-->
+	</div><!--man-wrapper-->
+</div><!--man-content-->
+
+<!-- MC Two -->
+<div class="modal fade" id="mc-two" tabindex="-1" role="dialog" aria-labelledby="mc-twoLabel">
+	<div class="large-modal modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="mc-twoLabel">Corrective Action Management</h4>
+			</div>
+			<div class="modal-body">
+				<script src="https://fast.wistia.com/embed/medias/rhllpryv9u.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_rhllpryv9u videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+			</div><!-- modal-body -->
+			<div class="modal-footer">
+				<a class="btn btn-green btn-medium" href="<?php echo ROOT_URL; ?>/request-a-demo">Request A Demo</a>
+			</div>
+		</div><!-- modal-content -->
+	</div><!-- modal-dialog -->
+</div><!-- modal -->
+
+<!-- MC Three -->
+<div class="modal fade" id="mc-three" tabindex="-1" role="dialog" aria-labelledby="mc-ThreeLabel">
+	<div class="large-modal modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="mc-ThreeLabel">Business Intelligence</h4>
+			</div>
+			<div class="modal-body">
+				<script src="https://fast.wistia.com/embed/medias/1ax7ngyryl.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_1ax7ngyryl videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+			</div><!-- modal-body -->
+			<div class="modal-footer">
+				<a class="btn btn-green btn-medium" href="<?php echo ROOT_URL; ?>/request-a-demo">Request A Demo</a>
+			</div>
+		</div><!-- modal-content -->
+	</div><!-- modal-dialog -->
+</div><!-- modal -->
+
+<!-- MC four -->
+<div class="modal fade" id="mc-four" tabindex="-1" role="dialog" aria-labelledby="mc-fourLabel">
+	<div class="large-modal modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="mc-fourLabel">The End-To-End Solution</h4>
+			</div>
+			<div class="modal-body">
+				<script src="https://fast.wistia.com/embed/medias/0gnanguwgy.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_0gnanguwgy videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+			</div><!-- modal-body -->
+			<div class="modal-footer">
+				<a class="btn btn-green btn-medium" href="<?php echo ROOT_URL; ?>/request-a-demo">Request A Demo</a>
+			</div>
+		</div><!-- modal-content -->
+	</div><!-- modal-dialog -->
+</div><!-- modal -->
+
+
+<!-- MA One -->
+<div class="modal fade" id="ma-one" tabindex="-1" role="dialog" aria-labelledby="ma-oneLabel">
+	<div class="large-modal modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="ma-oneLabel">Mobile Auditor</h4>
+			</div>
+			<div class="modal-body">
+				<script src="https://fast.wistia.com/embed/medias/jzajc3w8ml.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_jzajc3w8ml videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+			</div><!-- modal-body -->
+			<div class="modal-footer">
+				<a class="btn btn-green btn-medium" href="<?php echo ROOT_URL; ?>/request-a-demo">Request A Demo</a>
+			</div>
+		</div><!-- modal-content -->
+	</div><!-- modal-dialog -->
+</div><!-- modal -->
+
+
 
 
 <?php get_footer(); ?>

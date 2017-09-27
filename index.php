@@ -12,6 +12,14 @@
 
 get_header(); ?>
 
+<style>
+img.aligncenter.wp-image-6368.size-full {
+    width: 100%;
+    height: auto;
+}
+
+</style>
+
 <div class="container-fluid green-blue small-header">
 	<?php include  __DIR__ . "/includes/page-header.php"; ?>
 </div>
@@ -33,6 +41,16 @@ get_header(); ?>
 			<div class="blog-content">
 				<?php the_content('[...]'); ?> 
 			</div><!-- blog-content -->
+			
+			
+			<div class="tags">
+				<?php
+//					if(get_the_tag_list()) {
+//						echo get_the_tag_list('<ul><li>','</li><li>','</li></ul>');
+//					}
+				?>	
+			</div>
+			
 		<?php endwhile; ?>
 		
 		<?php if(get_field('author_bio_description'))  :  ?>
@@ -49,6 +67,15 @@ get_header(); ?>
 			</div>
 		<?php endif ; ?>
 	</div><!-- blog-post-content -->
+	
+	
+	<?php if( get_field('hide_featured_img') == 'hide_img' ): ?>
+		<style>
+			.attachment-.size-.wp-post-image {
+				display: none;
+			}
+		</style>
+	<?php endif; ?>
 
 	<div class="blog-post-sidebar">
 		<?php include  __DIR__ . "/includes/blog-sidebar.php"; ?>

@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 28 of C:\xampp\htdocs\living-tribunal\assets\css\includes\header.scss
+        on line 34 of C:\xampp\htdocs\living-tribunal\assets\css\includes\header.scss
 
-23: .main-nav,
-24: .dropdown-menu li{
-25:     font-size: 1.3rem;
-26: }
-27: .search-icon{
-28: 	color: $white;
 29: }
-30: .upper-nav{
-31: 	a{
-32: 		color: $white;
-33: 	}
+30: .main-nav a,
+31: .search-icon,
+32: .upper-nav a,
+33: .upper-nav li a {
+34:     color: $white;
+35: }
+36: 
+37: span.mktoButtonWrap.mktoLight,
+38: span.mktoButtonWrap.mktoSimple {
+39:     margin-left: 0!important
 
 Backtrace:
-C:\xampp\htdocs\living-tribunal\assets\css\includes\header.scss:28
+C:\xampp\htdocs\living-tribunal\assets\css\includes\header.scss:34
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -61,4 +61,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 28 of C:\xampp\htdocs\living-tribunal\assets\css\includes\header.scss\A \A 23: .main-nav,\A 24: .dropdown-menu li{\A 25:     font-size: 1.3rem;\A 26: }\A 27: .search-icon{\A 28: 	color: $white;\A 29: }\A 30: .upper-nav{\A 31: 	a{\A 32: 		color: $white;\A 33: 	}"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 34 of C:\xampp\htdocs\living-tribunal\assets\css\includes\header.scss\A \A 29: }\A 30: .main-nav a,\A 31: .search-icon,\A 32: .upper-nav a,\A 33: .upper-nav li a {\A 34:     color: $white;\A 35: }\A 36: \A 37: span.mktoButtonWrap.mktoLight,\A 38: span.mktoButtonWrap.mktoSimple {\A 39:     margin-left: 0!important"; }

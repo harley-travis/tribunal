@@ -1,20 +1,15 @@
-/* Scss Document */
 .banner-wrapper {
   max-width: 1440px; }
 
 .error-mes {
   padding-top: 40px;
   padding-bottom: 100px; }
-  .error-mes h1 {
-    font-family: gotham-book;
-    font-size: 300px;
-    color: white;
-    text-shadow: 2px 2px 4px #000000; }
-  .error-mes h3 {
-    font-family: gotham-book;
-    font-size: 30px;
-    color: white;
-    text-shadow: 2px 2px 4px #000000; }
+
+.error-mes h1 {
+  font-size: 300px; }
+
+.error-mes h3 {
+  font-size: 30px; }
 
 .error-img {
   max-width: 530px;
@@ -22,9 +17,6 @@
   padding-top: 60px;
   padding-bottom: 50px; }
 
-@media only screen and (max-width: 1440px) {
-  .error-mes {
-    text-align: center; } }
 @media only screen and (max-width: 1024px) {
   .error-mes {
     text-align: center; } }

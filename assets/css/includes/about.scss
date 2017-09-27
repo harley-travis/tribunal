@@ -1,138 +1,134 @@
-.about-videos{
-	padding-top: 50px;
+.about-videos {
+    padding-top: 50px;
 }
-.about-video-container{
-	padding-bottom: 35px;
+.about-video-container {
+    padding-bottom: 35px;
 }
-.center{
-	text-align: center;
+.center {
+    text-align: center;
 }
-.timeline-heading h2{
-	padding: 50px 0 100px 0;
+.timeline-heading h2 {
+    padding: 50px 0 100px;
 }
 .avengers {
-	padding-top: 100px;
+    padding-top: 100px;
 }
-.avengers-wrapper{
-	padding-bottom: 50px;
+.avengers-wrapper {
+    padding-bottom: 50px;
 }
 .avengers-fluid {
-	text-align: center;
-	width: 100%;
-	max-width: 1500px;
-	margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 .avenger {
-	display: inline-block;
-	padding: 4px 2px;
+    display: inline-block;
+    padding: 4px 2px;
 }
-.avenger-img{
-	width: 100%;
-	max-width: 120px;
+.avenger-img {
+    width: 100%;
+    max-width: 120px;
 }
-.avengers-cta{
-	padding: 50px;
-}
-
-
-/* TIMELINE */
-.timeline {
-  position: relative;
+.avengers-cta {
+    padding: 50px;
 }
 .timeline::before {
-  content: '';
-  background: #28B29A;
-  width: 5px;
-  height: 100%;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+    background: $green;
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .timeline-item {
-  width: 100%;
-  margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 .timeline-item:nth-child(even) .timeline-content {
-  float: right;
-  padding: 40px 30px 10px 30px;
+    float: right;
+    padding: 40px 30px 10px;
 }
 .timeline-item:nth-child(even) .timeline-content .date {
-  right: auto;
-  left: 0;
+    right: auto;
+    left: 0;
 }
 .timeline-item:nth-child(even) .timeline-content::after {
-  content: '';
-  position: absolute;
-  border-style: solid;
-  width: 0;
-  height: 0;
-  top: 30px;
-  left: -15px;
-  border-width: 10px 15px 10px 0;
-  border-color: transparent #f5f5f5 transparent transparent;
+    content: '';
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 30px;
+    left: -15px;
+    border-width: 10px 15px 10px 0;
+    border-color: transparent $lightGray transparent transparent;
 }
 .timeline-item::after {
-  content: '';
-  display: block;
-  clear: both;
+    display: block;
+    clear: both;
 }
-.timeline-content.js--fadeInLeft.box-shadow {
-    padding: 40px 30px 10px 30px;
+.timeline-content.js--fadeInLeft.box-shadow,
+.timeline-content.js--fadeInLeft.btn-blue,
+.timeline-content.js--fadeInLeft.btn-green,
+.timeline-content.js--fadeInLeft.btn-orange,
+.timeline-content.js--fadeInLeft.btn-purple,
+.timeline-content.js--fadeInLeft.btn-white {
+    padding: 40px 30px 10px;
 }
 .timeline-content {
-  position: relative;
-  width: 45%;
-  padding: 10px 30px;
-  border-radius: 4px;
-  background: #f5f5f5;
+    position: relative;
+    width: 45%;
+    padding: 10px 30px;
+    border-radius: 4px;
+    background: $lightGray;
 }
 .timeline-content::after {
-  content: '';
-  position: absolute;
-  border-style: solid;
-  width: 0;
-  height: 0;
-  top: 30px;
-  right: -15px;
-  border-width: 10px 0 10px 15px;
-  border-color: transparent transparent transparent #f5f5f5;
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 30px;
+    right: -15px;
+    border-width: 10px 0 10px 15px;
+    border-color: transparent transparent transparent $lightGray;
 }
 .timeline-img {
-  width: 30px;
-  height: 30px;
-  background: #28B29A;
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  margin-top: 25px;
-  margin-left: -15px;
+    width: 30px;
+    height: 30px;
+    background: $green;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-top: 25px;
+    margin-left: -15px;
 }
 .timeline-card {
-  padding: 0 !important;
+    padding: 0!important;
 }
 .timeline-card p {
-  padding: 0 20px;
+    padding: 0 20px;
 }
 .timeline-card a {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 .timeline-img-header {
-  height: 200px;
-  position: relative;
-  margin-bottom: 20px;
+    height: 200px;
+    position: relative;
+    margin-bottom: 20px;
 }
 .timeline-img-header h2 {
-  color: #FFFFFF;
-  position: absolute;
-  bottom: 5px;
-  left: 20px;
+    color: $white;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
 }
 .date {
-  background: #E76B7C;
-  display: inline-block;
-  color: #FFFFFF;
-  padding: 10px;
-  position: absolute;
-  top: 0;
-  right: 0;
+    background: $pink;
+    display: inline-block;
+    color: $white;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }

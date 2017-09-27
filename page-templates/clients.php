@@ -10,13 +10,13 @@ get_header(); ?>
 		<div class="banner-wrapper">
 			<h1>Our Clients</h1>
 			<div class="banner-btns">
-				<a href ="<?php echo ROOT_URL; ?>/5299-2" class="btn btn-lg btn-inverse-white">Case Studies</a> <a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-inverse-white">Request A Demo</a>
+				<a href ="<?php echo ROOT_URL; ?>/case-studies" class="btn btn-lg btn-inverse-white">Case Studies</a> <a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-inverse-white">Request A Demo</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
 </div><!-- container-fluid -->
 	
-<section class="container-fluid clients-loop lightGray-bg">	
+<section class="container-fluid clients-loop lightGray-bg wrap push">	
 	<div class="container clients-loop-wrapper">
 		<div class="clients-heading">
 			<h2 class="pink-text">Fan club, meet our potential customer.<br> Potential customer, meet the Fan Club.</h2>
@@ -53,7 +53,7 @@ get_header(); ?>
 	</div><!-- clients-loop-wrapper -->
 </section><!-- clients-loop -->
 
-<div class="container-fluid lightGray-bg">
+<div class="container-fluid lightGray-bg wrap push">
 	<div class="container clients-cta">
 		<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-green">Join The Club</a>
 	</div><!-- clients-cta -->

@@ -1,12 +1,15 @@
 .container-fluid {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
+    padding-right: 0!important;
+    padding-left: 0!important;
 }
-.nav>li>a:focus, .nav>li>a:hover{
-	background-color: transparent !important;
+.nav>li>a:focus,
+.nav>li>a:hover {
+    color: #333;
 }
-
-a:focus, a:hover{
-	color: $orangeTwo;
-	text-decoration: none;
+a:focus,
+a:hover {
+    color: $orangeTwo;
+}
+.modal {
+    z-index: 99999999;
 }

@@ -10,7 +10,7 @@ get_header(); ?>
 		<div class="banner-wrapper">
 			<h1>RizePoint Blog</h1>
 			<div class="banner-btns">
-				<a href="<?php echo ROOT_URL;?>/news" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">Newsroom</a> <a href="<?php echo ROOT_URL; ?>/resources" class="btn btn-lg btn-width-lg btn-inverse-white">Resources</a>
+				<a href="<?php echo ROOT_URL;?>/newsroom" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">Newsroom</a> <a href="<?php echo ROOT_URL; ?>/resources" class="btn btn-lg btn-width-lg btn-inverse-white">Resources</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
@@ -32,11 +32,11 @@ get_header(); ?>
 		<?php if ($wp_query->have_posts()) : ?>
 		<ul class="blog-list">
 			<?php while ($wp_query->have_posts()) : the_post(); ?>
-				<?php $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID)); ?>
+				<?php $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full', false); ?>
 				<li>
 					<div class="col-md-6 col-sm-6 col-xs-12 blog-post">
 						<?php if ($src) : ?>
-						<a href="<?php the_permalink(); ?>"><div class="post-bg" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>)"></div></a>
+						<a href="<?php the_permalink(); ?>"><div class="post-bg" style="background-image: url(<?php echo $src[0]; ?>)"></div></a>
 						<?php endif ; ?>
 
 						<a href="<?php the_permalink() ?>"><h3 class="blue-text"><?php the_title() ?></h3></a>
@@ -47,11 +47,6 @@ get_header(); ?>
 							<?php endif ; ?>
 						</span>
 							
-						
-					
-							
-							
-
 						<hr>
 						<p><?php if ( function_exists( 'ADDTOANY_SHARE_SAVE_KIT' ) ) { ADDTOANY_SHARE_SAVE_KIT(); } ?></p>
 						<div class="post-content">

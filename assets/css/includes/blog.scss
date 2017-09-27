@@ -1,52 +1,45 @@
-/* BLOG OVERVIEW */
-.blog-archive {
-padding-top: 35px;
+.blog-post {
+    padding: 16px;
+    height: 600px;
 }
-.blog-list{
-	list-style: none;
-}
-.blog-post{
-	padding: 16px;
-	height: 600px;
+.post-content {
+    height: 160px;
 }
 .post-bg {
-	height: 200px;
-	width: 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    background-position: center;
 }
-.blog-author{
-	font-size: .9rem;
+.blog-author {
+    font-size: .9rem;
 }
 .attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
-	width: 100%;
-	height: auto;
+    width: 100%;
+    height: auto;
 }
 .screen-reader-text {
-	color: $green;
-	font-size: 3rem;
+    color: $green;
+    font-size: 3rem;
 }
 .page-numbers {
-	padding-right: 7px;
-	font-size: 1.7rem;
+    padding-right: 7px;
+    font-size: 1.7rem;
 }
 .pagination {
-	padding-top: 50px;
+    padding-top: 50px;
 }
-.press-loop ul, .blog-categories ul{
-	padding-left: 3px;
-	margin: 0;
+.blog-categories ul,
+.press-loop ul {
+    padding-left: 3px;
+    margin: 0;
 }
-.press-loop ul li, .blog-categories ul li{
-	list-style: none;
+.press-loop ul li {
+    padding-bottom: 10px;
 }
-.press-loop ul li{
-	padding-bottom: 10px;
+.pagination-location {
+    padding-bottom: 40px;
+    clear: both;
 }
-.pagination-location{
-	padding-bottom: 40px;
-}
-/* BLOG POST */
 .indie-blog {
     padding-top: 35px;
 }
@@ -55,9 +48,38 @@ padding-top: 35px;
 }
 .attachment-.size-.wp-post-image {
     height: auto;
+    width: auto;
+    padding-bottom: 35px;
+    max-width: 100%;
 }
-.post-title{
-	padding-bottom: 10px;
+.featured-post-img-wrapper {
+    width: 100%;
+    float: left;
+}
+.blog-content {
+    padding-bottom: 50px;
+    clear: both;
+}
+img.attachment-full.size-full {
+    width: 100%;
+    height: auto;
+}
+.wp-caption {
+    float: right;
+}
+.alignright {
+    text-align: right;
+}
+.alignleft {
+    text-align: left;
+    float: left;
+    margin-right: 15px;
+}
+.aligncenter {
+    text-align: center;
+}
+.post-title {
+    padding-bottom: 10px;
 }
 .blog-post-author {
     margin-bottom: 20px;
@@ -68,23 +90,22 @@ padding-top: 35px;
     font-size: 3rem;
     color: #6B6B6B;
 }
-.blog-content p{
-	font-size: 1.3em;
+.blog-content p {
+    font-size: 1.3em;
 }
-.bio-img{
-	width: 100%;
-	max-width: 250px;
+.bio-img {
+    width: 100%;
+    max-width: 250px;
 }
 .authorBio {
     border: 1px solid #eee;
     margin-bottom: 35px;
     margin-top: 35px;
-	width: 100%;
+    width: 100%;
 }
 .authorImg {
     padding: 0 15px 15px 0;
 }
 .athDesc {
     font-size: 1.5rem;
-    font-style: italic;
 }

@@ -1,109 +1,104 @@
+.rad-solutions,
+.solutions-system-features {
+    color: $white;
+}
+.slant-wrapper .solutions-features-size:after,
+.slant-wrapper .solutions-testimony-size:after {
+    position: absolute;
+    top: -6px;
+    z-index: -1;
+    box-shadow: 0 -8px 8px 0 rgba(0, 0, 0, .05), 0 -12px 28px 0 rgba(0, 0, 0, .05);
+    display: block;
+    content: '';
+    left: 0;
+    right: 0;
+}
 .solutions-section-one-wrapper {
-	padding: 50px 0;
-	
-	h2{
-		padding-bottom: 35px;
-		text-align: center;
-	}
+    padding: 50px 0;
+}
+.solutions-section-one-wrapper h2 {
+    padding-bottom: 35px;
+    text-align: center;
 }
 .persona-list {
-	padding-bottom: 50px;
-	overflow: hidden;
+    padding-bottom: 50px;
 }
 .persona-image {
-	cursor: pointer;
-	text-align: center;
+    cursor: pointer;
+    text-align: center;
 }
 .persona-cta-btn {
-	padding-top: 35px;
+    padding-top: 35px;
 }
 .solutions-section-one {
-	padding-bottom: 200px;
+    padding-bottom: 200px;
 }
-.solutions-system-features{
-	color: $white;
-}
-.persona-img{
-	width: 100%;
-	max-width: 200px;
+.persona-img {
+    width: 100%;
+    max-width: 200px;
 }
 .case-sheets {
-	padding-bottom: 120px;
+    padding-bottom: 120px;
 }
-.case-box-img{
-	width: 100%;
-	max-width: 250px;
+.case-box-img {
+    width: 100%;
+    max-width: 250px;
 }
 .solutions-testimony-wrapper {
-	color: $white;
-	text-align: center;
+    color: $white;
+    text-align: center;
 }
 .solutions-testimony-size {
-	height: 360px;
-}
-.rad-solutions{
-	color: $white;
+    height: 360px;
 }
 .persona-title {
-	text-align: center;
-	padding-top: 10px;
+    text-align: center;
+    padding-top: 10px;
 }
 .case-sheets-wrapper {
-	padding: 70px 0;
-	text-align: center;
-	padding-top: 375px;
-	
-	h2{
-		padding-bottom: 35px;
-	}
+    padding: 375px 0 70px;
+    text-align: center;
+}
+.case-sheets-wrapper h2 {
+    padding-bottom: 35px;
 }
 .case-box-wrapper {
-	padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 .slant-wrapper .solutions-features-size:after {
-	content: '';
-	display: block;
-	background: inherit;
-	position: absolute;
-	top: -6px;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: -1;
-	-webkit-transform: skewY(10.5deg);
-	transform: skewY(10.5deg);
-	-webkit-transform-origin: 100%;
-	transform-origin: 100%;
-	box-shadow: 0 -8px 8px 0 rgba(0, 0, 0, 0.05), 0 -12px 28px 0 rgba(0, 0, 0, 0.05);
-	height: 1130px;
+    background: inherit;
+    bottom: 0;
+    -webkit-transform: skewY(10.5deg);
+    transform: skewY(10.5deg);
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%;
+    height: 1130px;
 }
 .slant-wrapper .solutions-testimony-size:after {
-	content: '';
-	display: block;
-	background: inherit;
-	position: absolute;
-	top: -6px;
-	left: 0;
-	right: 0;
-	bottom: -20%;
-	z-index: -1;
-	-webkit-transform: skewY(10.5deg);
-	transform: skewY(10.5deg);
-	-webkit-transform-origin: 100%;
-	transform-origin: 100%;
-	box-shadow: 0 -8px 8px 0 rgba(0, 0, 0, 0.05), 0 -12px 28px 0 rgba(0, 0, 0, 0.05);
-	background: black;
-	height: 535px;
-	background: #59bec9; /*blue*/
+    bottom: -20%;
+    -webkit-transform: skewY(10.5deg);
+    transform: skewY(10.5deg);
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%;
+    height: 535px;
+    background: $blue;
 }
 .solutions-section-four {
-	padding-top: 160px;
+    padding-top: 160px
 }
 .testimony {
-	max-width: 700px;
-	margin: 0 auto;
-	padding: 15px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 15px;
 }
-.witness {
-	font-style: italic;
+
+/* JQUERY USING THIS IN PERSONA.JS */
+.persona-image{
+	opacity: .3;
+}
+.persona-image:hover{
+	opacity: inherit;
+}
+.persona-img-active{
+	opacity: inherit !important;
 }

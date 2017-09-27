@@ -22,13 +22,15 @@ get_header(); ?>
 	</div><!-- banner -->
 </div><!-- container-fluid -->
 
-<section class="container-fluid ec">
+<section class="container-fluid ec wrap push">
 	<div class="container ec-wrapper">
 		<div class="col-md-6 col-sm-4 col-xs-12 ec-pic">
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/ec/jesse-dowdle.jpg" class="leader-img" alt="">
 		</div><!-- ec-pic -->
 		<div class="col-md-6 col-8 col-xs-12 ec-text">
-			<p>As Vice President of Technology, Jesse Dowdle leads the engineering, quality assurance, business intelligence, and architecture teams. He is responsible for developing the architecture behind the product roadmap, and ensuring our products meet customer and market needs. Dowdle brings ten years of software engineering and product development experience to the RizePoint team. Dowdle joined RizePoint from ProofHQ, a Workfront Company, where he was VP of Technology. In 2017, Dowdle was featured in Utah Business magazine’s Forty Under 40 recognizing Utah’s most influential up and comers. He holds Bachelor of Science degrees in History and Broadcast Journalism from Brigham Young University.</p>
+			<p>Jesse leads the engineering, quality assurance, business intelligence, and architecture teams. He is responsible for developing the architecture behind the product roadmap, and ensuring RizePoint products meet customer and market needs. Jesse brings a decade of software engineering and product development experience to the RizePoint team. He joined RizePoint from ProofHQ, a Workfront company, where he was VP of Technology.</p>
+			<p>In 2017, Jesse was featured in Utah Business magazine’s Forty Under 40 recognizing Utah’s most influential up and comers. He holds two degrees in history and broadcast journalism from Brigham Young University.</p>
+			<p>When he was a kid, Jesse wanted to anchor the nightly news.</p>
 		</div><!-- ec-text -->
 	</div><!-- ec-wrapper -->
 </section><!-- ec -->

@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 23 of C:\xampp\htdocs\living-tribunal\assets\css\includes\home.scss
+        on line 22 of C:\xampp\htdocs\living-tribunal\assets\css\includes\home.scss
 
-18: /* INDUSTRY FEATURES *\/
-19: .feature-container{
-20: 	width: 100%;
-21: 	max-width: 1000px;
-22: 	margin: 0 auto;
-23: 	color: $white;
-24: 	position: relative;
-25: 	
-26: 	h2{
-27: 		padding: 15px 0 35px 0;
-28: 	}
+17: }
+18: .feature-container {
+19:     width: 100%;
+20:     max-width: 1000px;
+21:     margin: 0 auto;
+22:     color: $white;
+23:     position: relative;
+24: }
+25: .feature-container h2 {
+26:     padding: 15px 0 35px;
+27: }
 
 Backtrace:
-C:\xampp\htdocs\living-tribunal\assets\css\includes\home.scss:23
+C:\xampp\htdocs\living-tribunal\assets\css\includes\home.scss:22
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -61,4 +61,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 23 of C:\xampp\htdocs\living-tribunal\assets\css\includes\home.scss\A \A 18: /* INDUSTRY FEATURES */\A 19: .feature-container{\A 20: 	width: 100%;\A 21: 	max-width: 1000px;\A 22: 	margin: 0 auto;\A 23: 	color: $white;\A 24: 	position: relative;\A 25: 	\A 26: 	h2{\A 27: 		padding: 15px 0 35px 0;\A 28: 	}"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 22 of C:\xampp\htdocs\living-tribunal\assets\css\includes\home.scss\A \A 17: }\A 18: .feature-container {\A 19:     width: 100%;\A 20:     max-width: 1000px;\A 21:     margin: 0 auto;\A 22:     color: $white;\A 23:     position: relative;\A 24: }\A 25: .feature-container h2 {\A 26:     padding: 15px 0 35px;\A 27: }"; }

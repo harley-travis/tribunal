@@ -7,6 +7,9 @@ get_header(); ?>
 	.ec{
 		padding: 50px;
 	}
+	img{
+		width: 100%;
+	}
 </style>
 
 <div class="container-fluid blue-green">
@@ -22,13 +25,14 @@ get_header(); ?>
 	</div><!-- banner -->
 </div><!-- container-fluid -->
 
-<section class="container-fluid ec">
+<section class="container-fluid ec wrap push">
 	<div class="container ec-wrapper">
 		<div class="col-md-6 col-sm-4 col-xs-12 ec-pic">
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/ec/full/chris-heaton.jpg" class="leader-img" alt="">
 		</div><!-- ec-pic -->
 		<div class="col-md-6 col-8 col-xs-12 ec-text">
-			<p>As Director of Finance, Heaton is responsible for the financial strategy and administrative operations of the organization. A 15-year veteran of technology businesses, Heaton joined RizePoint from Hewlett-Packard Enterprise where he held multiple roles in controllership, FP&amp;A, strategy, and sales finance. Prior to HPE, Chris worked in technology and management consulting at Sapient, consulting for General Motors, Enbridge, and the Department of Defense. Heaton holds an MBA from Duke’s Fuqua School of Business and dual Bachelor’s degrees in computer science and economics from Brigham Young University.</p>
+			<p>Chris is responsible for the financial strategy and administrative operations of the organization. A 15-year veteran of technology businesses, Chris joined RizePoint from Hewlett-Packard Enterprise where he held multiple roles in controllership, FP&amp;A, strategy, and sales finance. Prior to HPE, he worked in technology and management consulting at Sapient, consulting for General Motors, Enbridge, and the Department of Defense. Heaton holds an MBA from Duke’s Fuqua School of Business and degrees in computer science and economics from Brigham Young University.</p>
+			<p>Chris builds businesses now, but when he was young, he was more interested in being an architect.</p>
 		</div><!-- ec-text -->
 	</div><!-- ec-wrapper -->
 </section><!-- ec -->

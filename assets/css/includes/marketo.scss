@@ -1,54 +1,51 @@
-/* MARKETO FORMS */
-.mktoForm, .mktoForm .mktoFormCol {
-    width: 100% !important;
+
+.mktoForm,
+.mktoForm .mktoFormCol {
+    width: 100%!important;
+}
+.mktoForm .mktoFieldDescriptor input,
+.mktoForm .mktoFieldWrap input {
+    width: 100%!important;
+    height: 45px;
+    padding-left: .75em!important;
+    margin-bottom: .75em;
+    color: #cf842a!important;
+    font-size: 15px;
 }
 
-.mktoForm .mktoFieldWrap input, .mktoForm .mktoFieldDescriptor input {
-   width: 100%!important;
-   height: 45px;
-   padding-left: .75em!important;
-   margin-bottom: .75em;
-   color: #cf842a !important;
-   font-size: 15px;
+.show-menu,
+.tab-links a {
+    text-decoration: none;
+    font-weight: 600;
 }
-.mktoForm .mktoButtonRow span {
-   background-color: rgba(255, 0, 0, 0)!important;
-}
-
-.mktoForm .mktoButtonRow span button.mktoButton{
-   color: #fff!important;
-   border: none!important;
-   padding: .625em 1em;
-   background-color: orange !important;
-   font-size: 21px!important;
-   background-image: none !important;
-   border-radius: 5px;
-} 
-span.mktoButtonWrap.mktoLight {
-    margin-left: 0 !important;
-}
-.mktoForm .mktoButtonWrap.mktoLight{
-	border-radius: 7px !important;
-    background: orange !important;
-    border: none !important;
-	box-shadow: none !important;
-}
-.mktoForm .mktoButtonWrap.mktoLight .mktoButton{
-	box-shadow: none !important;
-    font-weight: normal !important;
-	padding: 0 15px 0 15px !important;
-	width: 100% !important;
-}
-
-.mktoForm .mktoFieldWrap {
-    float: none !important;
+.btn-lg,
+.img {
+    width: 100%;
 }
 .mktoForm .mktoAsterix {
-    display: none !important;
-}
-span.mktoButtonWrap.mktoSimple {
-    margin-left: 0 !important;
+    display: none!important;
 }
 .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
     margin-top: 15px;
+}
+
+/* BUTTONS */
+label.mktoLabel.mktoHasWidth {
+    width: auto !important;
+}
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+	background:#28B29A !important;
+	width: 100% !important;
+	border: 1px solid white !important
+}	
+.mktoButtonRow {
+    width: 100% !important;
+}
+button.mktoButton {
+    height: 50px;
+    font-size: 1.4em !important;
+}
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover {
+    border: none !important;
+    background-color: #1f8876 !important;
 }

@@ -4,100 +4,115 @@
 */
 get_header(); ?>
 
-<div class="container-fluid orange-yellow">
+<style>
+	.raq-banner{
+		height: 300px !important;
+	}
+	.request-wrapper {
+    padding-top: 40px;
+}
+.request-brands-wrapper {
+    padding: 0;
+}
+.request-brand {
+    padding: 50px 0;
+	    margin-top: 70px;
+}
+	.request-form {
+    padding: 0 50px;
+}
+		.client-box-pic {
+    background: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 7px;
+}
+	.raq-fix{
+		    height: 200px !important;  
+	}
+	.raq-logo-fix{
+		padding: 5px !important;
+	}
+	
+	
+	
+	@media only screen and (max-width: 768px){
+		.raq-fix {
+			margin-bottom: 35px;
+		}
+	}
+	
+	@media only screen and (max-width: 425px){
+			.request-wrapper {
+				padding-top: 0;
+			}
+		.request-form {
+			padding: 0px 10px;
+			padding-top: 35px;
+		}
+	}
+	
+	
+	
+
+	
+</style>
+
+<div class="container-fluid green-blue">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
-	<div class="container banner wrap push">
+	<div class="container banner wrap push raq-banner">
 		<div class="banner-wrapper">
 			<h1>Request A Demo</h1>
-			<div class="banner-btns">
-				<a href="<?php echo ROOT_URL; ?>/blog" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">RizePoint Blog</a> <a href="<?php echo ROOT_URL; ?>/resources" class="btn btn-lg btn-width-lg btn-inverse-white">Resources</a>
-			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
 </div><!-- container-fluid -->
 
-<div class="container request-wrapper">
-	<div class="col-md-6 col-sm-12 col-xs-12 request-video blue-text">
+<div class="container request-wrapper wrap push">
+	<div class="col-md-6 col-sm-6 col-xs-12 request-video">
 			<div class="request-choose">
-				<h1>Why Choose RizePoint?</h1>
-				<p>The Worlds Most Powerful Brand Quality &amp; Safety Compliance Solution</p>
+				<h1 class="green-text">Why Choose RizePoint?</h1>
 			</div><!--request-choose-->
 				<div class="video-size">
-					<iframe width="510" height="280" src="https://www.youtube.com/embed/Snt-nDronqE" frameborder="0" allowfullscreen></iframe>
+					<script src="https://fast.wistia.com/embed/medias/d1hjzc3dsq.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_d1hjzc3dsq videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
 				</div><!--video-size-->
 	</div><!--request-video-->
 	
-	<div class="col-md-6 col-sm-12 col-xs-12 request-form purple-text">
+	<div class="col-md-6 col-sm-6 col-xs-12 request-form">
 			<div class="request-demo">
-				<h3>Request A Free</h3>
-				<h1>Demo</h1>
+				<h2 class="green-text">Request a Demo</h2>
 			</div><!--request-demo-->
 			<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>
-			<form id="mktoForm_457"></form>
-			<script>MktoForms2.loadForm("//app-ab09.marketo.com", "318-YYG-377", 457);</script>
+			<form id="mktoForm_380"></form>
+			<script>MktoForms2.loadForm("//app-ab09.marketo.com", "318-YYG-377", 380);</script>
 	</div><!--request-form-->
-
-	<div class="request-icons">
-		<div class="row circle-row">
-
-			<div class="col-md-4 col-sm-4 col-xs-12 circle-wrapper">
-				<div class="circle-icon purple-bg">
-					<img src="<?php echo ROOT; ?>/assets/img/icons/computer-icon-white.png" class="circle-icon-img"></img>
-				</div><!--circle-icon-->
-				<div class="circle-header">
-					<h4>Gather Better</h4>
-				</div><!--circle-header-->
-				<div class="circle-text">
-					<p></p>
-				</div><!--circle-text-->
-			</div><!--circle-wrapper-->
-
-			<div class="col-md-4 col-sm-4 col-xs-12 circle-wrapper">
-				<div class="circle-icon pink-bg">
-					<img src="<?php echo ROOT; ?>/assets/img/icons/chart-time-icon-white.png" class="circle-icon-img"></img>
-				</div><!--circle-icon-->
-				<div class="circle-header">
-					<h4>See Earlier</h4>
-				</div><!--circle-header-->
-				<div class="circle-text">
-					<p></p>
-				</div><!--circle-text-->
-			</div><!--circle-wrapper-->
-			
-			<div class="col-md-4 col-sm-4 col-xs-12 circle-wrapper">
-				<div class="circle-icon blue-bg">
-					<img src="<?php echo ROOT; ?>/assets/img/icons/rocket-icon-white.png" class="circle-icon-img"></img>
-					
-				</div><!--circle-icon-->
-				<div class="circle-header">
-					<h4>Act Faster</h4>
-				</div><!--circle-header-->
-				<div class="circle-text">
-					<p></p>
-				</div><!--circle-text-->
-			</div><!--circle-wrapper-->
-		</div><!--row circle-row-->
-	</div><!--request-icons-->
 </div><!--request-wrapper-->
 
-<div class="container-fluid request-brand lightGray-bg">
-	<div class="request-brands-wrapper">
+<div class="container-fluid request-brand lightGray-bg wrap push">
+	<div class="container request-brands-wrapper">
 
-		<div class="request-brands-text gray-text">
-				<p>The Brands Who Trust RizePoint</p>
+		<div class="request-brands-text">
+			<h2 class="green-text">The Brands Who Trust RizePoint</h2>
 		</div><!--request-brands-text-->		
 		
-		<div class="col-md-3 col-sm-6 col-xs-12 brand">
-			<img src="<?php echo ROOT; ?>assets/img/clients/wendys-resources.jpg" class="wendys-icon-img"></img>
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<div class="customer-logo client-box-pic box-shadow raq-fix">
+				<img src="<?php echo ROOT; ?>assets/img/clients/wendys-resources.jpg" class="customerLogo-img raq-logo-fix">
+			</div>
 		</div>
-		<div class="col-md-3 col-sm-6 col-xs-12 brand">
-			<img src="<?php echo ROOT; ?>assets/img/clients/ihg-resources.jpg" class="ihg-icon-img"></img>
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<div class="customer-logo client-box-pic box-shadow raq-fix">
+				<img src="<?php echo ROOT; ?>assets/img/clients/ihg-resources.jpg" class="customerLogo-img raq-logo-fix">
+			</div>
 		</div>
-		<div class="col-md-3 col-sm-6 col-xs-12 brand">
-			<img src="<?php echo ROOT; ?>assets/img/clients/buffalowildwings-resources.jpg" class="buffalo-icon-img"></img>
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<div class="customer-logo client-box-pic box-shadow raq-fix">
+				<img src="<?php echo ROOT; ?>assets/img/clients/buffalowildwings-resources.jpg" class="customerLogo-img raq-logo-fix">
+			</div>
 		</div>
-		<div class="col-md-3 col-sm-6 col-xs-12 brand">
-			<img src="<?php echo ROOT; ?>assets/img/clients/originals/harmons-logo.png" class="harmons-icon-img"></img>		
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<div class="customer-logo client-box-pic box-shadow raq-fix">
+				<img src="<?php echo ROOT; ?>assets/img/clients/originals/harmons-logo.png" class="customerLogo-img raq-logo-fix">	
+			</div>	
 		</div>
 	
 		<div class="request-client-button">

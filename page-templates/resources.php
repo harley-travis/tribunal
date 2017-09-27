@@ -78,7 +78,14 @@ get_header();
     
 
 ?>
-
+<style>
+	img {
+    width: 100%;
+}
+ p.overlay-text {
+		font-size: 1em !important;
+	}
+</style>
 <div class="container-fluid pink-yellow">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
@@ -91,7 +98,7 @@ get_header();
 	</div><!-- banner -->
 </div><!-- container-fluid -->
    
-    <div class="tabs">
+    <div class="tabs wrap push">
         <div class="tab-links-wrapper">
             <label for="show-menu" class="show-menu">Show Tabs</label>
             <input type="checkbox" id="show-menu" role="button">
@@ -108,12 +115,12 @@ get_header();
             <div class="container tab-content">
                 <div class="tab-content-wrapper">
                     <div id="<?php echo tab1($tab1); ?>" class="tab active">
-                        <div class="container resource-container">
+                        <div class="resource-container">
                                                         
                             <div class="headline-posts-container">
-                                <div class="small-12 medium-4 large-6 columns headline-col-1">
+                                <div class="col-sm-12 col-md-4 col-lg-6 headline-col-1">
                                     <div class="headline-wrapper">
-                                        <a href="#" data-reveal-id="resource-modal-1">
+                                        <a href="https://rizepoint.com/fsma-e-book/">
                                             <div class="headline-post" style="background-image:url(<?php the_field('popular-img-1'); ?>);"></div>
                                             <div class="headline-post-text">
                                                 <h3 class="headline-heading"><?php the_field('popular-title-1'); ?></h3>
@@ -122,7 +129,7 @@ get_header();
                                     </div><!-- headline-wrapper -->
                                 </div><!-- headline -->
 
-                                <div class="small-12 medium-4 large-3 columns headline-col-2">
+                                <div class="col-sm-12 col-md-4 col-lg-3 headline-col-2">
                                     <div class="headline-col-2-wrapper">
                                         <a href="<?php the_field('popular-link-2'); ?>">
                                             <div class="hc2-1-post">
@@ -144,7 +151,7 @@ get_header();
                                     </div><!-- headling-col-2-wrapper -->                            
                                 </div><!-- headline-col -->
                                 
-                                <div class="small-12 medium-4 large-3 columns headline-col-3">
+                                <div class="col-sm-12 col-md-4 col-lg-3 headline-col-3">
                                     <div class="headline-col-3-wrapper">
                                         
                                         <a href="<?php the_field('popular-link-4'); ?>">
@@ -156,7 +163,7 @@ get_header();
                                             </div><!-- headling-col-2-post -->
                                         </a>
                                             
-                                        <a href="#" data-reveal-id="resource-modal-4">
+                                        <a href="https://rizepoint.com/csr-white-paper/">
                                             <div class="hc3-2-post">
                                                 <div class="frontPostImg" style="background-image:url('<?php the_field('popular-img-5'); ?>');"></div>
                                                 <div class="hc3-text">
@@ -172,7 +179,7 @@ get_header();
                             <div class="resource-thmb-loop">
                                 <?php if( have_rows('tab_items_1') ): ?>
                                     <?php while ( have_rows('tab_items_1') ): the_row(); ?>
-                                        <div class="small-12 medium-6 large-4 columns resource-col" >
+                                        <div class="col-sm-12 col-md-6 col-lg-4 resource-col" >
                                             <a href="<?php the_sub_field('tab-link-1'); ?>">
                                                 <div class="resource-col-wrapper" style="background-image:url('<?php the_sub_field('tab-image-1'); ?>');">
                                                     <!--<img src="" alt="" class="resource-col-img">-->
@@ -189,10 +196,10 @@ get_header();
                     </div><!-- TAB1 -->
 
                     <div id="<?php echo tab2($tab2); ?>" class="tab">
-                        <div class="container resource-container">
+                        <div class="resource-container">
                             <?php if( have_rows('tab_items_2') ): ?>
                                 <?php while ( have_rows('tab_items_2') ): the_row(); ?>
-                                    <div class="small-12 medium-6 large-4 columns resource-col">
+                                    <div class="col-sm-12 col-md-6 col-lg-4 resource-col">
                                         <a href="<?php the_sub_field('tab-link-2'); ?>" target="_blank">
                                             <div class="resource-col-wrapper hovereffect" style="background-image:url('');">
                                                 <img src="<?php the_sub_field('tab-image-2'); ?>" alt="" class="tab2-img">
@@ -212,10 +219,10 @@ get_header();
                     </div><!-- TAB2 -->
 
                     <div id="<?php echo tab3($tab3); ?>" class="tab">
-                        <div class="container resource-container">
+                        <div class="resource-container">
                             <?php if( have_rows('tab_items_3') ): ?>
                                 <?php while ( have_rows('tab_items_3') ): the_row(); ?>
-                                    <div class="small-12 medium-6 large-4 columns resource-col">
+                                    <div class="col-sm-12 col-md-6 col-lg-4 resource-col">
                                         <a href="<?php the_sub_field('tab-link-3'); ?>" target="_blank">
                                             <div class="resource-col-cs-wrapper">
                                                 <img src="<?php the_sub_field('tab-image-3'); ?>" alt="" class="resource-col-img">
@@ -231,12 +238,12 @@ get_header();
                     </div><!-- TAB3 -->
                     
                     <div id="<?php echo tab4($tab4); ?>" class="tab">
-                       <div class="container resource-container">
+                       <div class="resource-container">
                             <?php if( have_rows('tab_items_4') ): ?>
                                 <?php $count = 1; ?>
                                 <?php while ( have_rows('tab_items_4') ): the_row(); ?>
-                                    <div class="small-12 medium-6 large-4 columns resource-col">
-                                        <a href="#" data-reveal-id="resource-modal-<?php echo $count; ?>">
+                                    <div class="col-sm-12 col-md-6 col-lg-4 resource-col">
+                                        <a href="#" data-toggle="modal" data-target="#resource-modal-<?php echo $count; ?>">
                                             <div class="resource-col-cs-wrapper">
                                                 <img src="<?php the_sub_field('tab-image-4'); ?>" alt="" class="resource-col-img">
                                                 <div class="resource-col-title">
@@ -251,21 +258,25 @@ get_header();
                            
                            <!---------------------
                                 RESOURCES MODALS
-                            ---------------------->
+                            ----------------------> 
                            <?php if( have_rows('modal_items') ): ?>
                                 <?php $count = 1; ?>
                                 <?php while ( have_rows('modal_items') ): the_row(); ?>
-                                    <div id="resource-modal-<?php echo $count; ?>" class="reveal-modal resource-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                                        <script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>
-                                        <h3><?php the_sub_field('modal-title'); ?></h3>
-                                        <p><?php the_sub_field('modal-desc'); ?></p>
-                                        <form id="mktoForm_<?php the_sub_field('form-ID'); ?>"></form>
-                                        <script>MktoForms2.loadForm("//app-ab09.marketo.com", "318-YYG-377", <?php the_sub_field('form-ID'); ?>, function (form){});</script>        
+                                    <div id="resource-modal-<?php echo $count; ?>" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="resource-modal-<?php echo $count; ?>-label">
+                                    	<div class="large-modal modal-dialog" role="document">
+											<div class="modal-content modal-resource">
+												<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>
+												<h3><?php the_sub_field('modal-title'); ?></h3>
+												<p><?php the_sub_field('modal-desc'); ?></p>
+												<form id="mktoForm_<?php the_sub_field('form-ID'); ?>"></form>
+												<script>MktoForms2.loadForm("//app-ab09.marketo.com", "318-YYG-377", <?php the_sub_field('form-ID'); ?>, function (form){});</script>    
+											</div>  
+										</div> 
                                     </div>
                                 <?php $count++; ?>
                                 <?php endwhile; ?>
                            <?php endif; ?>
-                           
+                                        
                            <div class="wp-infographic">
                                 <img src="<?php the_field('infographic'); ?>" alt="" class="wp-infograpic">
                            </div><!-- wp-infographic -->
@@ -274,10 +285,10 @@ get_header();
                     </div><!-- TAB4 -->
 
                     <div id="<?php echo tab5($tab5); ?>" class="tab">
-                       <div class="container resource-container">
+                       <div class="resource-container">
                             <?php if( have_rows('tab_items_5') ): ?>
                                 <?php while ( have_rows('tab_items_5') ): the_row(); ?>
-                                    <div class="small-12 medium-6 columns resource-col">
+                                    <div class="col-sm-12 col-md-6 resource-col">
                                         <div class="videoWrapper">
 											<a href="<?php the_sub_field('video-link'); ?>"><h4><?php the_sub_field('video-title'); ?></h4></a>
                                             <?php the_sub_field('video-embed'); ?>
@@ -285,9 +296,10 @@ get_header();
                                     </div><!-- resource-col -->
                                 <?php endwhile; ?>
                             <?php endif; ?>
-                           <div class="small-12 medium-6 columns resource-col">
+                           <div class="col-sm-12 col-md-6 resource-col">
                                <div class="videoWrapper">
                                     <a href="#" data-reveal-id="video-webinar-modal">
+                                      	<h4><?php the_field('webinar-title'); ?></h4>
                                         <img src="<?php the_field('webinar-video'); ?>" alt="" class="webinar-video-img">
                                     </a>
                                </div><!-- videoWrapper -->
@@ -296,12 +308,14 @@ get_header();
                            <!---------------------
                                 WEBINAR MODALS
                             ---------------------->
-                           <div id="video-webinar-modal" class="reveal-modal resource-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                                <script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>
-                                <h3><?php the_field('webinar-modal-title'); ?></h3>
-                                <p><?php the_field('webinar-modal-desc'); ?></p>
-                                <form id="mktoForm_<?php the_field('webinar-form-ID'); ?>"></form>
-                                <script>MktoForms2.loadForm("//app-ab09.marketo.com", "318-YYG-377", <?php the_field('webinar-form-ID'); ?>, function (form){});</script>     
+                           <div id="video-webinar-modal" class="modal fade resource-modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle">
+                               <div class="modal-content">
+                                	<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>
+									 <h3><?php the_field('webinar-modal-title'); ?></h3>
+									 <p><?php the_field('webinar-modal-desc'); ?></p>
+									<form id="mktoForm_<?php the_field('webinar-form-ID'); ?>"></form>
+									<script>MktoForms2.loadForm("//app-ab09.marketo.com", "318-YYG-377", <?php the_field('webinar-form-ID'); ?>, function (form){});</script> 
+							   </div>    
                            </div>
                            
                         </div><!-- container -->
@@ -309,18 +323,18 @@ get_header();
                     
                     
                     <div id="<?php echo tab6($tab6); ?>" class="tab">
-                        <div class="container resource-container">
+                        <div class="resource-container">
                             <?php if( have_rows('tab_items_6') ): ?>
                                 <?php while ( have_rows('tab_items_6') ): the_row(); ?>
-                                    <div class="small-12 medium-6 large-4 columns resource-col">
+                                    <div class="col-sm-12 col-md-6 col-lg-4 resource-col">
                                         <a href="<?php the_sub_field('tab-link-6'); ?>" target="_blank">
                                           
                                                 <img src="<?php the_sub_field('tab-image-6'); ?>" alt="" class="tab2-img">
 
                                     
                                             <div class="resource-info-title"> 
-                                                <span class="small-9 columns rc-title-text"><?php the_sub_field('tab-title-6'); ?></span>
-                                                <span class="small-3 columns rc-title-download"><a href="<?php the_sub_field('tab-link-6'); ?>" download class="btn btn-primary"><span class="glyphicon glyphicon-download icon-pad" aria-hidden="true"></span> Download</a></span>
+                                                <span class="col-sm-9 rc-title-text"><?php the_sub_field('tab-title-6'); ?></span>
+<!--                                                <span class="col-sm-3 rc-title-download"><a href="<?php the_sub_field('tab-link-6'); ?>" download class="btn btn-primary"><span class="glyphicon glyphicon-download icon-pad" aria-hidden="true"></span> Download</a></span>-->
 
                                                 
                                                 
@@ -345,13 +359,16 @@ get_header();
             </div><!-- tab content -->
         </div><!-- tabs -->
 
+   
+<style>
+   .modal-resource{
+	   padding: 20px;
+   }
+</style>
+   
     <!---------------------
         INIT TAB FUNCTION
     ---------------------->
-    
-    <style>
-
-	</style>
     
     <script>
         $(document).ready(function() {

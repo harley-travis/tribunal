@@ -1,15 +1,8 @@
-
-/***********************************
-   NEWSROOM 
-***********************************/
 .news-banner {
-    background: #eee;
-    background-image: url('http://landing.rizepoint.com/wp-content/uploads/2016/02/Demo-v2.jpg');
-    background-repeat: no-repeat;
+    background: url(http://landing.rizepoint.com/wp-content/uploads/2016/02/Demo-v2.jpg) no-repeat #eee;
     background-size: cover;
     height: 450px;
     padding: 70px;
-    text-align: center;
     position: relative;
 }
 .news-banner-wrapper {
@@ -18,80 +11,75 @@
     right: 0;
     top: 30%;
 }
-.icon{
+.icon {
     font-size: 5rem;
 }
 ul.news-tab {
     border-bottom: #eee 1px solid;
-    overflow: auto;
     padding-bottom: 30px;
 }
 li.news-icon-title {
-    list-style: none;
-    text-align: center;
-	display: inline-block;
+    display: inline-block;
 }
-.n-icon{
-    color: #6b6b6b;
+.n-icon {
+    color: $gray;
     padding-bottom: 10px;
     width: 100%;
 }
 .n-icon:hover {
-    color: #bbbcbc;
+    color: $otherGray;
 }
-.n-icon:active,.ntext:active {
-    outline: none;
+.n-icon:active,
+.ntext:active {
+    outline: 0;
 }
-.news-icon-title a, .news-icon-title a:active{
-    color: #6d6d6d !important;
+.news-icon-title a,
+.news-icon-title a:active {
+    color: #6d6d6d!important;
 }
-li.active a, li.active a:hover {
-    outline: none !important;
+li.active a,
+li.active a:hover {
+    outline: 0!important;
 }
-.news-banner h2, .news-banner h3 {
-    color: #fff;
-    text-shadow: 0px 0px 30px #000;
+.news-banner h2,
+.news-banner h3 {
+    color: $white;
+    text-shadow: 0 0 30px #000;
 }
 section.news-archive article .news-post h3 {
-    font-size: 1.5em !important;
-    line-height: 33px !important;
+    font-size: 1.5em!important;
+    line-height: 33px!important;
+    text-transform: uppercase!important;
+    color: $gray!important;
 }
-ul.news-articles-list{
-    list-style: none;
+ul.news-articles-list {
     padding: 0;
     margin: 0;
 }
-section.press-releases-archive article hr, section.press-release article hr{
-    border-color: #f8c671 !important;
-    border-width: 1px !important;
+section.press-release article hr,
+section.press-releases-archive article hr {
+    border-color: #f8c671!important;
+    border-width: 1px!important;
 }
-section.news-archive article .news-post h3 {
-    text-transform: uppercase !important;
-    color: #6b6b6b !important;
+.compliance-solutions {
+    background: 0 0!important;
 }
-/* this is for the home page thing with 3 icons*/
-.compliance-solutions{
-    background: transparent !important;
-}
-h3.newsroom-title-thing{
+h3.newsroom-title-thing {
     font-size: 3.125em;
     line-height: 1em;
     letter-spacing: 2px;
-    font-family: "verbsemibold";
+    font-family: verbsemibold;
     text-transform: uppercase;
     margin-bottom: 0;
 }
-hr.newsroom-title-heading{
+hr.newsroom-title-heading {
     border-color: #f8c671;
     border-width: 1px;
     max-width: 250px;
     margin-bottom: 3rem;
 }
-article.article-newsroom-wrapper{
+article.article-newsroom-wrapper {
     padding: 2rem 1rem;
-}
-.news-post {
-    overflow: auto;
 }
 img.newsroom-icon-png-img {
     width: 100%;
@@ -102,93 +90,91 @@ img.news-post-img {
     max-height: 200px;
     float: left;
 }
-.press-list{
-	ul{
-		padding: 0;
-		margin: 0;
-	}
-	li{
-		list-style: none;
-	}
+.press-list ul {
+    padding: 0;
+    margin: 0;
+}
+.press-list li {
+    list-style: none;
 }
 
 
-
-/***********************************
-   MOBILE STYLES KEEPING IT FRESH
-***********************************/
-
-@media only screen and (max-width: 828px){
-    
+@media only screen and (max-width: 828px) {
     h2.resoure-heading {
         top: 20%;
     }
-	a.welcome-btn{
-		max-width: 100%;
-	}
-	.message-wrapper {
-		margin-top: 70px !important;
-	}
-	.slick-initialized .slick-slide {
-		padding: 15px;
-	}
+    a.welcome-btn {
+        max-width: 100%;
+    }
+    .message-wrapper {
+        margin-top: 70px!important;
+    }
+    .slick-initialized .slick-slide {
+        padding: 15px;
+    }
 }
-
-@media screen and (max-width : 760px){
-    
-	ul.tab-menu {
-		position: static;
-		display: none;
-	}
-	li.tab-list {
+@media screen and (max-width: 760px) {
+    ul.news-tab,
+    ul.tab-links,
+    ul.tab-menu {
+        display: none;
+    }
+    ul.tab-menu {
+        position: static;
+    }
+    li.tab-list {
         width: 100%;
         text-align: center;
         padding: 0;
-        margin: 0 0 1px 0;
+        margin: 0 0 1px;
     }
-	ul.tab-menu li.tab-list, li.tab-list a {
-		width: 100%;
-	}
+    li.tab-list a,
+    ul.tab-menu li.tab-list {
+        width: 100%;
+    }
     li.tab-list a {
         background: orange;
-        color: white;
+        color: $white;
     }
-    ul.tab-links, ul.news-tab {
-        display: none;
-    }
-    input[type=checkbox]:checked ~ #tab-menu {
+    input[type=checkbox]:checked~#tab-menu {
         display: block;
-        padding: 0 !important;
+        padding: 0!important;
         margin: 0;
         width: 100%;
     }
-	.show-menu {
-		display: block;
-	}
-	.how-we-explain {
-		padding: 30px;
-	}
-	.explain-wrapper {
-		padding: 30px 40px 20px 40px;
-	}
-	.hw-cta-btn-wrapper {
-		margin-bottom: 30px;
-	}
-	.pa-banner-wrapper{
-		top: 15%;
-	}
+    .show-menu {
+        display: block;
+    }
+    .how-we-explain {
+        padding: 30px;
+    }
+    .explain-wrapper {
+        padding: 30px 40px 20px;
+    }
+    .hw-cta-btn-wrapper {
+        margin-bottom: 30px;
+    }
+    .pa-banner-wrapper {
+        top: 15%;
+    }
 }
-
-@media only screen and (max-width: 640px){
-	
-	.welcome-message{
-		text-align: center;
-	}
+@media only screen and (max-width: 640px) {
+    .content-area,
+    .how-we-left,
+    .how-we-right,
+    .how-we-right h3,
+    .how-we-right li,
+    .products-content-area,
+    .ps-right,
+    .welcome-message {
+        text-align: center;
+    }
     .headline-col-1 {
         margin-bottom: 30px;
         padding: 0;
     }
-    .headline-col-2, .headline-col-3 {
+    .headline-col-2,
+    .headline-col-3 {
         padding: 0;
         height: auto;
     }
@@ -205,30 +191,29 @@ img.news-post-img {
     .hc2-1-post,
     .hc2-2-post,
     .hc3-1-post,
-    .hc3-2-post{
+    .hc3-2-post {
         height: 50%;
     }
     .resource-col {
         padding-left: 0;
         padding-right: 0;
     }
-    .headline-posts-container, .headline-col-2-wrapper, .headline-col-3-wrapper {
+    .headline-col-2-wrapper,
+    .headline-col-3-wrapper,
+    .headline-posts-container {
         border-bottom: none;
     }
     .resource-col-title {
         position: absolute;
     }
     .resource-modal {
-        width: 100% !important;
+        width: 100%!important;
     }
     .spark-content-wrapper {
         padding: 40px;
     }
     .product-section-wrapper {
-        padding: 50px 20px 50px 20px;
-    }
-    .ps-right, .products-content-area {
-        text-align: center;
+        padding: 50px 20px;
     }
     img.product-section-img {
         max-width: none;
@@ -237,70 +222,57 @@ img.news-post-img {
         position: relative;
         max-width: 200px;
         width: 100%;
-        margin: 0 auto;
-        margin-top: 15px;
+        margin: 15px auto 0;
     }
     .right-hr {
         right: 0;
     }
     .products-content-area {
-        padding: 30px 0 30px 0;
+        padding: 30px 0;
     }
-    .displayOn{
-        display: none;
-    }
-    .displayOff{
-        display: block;
-    }
-    .content-area {
-        text-align: center;
+    .content-area,
+    li.news-icon-title {
         padding-top: 30px;
     }
-    /* newsroom */
+    .displayOn {
+        display: none;
+    }
+    .displayOff {
+        display: block;
+    }
     .n-icon {
         width: auto;
         padding-right: 15px;
         font-size: 2.4em;
     }
-    li.news-icon-title {
-        padding-top: 30px;
+    .how-we-right h3 {
+        padding-top: 35px;
     }
-	.how-we-right h3 {
-		padding-top: 35px;
-		text-align: center;
-	}
-	.how-we-right li {
-		list-style: none;
-		text-align: center;
-		padding: 10px;
-		border-bottom: 1px solid;
-	}
-	.how-we-right, .how-we-left {
-		text-align: center;
-	}
-	.how-we-cta {
-		top: 17em;
-	}
-	.blue-way-text {
-		padding-bottom: 35px;
-	}
-	.pa-right{
-		margin-top: 50px;
-	}
-	img.wp-logo-img {
-		padding: 0px 0 60px 0;
-	}
+    .how-we-right li {
+        list-style: none;
+        padding: 10px;
+        border-bottom: 1px solid;
+    }
+    .how-we-cta {
+        top: 17em;
+    }
+    .blue-way-text {
+        padding-bottom: 35px;
+    }
+    .pa-right {
+        margin-top: 50px;
+    }
+    img.wp-logo-img {
+        padding: 0 0 60px;
+    }
 }
-
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
     article.products-banner-text {
         margin-top: -251px;
         width: 70%;
     }
 }
-
-@media only screen and (max-width: 476px){
-    
+@media only screen and (max-width: 476px) {
     h2.resoure-heading {
         top: initial;
         bottom: 0;
@@ -308,46 +280,46 @@ img.news-post-img {
         width: 100%;
     }
     section.engage-block,
-    section.roi-block{
+    section.roi-block {
         padding: 45px;
     }
     .blue-way-jay {
         padding: 50px;
     }
-	.how-we-explain {
-		padding: 10px;
-	}
-	.how-we-video-wrapper h3 {
-		display: none;
-	}
-	.how-we-info-left, .how-we-info-right {
-		padding: 0;
-		padding-top: 35px;
-		padding-bottom: 35px;
-	}
-	.how-we-customers {
-		padding: 0;
-	}
-	.how-we-cta {
-		top: 10em;
-	}
-	.how-we-section-2 {
-		padding: 10px;
-		padding-bottom: 35px;
-	}
-	.explain-wrapper {
-		padding: 30px 15px 20px 15px;
-	}
-	.how-we-cta h3{
-		text-shadow: none;
-	}
+    .how-we-explain {
+        padding: 10px;
+    }
+    .how-we-video-wrapper h3 {
+        display: none;
+    }
+    .how-we-info-left,
+    .how-we-info-right {
+        padding: 35px 0;
+    }
+    .how-we-customers {
+        padding: 0;
+    }
+    .how-we-cta {
+        top: 10em;
+    }
+    .how-we-section-2 {
+        padding: 10px 10px 35px;
+    }
+    .explain-wrapper {
+        padding: 30px 15px 20px;
+    }
+    .how-we-cta h3 {
+        text-shadow: none;
+    }
 }
-
-@media only screen and (max-width: 373px){
-	.pa-banner-wrapper {
-		top: 0%;
-	}
+.error-mes h1,
+.error-mes h3 {
+    font-family: $gotham-book;
+    text-shadow: 2px 2px 4px #000;
+    color: $white;
 }
-
-
-
+@media only screen and (max-width: 373px) {
+    .pa-banner-wrapper {
+        top: 0;
+    }
+}

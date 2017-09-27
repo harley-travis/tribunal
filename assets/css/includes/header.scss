@@ -1,61 +1,82 @@
 .header-wrapper {
-    padding-top: 20px !important;
+    padding-top: 20px!important;
 }
-.logo{
-	padding-top: 35px;
+.logo {
+    padding-top: 35px;
 }
-.logo-img{
-	max-width: 250px;
+.regular-logo {
+    display: none;
 }
-.regular-logo{
-	display: none;
+.white-logo {
+    display: block;
 }
-.white-logo{
-	display: block;
+.nav {
+    float: right;
+    clear: right;
 }
-
-/* MAIN NAV */
-.nav{
-	float: right;
-	clear: right;
+.dont-nav,
+.mktoForm .mktoFieldWrap {
+    float: none!important;
 }
-nav.upper-nav, 
+li.subnav-list {
+    text-align: left;
+    padding-left: 10px;
+}
+.dropdown-menu li,
 .main-nav,
-.dropdown-menu li{
+nav.upper-nav {
     font-size: 1.3rem;
 }
-.search-icon{
-	color: $white;
-}
-.upper-nav{
-	a{
-		color: $white;
-	}
-	li a {
-		color: $white;
-	}
-}
-.main-nav{
-	a{
-		color: $white;
-	}
-}
-.nav-pills>li>a:last-child {
-    padding: 5px;
-    margin: 5px;
+.main-nav a,
+.search-icon,
+.upper-nav a,
+.upper-nav li a {
+    color: $white;
 }
 
-/* REQUEST A DEMO BTN */
-.rad{
-	border: 2px solid white;
+span.mktoButtonWrap.mktoLight,
+span.mktoButtonWrap.mktoSimple {
+    margin-left: 0!important
 }
-
-.nav>li>a.rad:focus, .nav>li>a.rad:hover{
-	background-color: darken($green, 10) !important;
-	border: 2px solid $green;
+ul.industries {
+    width: 470px;
+    padding: 5px 0 15px;
+}
+ul.company {
+    padding: 5px 0 15px;
+    width: 450px;
+    left: inherit!important;
+    right: 0;
+}
+.col-dropdown-menu h4 {
+    padding-bottom: 5px;
+	border-bottom: 1px solid;
+}
+.col-dropdown-menu a {
+    color: #333;
+    display: block;
+    padding: 3px 0;
+    line-height: 1.42857143;
+    white-space: nowrap;
+}
+li.parent:last-child {
+    border-bottom: none;
+}
+li.subnav-list {
+    padding-bottom: 10px;
+}
+.rad {
+    border: 2px solid $white;
+	padding: 5px !important;
+	margin: 5px !important;
+}
+.nav>li>a.rad:focus,
+.nav>li>a.rad:hover {
+    background-color: #1f8876!important;
+    border: 2px solid #1f8876;
+    color: $white;
 }
 .play-icon {
     font-size: 20px;
     color: $gray;
-    vertical-align: middle;
 }

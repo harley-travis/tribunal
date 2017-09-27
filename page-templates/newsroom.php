@@ -5,12 +5,22 @@
 get_header(); ?>
 
 <style>
+	.icon-news-columns {
+    background: #fafafa;
+}
 	ul.press-list {
     padding: 0;
 }
 	.press-release-post {
-    padding-bottom: 50px;
 }
+	.post-content{
+		height: auto !important;
+	}
+	.press-list li{
+		background: white;
+		margin: 10px 0 10px 0;
+		padding: 15px;
+	}
 </style>
 
 <div class="container-fluid purple-blue-green">
@@ -25,44 +35,44 @@ get_header(); ?>
 	</div><!-- banner -->
 </div><!-- container-fluid -->
 
-<div class="icon-news-columns">
+<div class="icon-news-columns wrap push">
    <div class="container news-icon-wrapper">
 		<label for="show-menu" class="show-menu">Show Newsroom Options</label>
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="tab-menu" class="news-tab container-medium" data-tab>
-			<li class="col-lg-2 col-md-4 col-sm-12 news-icon-title active">
+			<li class="col-lg-2 col-md-2 col-sm-12 news-icon-title">
 			  <a href="<?php echo ROOT_URL; ?>/newsroom">
-				  <img src="http://rizepoint.com/wp-content/uploads/2016/10/press-01.png" alt="" class="newsroom-icon-png-img"><br>
+				  <img src="https://rizepoint.com/wp-content/uploads/2016/10/press-01.png" alt="" class="newsroom-icon-png-img"><br>
 				  <span class="ntext">Newsroom</span>
 			  </a>
 			</li>
-			<li class="col-lg-2 col-md-4 col-sm-12 news-icon-title">
+			<li class="col-lg-2 col-md-2 col-sm-12 news-icon-title">
 			  <a href="<?php echo ROOT_URL; ?>/in-the-news">
-				  <img src="http://rizepoint.com/wp-content/uploads/2016/10/news-01.png" alt="" class="newsroom-icon-png-img"><br>
+				  <img src="https://rizepoint.com/wp-content/uploads/2016/10/news-01.png" alt="" class="newsroom-icon-png-img"><br>
 				  <span class="ntext">News</span>
 			  </a>
 			</li>
-			<li class="col-lg-2 col-md-4 col-sm-12 news-icon-title" onclick="location.href='http://rizepoint.com/blog/'">
+			<li class="col-lg-2 col-md-2 col-sm-12 news-icon-title" onclick="location.href='http://rizepoint.com/blog/'">
 				<a href="<?php echo ROOT_URL; ?>/blog">
-					<img src="http://rizepoint.com/wp-content/uploads/2016/10/blog-01.png" alt="" class="newsroom-icon-png-img"><br>
+					<img src="https://rizepoint.com/wp-content/uploads/2016/10/blog-01.png" alt="" class="newsroom-icon-png-img"><br>
 					<span class="ntext">Blog</span>
 				</a>
 			</li>
-			<li class="col-lg-2 col-md-4 col-sm-12 news-icon-title" onclick="location.href='http://rizepoint.com/solutions/corporate-responsibility/'">
-				<a href="<?php echo ROOT_URL; ?>/rize-shine">
-					<img src="http://rizepoint.com/wp-content/uploads/2016/10/csr-01-new.png" alt="" class="newsroom-icon-png-img"><br>
+			<li class="col-lg-2 col-md-2 col-sm-12 news-icon-title" onclick="location.href='http://rizepoint.com/solutions/corporate-responsibility/'">
+				<a href="<?php echo ROOT_URL; ?>/community-relations">
+					<img src="https://rizepoint.com/wp-content/uploads/2016/10/csr-01-new.png" alt="" class="newsroom-icon-png-img"><br>
 					<span class="ntext">CSR</span>
 				</a>
 			</li>
-			<li class="col-lg-2 col-md-4 col-sm-12 news-icon-title">
+			<li class="col-lg-2 col-md-2 col-sm-12 news-icon-title">
 				<a href="<?php echo ROOT_URL; ?>/awards">
-					<img src="http://rizepoint.com/wp-content/uploads/2016/10/awards.png" alt="" class="newsroom-icon-png-img"><br>
+					<img src="https://rizepoint.com/wp-content/uploads/2016/10/awards.png" alt="" class="newsroom-icon-png-img"><br>
 					<span class="ntext">Awards</span>
 				</a>
 			</li>
-			<li class="col-lg-2 col-md-4 col-sm-12 news-icon-title">
+			<li class="col-lg-2 col-md-2 col-sm-12 news-icon-title">
 				<a href="<?php echo ROOT_URL; ?>/media">
-					<img src="http://rizepoint.com/wp-content/uploads/2016/10/multimedia-01.png" alt="" class="newsroom-icon-png-img"><br>
+					<img src="https://rizepoint.com/wp-content/uploads/2016/10/multimedia-01.png" alt="" class="newsroom-icon-png-img"><br>
 					<span class="ntext">Media</span>
 				</a>
 			</li>
@@ -96,7 +106,7 @@ get_header(); ?>
 									<ul class="press-list">
 									  <?php while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 										<?php $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' ); ?>
-										<li>
+										<li class="box-shadow">
 											<div class="press-release-post">
 												<?php if ($src) : ?>
 

@@ -1,18 +1,20 @@
 /*
 Error: Undefined variable: "$orangeTwo".
-        on line 10 of C:\xampp\htdocs\living-tribunal\assets\css\includes\overrides.scss
+        on line 11 of C:\xampp\htdocs\living-tribunal\assets\css\includes\overrides.scss
 
-5: .nav>li>a:focus, .nav>li>a:hover{
-6: 	background-color: transparent !important;
-7: }
-8: 
-9: a:focus, a:hover{
-10: 	color: $orangeTwo;
-11: 	text-decoration: none;
+6: .nav>li>a:hover {
+7:     color: #333;
+8: }
+9: a:focus,
+10: a:hover {
+11:     color: $orangeTwo;
 12: }
+13: .modal {
+14:     z-index: 99999999;
+15: }
 
 Backtrace:
-C:\xampp\htdocs\living-tribunal\assets\css\includes\overrides.scss:10
+C:\xampp\htdocs\living-tribunal\assets\css\includes\overrides.scss:11
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -58,4 +60,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$orangeTwo\".\A         on line 10 of C:\xampp\htdocs\living-tribunal\assets\css\includes\overrides.scss\A \A 5: .nav>li>a:focus, .nav>li>a:hover{\A 6: 	background-color: transparent !important;\A 7: }\A 8: \A 9: a:focus, a:hover{\A 10: 	color: $orangeTwo;\A 11: 	text-decoration: none;\A 12: }"; }
+  content: "Error: Undefined variable: \"$orangeTwo\".\A         on line 11 of C:\xampp\htdocs\living-tribunal\assets\css\includes\overrides.scss\A \A 6: .nav>li>a:hover {\A 7:     color: #333;\A 8: }\A 9: a:focus,\A 10: a:hover {\A 11:     color: $orangeTwo;\A 12: }\A 13: .modal {\A 14:     z-index: 99999999;\A 15: }"; }

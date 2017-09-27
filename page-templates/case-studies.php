@@ -14,18 +14,18 @@ get_header(); ?>
 		<div class="banner-wrapper">
 			<h1>Case Studies</h1>
 			<div class="banner-btns">
-				<a href="<?php echo ROOT_URL; ?>/customers" class="btn btn-lg btn-width btn-inverse-white orange-text">View Clients</a> <a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-width btn-inverse-white">Free Demo</a>
+				<a href="<?php echo ROOT_URL; ?>/clients" class="btn btn-lg btn-width btn-inverse-white orange-text">View Clients</a> <a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-width btn-inverse-white">Free Demo</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
 </div><!-- container-fluid -->
 
-<section class="container-fluid case-studies-content">
+<section class="container-fluid case-studies-content wrap push">
 	<div class="container case-studies">
 		
 		<div class="case-study-wrapper border-right-green">
 			<div class="col-md-7 col-sm-6 col-xs-12 case-study-logo case-study-left">
-				<a href="https://rizepoint.com/wp-content/uploads/2017/05/original-rizepoint-case_study_-_arby-s.pdf" target="_blank"><img src="https://rizepoint.com/wp-content/uploads/2017/05/arbys.png" class="case-study-img" alt=""</a>
+				<a href="https://rizepoint.com/wp-content/uploads/2017/08/Arbys-Case-Study_RizePoint_FINAL.pdf" target="_blank"><img src="https://rizepoint.com/wp-content/uploads/2017/05/arbys.png" class="case-study-img" alt=""</a>
 			</div><!-- case-study-logo -->
 			<div class="col-md-5 col-sm-6 col-xs-12 case-study-text case-study-right">
 				<p>Learn how Arby's combines VOC and VOQ data to drive operational excellence and achieve 25 consecutive quarters of sales growth</p>
@@ -34,6 +34,7 @@ get_header(); ?>
 		
 		<div class="case-study-wrapper border-left-purple case-visible">
 			<div class="col-md-5 col-sm-6 col-xs-12 case-study-text case-study-left">
+			<a href="https://rizepoint.com/wp-content/uploads/2016/10/RizePoint-Case-Study-Avendra.pdf" target="_blank">
 				<p>"Using RizePoint we've been able to reduce our audit time from 11 hours per audit to 8 hours per audit"</p>
 				<span class="author">- Ed Thompson, VP of Quality Assurance</span>
 			</div><!-- case-study-text -->
@@ -42,15 +43,7 @@ get_header(); ?>
 			</div><!-- case-study-logo -->
 		</div><!-- case-study-wrapper -->
 		
-		<div class="case-study-wrapper border-left-purple case-hidden">
-			<div class="col-md-7 col-sm-6 col-xs-12 case-study-logo case-study-left">
-				<a href="https://rizepoint.com/wp-content/uploads/2016/10/RizePoint-Case-Study-Avendra.pdf" target="_blank"><img src="https://rizepoint.com/wp-content/uploads/2016/09/avendra-resources.jpg" class="case-study-img" alt=""></a>
-			</div><!-- case-study-logo -->
-			<div class="col-md-5 col-sm-6 col-xs-12 case-study-text case-study-right">
-				<p>"Using RizePoint we've been able to reduce our audit time from 11 hours per audit to 8 hours per audit"</p>
-				<span class="author">- Ed Thompson, VP of Quality Assurance</span>
-			</div><!-- case-study-text -->
-		</div><!-- case-study-wrapper -->
+	
 		
 		<div class="case-study-wrapper border-right-pink">
 			<div class="col-md-5 col-sm-6 col-xs-12 case-study-logo case-study-left">

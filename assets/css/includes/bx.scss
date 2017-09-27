@@ -1,0 +1,241 @@
+.brand-body {
+    background-color: $lightGray;
+}
+.brand-banner {
+    background: $green;
+    background: -moz-linear-gradient(-45deg, #28b29a 0%, #59bec9 100%);
+    background: -webkit-linear-gradient(-45deg, #28b29a 0%, #59bec9 100%);
+    background: linear-gradient(135deg, #28b29a 0%, #59bec9 100%);
+    height: 315px;
+    width: 100%;
+}
+.brand-banner-wrapper {
+    text-align: left;
+    padding-top: 100px;
+    max-width: 890px;
+    margin: 0;
+    padding-left: 100px;
+}
+.brand-banner-wrapper h1 {
+    padding-bottom: 35px;
+}
+.brand-banner-wrapper h1,
+.brand-banner-wrapper h2 {
+    color: $white;
+}
+.brand-btn-wrapper {
+    margin-top: 35px;
+}
+.be-wp-btn {
+    background: $white;
+    padding: 10px 30px;
+    color: #6B6B6B;
+    border-radius: 7px;
+    border-bottom: 2px solid #cecaca;
+}
+.brand-try-btn {
+    background: $green;
+    padding: 10px;
+    color: $white;
+    border-radius: 7px;
+    border-bottom: 2px solid darkgreen;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.brand-ds-btn {
+    background: $white;
+    padding: 10px;
+    color: $green;
+    border-radius: 7px;
+    border-bottom: 2px solid darkgreen;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.brand-intro p {
+    font-size: 2rem;
+}
+.brand-intro p,
+.brand-bx p {
+    margin: 0 !important;
+}
+.brand-bx p {
+    text-align: center;
+    padding: 15px;
+}
+.brand-intro-wrapper {
+    padding: 50px;
+    background: $lightGray;
+    text-align: center;
+    font-size: 2rem !important;
+}
+img.brand-img {
+    float: right;
+    margin-top: -300px;
+    z-index: 9;
+    text-align: right;
+    max-width: 640px;
+    position: relative;
+    width: 100%;
+}
+.bx-msg {
+    text-align: center;
+    padding: 30px;
+}
+.bx-msg h2 {
+    color: $green;
+    font-family: $gotham-book;
+}
+.brand-try-btn-wrapper {
+    margin-top: 35px;
+    padding-bottom: 20px;
+}
+.brand-try-btn-wrapper a:hover {
+    color: $lightGray;
+}
+.brand-bx-wrapper {
+    background-image: url(https://rizepoint.com/wp-content/uploads/2017/05/geo-pattern.png);
+    background-attachment: fixed;
+    padding: 100px;
+    background-color: $white;
+}
+.brand-info {
+    padding: 50px 0;
+}
+.final-brand-msg {
+    padding: 100px 0px 60px 0px;
+    background: $white;
+    text-align: center;
+    background: $green;
+    background: -moz-linear-gradient(-45deg, #28b29a 0%, #59bec9 100%);
+    background: -webkit-linear-gradient(-45deg, #28b29a 0%, #59bec9 100%);
+    background: linear-gradient(135deg, #28b29a 0%, #59bec9 100%);
+    color: $white;
+    position: relative;
+    overflow: hidden;
+}
+.wp-foundation-icon {
+    color: rgba(0, 0, 0, .1);
+    font-size: 15rem;
+    margin-right: 115px;
+}
+.bx-icon-position {
+    position: absolute;
+    bottom: -65px;
+    left: 0;
+}
+.circle-wrapper-thing {
+    padding: 50px;
+    background-color: $white;
+}
+a.brand-try-btn:hover {
+    color: #006400;
+}
+.arby-brand {
+    background-image: url(https://rizepoint.com/wp-content/uploads/2017/05/arbys-int.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: 1px -1px 15px black inset;
+}
+.arby-brand-container {
+    text-align: center;
+    color: $white;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 70px;
+    border-radius: 7px;
+    max-width: none;
+}
+.arby-brand-container p {
+    font-weight: bold;
+    padding: 35px 0 35px 0;
+}
+.flood {
+    padding: 50px 0 35px 0;
+}
+.wp-try-btn {
+    background: $white;
+    padding: 10px;
+    color: $green;
+    border-radius: 7px;
+    border-bottom: 2px solid #676060;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+a.wp-try-btn:hover {
+    color: #676060;
+}
+img.bx-logo {
+    width: 100%;
+    max-width: 350px;
+}
+.bx-infographic {
+    background: $white;
+    padding: 50px;
+    text-align: center;
+}
+img.bx-icon {
+    width: 100%;
+    max-width: 102px;
+    padding-left: 35px;
+}
+img.bx-info-img {
+    width: 100%;
+    max-width: 1000px;
+}
+img.brand-section-icon {
+    width: 100%;
+}
+.vot {
+    padding-top: 60px;
+}
+.circle-mask {
+    border-radius: 50%;
+    height: 350px;
+    width: 100%;
+    max-width: 350px;
+    background-size: cover;
+    overflow: hidden;
+    border: 5px solid;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 50%;
+}
+.circle-img-one {
+    border-color: $voq;
+    background-image: url(https://rizepoint.com/wp-content/uploads/2017/05/voq-hardhats.jpg);
+}
+.circle-img-two {
+    border-color: $voe;
+    background-image: url(https://rizepoint.com/wp-content/uploads/2017/05/voe-barista.jpg);
+}
+.circle-img-three {
+    border-color: $voc;
+    background-image: url(https://rizepoint.com/wp-content/uploads/2017/05/voc-couple.jpg);
+}
+.bx-left {
+    text-align: center;
+}
+img.arby-brand-img {
+    max-width: 250px;
+}
+.small-brand {
+    display: none;
+}
+.datasheet-bx {
+    background: $white;
+}
+.datasheet-bx-wrapper {
+    padding: 100px;
+}
+.ds-bx-content {
+    text-align: center;
+}
+.bx-brand-btn-side {
+    text-align: center;
+    margin-top: 55px;
+}
+.ds-bx-content h3 {
+    text-align: center;
+    font-family: $gotham-book;
+}

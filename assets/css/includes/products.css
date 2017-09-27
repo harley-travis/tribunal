@@ -1,22 +1,22 @@
 /*
 Error: Undefined variable: "$white".
-        on line 37 of C:\xampp\htdocs\living-tribunal\assets\css\includes\products.scss
+        on line 2 of C:\xampp\htdocs\living-tribunal\assets\css\includes\products.scss
 
-32: 	margin-top: 35px;
-33: }
-34: .banner-wrapper{
-35: 	text-align:center;
-36: 	padding-bottom:15px;
-37: 	color: $white;
-38: }
-39: .banner-wrapper-title{
-40: 	text-align:center;
-41: 	padding-bottom:15px;
-42: 	color: $white;
+1: .banner-buttons {
+2:     border: 1px solid $white;
+3:     border-radius: 5px;
+4:     background: 0 0;
+5:     padding: 5px 15px;
+6:     margin: 20px;
+7: }
 
 Backtrace:
-C:\xampp\htdocs\living-tribunal\assets\css\includes\products.scss:37
+C:\xampp\htdocs\living-tribunal\assets\css\includes\products.scss:2
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/list_literal.rb:63:in `map'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/list_literal.rb:63:in `_perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
@@ -61,4 +61,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 37 of C:\xampp\htdocs\living-tribunal\assets\css\includes\products.scss\A \A 32: 	margin-top: 35px;\A 33: }\A 34: .banner-wrapper{\A 35: 	text-align:center;\A 36: 	padding-bottom:15px;\A 37: 	color: $white;\A 38: }\A 39: .banner-wrapper-title{\A 40: 	text-align:center;\A 41: 	padding-bottom:15px;\A 42: 	color: $white;"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 2 of C:\xampp\htdocs\living-tribunal\assets\css\includes\products.scss\A \A 1: .banner-buttons {\A 2:     border: 1px solid $white;\A 3:     border-radius: 5px;\A 4:     background: 0 0;\A 5:     padding: 5px 15px;\A 6:     margin: 20px;\A 7: }"; }

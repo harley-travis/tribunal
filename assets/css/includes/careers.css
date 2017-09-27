@@ -1,178 +1,64 @@
-.content-wrapper {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto; }
+/*
+Error: Undefined variable: "$gotham-bold".
+        on line 65 of C:\xampp\htdocs\living-tribunal\assets\css\includes\careers.scss
 
-.careers-why {
-  width: 100%;
-  margin-bottom: 70px; }
+60: }
+61: .careers-values-text ul li span {
+62:     line-height: 230%;
+63: }
+64: .left-ls {
+65:     font-family: $gotham-bold;
+66:     font-size: $home-banner-font;
+67:     text-align: right;
+68: }
+69: .right-ls {
+70:     text-align: left;
 
-.careers-why-title {
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 100px; }
-
-.careers-why-text {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 70px;
-  font-weight: 700;
-  text-align: right; }
-
-.careers-why-text ul li {
-  list-style: none;
-  padding-top: 25px;
-  font-size: 2rem;
-  padding-bottom: 10px; }
-
-.careers-why-video {
-  width: 40%; }
-
-.values-wrapper {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px; }
-
-.careers-values {
-  max-width: 1500px;
-  margin-left: auto;
-  margin-right: auto; }
-
-.careers-values-title {
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 100px; }
-
-.careers-values-text {
-  float: right;
-  padding: 0px 0px 125px 0px;
-  margin-right: 150px; }
-
-.careers-values-icons ul li {
-  list-style: none; }
-
-.careers-values-icons {
-  width: 100%;
-  max-width: 300; }
-
-.values-img-wrapper {
-  width: 100%;
-  max-width: 300px;
-  margin-top: -25px; }
-
-.values-img-wrapper ul li {
-  list-style: none; }
-
-.careers-values-text ul li {
-  list-style: none;
-  text-align: left; }
-
-.careers-values-text ul li span {
-  line-height: 230%; }
-
-.left-ls {
-  font-family: gotham-bold;
-  font-size: 4rem;
-  text-align: right; }
-
-.right-ls {
-  text-align: left;
-  font-size: 3rem; }
-
-.culture-wrapper {
-  padding-bottom: 150px; }
-
-.careers-culture-title {
-  text-align: center;
-  padding: 30px 0; }
-
-.careers-culture-text {
-  padding-bottom: 50px; }
-
-.careers-culture-text ul li {
-  list-style: none;
-  padding-bottom: 15px;
-  font-size: 20px;
-  font-weight: 500; }
-
-.location-wrapper {
-  width: 100%;
-  padding-bottom: 60px; }
-
-.careers-locations {
-  max-width: 1500px;
-  margin-left: auto; }
-
-.locations-title {
-  padding-top: 50px;
-  padding-bottom: 100px;
-  text-align: center; }
-
-.location-content {
-  max-width: 1500px; }
-
-.careers-locations-text ul li {
-  list-style: none; }
-
-.careers-locations-text {
-  padding-top: 65px;
-  padding-left: 65px;
-  padding-bottom: 100px; }
-
-.careers-locations-img {
-  width: 100%;
-  max-width: 600px;
-  float: left;
-  padding-right: 100px; }
-
-.careers-job-title {
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 100px; }
-
-.locations-content {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1500px; }
-
-@media only screen and (max-width: 1024px) {
-  .careers-values-text {
-    margin-right: 300px; }
-
-  .careers-why-video {
-    width: 100%; }
-
-  .careers-values-text ul li span {
-    padding-right: 106px; }
-
-  .values-img-wrapper {
-    margin-left: 100px; }
-
-  .careers-why-text {
-    text-align: left; }
-
-  .careers-locations-img {
-    width: 50%;
-    padding: 1px; }
-
-  .careers-job-text {
-    padding-bottom: 45px; } }
-@media only screen and (max-width: 768px) {
-  .careers-values-text ul li span {
-    padding-right: 1px; }
-
-  .values-img-wrapper {
-    padding-bottom: 25px; }
-
-  .careers-values-text {
-    float: none; }
-
-  .careers-locations-img {
-    width: 100%;
-    padding: 1px; }
-
-  .careers-locations-img {
-    text-align: center; } }
-@media only screen and (max-width: 375px) {
-  .values-img-wrapper {
-    margin-left: 1px; } }
+Backtrace:
+C:\xampp\htdocs\living-tribunal\assets\css\includes\careers.scss:65
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:431:in `map'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:20:in `render'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:278:in `render'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:420:in `run'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/bin/sass:13:in `<top (required)>'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `load'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$gotham-bold\".\A         on line 65 of C:\xampp\htdocs\living-tribunal\assets\css\includes\careers.scss\A \A 60: }\A 61: .careers-values-text ul li span {\A 62:     line-height: 230%;\A 63: }\A 64: .left-ls {\A 65:     font-family: $gotham-bold;\A 66:     font-size: $home-banner-font;\A 67:     text-align: right;\A 68: }\A 69: .right-ls {\A 70:     text-align: left;"; }

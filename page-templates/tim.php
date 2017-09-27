@@ -7,6 +7,9 @@ get_header(); ?>
 	.ec{
 		padding: 50px;
 	}
+	img{
+		width: 100%;
+	}
 </style>
 
 <div class="container-fluid blue-green">
@@ -22,13 +25,14 @@ get_header(); ?>
 	</div><!-- banner -->
 </div><!-- container-fluid -->
 
-<section class="container-fluid ec">
+<section class="container-fluid ec wrap push">
 	<div class="container ec-wrapper">
 		<div class="col-md-6 col-sm-4 col-xs-12 ec-pic">
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/ec/full/tim-harris.jpg" class="leader-img" alt="">
 		</div><!-- ec-pic -->
 		<div class="col-md-6 col-8 col-xs-12 ec-text">
-			<p>As Senior Vice President of Product, Tim Harris leverages nearly 20 years of cloud-solution product leadership to drive RizePoint’s industry-defining products. Harris joins RizePoint from inContact, where he was Vice President, Product Management and Principal Product Owner. There, he was responsible for ensuring the coordination and continued creation of a unified cloud platform. Prior to this, he was instrumental in the product development workflow for inContact in his roles as Sr. Director of Product Management, Sr. Director of Cloud Ecosystem, and Director of Cloud Solutions. Harris holds two patents related to Business Communication and Call Routing.</p>
+			<p>Tim leverages nearly 20 years of cloud-solution product leadership to drive RizePoint’s industry-defining products. He joined RizePoint from inContact, where he was Vice President of Product Management and Principal Product Owner. In that role, he ensured the coordination and continued creation of a unified cloud platform. Prior to that, he was instrumental in the product development workflow for inContact in his roles as Sr. Director of Product Management, Sr. Director of Cloud Ecosystem, and Director of Cloud Solutions. Tim holds two patents related to business communication and call routing.</p>
+			<p>Tim was ready for the spotlight, with dreams of being a rockstar when he was young.</p>
 		</div><!-- ec-text -->
 	</div><!-- ec-wrapper -->
 </section><!-- ec -->

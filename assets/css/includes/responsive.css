@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$lg-desktop".
-        on line 16 of C:\xampp\htdocs\living-tribunal\assets\css\includes\responsive.scss
+        on line 12 of C:\xampp\htdocs\living-tribunal\assets\css\includes\responsive.scss
 
-11: 		height: 600px;
-12: 	}
-13: }
-14: 
-15: /* 1500px *\/
-16: @media only screen and (max-width: $lg-desktop){
-17: 	.sf-pointer-3{
-18: 		left: 900px;
-19: 	}
-20: 	.sf-pointer-2 {
-21: 		left: 495px;
+7:     }
+8:     .blog-post {
+9:         height: 600px;
+10:     }
+11: }
+12: @media only screen and (max-width: $lg-desktop) {
+13:     .sf-pointer-3 {
+14:         left: 900px;
+15:     }
+16:     .sf-pointer-2 {
+17:         left: 495px;
 
 Backtrace:
-C:\xampp\htdocs\living-tribunal\assets\css\includes\responsive.scss:16
+C:\xampp\htdocs\living-tribunal\assets\css\includes\responsive.scss:12
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:540:in `block in run_interp_no_strip'
@@ -54,4 +54,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$lg-desktop\".\A         on line 16 of C:\xampp\htdocs\living-tribunal\assets\css\includes\responsive.scss\A \A 11: 		height: 600px;\A 12: 	}\A 13: }\A 14: \A 15: /* 1500px */\A 16: @media only screen and (max-width: $lg-desktop){\A 17: 	.sf-pointer-3{\A 18: 		left: 900px;\A 19: 	}\A 20: 	.sf-pointer-2 {\A 21: 		left: 495px;"; }
+  content: "Error: Undefined variable: \"$lg-desktop\".\A         on line 12 of C:\xampp\htdocs\living-tribunal\assets\css\includes\responsive.scss\A \A 7:     }\A 8:     .blog-post {\A 9:         height: 600px;\A 10:     }\A 11: }\A 12: @media only screen and (max-width: $lg-desktop) {\A 13:     .sf-pointer-3 {\A 14:         left: 900px;\A 15:     }\A 16:     .sf-pointer-2 {\A 17:         left: 495px;"; }

@@ -49,7 +49,7 @@ $args = [
 $wp_query = new WP_Query($args);
 if( $wp_query->have_posts() ) : 
 ?>
-<div class="container">
+<div class="container wrap push">
 <ul class="news-articles-list">
   <?php while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
   <li>

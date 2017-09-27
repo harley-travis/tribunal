@@ -1,13 +1,15 @@
-.clients-heading{
-	h2{
-		padding-bottom: 15px;
-		line-height: 50px;
-	}
+.case-study-img,
+.client-box-img {
+    max-width: 300px;
+    width: 100%;
 }
-.client-box-img{
-	width: 100%;
-	max-width: 300px;
+.clients-heading h2 {
+    padding-bottom: 15px;
+    line-height: 50px;
 }
-.clients-cta{
-	margin-top: 50px;
+.clients-cta {
+    margin-top: 50px;
+}
+.clients-loop-wrapper {
+    padding: 35px 0;
 }

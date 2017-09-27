@@ -4,27 +4,30 @@
  */
 get_header(); ?>
 
+<style>
+	.view-content{
+		padding-bottom: 90px;
+	}
+</style>
+
+
 
 <div class="container-fluid pink-yellow">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
 			<h1>Our Partners</h1>
-			<div class="banner-btns">
-				<button type="button" class="btn btn-lg btn-width btn-inverse-white orange-text" data-toggle="modal" data-target="#banner-video">Learn More</button> <a href="<?php echo ROOT_URL; ?>/partners" class="btn btn-lg btn-width btn-inverse-white">Become A Partner</a>
-
-			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
 </div><!-- container-fluid -->
 
-<div class="container-fluid">
+<div class="container-fluid wrap push">
 	<div class="container view-partners">
 	
 	<h2 class="view-title orangeTwo-text">RizePoint Certified Partners</h2>
 	
 		<div class="view-img">
-			<img src="<?php echo ROOT; ?>assets/img/clients/hard-rock.png">
+			<img src="<?php echo ROOT; ?>assets/img/home/ElevateGlobalLimited.png">
 		</div><!--view-img-->
 		<div class="view-content1">
 			<p>
@@ -34,7 +37,7 @@ get_header(); ?>
 				With a global presence of nearly 400 domain experts, their expertise delivers capacity building and continuous improvement programs for global manufacturers that improve factory social, environmental, and business performance. In essence, it is preemptive and proactive brand protection coupled with business efficiency improvements. Offerings include corporate consulting, training, scalable eLearning, assessments, and auditing services.
 				<br>
 				<br>
-				View the March 29, 2016 Press Release
+				View the March 29, 2016<a href="https://rizepoint.com/press-releases/elevate-global-limited-and-rizepoint-announce-strategic-alliance/"> Press Release</a>
 				<br>
 				<br>
 				Visit ELEVATE at <a href="http://elevatelimited.com">http://elevatelimited.com</a>
@@ -54,10 +57,10 @@ get_header(); ?>
 </div><!--container-fluid-->
 
 
-<div class="container-fluid">
+<div class="container-fluid wrap push">
 	<div class="container view-partners">
 		<div class="view-img">
-			<img src="<?php echo ROOT; ?>assets/img/clients/hard-rock.png">
+			<img src="<?php echo ROOT; ?>assets/img/home/Grizwold-Hospitality-background.png">
 		</div><!--view-img-->
 		<div class="view-content">
 			<p>
@@ -77,9 +80,6 @@ get_header(); ?>
 	</div><!--view-partners-->
 </div><!--container-fluid-->
 
-<div class="button-pos">
-	<button class="button btn-green" href="<?php echo ROOT_URL; ?>/partners">Become A Partner</button>
-</div><!--button-pos-->
 
 
 <?php get_footer(); ?>

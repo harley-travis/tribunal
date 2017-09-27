@@ -1,3 +1,7 @@
+.btn-lg,
+.logo-img {
+    max-width: 250px;
+}
 .parallax{
     background-attachment: fixed;
     background-size: cover;
@@ -13,8 +17,7 @@
     max-width: 870px;
 	width: 100%;
 	text-align: center;
-    margin: 0 auto;
-	margin-top: 45px;
+    margin: 45px auto 0;
 }
 .banner h1{
     color: $white;
@@ -24,13 +27,13 @@
     max-width: 870px;
 	width: 100%;
 	text-align: center;
-    margin: 0 auto;
-	margin-top: 45px;
+    margin: 45px auto 0;
 	
 	h1{
 		font-size: $home-banner-font;
 	}
 }
+
 .banner-btns {
     margin-top: 50px;
 
@@ -45,6 +48,48 @@
 }
 .box-shadow{
 	box-shadow: 1px 2px 10px -6px $black;
+}
+
+/* aligning */
+.align-left{
+	text-align: left;
+}
+.align-center{
+	text-align: center;
+}
+.align-right{
+	text-align: right;
+}
+
+/* displaying */
+.display-block{
+	display: block;
+}
+.display-none{
+	display: none;
+}
+.lg-display-none{
+	display: none;
+}
+.md-display-none{
+	display: none;
+}
+.sm-display-none{
+	display: none;
+}
+
+.visible{
+	visibility: visible;
+}
+.invisible{
+	visibility: hidden;
+}
+
+section{
+	margin: 50px 0;
+}
+.wrapper{
+	padding: 50px 0;
 }
 
 /* icons circles */
@@ -304,21 +349,19 @@
 	margin-bottom: -70px;
 }
 .slant-wrapper .slant:before {
-	content: '';
-	display: block;
-	background: inherit;
-	position: absolute;
-	top: -6px;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: -1;
-	-webkit-transform: skewY(10.5deg);
-	transform: skewY(10.5deg);
-	-webkit-transform-origin: 100%;
-	transform-origin: 100%;
-	box-shadow: 0 -8px 8px 0 rgba(0, 0, 0, 0.05), 0 -12px 28px 0 rgba(0, 0, 0, 0.05);
+    display: block;
+    background: inherit;
+    position: absolute;
+    top: -6px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    -webkit-transform: skewY(10.5deg);
+    transform: skewY(10.5deg);
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%;
+    box-shadow: 0 -8px 8px 0 rgba(0, 0, 0, .05), 0 -12px 28px 0 rgba(0, 0, 0, .05);
 }
-
 
 

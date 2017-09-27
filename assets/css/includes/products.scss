@@ -1,218 +1,177 @@
-.banner-buttons{
-	border: 1px white solid;
-	border-radius: 5px;
-	background:none;
-	padding: 5px 15px 5px 15px;
-	margin: 20px;
+.banner-buttons {
+    border: 1px solid $white;
+    border-radius: 5px;
+    background: 0 0;
+    padding: 5px 15px;
+    margin: 20px;
 }
+.products-intro-copy,
 .request-icons {
-	padding-top: 50px;
+    padding-top: 50px;
 }
-img {
-	width: 100%;
+.grad-back {
+    position: absolute;
+    z-index: 5
 }
-.products-intro-copy{
-	padding-top: 50px;
-	text-align: center;
+.container-banner {
+    position: relative;
+    z-index: 10;
+    padding-bottom: 150px;
+    padding-top: 200px;
 }
-.grad-back{
-	position: absolute;
-	z-index: 5;
+.title {
+    padding: 250px!important;
 }
-.container-banner{
-	position:relative;
-	z-index: 10;
-	padding-bottom: 150px;
-	padding-top: 200px;
+.product-banner-btn-wrapper {
+    margin-top: 35px;
 }
-.title{
-	padding: 250px !important;
-}
-.product-banner-btn-wrapper{
-	margin-top: 35px;
-}
-.banner-wrapper{
-	text-align:center;
-	padding-bottom:15px;
-	color: $white;
-}
-.banner-wrapper-title{
-	text-align:center;
-	padding-bottom:15px;
-	color: $white;
+.banner-wrapper,
+.banner-wrapper-title {
+    text-align: center;
+    padding-bottom: 15px;
+    color: $white;
 }
 .button-pos {
-	text-align: center;
-	margin-top: 40px
+    margin-top: 40px;
 }
-.management-console{
-	padding-top:50px;
+.management-console {
+    padding-top: 50px;
 }
-.man-wrapper{
-	width: 100%;
-	max-width: 1050px;
-	padding: 15px 50px 15px 50px;
-	margin: auto;
+.man-wrapper {
+    width: 100%;
+    max-width: 1050px;
+    padding: 15px 50px;
+    margin: auto;
 }
 .man-img {
-	padding-right: 90px;
+    padding-right: 90px;
 }
 .man-img2 {
-	padding-left: 90px;
+    padding-left: 90px;
 }
-.aud-wrapper{
-	width: 100%;
-	max-width: 1080px;
-	padding: 15px 50px 15px 50px;
-	margin: auto;
+.aud-wrapper {
+    width: 100%;
+    max-width: 1080px;
+    padding: 15px 50px;
+    margin: auto;
 }
 .aud-img {
-	padding-right: 90px;
+    padding-right: 90px;
 }
 .aud-img2 {
-	padding-left: 90px;
+    padding-left: 90px;
 }
-.man-content{
-	padding-top:40px;
-	padding-bottom:40px;
+.aud-content,
+.aud-content2,
+.man-content,
+.man-content2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-.man-content2{
-	padding-top:40px;
-	padding-bottom:40px;
+@media only screen and (max-width: 2560px) {
+    .container-banner {
+        position: relative;
+        z-index: 10;
+        padding-bottom: 400px;
+        padding-top: 300px;
+    }
 }
-.aud-content {
-	padding-top:40px;
-	padding-bottom:40px;
+@media only screen and (max-width: 1440px) {
+    .container-banner {
+        position: relative;
+        z-index: 10;
+        margin-top: -80px;
+        margin-bottom: -180px;
+    }
+    .error-mes {
+        text-align: center;
+    }
 }
-.aud-content2{
-	padding-top:40px;
-	padding-bottom:40px;
+@media only screen and (max-width: 768px) {
+    .banner-wrapper-title {
+        margin-top: -120px;
+        margin-bottom: -120px;
+    }
+    .container-banner {
+        position: relative;
+        z-index: 10;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-bottom: 85px;
+    }
 }
-.aud-vid{
-	margin: auto;
-	text-align: center;
-	padding-bottom: 110px;
+@media only screen and (max-width: 425px) {
+    .circle-row {
+        padding: 10px 0;
+    }
+    .aud-img,
+    .man-img {
+        padding-right: 0;
+    }
+    .banner-wrapper-title {
+        margin-top: -120px;
+        margin-bottom: -120px;
+    }
+    .container-banner {
+        position: relative;
+        z-index: 10;
+        margin-top: -195px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .banner-wrapper {
+        margin-top: -75px;
+    }
+    .management-console {
+        padding-top: 10px;
+        padding-bottom: 0;
+        margin-bottom: -37px;
+    }
+    .aud-img2,
+    .man-img2 {
+        padding-left: 0;
+    }
+    .aud-vid {
+        display: none;
+        max-width: 400px;
+    }
 }
-
-@media only screen and (max-width: 2560px){
-	.container-banner{
-		position:relative;
-		z-index: 10;
-		padding-bottom: 400px;
-		padding-top: 300px;
-
-		}
+@media only screen and (max-width: 375px) {
+    .circle-row {
+        padding: 10px 0;
+    }
+    .aud-img,
+    .man-img {
+        padding-right: 0;
+    }
+    .banner-wrapper-title {
+        margin-top: -120px;
+        margin-bottom: -120px;
+    }
+    .container-banner {
+        position: relative;
+        z-index: 10;
+        margin-top: -195px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .banner-wrapper {
+        margin-top: -100px;
+    }
+    .banner-wrapper h1 {
+        font-size: 30px;
+    }
+    .management-console {
+        padding-top: 10px;
+        padding-bottom: 0;
+        margin-bottom: -37px;
+    }
+    .aud-img2,
+    .man-img2 {
+        padding-left: 0;
+    }
+    .aud-vid {
+        display: none;
+        max-width: 400px;
+    }
 }
-
-@media only screen and (max-width: 1440px){
-	.container-banner{
-		position:relative;
-		z-index: 10;
-		margin-top: -80px;
-		margin-bottom:-180px;
-
-		}
-}
-
-@media only screen and (max-width: 768px){
-	.banner-wrapper-title{
-		margin-top: -120px;
-		margin-bottom: -120px;
-
-	}
-	.container-banner{
-		position:relative;
-		z-index: 10;
-		margin-bottom:0px;
-		margin-top:0px;
-		padding-bottom: 85px;
-	}
-}
-
-@media only screen and (max-width: 425px){
-	.circle-row{
-		padding: 10px 0px 10px 0px
-	}
-
-	.banner-wrapper-title{
-		margin-top: -120px;
-		margin-bottom: -120px;
-
-	}
-	.container-banner{
-		position:relative;
-		z-index: 10;
-		margin-top: -195px;
-		margin-bottom: 0px;
-		padding-bottom: 0px;
-	}
-	.banner-wrapper{
-		margin-top: -75px;
-	}
-	.management-console{
-		padding-top: 10px;
-		padding-bottom: 0px;
-		margin-bottom: -37px;
-	}
-	.man-img{
-		padding-right: 0px;
-	}
-	.man-img2{
-		padding-left: 0px;
-	}
-	.aud-img2{
-		padding-left: 0px;
-	}
-	.aud-img{
-		padding-right: 0px;
-	}
-	.aud-vid{
-		display: none;
-		max-width: 400px;
-	}
-}
-@media only screen and (max-width: 375px){
-	.circle-row{
-		padding: 10px 0px 10px 0px
-	}
-	.banner-wrapper-title{
-		margin-top: -120px;
-		margin-bottom: -120px;
-
-	}
-	.container-banner{
-		position:relative;
-		z-index: 10;
-		margin-top: -195px;
-		margin-bottom: 0px;
-		padding-bottom: 0px;
-	}
-	.banner-wrapper{
-		margin-top: -100px;
-	}
-	.banner-wrapper h1 {
-		font-size:30px;
-	}
-	.management-console{
-		padding-top: 10px;
-		padding-bottom: 0px;
-		margin-bottom: -37px;
-	}
-	.man-img{
-		padding-right: 0px;
-	}
-	.man-img2{
-		padding-left: 0px;
-	}
-	.aud-img2{
-		padding-left: 0px;
-	}
-	.aud-img{
-		padding-right: 0px;
-	}
-	.aud-vid{
-		display: none;
-		max-width: 400px;
-	}
-}
-

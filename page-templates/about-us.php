@@ -30,7 +30,7 @@ get_header(); ?>
 
 <section class="container-fluid timeline wrap push">
 	<div class="container center timeline-heading">
-		<h2 class="green-text">RizePoint's Timeline</h2>
+		<h2 class="green-text">Our History</h2>
 	</div><!-- container -->
 	<div class="timeline-wrapper">
 		<section class="timeline">
@@ -55,16 +55,6 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="timeline-item">
-					<div class="timeline-img"></div>
-					<div class="timeline-content js--fadeInLeft box-shadow">
-						<div class="date">2000</div>
-						<p>Marriott signs as first major hospitality brand to capture voice of quality data</p>
-						<div class="timeline-pic">
-							<img src="<?php bloginfo('template_directory'); ?>/assets/img/clients/marriott-logo.png" class="time-img" alt="">
-						</div>
-					</div>
-				</div> 
 				<div class="timeline-item">
 					<div class="timeline-img"></div>
 					<div class="timeline-content js--fadeInRight box-shadow">
@@ -243,9 +233,6 @@ get_header(); ?>
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/team/brayden-williams.jpg" class="avenger-img" alt="">
 		</div><!-- avenger -->
 		<div class="avenger">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/team/brenna-hill.jpg" class="avenger-img" alt="">
-		</div><!-- avenger -->
-		<div class="avenger">
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/team/brian-thompson.jpg" class="avenger-img" alt="">
 		</div><!-- avenger -->
 		<div class="avenger">
@@ -285,16 +272,10 @@ get_header(); ?>
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/team/meera-kansagra.jpg" class="avenger-img" alt="">
 		</div><!-- avenger -->
 		<div class="avenger">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/team/krista-ericson.jpg" class="avenger-img" alt="">
-		</div><!-- avenger -->	
-		<div class="avenger">
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/team/mike-lee.jpg" class="avenger-img" alt="">
 		</div><!-- avenger -->
 		<div class="avenger">
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/team/gary-ashcraft.jpg" class="avenger-img" alt="">
-		</div><!-- avenger -->
-		<div class="avenger">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/team/nisha-burke.jpg" class="avenger-img" alt="">
 		</div><!-- avenger -->
 		<div class="avenger">
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/team/patrick-rawlings.jpg" class="avenger-img" alt="">
@@ -303,10 +284,10 @@ get_header(); ?>
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/team/paul-brush.jpg" class="avenger-img" alt="">
 		</div><!-- avenger -->
 		<div class="avenger">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/team/riley-hein.jpg" class="avenger-img" alt="">
+			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/team/sarah-mayberry.jpg" class="avenger-img" alt="">
 		</div><!-- avenger -->
 		<div class="avenger">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/team/sarah-mayberry.jpg" class="avenger-img" alt="">
+			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/team/riley-hein.jpg" class="avenger-img" alt="">
 		</div><!-- avenger -->
 		<div class="avenger">
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/team/scott-dobrusky.jpg" class="avenger-img" alt="">

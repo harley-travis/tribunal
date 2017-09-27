@@ -22,7 +22,7 @@ get_header(); ?>
 	</div><!-- banner -->
 </div><!-- container-fluid -->
 
-<div class="container-fluid">
+<div class="container-fluid wrap push">
 	<div class="container content">
 		<h3>UPDATED June 9, 2016</h3>
 

@@ -64,18 +64,37 @@ $bgGray:        #FAFAFA;
 /* text color*/
 $textColor:		#95989A;
 
+/* text hover dark colors */
+$orangeOne-hover:     darken($orangeOne, 	10);
+$orangeTwo-hover:     darken($orangeTwo, 	10);
+$orangeThree-hover:   darken($orangeThree,	10);
+$yellow-hover:        darken($yellow, 		10); 
+
+$purple-hover:        darken($purple, 		10);
+$blue-hover:          darken($blue, 		10);
+$green-hover:         darken($green, 		10);
+$pink-hover:          darken($pink, 		10); 
+
+$black-hover:         darken($black, 		10);
+$gray-hover:          darken($gray, 		10);
+$lightGray-hover:     darken($lightGray, 	10);
+$white-hover:         darken($white, 		10);
+$otherGray-hover:     darken($otherGray, 	10);
+$bgGray-hover:        darken($bgGray, 		10);
+
+
 /* font-sizes */
-$banner-font:   6rem;
-$home-banner-font: 4rem;
+$banner-font:   	6rem;
+$home-banner-font: 	4rem;
 
 /* screensize */
-$lg-desktop:    1500px;
-$md-desktop:    1440px;
-$sm-desktop:    1024px;
-$tablet:        768px;
-$lg-mobile:     425px;
-$md-mobile:     375px;
-$sm-moblie:     320px;
+$lg-desktop:   		1500px;
+$md-desktop:    	1440px;
+$sm-desktop:    	1024px;
+$tablet:        	768px;
+$lg-mobile:     	425px;
+$md-mobile:     	375px;
+$sm-moblie:     	320px;
 
 
 

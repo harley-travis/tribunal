@@ -1,31 +1,89 @@
-body{
-	font-family: $gotham-book;
-	color: $textColor;
+body {
+    font-family: $gotham-book, sans-serif;
+    color: $textColor;
 }
-
-h1, h2, h3, h4 ,h5, h6{
-	font-family: $gotham-bold;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $gotham-bold, sans-serif;
 }
-h2{
-	font-size: 4rem;
+h2 {
+    font-size: $home-banner-font;
 }
-
 p {
-    font-family: $gotham-book;
+    font-family: $gotham-book, sans-serif;
     font-size: 1.5em;
-    line-height: 150%;
 }
-
 li {
-    font-family: gotham;
+    font-family: $gotham-book, sans-serif;
     font-size: 1.5rem;
+}
+.clear {
+    clear: both;
+}
+
+img{
+	width: 100%;
+}
+
+a.menu-link,
+a.menu-link:focus,
+a.menu-link:hover,
+a.menu-link:visited,
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+li,
+p {
     line-height: 150%;
 }
-
-img {
-    width: 100%;
+.play-icon,
+.req-right {
+    vertical-align: middle;
 }
-
-.clear{
-	clear: both;
+.athDesc,
+.author,
+.witness {
+    font-style: italic;
+}
+.brag-time,
+.case-study-wrapper,
+.hc2-1-post,
+.headline-post,
+.headline-wrapper,
+.home-circle-row,
+.persona-list,
+.post-content {
+    overflow: hidden;
+}
+.slant-wrapper .slant:before,
+.timeline-content::after,
+.timeline-item::after,
+.timeline::before {
+    content: '';
+}
+.blog-categories ul li,
+.blog-list,
+.careers-culture-text ul li,
+.careers-locations-text ul li,
+.careers-values-icons ul li,
+.careers-values-text ul li,
+.careers-why-text ul li,
+.footer-card li,
+.footer-social li,
+.hma-wrapper-wrapper li,
+.home-management-console li,
+.left-divider-section li,
+.press-loop ul li,
+.slant-content-wrapper li,
+.tab-links li,
+.values-img-wrapper ul li,
+li.news-icon-title,
+ul.news-articles-list,
+ul.subnav {
+    list-style: none;
 }

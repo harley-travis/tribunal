@@ -1,59 +1,39 @@
-/* Scss Document */
-.contact-wrapper{
-	width:100%;
-	max-width:960px;
-	font-family: $gotham-book;
-	margin:auto;
+.contact-text {
+    font-size: 21px;
+    padding: 40px 40px 70px;
+    font-weight: 600;
 }
-.contact-text{
-	font-size: 21px;
-	padding: 40px 40px 70px 40px;
-	font-weight: 600;
-}
-.contact-form{
-	.h2{
-		text-align: center;
-		color: $white;
-
-	}
+.contact-form {
     padding-top: 25px;
     margin-top: 40px;
     padding-bottom: 25px;
 }
-.contact-details{
-	margin-top: 40px;
-	margin-bottom: 70px;
+.contact-form .h2 {
+    text-align: center;
+    color: $white;
 }
-#contact-map{
-	height: 450px;
-	width: 100%;
-	
+.contact-details {
+    margin-top: 40px;
+    margin-bottom: 70px;
 }
-.contact-email{	
-	margin-top:15px;
-	padding-bottom: 35px;
-	a{
-		color: $orangeTwo;
-	}
+#contact-map {
+    height: 450px;
+    width: 100%;
 }
-
-@media only screen and (max-width: 1024px){
-	.contact-details{
-		margin-left:40px;
-	}
-	.contact-email{
-		margin-left:40px;
-	}
+.contact-email {
+    margin-top: 15px;
+    padding-bottom: 35px;
 }
-@media only screen and (max-width: 768px){
-	
-}	
-@media only screen and (max-width: 425px){
-	.contact-details{
-		margin-left:20px;
-	}
-	.contact-email{
-		margin-left:20px;
-	}
-	
+.contact-email a {
+    color: $orangeTwo;
+}
+.footer-card li a,
+footer {
+    color: $white;
+}
+@media only screen and (max-width: 425px) {
+    .contact-details,
+    .contact-email {
+        margin-left: 20px;
+    }
 }

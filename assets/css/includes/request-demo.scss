@@ -1,109 +1,53 @@
-/* Scss Document */
-.request-choose {
-	h1{
-		
-	}
-	p{
-	margin-top: -5px;	
-	}
-	
+.request-choose p {
+    margin-top: -5px;
 }
-.request-demo {
-	h3{
-		padding: 0px;
-    	margin: 0px;
-    	margin-top: 20px;
-		
-	}
-	h1{
-		font-size: 66px;
-		padding: none;
-		margin: none;
-		margin-top: -10px;
-	}
+.request-demo h3 {
+    padding: 0;
+    margin: 20px 0 0;
 }
-.request-wrapper {
-	width: 100%;
-    max-width: 1080px;
-    margin: auto;
+.request-demo h1 {
+    font-size: 66px;
+    padding: none;
+    margin: -10px none none;
 }
-.request-brands-wrapper {
-	padding: 0px 0px 100px 0px;
-	width:100%;
-	text-align: center;
+.request-brands-text {
+    padding: 10px 0 80px;
+    font-weight: 700;
 }
-.request-brand {
-	text-align: center;
-    padding: 40px 0px 40px 0px;
-	
+@media only screen and (max-width: 768px) {
+    .request-form,
+    .request-video {
+        text-align: center;
+        padding-top: 35px;
+    }
 }
-.request-brands-text{
-	text-align: center;
-	padding: 10px 0px 80px 0px;
-	font-weight: bold;
+@media only screen and (max-width: 450px) {
+    .request-form,
+    .request-video {
+        text-align: center;
+        padding-top: 35px;
+    }
+    .circle-row {
+        text-align: center;
+    }
 }
-
-@media only screen and (max-width: 768px){
-	.request-video{
-		text-align:center;
-		padding-top:35px;
-		
-	}
-	
-	.request-form{
-		text-align:center;
-		    padding-top: 35px;
-	}
-	
+@media only screen and (max-width: 375px) {
+    .request-form,
+    .request-video {
+        text-align: center;
+        padding-top: 35px;
+    }
+    .circle-row {
+        text-align: center;
+    }
 }
-
-@media only screen and (max-width: 450px){
-	.request-video{
-		text-align:center;
-		padding-top:35px;
-		
-	}
-	
-	.request-form{
-		text-align:center;
-		    padding-top: 35px;
-	}
-	.circle-row{
-		text-align:center;
-	}
-	
-}
-
-@media only screen and (max-width: 375px){
-	.request-video{
-		text-align:center;
-		padding-top:35px;
-		
-	}
-	
-	.request-form{
-		text-align:center;
-		    padding-top: 35px;
-	}
-	.circle-row{
-		text-align:center;
-	}
-	
-}
-
-@media only screen and (max-width: 320px){
-	.request-video{
-		text-align:center;
-		padding-top:35px;
-		
-	}
-	
-	.request-form{
-		text-align:center;
-		padding-top: 35px;
-	}
-	.circle-row{
-		text-align:center;
-	}
-	
+@media only screen and (max-width: 320px) {
+    .request-form,
+    .request-video {
+        text-align: center;
+        padding-top: 35px
+    }
+    .circle-row {
+        text-align: center;
+    }
 }

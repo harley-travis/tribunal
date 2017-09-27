@@ -2,13 +2,13 @@
 Error: Undefined variable: "$gray".
         on line 2 of C:\xampp\htdocs\living-tribunal\assets\css\includes\footer.scss
 
-1: footer{
-2: 	background-color: $gray;
-3: 	color: $white;
-4: }
-5: .footer-wrapper {
-6:     margin-top: 100px;
-7: }
+1: footer {
+2:     background-color: $gray;
+3: }
+4: .footer-wrapper {
+5:     margin-top: 100px;
+6: }
+7: .footer-card {
 
 Backtrace:
 C:\xampp\htdocs\living-tribunal\assets\css\includes\footer.scss:2
@@ -57,4 +57,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$gray\".\A         on line 2 of C:\xampp\htdocs\living-tribunal\assets\css\includes\footer.scss\A \A 1: footer{\A 2: 	background-color: $gray;\A 3: 	color: $white;\A 4: }\A 5: .footer-wrapper {\A 6:     margin-top: 100px;\A 7: }"; }
+  content: "Error: Undefined variable: \"$gray\".\A         on line 2 of C:\xampp\htdocs\living-tribunal\assets\css\includes\footer.scss\A \A 1: footer {\A 2:     background-color: $gray;\A 3: }\A 4: .footer-wrapper {\A 5:     margin-top: 100px;\A 6: }\A 7: .footer-card {"; }
