@@ -67,7 +67,7 @@ get_header(); ?>
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1>Foodservice</h1>
+			<h1 class="heading-1">Foodservice</h1>
 			<div class="banner-btns">
 				<button type="button" class="btn btn-lg btn-width btn-inverse-white orange-text" data-toggle="modal" data-target="#banner-video">Watch Video</button> <a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-width btn-inverse-white">Free Demo</a>
 			</div><!-- banner-btns -->
@@ -81,7 +81,7 @@ get_header(); ?>
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="banner-videoLabel">Helping the Food Service Industry</h4>
+				<h4 class="modal-title heading-4" id="banner-videoLabel">Helping the Food Service Industry</h4>
 			</div>
 			<div class="modal-body">
 				<script src="https://fast.wistia.com/embed/medias/ns55p7zhie.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_ns55p7zhie videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
@@ -96,14 +96,14 @@ get_header(); ?>
 
 <section class="container-fluid solutions-section-one wrap push">
 	<div class="container solutions-section-one-wrapper">
-		<h2 class="pink-text">How RizePoint Can Work For You</h2>
+		<h2 class="pink-text heading-2">How RizePoint Can Work For You</h2>
 		<div class="persona-list">
 			<div class="col-md-3 col-sm-6 col-xs-6 persona-wrapper personaBtn" id="persona-1">
 				<div class="persona-image" id="persona-img-1">
 					<img src="<?php bloginfo('template_directory'); ?>/assets/img/solutions/mr-exec-min.png" class="persona-img" alt="">
 				</div><!-- persona-image -->
 				<div class="persona-title">
-					<h4>Operations Executive </h4>
+					<h4 class="heading-4">Operations Executive </h4>
 				</div><!-- persona-title -->
 			</div><!-- persona-wrapper -->
 			<div class="col-md-3 col-sm-6 col-xs-6 persona-wrapper personaBtn" id="persona-2">
@@ -111,7 +111,7 @@ get_header(); ?>
 					<img src="<?php bloginfo('template_directory'); ?>/assets/img/solutions/ms-director-min.png" class="persona-img" alt="">
 				</div><!-- persona-image -->
 				<div class="persona-title">
-					<h4>Director of Operations</h4>
+					<h4 class="heading-4">Director of Operations</h4>
 				</div><!-- persona-title -->
 			</div><!-- persona-wrapper -->
 			<div class="col-md-3 col-sm-6 col-xs-6 persona-wrapper personaBtn" id="persona-3">
@@ -119,7 +119,7 @@ get_header(); ?>
 					<img src="<?php bloginfo('template_directory'); ?>/assets/img/solutions/ms-auditor-min.png" class="persona-img" alt="">
 				</div><!-- persona-image -->
 				<div class="persona-title">
-					<h4>Operations Manager</h4>
+					<h4 class="heading-4">Operations Manager</h4>
 				</div><!-- persona-title -->
 			</div><!-- persona-wrapper -->
 			<div class="col-md-3 col-sm-6 col-xs-6 persona-wrapper personaBtn" id="persona-4">
@@ -127,7 +127,7 @@ get_header(); ?>
 					<img src="<?php bloginfo('template_directory'); ?>/assets/img/solutions/ms-manager-min.png" class="persona-img" alt="">
 				</div><!-- persona-image -->
 				<div class="persona-title">
-					<h4>Auditor</h4>
+					<h4 class="heading-4">Auditor</h4>
 				</div><!-- persona-title -->
 			</div><!-- persona-wrapper -->
 		</div><!-- persona-list -->
@@ -140,7 +140,7 @@ get_header(); ?>
 					<img src="<?php echo ROOT; ?>assets/img/solutions/rizepoint-modern825157-min-min.jpg" class="persona-info-img" alt="">
 				</div><!-- persona-info-image -->
 				<div class="col-md-6 col-sm-12 col-xs-12 persona-info-text">
-					<h3>Operations Executive </h3>
+					<h3 class="heading-3">Operations Executive </h3>
 					<p>Drive strategy and continuous improvement for your foodservice operations. RizePoint® gives you complete visibility into operations and quality, with tools that go to the core of your business performance: data gathering, reporting, business intelligence, and corrective action. Dashboards highlight key information, and effortless search-driven analytics give you data that matters—enabling you to improve efficiency, customer experience, and safety.</p>
 					<div class="persona-cta-btn">
 						<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-green">Request A Demo</a>
@@ -154,7 +154,7 @@ get_header(); ?>
 					<img src="<?php echo ROOT; ?>assets/img/solutions/rizepoint-modern8-26585-min-min.jpg" class="persona-info-img" alt="">
 				</div><!-- persona-info-image -->
 				<div class="col-md-6 col-sm-12 col-xs-12 persona-info-text">
-					<h3>Director of Operations</h3>
+					<h3 class="heading-3">Director of Operations</h3>
 					<p>Give your team the tools they need to audit, correct, and monitor standards and regulations in every location. By ensuring consistency and quality across the company, you manage threats to your brand reputation while driving customer loyalty. RizePoint’s management and mobile evaluation platform helps you execute operational processes perfectly in a hyper-competitive multiunit foodservice industry.</p>
 					<div class="persona-cta-btn">
 						<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-green">Request A Demo</a>
@@ -168,7 +168,7 @@ get_header(); ?>
 					<img src="<?php echo ROOT; ?>assets/img/solutions/rizepoint-small-min-min.jpg" class="persona-info-img" alt="">
 				</div><!-- persona-info-image -->
 				<div class="col-md-6 col-sm-12 col-xs-12 persona-info-text">
-					<h3>Operations Manager</h3>
+					<h3 class="heading-3">Operations Manager</h3>
 					<p>Stop the ops management juggling act. RizePoint’s cloud-based management console gives you the tools to manage efficient, accurate audits in every location. Simply push updated schedules and forms to auditors through their mobile auditing app. And corrective actions or last-minute reports are no problem with RizePoint’s intuitive platform that lets you automate corrections and create ad-hoc reports as fast as you can type.</p>
 					<div class="persona-cta-btn">
 						<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-green">Request A Demo</a>
@@ -182,7 +182,7 @@ get_header(); ?>
 					<img src="<?php echo ROOT; ?>assets/img/solutions/rizepoint-modern8-26402-min-min.jpg" class="persona-info-img" alt="">
 				</div><!-- persona-info-image -->
 				<div class="col-md-6 col-sm-12 col-xs-12 persona-info-text">
-					<h3>Auditor</h3>
+					<h3 class="heading-3">Auditor</h3>
 					<p>RizePoint Mobile Auditor® makes you an efficiency master. There’s never enough time when you’re in the field, and if it can go wrong, it will go wrong. With RizePoint, there’s no late-night data entry, or bulky binders to carry. You gather the details you need on a phone or tablet, work offline when connections are a problem, upload your results easily, and highlight critical details for quick correction.</p>
 					<div class="persona-cta-btn">
 						<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-green">Request A Demo</a>
@@ -200,23 +200,23 @@ get_header(); ?>
 			<div class="slant-content-wrap">
 				<div class="system-features solutions-system-features">
 					<div class="container system-features-wrapper">
-						<h2>System Features</h2>
+						<h2 class="heading-2">System Features</h2>
 						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-1" aria-expanded="false" aria-controls="collapseExample">
 							<div class="box-feature" style="background-image: url(<?php echo ROOT; ?>assets/img/home/Mobile-Auditor-App_RizePoint-min.jpg)"></div><!-- box-feature -->
 							<div class="box-feature-header">
-								<h5>Mobile Auditor</h5>
+								<h5 class="heading-5">Mobile Auditor</h5>
 							</div><!-- box-feature-header -->
 						</div><!-- box-feature -->
 						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-2" aria-expanded="false" aria-controls="collapseExample">
 							<div class="box-feature" style="background-image: url(<?php echo ROOT; ?>assets/img/home/Business-Intelligence-Analytics_RizePoint-min.PNG)"></div><!-- box-feature -->
 							<div class="box-feature-header">
-								<h5>Thermocouple Integration </h5>
+								<h5 class="heading-5">Thermocouple Integration </h5>
 							</div><!-- box-feature-header -->
 						</div><!-- box-feature -->
 						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-3" aria-expanded="false" aria-controls="collapseExample">
 							<div class="box-feature" style="background-image: url(<?php echo ROOT; ?>assets/img/home/Corrective-Action-Planning-Management_RizePoint-min.jpg)"></div><!-- box-feature -->
 							<div class="box-feature-header">
-								<h5>Automated Corrective Action</h5>
+								<h5 class="heading-5">Automated Corrective Action</h5>
 							</div><!-- box-feature-header -->
 						</div><!-- box-feature -->
 					</div><!-- system-feature-wrapper -->
@@ -227,7 +227,7 @@ get_header(); ?>
 							<div class="collapse pointer-position" id="home-box-feature-1">
 								<div class="img-pointer sf-pointer-1"></div>
 								<div class="feature-content">
-									<h2>Mobile app for site inspections</h2>
+									<h2 class="heading-2">Mobile app for site inspections</h2>
 									<p>Mobile Auditor streamlines remote location assessments for inspectors and managers. Teams see immediate assessment results in the cloud-based RizePoint Management Console, replacing long, manual upload processes.</p>
 									<ul>
 										<li>Capture data easily using powerful forms, with navigation that leads auditors through the process.</li>
@@ -246,7 +246,7 @@ get_header(); ?>
 							<div class="collapse pointer-position" id="home-box-feature-2">
 							<div class="img-pointer sf-pointer-2"></div>
 								<div class="feature-content">
-									<h2>Streamline temperature and line checks</h2>
+									<h2 class="heading-2">Streamline temperature and line checks</h2>
 									<p>Conduct temperature checks and automate your line check process with thermocouple device integration in Mobile Auditor.</p>
 									<ul>
 										<li>Integrate with Cooper-Atkins Blue2 instrument</li>
@@ -262,7 +262,7 @@ get_header(); ?>
 							<div class="collapse pointer-position" id="home-box-feature-3">
 							<div class="img-pointer sf-pointer-3"></div>
 								<div class="feature-content">
-									<h2>Act quickly to correct issues before they become costly liabilities</h2>
+									<h2 class="heading-2">Act quickly to correct issues before they become costly liabilities</h2>
 									<p>Action plans are automatically created for any item marked out of compliance during a Mobile Auditor on-site assessment. Within RizePoint, you can use rules to trigger action plan tasks, establish due dates, send notifications, create alerts, issue reminders, and monitor task completion.</p>
 								</div><!-- home-box-feature-1 -->
 							</div>
@@ -273,19 +273,19 @@ get_header(); ?>
 						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-4" aria-expanded="false" aria-controls="collapseExample">
 							<div class="box-feature" style="background-image: url(<?php echo ROOT; ?>assets/img/home/Supplier-Onboarding_RizePoint-min.PNG)"></div><!-- box-feature -->
 							<div class="box-feature-header">
-								<h5>Business Intelligence</h5>
+								<h5 class="heading-5">Business Intelligence</h5>
 							</div><!-- box-feature-header -->
 						</div><!-- box-feature -->
 						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-5" aria-expanded="false" aria-controls="collapseExample">
 							<div class="box-feature" style="background-image: url(<?php echo ROOT; ?>assets/img/home/Role-Based-Access_RizePoint-min.PNG)"></div><!-- box-feature -->
 							<div class="box-feature-header">
-								<h5>Automated Communication Tools</h5>
+								<h5 class="heading-5">Automated Communication Tools</h5>
 							</div><!-- box-feature-header -->
 						</div><!-- box-feature -->
 						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-6" aria-expanded="false" aria-controls="collapseExample">
 							<div class="box-feature" style="background-image: url(<?php echo ROOT; ?>assets/img/home/Automated-Communication_RizePoinnt-min.jpg)"></div><!-- box-feature -->
 							<div class="box-feature-header">
-								<h5>Audit Scheduling</h5>
+								<h5 class="heading-5">Audit Scheduling</h5>
 							</div><!-- box-feature-header -->
 						</div><!-- box-feature -->
 					</div><!-- system-feature-wrapper -->
@@ -296,7 +296,7 @@ get_header(); ?>
 							<div class="collapse pointer-position" id="home-box-feature-4">
 								<div class="img-pointer sf-pointer-1"></div>
 								<div class="feature-content">
-									<h2>Turn audit results into a reporting powerhouse</h2>
+									<h2 class="heading-2">Turn audit results into a reporting powerhouse</h2>
 									<p>With RizePoint, audit data is brought to life with dynamic visual reporting and dashboards for key analysis.</p>
 									<ul>
 										<li>Management Dashboards<br>
@@ -316,7 +316,7 @@ get_header(); ?>
 							<div class="collapse pointer-position" id="home-box-feature-5">
 							<div class="img-pointer sf-pointer-2"></div>
 								<div class="feature-content">
-									<h2>Provide complete visibility throughout the entire organization</h2>
+									<h2 class="heading-2">Provide complete visibility throughout the entire organization</h2>
 									<p>Provide a single-pane-of-glass view into company-wide operations. With RizePoint, you have visibility and transparency at all levels of the business, paired with automated notifications and reporting subscription options to keep stakeholders informed. Standardized templates, email alerts, push-notifications, and report communications make it easy to manage, monitor, and communicate compliance progress.</p>
 								</div><!-- home-box-feature-1 -->
 							</div>
@@ -327,7 +327,7 @@ get_header(); ?>
 							<div class="collapse pointer-position" id="home-box-feature-6">
 							<div class="img-pointer sf-pointer-3"></div>
 								<div class="feature-content">
-									<h2>Schedule audits with ease</h2>
+									<h2 class="heading-2">Schedule audits with ease</h2>
 									<p>You’ll appreciate how easy it is to schedule audits using RizePoint. Create and view schedules with ease in the cloud-based RizePoint Management Console.</p>
 								</div><!-- home-box-feature-1 -->
 							</div>
@@ -341,13 +341,13 @@ get_header(); ?>
 
 <section class="container-fluid case-sheets lightGray-bg wrap push">
 	<div class="container case-sheets-wrapper">
-		<h2 class="purple-text">Datasheets</h2>
+		<h2 class="purple-text heading-2">Datasheets</h2>
 		<div class="col-md-4 col-sm-4 col-xs-12 case-box">
 			<a href="#" target="_blank">
 				<div class="case-box-wrapper hovereffect">
 				<a href="<?php echo ROOT; ?>/assets/docs/datasheets/overview-june-2017.pdf" target="_blank">
 					<img src="<?php echo ROOT; ?>/assets/img/datasheets/rizepoint-overview-min.jpg" class="ds-box-img" alt="">
-						<h4>Overview Datasheet</h4>
+						<h4 class="heading-4">Overview Datasheet</h4>
 				</a>	
 				</div><!-- case-box-wrapper -->
 			</a>
@@ -357,7 +357,7 @@ get_header(); ?>
 				<div class="case-box-wrapper hovereffect">
 				<a href="<?php echo ROOT; ?>/assets/docs/datasheets/solution-june-2017.pdf" target="_blank">
 					<img src="<?php echo ROOT; ?>/assets/img/datasheets/rizepoint-solution-min.jpg" class="ds-box-img" alt="">
-						<h4>Solutions Datasheet</h4>
+						<h4 class="heading-4">Solutions Datasheet</h4>
 				</a>	
 				</div><!-- case-box-wrapper -->
 			</a>
@@ -367,7 +367,7 @@ get_header(); ?>
 				<div class="case-box-wrapper hovereffect">
 				<a href="<?php echo ROOT; ?>/assets/docs/datasheets/food-2017.pdf" target="_blank">
 					<img src="<?php echo ROOT; ?>/assets/img/datasheets/food-service-newlogo.jpg" class="ds-box-img" alt="">
-						<h4>Food Service Datasheet</h4>
+						<h4 class="heading-4">Food Service Datasheet</h4>
 				</a>	
 				</div><!-- case-box-wrapper -->
 			</a>
@@ -382,7 +382,7 @@ get_header(); ?>
 <section class="container-fluid case-sheets-second lightGray-bg wrap push">
 	<div class="container case-sheets-wrapper-second">
 		<div class="solutions-cs-header">
-			<h2 class="purple-text">Case Studies</h2>	
+			<h2 class="purple-text heading-2">Case Studies</h2>	
 		</div>
 		
 		<div class="col-md-4 col-sm-4 col-xs-12 case-box">
@@ -390,7 +390,7 @@ get_header(); ?>
 				<a href="https://rizepoint.com/wp-content/uploads/2016/10/RizePoint-Case-Study-Buffalo-Wild-Wings.pdf" target="_blank">
 					<img src="<?php echo ROOT; ?>/assets/img/clients/buffalowildwings-resources.jpg" class="customerLogo-img raq-logo-fix" alt=""><br>
 					<div class="case-box-title">
-						<h4>Buffalo Wild Wings Case Study</h4>
+						<h4 class="heading-4">Buffalo Wild Wings Case Study</h4>
 					</div>
 				</a>
 			</div>
@@ -400,7 +400,7 @@ get_header(); ?>
 				<a href="https://rizepoint.com/wp-content/uploads/2015/08/Case-Study-Papa-Murphys.pdf" target="_blank">
 					<img src="<?php echo ROOT; ?>/assets/img/clients/papa-murphies.png" class="customerLogo-img raq-logo-fix" alt=""><br>
 					<div class="case-box-title">
-					<h4>Papa Murphy's Case Study</h4>
+					<h4 class="heading-4">Papa Murphy's Case Study</h4>
 					</div>
 				</a>
 			</div>
@@ -410,7 +410,7 @@ get_header(); ?>
 				<a href="https://rizepoint.com/wp-content/uploads/2016/10/RizePoint-Case-Study-IHOP.pdf" target="_blank">
 					<img src="<?php echo ROOT; ?>/assets/img/clients/ihop.png" class="customerLogo-img raq-logo-fix" alt=""><br>
 					<div class="case-box-title">
-					<h4>IHOP Case Study</h4>
+					<h4 class="heading-4">IHOP Case Study</h4>
 					</div>
 				</a>
 			</div>
@@ -429,33 +429,8 @@ get_header(); ?>
 
 <section class="container-fluid section-four wrap push">
 	<div class="section-four-wrapper">
-		<h2 class="green-text">Trusted by the World’s Best Brands</h2>
-		<div class="brag-time">
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/applebees.png" alt="Applebees" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/avendra.png" alt="Avendra" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/best-western.png" alt="Best Western" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/checkers.png" alt="Checkers and Rally's" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/chilies.png" alt="Chilies" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/cracker-barrel.png" alt="Cracker Barrel" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/dairy-queen.png" alt="Dairy Queen" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/firehouse-subs.png" alt="Firehouse Subs" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/friendlys.png" alt="Friendly's" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/ASI.png" alt="ASI" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/golden-corral.png" alt="Golden Corral" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/hard-rock.png" alt="Hard Rock" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/ihop.png" alt="IHop" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/longhorn-steakhouse.png" alt="Longhorn Steakhouse" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/macaroni-grill.png" alt="Macaroni Grill" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/mcdonalds.png" alt="Mcdonalds" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/olive-garden.png" alt="Olive Garden" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/papa-murphies.png" alt="Papa Murphy's" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/pollo-loco.png" alt="Pollo Loco" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/Chemstar.PNG" alt="Chemstar" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/sears.png" alt="Sears" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/starbucks.png" alt="Starbucks" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/staybrdige.png" alt="Stay Bridge" class="customerLogo-img"></div><!-- customer-logo -->
-			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/texas-roadhouse.png" alt="Texas Roadhouse" class="customerLogo-img"></div><!-- customer-logo -->
-		</div><!--brag-time -->
+		<h2 class="green-text heading-2">Trusted by the World’s Best Brands</h2>
+			<?php include __DIR__ . "/../includes/client-logos.php"; ?>
 		<div class="brag-btn-wrapper">
 			<a href="<?php echo ROOT_URL; ?>/5299-2/" class="btn btn-lg btn-green">Read Case Studies</a>
 		</div><!-- brag-btn-wrapper -->
@@ -466,7 +441,7 @@ get_header(); ?>
 	<div class="container raq-wrapper">
 		<div class="col-md-6 col-sm-12 req-left">
 			<div class="req-title">
-				<h2>Request a Free Demo</h2>
+				<h2 class="heading-2">Request a Free Demo</h2>
 				<div class="raq-form">
 					<span class="raq-disclaimer">*Fill out the form below to request a free demo</span>
 					<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>

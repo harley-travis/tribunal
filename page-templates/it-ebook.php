@@ -3,14 +3,6 @@
  * Template Name: IT eBook
  */
 get_header(); ?>
-<style>
-	.request-wrapper{
-		padding: 50px 0;
-	}
-	.request-form {
-    padding: 20px;
-}
-</style>
 
 <div class="container-fluid pink-yellow">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>

@@ -4,17 +4,11 @@
 */
 get_header(); ?>
 
-<style>
-	.thank-you{
-		padding: 50px 0;
-	}
-</style>
-
 <div class="container-fluid pink-yellow wrap push">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1><?php the_title() ?>!</h1>
+			<h1 class="heading-1"><?php the_title() ?>!</h1>
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
 </div><!-- container-fluid -->

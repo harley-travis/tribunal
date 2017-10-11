@@ -1,3 +1,13 @@
+.contact-info-wrapper{
+	padding: 50px 0;
+}
+.contact-intro{
+	padding-top: 70px;
+	padding-right: 100px;
+}
+.contact-space{
+	margin-top: 50px;
+}
 .contact-text {
     font-size: 21px;
     padding: 40px 40px 70px;
@@ -7,10 +17,6 @@
     padding-top: 25px;
     margin-top: 40px;
     padding-bottom: 25px;
-}
-.contact-form .h2 {
-    text-align: center;
-    color: $white;
 }
 .contact-details {
     margin-top: 40px;
@@ -24,16 +30,13 @@
     margin-top: 15px;
     padding-bottom: 35px;
 }
-.contact-email a {
-    color: $orangeTwo;
-}
-.footer-card li a,
-footer {
-    color: $white;
-}
-@media only screen and (max-width: 425px) {
-    .contact-details,
-    .contact-email {
-        margin-left: 20px;
-    }
-}
+.contact-email{
+	a {
+		color: $orangeTwo;
+	}
+} 
+.footer-card{
+	li a {
+		color: $white;
+	}
+} 

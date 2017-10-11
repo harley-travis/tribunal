@@ -4,12 +4,31 @@
     width: 100%;
 }
 .clients-heading h2 {
-    padding-bottom: 15px;
-    line-height: 50px;
+	
+	padding-top: 35px;
+	padding-bottom: 35px;
+	text-align: center;
+	
+	h2{
+		padding-bottom: 15px;
+    	line-height: 50px;
+	}
+    
 }
 .clients-cta {
     margin-top: 50px;
+	text-align: center;
+	padding-bottom: 35px;
 }
 .clients-loop-wrapper {
     padding: 35px 0;
+}
+.client-box-pic {
+	background: $white;
+	text-align: center;
+	padding: 15px;
+	border-radius: 7px;
+}
+.cl-overide{
+	height: 180px !important;
 }

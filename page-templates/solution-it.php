@@ -3,51 +3,12 @@
  * Template Name: Solutions | IT
 */
 get_header(); ?>
-<style>
-	.it-content-sec1{
-		padding: 80px 0px;
-	}
-	
-	.it-content-sec2{
-		padding: 80px 0px;
-		text-align: center;
-	}
-	
-	.it-content-sec2 ul{
-		text-align: left;
-	}
-	
-	.it-content-sec2 ul li{
-		padding-bottom: 15px;
-	}
-	
-	.it-content-sec3{
-		padding: 80px 0px;
-		text-align: center;
-	}
-	.purple-text{
-		padding: 0px 0px 100px 0px;
-	}
-	
-	.ds-content{
-		padding-bottom: 150px;
-	}
-	
-	.res-button{
-		padding-top: 90px;
-		clear: both;
-	}
-	
-	.it-content-sec2 h3 {
-    padding-bottom: 50px;
-	}
-</style>
 
 <div class="container-fluid green-blue-purple">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1>Enabling IT to Drive Business Strategy</h1>
+			<h1 class="heading-1">Enabling IT to Drive Business Strategy</h1>
 			<div class="banner-btns">
 				<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-inverse-white">Free Demo</a>
 			</div><!-- banner-btns -->
@@ -65,7 +26,7 @@ get_header(); ?>
 
 <div class="container-fluid purple-bg wrap push">
 	<div class="container it-content-sec2 white-text">
-			<h3>
+			<h3 class="heading-3">
 				Reasons IT Professionals Bring RizePoint to Their Organizations:
 			</h3>
 			<ul>
@@ -83,33 +44,33 @@ get_header(); ?>
 <div class="contianer-fluid lightGray-bg wrap push">
 	<div class="container it-content-sec3 ">
 		<div class="wp-title purple-text">
-			<h2>Datasheets &amp; White Papers</h2>
+			<h2 class="heading-2">Datasheets &amp; White Papers</h2>
 		</div><!--wp-title-->
 			<div class="col-md-3 col-sm-6 col-xs-12 ds-content">
 				<a href="<?php echo ROOT; ?>/assets/docs/datasheets/overview-june-2017.pdf" target="_blank">
 						<img src="<?php echo ROOT; ?>/assets/img/datasheets/rizepoint-overview-min.jpg" class="case-box-img" alt="">
-							<h4>Overview Datasheet</h4>
+							<h4 class="heading-4">Overview Datasheet</h4>
 					</a>	
 			</div><!--col-->
 
 			<div class="col-md-3 col-sm-6 col-xs-12 ds-content">
 				<a href="<?php echo ROOT; ?>/assets/docs/datasheets/solution-june-2017.pdf" target="_blank">
 						<img src="<?php echo ROOT; ?>/assets/img/datasheets/rizepoint-solution-min.jpg" class="case-box-img" alt="">
-							<h4>Solutions Datasheet</h4>
+							<h4 class="heading-4">Solutions Datasheet</h4>
 					</a>	
 			</div><!--col-->
 
 			<div class="col-md-3 col-sm-6 col-xs-12 ds-content">
 				<a href="<?php echo ROOT; ?>/assets/docs/datasheets/business-intelligence-june-2017.pdf" target="_blank">
 						<img src="<?php echo ROOT; ?>/assets/img/datasheets/business-intelligence-newlogo.jpg" class="case-box-img" alt="">
-							<h4>Business Intelligence</h4>
+							<h4 class="heading-4">Business Intelligence</h4>
 					</a>	
 			</div><!--col-->
 
 		<div class="col-md-3 col-sm-6 col-xs-12 white-paper">
 			<a href="<?php echo ROOT_URL; ?>/it-ebook/" target="_blank">
 						<img src="<?php echo ROOT; ?>/assets/img/white-papers/ITwpthumb-1-min.png" class="case-box-img" alt="">
-							<h4>IT As A Business Strategy Driver</h4>
+							<h4 class="heading-4">IT As A Business Strategy Driver</h4>
 					</a>
 		</div><!--white-paper-->
 			<div class="res-button">
@@ -123,7 +84,7 @@ get_header(); ?>
 	<div class="container raq-wrapper">
 		<div class="col-md-6 col-sm-12 req-left">
 			<div class="req-title">
-				<h2>Request a Free Demo</h2>
+				<h2 class="heading-2">Request a Free Demo</h2>
 				<div class="raq-form">
 					<span class="raq-disclaimer">*Fill out the form below to request a free demo</span>
 					<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>

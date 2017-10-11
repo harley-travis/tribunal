@@ -4,85 +4,18 @@
 */
 get_header(); ?>
 
-<style>
-.products-video-wrapper {
-    max-width: 900px;
-    padding: 50px 0;
-}
-.products-video-btn {
-    padding-top: 35px;
-}
-.management-bg {
-    background-repeat: no-repeat;
-    height: 550px;
-    background-attachment: fixed;
-    background-size: cover;
-}
-.product-banner{
-	margin-top: 160px !important;
-}
-	.products-img{
-		width: 100%;
-		max-width: 300px;
-	}
-	@media only screen and (max-width: 1440px){
-		.aud-content-mobile{
-			display:none;
-		}	
-		.man-content2-mobile{
-			display:none;
-		}
-	}
-	
-	@media only screen and (max-width: 425px){
-		.banner-wrapper{
-			margin-top: 1px;
-		}
-		.banner-wrapper h2{
-			font-size:  3rem;
-		}
-		.products-intro-copy{
-			padding: 15px;
-		}
-		.products-video-btn a {
-    		margin-top: 11px;
-		}
-		.aud-content{
-			display:none;
-		}
-		.aud-content-mobile{
-			display:inline;
-		}
-		.man-content2{
-			display:none;
-		}
-		.man-content2-mobile{
-			display:inline;
-		}
-	
-	@media only screen and (max-width: 375px){
-		.banner {
-    height: 520px;
-}
-		.products-intro-copy {
-    padding: 15px;
-}
-	}
-</style>
-
 <div class="container-fluid purple-blue-green">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1>Products</h1>
-			<h2>Drive Operational and Quality Improvement</h2>
+			<h1 class="heading-1">Products</h1>
+			<h2 class="heading-2">Drive Operational and Quality Improvement</h2>
 			<div class="banner-btns">
 				<a href="<?php echo ROOT_URL; ?>/case-studies" class="btn btn-lg btn-inverse-white">Case Studies</a> <a href="<?php echo ROOT_URL; ?>/resources" class="btn btn-lg btn-width-lg btn-inverse-white">Resources</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
 </div><!-- container-fluid -->
-		
 
 <div class="container-fluid wrap push">
 	<div class="container products-intro-copy">
@@ -97,11 +30,10 @@ get_header(); ?>
 	</div><!-- products-video-wrapper -->
 </div><!-- products-video -->
 
-
 <div id="ma" class="container-fluid management-bg wrap push" style="background-image: url(<?php echo ROOT; ?>/assets/img/gradients/pink-orange-decal.png);">
 	<div class="container banner product-banner">
 		<div class="banner-wrapper">
-			<h1>Mobile Auditor</h1>
+			<h1 class="heading-1">Mobile Auditor</h1>
 			<div class="banner-btns">
 				<a href="https://rizepoint.com/wp-content/uploads/2017/08/RP_Datasheet-FullSolution.pdf" target="_blank" class="btn btn-lg btn-inverse-white">Download Datasheet</a>
 			</div><!-- banner-btns -->
@@ -111,74 +43,65 @@ get_header(); ?>
 
 <div class="container-fluid aud-content2 lightGray-bg wrap push">
 	<div class="aud-wrapper">
-		<div class="row">
-			<div class="col-md-5 col-sm-6 col-xs-12 aud-img">
-				<img src="<?php echo ROOT; ?>assets/img/products/ma-homescreen.png" class="products-img">
+		<div class="col-md-5 col-sm-6 col-xs-12 aud-img">
+			<img src="<?php echo ROOT; ?>assets/img/products/ma-homescreen.png" class="products-img">
+		</div>
+		<div class="col-md-7 col-sm-6 col-xs-12 aud-text">
+			<h2 class="orangeOne-text heading-2">From front door to final report. Fast.</h2>
+			<h3 class="heading-3">Inspect every location efficiently using a proven, time-tested <a href="<?php echo ROOT_URL; ?>/mobile-auditor-product-feature/">mobile audit app</a>.</h3>
+			<ul>
+				<li>Perform audits using smartphones, tablets, or web browser</li>
+				<li>Go anywhere with offline access</li>
+				<li>Conduct temperature checks with <a href="<?php echo ROOT_URL; ?>/thermocouple-integration/">thermocouple device integration</a></li>
+				<li>Guide evaluations with step-by-step navigation</li>
+			</ul>
+			<div class="products-video-btn">
+				<a class="btn btn-md btn-green" data-toggle="modal" data-target="#ma-one">View Video</a>
 			</div>
-			<div class="col-md-7 col-sm-6 col-xs-12 aud-text">
-				<h2 class="orangeOne-text">From front door to final report. Fast.</h2>
-				<h3>Inspect every location efficiently using a proven, time-tested <a href="<?php echo ROOT_URL; ?>/mobile-auditor-product-feature/">mobile audit app</a>.</h3>
-				<ul>
-					<li>Perform audits using smartphones, tablets, or web browser</li>
-					<li>Go anywhere with offline access</li>
-					<li>Conduct temperature checks with <a href="<?php echo ROOT_URL; ?>/thermocouple-integration/">thermocouple device integration</a></li>
-					<li>Guide evaluations with step-by-step navigation</li>
-				</ul>
-				<div class="products-video-btn">
-					<a class="btn btn-md btn-green" data-toggle="modal" data-target="#ma-one">View Video</a>
-				</div>
-			</div>
-		</div><!--row-->
-	</div><!--man-wrapper-->
+		</div>
+	</div><!--container-->
 </div><!--man-content-->
 
-
-<div class="container-fluid aud-content wrap push">
+<div class="container-fluid aud-content display-block wrap push">
 	<div class="aud-wrapper">
-		<div class="row">
-			<div class="col-md-7 col-sm-6 col-xs-12 aud-text2">
-				<h2 class="orangeOne-text">Broken to fixed. Quick.</h2>
-				<h3>See negative assessment results transformed into immediate corrective action.</h3>
-				<ul>
-					<li>Call out important details</li>
-					<li>Attach files, videos, and annotate images</li>
-					<li>Sync audit app results for immediate use</li>
-				</ul>
-			</div>
-			
-			<div class="col-md-5 col-sm-6 col-xs-12 aud-img2">
-				<img src="<?php echo ROOT; ?>assets/img/products/preconfigured-comments.png" class="products-img">
-			</div>
-		</div><!--row-->
-	</div><!--man-wrapper-->
+		<div class="col-md-7 col-sm-6 col-xs-12 aud-text2">
+			<h2 class="orangeOne-text heading-2">Broken to fixed. Quick.</h2>
+			<h3 class="heading-3">See negative assessment results transformed into immediate corrective action.</h3>
+			<ul>
+				<li>Call out important details</li>
+				<li>Attach files, videos, and annotate images</li>
+				<li>Sync audit app results for immediate use</li>
+			</ul>
+		</div>
+
+		<div class="col-md-5 col-sm-6 col-xs-12 aud-img2">
+			<img src="<?php echo ROOT; ?>assets/img/products/preconfigured-comments.png" class="products-img">
+		</div>
+	</div><!--container-->
 </div><!--man-content-->
 
-<div class="container-fluid aud-content-mobile wrap push">
+<div class="container-fluid aud-content-mobile display-none wrap push">
 	<div class="aud-wrapper">
-		<div class="row">
-			<div class="col-md-5 col-sm-6 col-xs-12 aud-img2">
-				<img src="<?php echo ROOT; ?>assets/img/products/preconfigured-comments.png" class="products-img">
-			</div>
-		
-			<div class="col-md-7 col-sm-6 col-xs-12 aud-text2">
-				<h2 class="orangeOne-text">Broken to fixed. Quick.</h2>
-				<h3>See negative assessment results transformed into immediate corrective action.</h3>
-				<ul>
-					<li>Call out important details</li>
-					<li>Attach files, videos, and annotate images</li>
-					<li>Sync audit app results for immediate use</li>
-				</ul>
-			</div>
-		</div><!--row-->
-	</div><!--man-wrapper-->
+		<div class="col-md-5 col-sm-6 col-xs-12 aud-img2">
+			<img src="<?php echo ROOT; ?>assets/img/products/preconfigured-comments.png" class="products-img">
+		</div>
+
+		<div class="col-md-7 col-sm-6 col-xs-12 aud-text2">
+			<h2 class="orangeOne-text heading-2">Broken to fixed. Quick.</h2>
+			<h3 class="heading-3">See negative assessment results transformed into immediate corrective action.</h3>
+			<ul>
+				<li>Call out important details</li>
+				<li>Attach files, videos, and annotate images</li>
+				<li>Sync audit app results for immediate use</li>
+			</ul>
+		</div>
+	</div><!--container-->
 </div><!--man-content-->
-
-
 
 <div id="mc" class="container-fluid management-bg wrap push" style="background-image: url(<?php echo ROOT; ?>/assets/img/gradients/green-teal-decal.png);">
 	<div class="container banner product-banner">
 		<div class="banner-wrapper">
-			<h1>Management Console</h1>
+			<h1 class="heading-1">Management Console</h1>
 			<div class="banner-btns">
 				<a href="https://rizepoint.com/wp-content/uploads/2017/08/RP_Datasheet-FullSolution.pdf" target="_blank" class="btn btn-lg btn-inverse-white">Download Datasheet</a> 
 			</div><!-- banner-btns -->
@@ -187,118 +110,106 @@ get_header(); ?>
 </div><!-- container-fluid -->
 
 <div class="container-fluid man-content wrap push">
-	<div class="man-wrapper">
-		<div class="row">
-			<div class="col-md-5 col-sm-6 col-xs-12 man-img">
-				<img src="<?php echo ROOT; ?>assets/img/products/ma-audit-form-3-nav.png" class="products-img">
-			</div>
-			<div class="col-md-7 col-sm-6 col-xs-12 man-text">
-				<h2 class="green-text">Evaluate what matters. When it matters.</h2>
-				<h3>Create audit forms that cover every compliance requirement you face.</h3>
-				<ul>
-					<li>Build <a href="<?php echo ROOT_URL; ?>/audit-form-creation/">customized assessment forms</a></li>
-					<li>Push audit forms out to inspection teams</li>
-					<li><a href="<?php echo ROOT_URL; ?>/audit-scheduling/">Schedule inspections</a> and view group schedules</li>
-					<li>Manage audit approval process</li>
-				</ul>
-			</div>
-		</div><!--row-->
-	</div><!--man-wrapper-->
+	<div class="container">
+		<div class="col-md-5 col-sm-6 col-xs-12 man-img">
+			<img src="<?php echo ROOT; ?>assets/img/products/ma-audit-form-3-nav.png" class="products-img">
+		</div>
+		<div class="col-md-7 col-sm-6 col-xs-12 man-text">
+			<h2 class="green-text heading-2">Evaluate what matters. When it matters.</h2>
+			<h3 class="heading-3">Create audit forms that cover every compliance requirement you face.</h3>
+			<ul>
+				<li>Build <a href="<?php echo ROOT_URL; ?>/audit-form-creation/">customized assessment forms</a></li>
+				<li>Push audit forms out to inspection teams</li>
+				<li><a href="<?php echo ROOT_URL; ?>/audit-scheduling/">Schedule inspections</a> and view group schedules</li>
+				<li>Manage audit approval process</li>
+			</ul>
+		</div>
+	</div><!--container-->
 </div><!--man-content-->
 
 <div class="container-fluid man-content2 lightGray-bg wrap push">
-	<div class="man-wrapper">
-		<div class="row">
-			<div class="col-md-7 col-sm-6 col-xs-12 man-text2">
-				<h2 class="green-text">Take action. Now.</h2>
-				<h3>Correct out-of-compliance audit results immediately with automated corrective action.</h3>
-				<ul>
-					<li>Define <a href="<?php echo ROOT_URL; ?>/automated-corrective-action/">corrective action</a> plan and approval processes</li>
-					<li>Issue assignments, notifications, alerts, and reminders</li>
-					<li>Track corrective actions through completion for full audit remediation</li>
-					<li>Initiate independent corrective action plans outside of audit processes</li>
-				</ul>
-				<div class="products-video-btn">
-					<a href="#" class="btn btn-md btn-green" data-toggle="modal" data-target="#mc-two">View Video</a>
-				</div>
+	<div class="container">
+		<div class="col-md-7 col-sm-6 col-xs-12 man-text2">
+			<h2 class="green-text heading-2">Take action. Now.</h2>
+			<h3 class="heading-3">Correct out-of-compliance audit results immediately with automated corrective action.</h3>
+			<ul>
+				<li>Define <a href="<?php echo ROOT_URL; ?>/automated-corrective-action/">corrective action</a> plan and approval processes</li>
+				<li>Issue assignments, notifications, alerts, and reminders</li>
+				<li>Track corrective actions through completion for full audit remediation</li>
+				<li>Initiate independent corrective action plans outside of audit processes</li>
+			</ul>
+			<div class="products-video-btn">
+				<a href="#" class="btn btn-md btn-green" data-toggle="modal" data-target="#mc-two">View Video</a>
 			</div>
-			
-			<div class="col-md-5 col-sm-6 col-xs-12 man-img2">
-				<img src="<?php echo ROOT; ?>assets/img/products/corrective-action-plan-widget-ahp.png" class="products-img">
-			</div>
-		</div><!--row-->
-	</div><!--man-wrapper-->
+		</div>
+
+		<div class="col-md-5 col-sm-6 col-xs-12 man-img2">
+			<img src="<?php echo ROOT; ?>assets/img/products/corrective-action-plan-widget-ahp.png" class="products-img">
+		</div>
+	</div><!--container-->
 </div><!--man-content-->
 
 <div class="container-fluid man-content wrap push">
-	<div class="man-wrapper">
-		<div class="row">
-			<div class="col-md-5 col-sm-6 col-xs-12 man-img">
-				<img src="<?php echo ROOT; ?>assets/img/products/management-dashboards.png" class="products-img">
+	<div class="container">
+		<div class="col-md-5 col-sm-6 col-xs-12 man-img">
+			<img src="<?php echo ROOT; ?>assets/img/products/management-dashboards.png" class="products-img">
+		</div>
+		<div class="col-md-7 col-sm-6 col-xs-12 man-text">
+			<h2 class="green-text heading-2">The right data. Right away.</h2>
+			<h3 class="heading-3">Provide quality experience insights across your entire organization.</h3>
+			<ul>
+				<li>View evaluation results using audit feedback reports</li>
+				<li>Use pre-built <a href="<?php echo ROOT_URL; ?>/management-console-interface/">management dashboards</a> to view top-level details and drill into specifics</li>
+				<li>Create ad-hoc reports with <a href="<?php echo ROOT_URL; ?>/search-driven-analytics/">search-driven analytics</a></li>
+				<li>View business intelligence data wherever, whenever</li>
+			</ul>
+			<div class="products-video-btn">
+				<a class="btn btn-md btn-green" data-toggle="modal" data-target="#mc-three">View Video</a>
+				<a href="<?php echo ROOT; ?>/assets/docs/datasheets/business-intelligence-june-2017.pdf" target="_blank" class="btn btn-md btn-green">Learn More</a>
 			</div>
-			<div class="col-md-7 col-sm-6 col-xs-12 man-text">
-				<h2 class="green-text">The right data. Right away.</h2>
-				<h3>Provide quality experience insights across your entire organization.</h3>
-				<ul>
-					<li>View evaluation results using audit feedback reports</li>
-					<li>Use pre-built <a href="<?php echo ROOT_URL; ?>/management-console-interface/">management dashboards</a> to view top-level details and drill into specifics</li>
-					<li>Create ad-hoc reports with <a href="<?php echo ROOT_URL; ?>/search-driven-analytics/">search-driven analytics</a></li>
-					<li>View business intelligence data wherever, whenever</li>
-				</ul>
-				<div class="products-video-btn">
-					<a class="btn btn-md btn-green" data-toggle="modal" data-target="#mc-three">View Video</a>
-					<a href="<?php echo ROOT; ?>/assets/docs/datasheets/business-intelligence-june-2017.pdf" target="_blank" class="btn btn-md btn-green">Learn More</a>
-				</div>
-			</div>
-		</div><!--row-->
-	</div><!--man-wrapper-->
+		</div>
+	</div><!--container-->
 </div><!--man-content-->
 
 <div class="container-fluid man-content2 lightGray-bg wrap push">
-	<div class="man-wrapper">
-		<div class="row">
-			<div class="col-md-7 col-sm-6 col-xs-12 man-text2">
-				<h2 class="green-text">Supplier Details. All in one place.</h2>
-				<h3>Automate and streamline supplier onboarding processes.</h3>
-				<ul>
-					<li>Define <a href="<?php echo ROOT_URL; ?>/rizepoint-onboarding/">onboarding</a> tasks to be completed</li>
-					<li>Display supplier tasks on suppliers’ home pages</li>
-					<li>Allow suppliers to directly input information and upload documents</li>
-					<li>Share requirements documents across your supply chain</li>
-				</ul>
-				
-			</div>
-			<div class="col-md-5 col-sm-6 col-xs-12 man-img2">
-				<img src="<?php echo ROOT; ?>assets/img/products/onboarding-circle-min.png" class="products-img">
-			</div>
-		</div><!--row-->
-	</div><!--man-wrapper-->
+	<div class="container">
+		<div class="col-md-7 col-sm-6 col-xs-12 man-text2">
+			<h2 class="green-text heading-2">Supplier Details. All in one place.</h2>
+			<h3 class="heading-3">Automate and streamline supplier onboarding processes.</h3>
+			<ul>
+				<li>Define <a href="<?php echo ROOT_URL; ?>/rizepoint-onboarding/">onboarding</a> tasks to be completed</li>
+				<li>Display supplier tasks on suppliers’ home pages</li>
+				<li>Allow suppliers to directly input information and upload documents</li>
+				<li>Share requirements documents across your supply chain</li>
+			</ul>
+
+		</div>
+		<div class="col-md-5 col-sm-6 col-xs-12 man-img2">
+			<img src="<?php echo ROOT; ?>assets/img/products/onboarding-circle-min.png" class="products-img">
+		</div>
+	</div><!--container-->
 </div><!--man-content-->
 
-
 <div class="container-fluid man-content wrap push">
-	<div class="man-wrapper">
-		<div class="row">
-			<div class="col-md-5 col-sm-6 col-xs-12 man-img2">
-				<img src="<?php echo ROOT; ?>assets/img/products/ahp-3.png" class="products-img">
+	<div class="container">
+		<div class="col-md-5 col-sm-6 col-xs-12 man-img2">
+			<img src="<?php echo ROOT; ?>assets/img/products/ahp-3.png" class="products-img">
+		</div>
+		<div class="col-md-7 col-sm-6 col-xs-12 man-text">
+			<h2 class="green-text heading-2">Fulfill all your needs. With one platform.</h2>
+			<h3 class="heading-3">Get everything you want in one complete quality management solution.</h3>
+			<ul>
+				<li>Set role-based permissions so your users see only what they need</li>
+				<li>Share key details using <a href="<?php echo ROOT_URL; ?>/automated-communication-tools/">automated communication tools</a></li>
+				<li>Configure RizePoint to match your organizational set-up</li>
+				<li>Sync your data using the RizePoint <a href="<?php echo ROOT_URL; ?>/api-framework/">API framework</a></li>
+			</ul>
+			<div class="products-video-btn">
+				<a class="btn btn-md btn-green" data-toggle="modal" data-target="#mc-three">View Video</a>
+				<a href="<?php echo ROOT; ?>/assets/docs/datasheets/business-intelligence-june-2017.pdf" target="_blank" class="btn btn-md btn-green">Learn More</a>
 			</div>
-			<div class="col-md-7 col-sm-6 col-xs-12 man-text">
-				<h2 class="green-text">Fulfill all your needs. With one platform.</h2>
-				<h3>Get everything you want in one complete quality management solution.</h3>
-				<ul>
-					<li>Set role-based permissions so your users see only what they need</li>
-					<li>Share key details using <a href="<?php echo ROOT_URL; ?>/automated-communication-tools/">automated communication tools</a></li>
-					<li>Configure RizePoint to match your organizational set-up</li>
-					<li>Sync your data using the RizePoint <a href="<?php echo ROOT_URL; ?>/api-framework/">API framework</a></li>
-				</ul>
-				<div class="products-video-btn">
-					<a class="btn btn-md btn-green" data-toggle="modal" data-target="#mc-three">View Video</a>
-					<a href="<?php echo ROOT; ?>/assets/docs/datasheets/business-intelligence-june-2017.pdf" target="_blank" class="btn btn-md btn-green">Learn More</a>
-				</div>
-			</div>
-			
-		</div><!--row-->
-	</div><!--man-wrapper-->
+		</div>
+	</div><!--container-->
 </div><!--man-content-->
 
 <!-- MC Two -->
@@ -307,7 +218,7 @@ get_header(); ?>
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="mc-twoLabel">Corrective Action Management</h4>
+				<h4 class="modal-title heading-4" id="mc-twoLabel">Corrective Action Management</h4>
 			</div>
 			<div class="modal-body">
 				<script src="https://fast.wistia.com/embed/medias/rhllpryv9u.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_rhllpryv9u videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
@@ -325,7 +236,7 @@ get_header(); ?>
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="mc-ThreeLabel">Business Intelligence</h4>
+				<h4 class="modal-title heading-4" id="mc-ThreeLabel">Business Intelligence</h4>
 			</div>
 			<div class="modal-body">
 				<script src="https://fast.wistia.com/embed/medias/1ax7ngyryl.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_1ax7ngyryl videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
@@ -344,7 +255,7 @@ get_header(); ?>
 			<div class="modal-header">
 
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="mc-fourLabel">The End-To-End Solution</h4>
+				<h4 class="modal-title heading-4" id="mc-fourLabel">The End-To-End Solution</h4>
 			</div>
 			<div class="modal-body">
 				<script src="https://fast.wistia.com/embed/medias/0gnanguwgy.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_0gnanguwgy videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
@@ -363,7 +274,7 @@ get_header(); ?>
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="ma-oneLabel">Mobile Auditor</h4>
+				<h4 class="modal-title heading-4" id="ma-oneLabel">Mobile Auditor</h4>
 			</div>
 			<div class="modal-body">
 				<script src="https://fast.wistia.com/embed/medias/jzajc3w8ml.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_jzajc3w8ml videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
@@ -375,8 +286,4 @@ get_header(); ?>
 	</div><!-- modal-dialog -->
 </div><!-- modal -->
 
-
-
-
 <?php get_footer(); ?>
-

@@ -1,1 +1,0 @@
-# BEGIN WordPress<IfModule mod_rewrite.c>RewriteEngine OnRewriteBase /RewriteRule ^index.php$ - [L]RewriteCond %{REQUEST_FILENAME} !-fRewriteCond %{REQUEST_FILENAME} !-dRewriteRule . /index.php [L]</IfModule><IfModule pagespeed_module>ModPagespeed off</IfModule># END WordPress

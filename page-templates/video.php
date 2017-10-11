@@ -30,7 +30,7 @@ get_header(); ?>
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1><?php the_field('video-title'); ?></h1>
+			<h1 class="heading-1"><?php the_field('video-title'); ?></h1>
 			<div class="banner-btns">
 				<a href="<?php echo ROOT_URL; ?>/resources" class="btn btn-lg btn-inverse-white">
 					Resources

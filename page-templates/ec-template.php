@@ -3,14 +3,6 @@
  * Template Name: EC-Template
 */
 get_header(); ?>
-<style>
-	.ec{
-		padding: 50px;
-	}
-	img{
-		width: 100%;
-	}
-</style>
 
 <?php if (get_field('show_nav_bar') == 'no') : ?>
 <style>
@@ -47,4 +39,4 @@ get_header(); ?>
 	</div><!-- ec-wrapper -->
 </section><!-- ec -->
 
-<?php get_footer(); ?><!doctype html>
+<?php get_footer(); ?>

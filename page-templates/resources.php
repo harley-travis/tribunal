@@ -78,19 +78,12 @@ get_header();
     
 
 ?>
-<style>
-	img {
-    width: 100%;
-}
- p.overlay-text {
-		font-size: 1em !important;
-	}
-</style>
+
 <div class="container-fluid pink-yellow">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1>Resources</h1>
+			<h1 class="heading-1">Resources</h1>
 			<div class="banner-btns">
 				<a href="<?php echo ROOT_URL; ?>/blog" class="btn btn-lg btn-width-lg btn-inverse-white orange-text">RizePoint Blog</a> <a href="<?php echo ROOT_URL; ?>/newsroom" class="btn btn-lg btn-width-lg btn-inverse-white">Newsroom</a>
 			</div><!-- banner-btns -->
@@ -123,7 +116,7 @@ get_header();
                                         <a href="https://rizepoint.com/fsma-e-book/">
                                             <div class="headline-post" style="background-image:url(<?php the_field('popular-img-1'); ?>);"></div>
                                             <div class="headline-post-text">
-                                                <h3 class="headline-heading"><?php the_field('popular-title-1'); ?></h3>
+                                                <h3 class="headline-heading heading-3"><?php the_field('popular-title-1'); ?></h3>
                                             </div><!-- headline-post-text -->
                                         </a> 
                                     </div><!-- headline-wrapper -->
@@ -135,7 +128,7 @@ get_header();
                                             <div class="hc2-1-post">
                                                 <div class="frontPostImg" style="background-image:url('<?php the_field('popular-img-2'); ?>');"></div>
                                                 <div class="hc2-text">
-                                                    <h3 class="subheadline-heading"><?php the_field('popular-title-2'); ?></h3>
+                                                    <h3 class="subheadline-heading heading-3"><?php the_field('popular-title-2'); ?></h3>
                                                 </div><!-- headline-col-2-text -->
                                             </div><!-- headling-col-2-post -->
                                         </a>
@@ -144,7 +137,7 @@ get_header();
                                             <div class="hc2-2-post">
                                                 <div class="frontPostImg" style="background-image:url('<?php the_field('popular-img-3'); ?>');"></div>
                                                 <div class="hc2-text">
-                                                    <h3 class="subheadline-heading"><?php the_field('popular-title-3'); ?></h3>
+                                                    <h3 class="subheadline-heading heading-3"><?php the_field('popular-title-3'); ?></h3>
                                                 </div><!-- headline-col-2-text -->
                                             </div><!-- headling-col-2-post -->
                                         </a>
@@ -158,7 +151,7 @@ get_header();
                                             <div class="hc3-1-post">
                                                 <div class="frontPostImg" style="background-image:url('<?php the_field('popular-img-4'); ?>');"></div>
                                                 <div class="hc3-text">
-                                                    <h3 class="subheadline-heading"><?php the_field('popular-title-4'); ?></h3>
+                                                    <h3 class="subheadline-heading heading-3"><?php the_field('popular-title-4'); ?></h3>
                                                 </div><!-- headline-col-2-text -->
                                             </div><!-- headling-col-2-post -->
                                         </a>
@@ -167,7 +160,7 @@ get_header();
                                             <div class="hc3-2-post">
                                                 <div class="frontPostImg" style="background-image:url('<?php the_field('popular-img-5'); ?>');"></div>
                                                 <div class="hc3-text">
-                                                    <h3 class="subheadline-heading"><?php the_field('popular-title-5'); ?></h3>
+                                                    <h3 class="subheadline-heading heading-3"><?php the_field('popular-title-5'); ?></h3>
                                                 </div><!-- headline-col-3-text -->
                                             </div><!-- headling-col-3-post -->
                                         </a>
@@ -204,7 +197,7 @@ get_header();
                                             <div class="resource-col-wrapper hovereffect" style="background-image:url('');">
                                                 <img src="<?php the_sub_field('tab-image-2'); ?>" alt="" class="tab2-img">
                                                 <div class="overlay">
-                                                    <h3 class="overlay-heading"><?php the_sub_field('hover-title'); ?></h3>
+                                                    <h3 class="overlay-heading heading-3"><?php the_sub_field('hover-title'); ?></h3>
                                                     <p class="overlay-text"><?php the_sub_field('hover-text'); ?></p>
                                                 </div><!-- overlay -->
                                             </div><!-- resource-col-wrapper -->
@@ -266,7 +259,7 @@ get_header();
                                     	<div class="large-modal modal-dialog" role="document">
 											<div class="modal-content modal-resource">
 												<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>
-												<h3><?php the_sub_field('modal-title'); ?></h3>
+												<h3 class="heading-3"><?php the_sub_field('modal-title'); ?></h3>
 												<p><?php the_sub_field('modal-desc'); ?></p>
 												<form id="mktoForm_<?php the_sub_field('form-ID'); ?>"></form>
 												<script>MktoForms2.loadForm("//app-ab09.marketo.com", "318-YYG-377", <?php the_sub_field('form-ID'); ?>, function (form){});</script>    
@@ -290,7 +283,7 @@ get_header();
                                 <?php while ( have_rows('tab_items_5') ): the_row(); ?>
                                     <div class="col-sm-12 col-md-6 resource-col">
                                         <div class="videoWrapper">
-											<a href="<?php the_sub_field('video-link'); ?>"><h4><?php the_sub_field('video-title'); ?></h4></a>
+											<a href="<?php the_sub_field('video-link'); ?>"><h4 class="heading-4"><?php the_sub_field('video-title'); ?></h4></a>
                                             <?php the_sub_field('video-embed'); ?>
                                         </div><!-- videoWrapper -->
                                     </div><!-- resource-col -->
@@ -299,7 +292,7 @@ get_header();
                            <div class="col-sm-12 col-md-6 resource-col">
                                <div class="videoWrapper">
                                     <a href="#" data-reveal-id="video-webinar-modal">
-                                      	<h4><?php the_field('webinar-title'); ?></h4>
+                                      	<h4 class="heading-4"><?php the_field('webinar-title'); ?></h4>
                                         <img src="<?php the_field('webinar-video'); ?>" alt="" class="webinar-video-img">
                                     </a>
                                </div><!-- videoWrapper -->
@@ -311,7 +304,7 @@ get_header();
                            <div id="video-webinar-modal" class="modal fade resource-modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle">
                                <div class="modal-content">
                                 	<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>
-									 <h3><?php the_field('webinar-modal-title'); ?></h3>
+									 <h3 class="heading-3"><?php the_field('webinar-modal-title'); ?></h3>
 									 <p><?php the_field('webinar-modal-desc'); ?></p>
 									<form id="mktoForm_<?php the_field('webinar-form-ID'); ?>"></form>
 									<script>MktoForms2.loadForm("//app-ab09.marketo.com", "318-YYG-377", <?php the_field('webinar-form-ID'); ?>, function (form){});</script> 
@@ -358,13 +351,6 @@ get_header();
                 </div><!-- tab-content-wrapper -->
             </div><!-- tab content -->
         </div><!-- tabs -->
-
-   
-<style>
-   .modal-resource{
-	   padding: 20px;
-   }
-</style>
    
     <!---------------------
         INIT TAB FUNCTION

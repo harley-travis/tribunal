@@ -4,12 +4,6 @@
 */
 get_header(); ?>
 
-<style>
-	.media-wrapper{
-		padding: 100px;
-	}
-</style>
-
 <div class="container-fluid purple-pink">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">

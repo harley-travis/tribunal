@@ -13,64 +13,6 @@ get_header(); ?>
 </style>
 <?php endif ; ?>	
 
-<style>
-	.white-papers {
-    padding: 50px 0;
-}
-	.form-box {
-    padding: 25px;
-}
-	.franchisee-hero{
-		background-size: cover;
-		background-attachment: fixed;
-		height: 500px;
-	}
-	.fran-footer-wrapper{
-		border-top: 1px solid #eee;
-		text-align: right;
-   		padding-top: 10px;
-		margin-bottom: 80px;
-	}
-</style>
-<!-- hide the list items -->
-<style>
-	/* REMOVE THIS STYLE TO DISPLAY THE CUSTOMERS SECTION*/
-	.logo-white-paper{
-		display: none !important;
-	}
-	
-	
-	
-	.hide-list > ul {
-		list-style: none !important;
-		margin-left: 0 !important;
-	}
-	.right-side-text{
-		padding-top: 20px;
-	}
-	.wp-logo-img{
-		width: 100%;
-		max-width: 200px;
-	}
-	h3.customers-wp{
-		text-align: center;
-		padding-top: 30px;
-	}
-	.logo-white-paper{
-		background: #EFEFEF;
-	}
-	.logo-white-paper-wrapper{
-		padding: 60px 0 60px 0;
-	}
-	.white-p-logo {
-    text-align: center;
-    padding: 30px;
-}
-	
-	
-</style>
-
-
 <div class="container-fluid franchisee-hero wrap push" style="background-image: url(<?php the_field('hero_img'); ?>);">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
@@ -81,7 +23,6 @@ get_header(); ?>
 </div><!-- container-fluid -->
 
 <section class="container white-papers wrap push">
-	
 	<div class="">
 		<div class="col-md-12 col-lg-7">
 			<div class="left-side-content hide-list">
@@ -103,7 +44,6 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-
 </section>
 
 <section class="fran-footer">
@@ -111,8 +51,6 @@ get_header(); ?>
 		<span>1997 - <?php echo date('Y'); ?> &copy; RizePoint.com | All Rights Reserved</span>
 	</div>
 </section>
-
-
 
 <!-- js -->
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/bootstrap.min.js"></script>		

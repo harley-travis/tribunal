@@ -52,49 +52,6 @@ function populateCountries(countryElementId, stateElementId) {
 }
 
 </script>
-<style>
-	.partner-lead-banner {
-		background-image: url(http://rizepoint.com/wp-content/uploads/2017/01/gradient-orange-bg.jpg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-		height: 200px;
-		padding: 0;
-		margin-top: -5px;
-		margin-bottom: 30px;
-		width: 100%;
-		position: relative;
-	}
-	.partner-lead-banner-wrapper{
-		position: absolute;
-		text-align: center;
-		top: 35%;
-		left: 0;
-		right: 0;
-	}
-	.partner-lead-banner-wrapper h1{
-		color: #fff;
-	}
-	.partner-lead-body {
-		margin-bottom: 50px;
-		text-align: center;
-	}
-	.partner-lead-stuff {
-		text-align: left;
-		width: 50%;
-		margin: 0 auto;
-	}
-	.partner-lead-input {
-		display: initial !important;
-	}
-	input.partner-lead-btn {
-		border: none;
-		padding: 10px;
-		background: orange;
-		color: white;
-		width: 100%;
-	}
-</style>
 
 <div class="contain-wrapper partner-lead-banner wrap push">
 	<div class="partner-lead-banner-wrapper">

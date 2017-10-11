@@ -9,7 +9,7 @@ h2.resoure-heading {
     background: rgba(252, 139, 46, .9);
     padding: 10px;
     width: 53%;
-    font-family: GothamRounded-Book!important;
+    font-family: $gotham-book;
     position: absolute;
     color: $white;
     top: 30%;
@@ -21,11 +21,17 @@ h2.resoure-heading {
     background-size: cover;
     background-position: 50% 15%;
 }
+ p.overlay-text {
+	font-size: 1em !important;
+}
 .resource-container {
     padding-top: 20px;
 }
 .tab-content-wrapper {
     margin-bottom: 30px;
+}
+.modal-resource{
+   padding: 20px;
 }
 .resource-col {
     padding-top: 30px;

@@ -4,18 +4,6 @@
 */
 get_header(); ?>
 
-<style>
-	.white-papers {
-    padding: 50px 0;
-}
-	.form-box-ebook {
-    padding: 25px;
-		max-width: 600px;
-		width: 100%;
-		margin: 0 auto;
-}
-</style>
-
 <div class="container-fluid purple-blue wrap push">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
@@ -38,43 +26,5 @@ get_header(); ?>
 	</div>
 
 </section>
-
-
-<!-- hide the list items -->
-<style>
-	/* REMOVE THIS STYLE TO DISPLAY THE CUSTOMERS SECTION*/
-	.logo-white-paper{
-		display: none !important;
-	}
-	
-	.hide-list > ul {
-		list-style: none !important;
-		margin-left: 0 !important;
-	}
-	.right-side-text{
-		padding-top: 20px;
-	}
-	.wp-logo-img{
-		width: 100%;
-		max-width: 200px;
-	}
-	h3.customers-wp{
-		text-align: center;
-		padding-top: 30px;
-	}
-	.logo-white-paper{
-		background: #EFEFEF;
-	}
-	.logo-white-paper-wrapper{
-		padding: 60px 0 60px 0;
-	}
-	.white-p-logo {
-    text-align: center;
-    padding: 30px;
-}
-	
-	
-</style>
-
 
 <?php get_footer(); ?>

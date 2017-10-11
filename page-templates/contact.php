@@ -4,33 +4,6 @@
 */
 get_header(); ?>
 
-<style>
-	.contact-info-wrapper{
-		padding: 50px 0;
-	}
-	.contact-intro{
-		padding-top: 70px;
-		padding-right: 100px;
-	}
-	.contact-space{
-		margin-top: 50px;
-	}
-	
-	@media only screen and (max-width: 768px){
-		.contact-intro {
-			padding: 15px;
-			text-align: center;
-		}
-	}
-	
-	@media only screen and (max-width: 320px){
-
-		.contact-info-wrapper p {
-			font-size: 1.5rem;
-		}
-	}
-</style>
-
 <div class="container-fluid pink-yellow">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
@@ -94,17 +67,14 @@ get_header(); ?>
 				center:new google.maps.LatLng(40.632600, -111.810804),
 				zoom:16,
 			};
-	var map=new google.maps.Map(document.getElementById("contact-map"),mapProp);
-	}
+			var map=new google.maps.Map(document.getElementById("contact-map"),mapProp);
+			}
 
 		</script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRpEaE5Xmip8iOsz3zCcomouI4SMFUk04&callback=myMap"></script>
 
 	</div><!--contact-map-->
 </div><!--container-fluid-->
-
-
-
 
 
 <?php get_footer(); ?>

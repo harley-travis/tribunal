@@ -59,25 +59,4 @@ get_header(); ?>
 	</div><!-- clients-cta -->
 </div>
 
-<style>
-	.clients-heading{
-		padding-top: 35px;
-		padding-bottom: 35px;
-		text-align: center;
-	}
-	.client-box-pic {
-    background: white;
-    text-align: center;
-    padding: 15px;
-    border-radius: 7px;
-}
-	.clients-cta{
-		text-align: center;
-		padding-bottom: 35px;
-	}
-	.cl-overide{
-		height: 180px !important;
-	}
-</style>
-
 <?php get_footer(); ?>

@@ -31,11 +31,51 @@
     margin-bottom: 100px;
 }
 .inquiry {
-    border-top: 1px solid gray;
+    border-top: 1px solid #eee;
     padding-bottom: 50px;
 }
-@media only screen and (max-width: 1440px) {
-    .rize-img {
-        padding-bottom: 25px;
-    }
+.end-partners-wrapper{
+	padding: 50px 0;
+}
+.award-partner-wrapper{
+	padding: 50px 0;
+	text-align: center;
+}
+.award-partner{
+	width: 100%;
+	max-width: 300px;
+}
+.rize-csr{
+	padding-bottom: 45px;
+}
+.ap-fix{
+	background: $white;
+}
+.our-partner{
+	text-align: center;
+}
+.partners-logos {
+	padding-top: 50px;
+	padding-bottom: 0px !important;
+}
+.award-wrapper{
+	padding: 20px;	
+}
+.rize-img {
+    max-width: 400px !important;
+}
+.copy-wrapper{
+	padding: 50px 0;
+}
+.rize-video-wrapper{
+	padding: 50px 0;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.rize-video-section{
+	margin-top: 45px;
+}
+.rize-content{
+	text-align: center;
+	padding: 50px 0;
 }

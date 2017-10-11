@@ -1,24 +1,35 @@
 /*
-Error: Undefined variable: "$white".
-        on line 13 of C:\xampp\htdocs\living-tribunal\assets\css\includes\contact.scss
+Error: Undefined variable: "$orangeTwo".
+        on line 35 of C:\xampp\htdocs\living-tribunal\assets\css\includes\contact.scss
 
-8:     margin-top: 40px;
-9:     padding-bottom: 25px;
-10: }
-11: .contact-form .h2 {
-12:     text-align: center;
-13:     color: $white;
-14: }
-15: .contact-details {
-16:     margin-top: 40px;
-17:     margin-bottom: 70px;
-18: }
+30:     margin-top: 15px;
+31:     padding-bottom: 35px;
+32: }
+33: .contact-email{
+34: 	a {
+35: 		color: $orangeTwo;
+36: 	}
+37: } 
+38: .footer-card{
+39: 	li a {
+40: 		color: $white;
 
 Backtrace:
-C:\xampp\htdocs\living-tribunal\assets\css\includes\contact.scss:13
+C:\xampp\htdocs\living-tribunal\assets\css\includes\contact.scss:35
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:431:in `map'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
@@ -61,4 +72,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 13 of C:\xampp\htdocs\living-tribunal\assets\css\includes\contact.scss\A \A 8:     margin-top: 40px;\A 9:     padding-bottom: 25px;\A 10: }\A 11: .contact-form .h2 {\A 12:     text-align: center;\A 13:     color: $white;\A 14: }\A 15: .contact-details {\A 16:     margin-top: 40px;\A 17:     margin-bottom: 70px;\A 18: }"; }
+  content: "Error: Undefined variable: \"$orangeTwo\".\A         on line 35 of C:\xampp\htdocs\living-tribunal\assets\css\includes\contact.scss\A \A 30:     margin-top: 15px;\A 31:     padding-bottom: 35px;\A 32: }\A 33: .contact-email{\A 34: 	a {\A 35: 		color: $orangeTwo;\A 36: 	}\A 37: } \A 38: .footer-card{\A 39: 	li a {\A 40: 		color: $white;"; }

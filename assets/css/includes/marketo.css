@@ -1,3 +1,38 @@
+#mktoStyleLoaded {
+  /* css load detection, do not remove */
+  color: #123456; }
+
+.mktoForm input[type=text],
+.mktoForm input[type=url],
+.mktoForm input[type=email],
+.mktoForm input[type=tel],
+.mktoForm input[type=number],
+.mktoForm input[type=date],
+.mktoForm textarea.mktoField,
+.mktoForm select.mktoField {
+  padding: 2px 3px;
+  border: 1px solid #eee;
+  background-color: #fff;
+  color: red; }
+
+label.mktoLabel.mktoHasWidth {
+  width: auto !important; }
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+  background: #28B29A !important;
+  width: 100% !important; }
+
+.mktoButtonRow {
+  width: 100% !important; }
+
+button.mktoButton {
+  height: 50px;
+  font-size: 1.4em !important; }
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover {
+  border: none !important;
+  background-color: #1f8876 !important; }
+
 .mktoForm,
 .mktoForm .mktoFormCol {
   width: 100% !important; }
@@ -45,3 +80,23 @@ button.mktoButton {
 .mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover {
   border: none !important;
   background-color: #1f8876 !important; }
+
+span.mktoButtonWrap.mktoPaperMashup {
+  margin: 0; }
+
+.mktoForm .mktoButtonWrap.mktoPaperMashup button.mktoButton {
+  background: #28b29a !important; }
+
+.mktoForm .mktoButtonWrap.mktoPaperMashup .mktoButton:hover {
+  background-color: #1f8876 !important; }
+
+.mktoForm .mktoButtonRow span button.mktoButton {
+  color: #fff !important;
+  border: none !important;
+  padding: 10px !important;
+  width: 100% !important;
+  margin-top: 15px !important;
+  text-transform: uppercase !important; }
+
+span.mktoButtonWrap.mktoNative {
+  margin-left: 0 !important; }

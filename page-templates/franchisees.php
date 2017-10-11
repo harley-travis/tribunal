@@ -13,15 +13,6 @@ get_header(); ?>
 </style>
 <?php endif ; ?>	
 
-<style>
-	.white-papers {
-    padding: 50px 0;
-}
-	.form-box {
-    padding: 25px;
-}
-</style>
-
 <div class="container-fluid blue-green wrap push">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
@@ -31,14 +22,7 @@ get_header(); ?>
 	</div><!-- banner -->
 </div><!-- container-fluid -->
 
-<section class="container white-papers wrap push">
-	
-<!--
-	<div class="">
-		<div class="col-sm-12 header-background" style="background-image: url(<?php the_field('header_background_image') ?>)"></div>
-	</div>
--->
-	
+<section class="container white-papers wrap push">	
 	<div class="">
 		<div class="col-md-12 col-lg-6">
 			<div class="left-side-content hide-list">
@@ -60,7 +44,6 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-
 </section>
 
 <section class="logo-white-paper wrap push">
@@ -83,45 +66,5 @@ get_header(); ?>
 		</div><!-- row -->
 	</div><!-- logo-white-paper-wrapper -->
 </section>
-
-
-<!-- hide the list items -->
-<style>
-	/* REMOVE THIS STYLE TO DISPLAY THE CUSTOMERS SECTION*/
-	.logo-white-paper{
-		display: none !important;
-	}
-	
-	
-	
-	.hide-list > ul {
-		list-style: none !important;
-		margin-left: 0 !important;
-	}
-	.right-side-text{
-		padding-top: 20px;
-	}
-	.wp-logo-img{
-		width: 100%;
-		max-width: 200px;
-	}
-	h3.customers-wp{
-		text-align: center;
-		padding-top: 30px;
-	}
-	.logo-white-paper{
-		background: #EFEFEF;
-	}
-	.logo-white-paper-wrapper{
-		padding: 60px 0 60px 0;
-	}
-	.white-p-logo {
-    text-align: center;
-    padding: 30px;
-}
-	
-	
-</style>
-
 
 <?php get_footer(); ?>

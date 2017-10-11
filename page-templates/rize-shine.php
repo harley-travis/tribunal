@@ -3,69 +3,12 @@
  * Template Name: Rize and Shine
  */
 get_header(); ?>
-<style>
-	.end-partners-wrapper{
-		padding: 50px 0;
-	}
-	.award-partner-wrapper{
-		padding: 50px 0;
-		text-align: center;
-	}
-	.award-partner{
-		width: 100%;
-		max-width: 300px;
-	}
-	.rize-csr{
-		padding-bottom: 45px;
-	}
-	.ap-fix{
-		background: white;
-	}
-	.our-partner{
-		text-align: center;
-	}
-	.partners-logos {
-		padding-top: 50px;
-		padding-bottom: 0px !important;
-	}
-	.award-wrapper{
-		padding: 20px;	
-	}
-	.rize-img {
-    max-width: 400px !important;
-}
-	.copy-wrapper{
-		padding: 50px 0;
-	}
-	.rize-video-wrapper{
-		padding: 50px 0;
-		max-width: 900px;
-		margin: 0 auto;
-	}
-	.rize-video-section{
-		margin-top: 45px;
-	}
-	.rize-content{
-		text-align: center;
-		padding: 50px 0;
-	}
-	
-	
-	
-	@media only screen and (max-width: 425px){
-		.rize-logos {
-			padding: 0;
-			margin-bottom: 30px;
-		}
-	}
-	
-</style>
 
 <div class="container-fluid green-blue">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1>Rize &#38; Shine</h1>
+			<h1 class="heading-1">Rize &#38; Shine</h1>
 			<div class="banner-btns">
 				<a href="<?php echo ROOT_URL; ?>/blog" class="btn btn-lg btn-width btn-inverse-white">The Blog</a>
 
@@ -94,7 +37,7 @@ get_header(); ?>
 		</div><!--rize-img-->
 		<div class="col-md-6 col-sm-12 col-xs-12 rize-text">
 			<div class="rize-text-title">
-				<h4>Global Awareness Meets Action</h4>
+				<h4 class="heading-4">Global Awareness Meets Action</h4>
 			</div><!--rize-text-title-->
 			<div class="rize-text-content">
 				<p>A global consciousness means we do our part to make the world a better place for all people. With our volunteer and corporate giving efforts, we support organizations offering aid and solutions to humanitarian crises.</p>
@@ -110,7 +53,7 @@ get_header(); ?>
 		</div><!--rize-img-->
 		<div class="col-md-6 col-sm-12 col-xs-12 rize-text">
 			<div class="rize-text-title">
-				<h4>Technology Education</h4>
+				<h4 class="heading-4">Technology Education</h4>
 			</div><!--rize-text-title-->
 			<div class="rize-text-content">
 				<p>Technology education is a necessity in the 21st century. With our volunteer and corporate giving efforts, we support STEM education, with a focus on access to technology education for girls and underprivileged children.</p>
@@ -125,7 +68,7 @@ get_header(); ?>
 		</div><!--rize-img--> 
 		<div class="col-md-6 col-sm-12 col-xs-12 rize-text">
 			<div class="rize-text-title">
-				<h4>Sustainable Food Systems</h4>
+				<h4 class="heading-4">Sustainable Food Systems</h4>
 			</div><!--rize-text-title-->
 			<div class="rize-text-content">
 				<p>A sustainable food system means growing, distributing, and disposing of food in a safe and ecological way. With our volunteer and corporate giving efforts, we support organizations that provide access, education, and resources for sustainable food initiatives.</p>
@@ -137,7 +80,7 @@ get_header(); ?>
 <div class="container-fluid lightGray-bg wrap push">
 	<div class="container copy-wrapper">
 		<div class="col-md-6 col-sm-6 col-xs-12 rize-copy">
-		<h3>Rize &#38; Shine includes several community initiatives:</h3>
+		<h3 class="heading-3">Rize &#38; Shine includes several community initiatives:</h3>
 			<ul>
 				<li>Four company-paid volunteer days per year amounting to more than 2,000 hours in the community. </li>
 				<li>Volunteer activities range from planting vegetables with Wasatch Community Gardens to teaching science courses with the Women Tech Council’s SheTech program.  </li>
@@ -147,7 +90,7 @@ get_header(); ?>
 			</ul>
 		</div>
 		<div class="col-md-6 col-sm-6 col-xs-12 rize-copy">
-			<h3>Rize &#38; Shine by the numbers</h3>
+			<h3 class="heading-3">Rize &#38; Shine by the numbers</h3>
 			<ul>
 				<li>4 quarterly service days </li>
 				<li>2,000 hours spent in the community each year</li>
@@ -161,7 +104,7 @@ get_header(); ?>
 <div class="container-fluid wrap push">
 	<div class="container award-partner-wrapper">
 		<div class="rize-csr">
-			<h2 class="green-text">Award-Winning Corporate Social Responsibility Program </h2>
+			<h2 class="green-text heading-2">Award-Winning Corporate Social Responsibility Program </h2>
 		</div><!--our-partners-->
 
 		<div class="rize-csr-logo">
@@ -176,11 +119,9 @@ get_header(); ?>
 	</div>
 </div>
 
-
-
 <div class="container-fluid lightGray-bg end-partners-wrapper wrap push">
 	<div class="container our-partner">
-		<h2 class="green-text">Our Partners</h2>
+		<h2 class="green-text heading-2">Our Partners</h2>
 	</div><!--our-partners-->
 
 	<div class="container partners-logos">
@@ -202,8 +143,8 @@ get_header(); ?>
 
 	</div><!--partners-logos-->
 	
-	<div class=" container inquiry">
-		<h3>Sponsorship</h3>
+	<div class="container inquiry">
+		<h3 class="heading-3">Sponsorship</h3>
 		<p>Please send in-kind donations and sponsorship inquiries to <a href="mailto:pr@rizepoint.com">pr@rizepoint.com</a></p>
 	</div><!--inquiry-->
 </div><!--container-fluid-->

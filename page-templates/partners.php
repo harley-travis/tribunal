@@ -3,20 +3,6 @@
  * Template Name: Partners
  */
 get_header(); ?>
-<style>
-.partner-form {
-    background: #fafafa;
-    padding: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    max-width: 500px;
-    border-radius: 5px;
-}
-	.partners-text ul li {
-    text-align: left;
-    padding: 0;
-}
-</style>
 
 <div class="container-fluid green-blue">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>

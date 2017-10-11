@@ -4,57 +4,11 @@
 */
 get_header(); ?>
 
-<style>
-	.it-content-sec1{
-		padding: 80px 0px;
-	}
-	
-	.it-content-sec2{
-		padding: 80px 0px;
-		text-align: center;
-	}
-	
-	.it-content-sec2 img{
-		width: 100%;
-		max-width: 500px;
-		padding-bottom: 50px;
-	}
-	
-	.it-content-sec2 ul{
-		text-align: left;
-	}
-	
-	.it-content-sec2 ul li{
-		padding-bottom: 15px;
-	}
-	
-	.it-content-sec3{
-		padding: 80px 0px;
-		text-align: center;
-	}
-	.purple-text{
-		padding: 0px 0px 100px 0px;
-	}
-	
-	.ds-content{
-		padding-bottom: 150px;
-	}
-	
-	.res-button{
-		padding-top: 50px;
-		clear: both;
-	}
-	
-	.it-content-sec2 h3 {
-    padding-bottom: 50px;
-	}
-</style>
-
 <div class="container-fluid purple-pink">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1>ENSURE FSMA COMPLIANCE</h1>
+			<h1 class="heading-1">ENSURE FSMA COMPLIANCE</h1>
 			<div class="banner-btns">
 				<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-width btn-inverse-white">Free Demo</a>
 			</div><!-- banner-btns -->
@@ -88,27 +42,27 @@ get_header(); ?>
 <div class="contianer-fluid white-bg wrap push">
 	<div class="container it-content-sec3 ">
 		<div class="wp-title purple-text">
-			<h2>Datasheets &amp; White Papers</h2>
+			<h2 class="heading-2">Datasheets &amp; White Papers</h2>
 		</div><!--wp-title-->
-			<div class="col-md-4 col-sm-12 col-xs-12 ds-content">
+			<div class="col-md-6 col-sm-6 col-xs-12 ds-content">
 				<a href="<?php echo ROOT_URL; ?>/fsma-ebook/">
 					<img src="<?php echo ROOT; ?>/assets/img/datasheets/FSMAeBookHD-min.jpg" class="case-box-img" alt="">
-						<h4>FSMA eBook</h4>
+						<h4 class="heading-4">FSMA eBook</h4>
 				</a>	
 			</div><!--col-->
 
-			<div class="col-md-4 col-sm-12 col-xs-12 lightGray-bg box-shadow">
-				<a href="https://rizepoint.com/wp-content/uploads/2016/10/RizePoint-Case-Study-Avendra.pdf" target="_blank">
-					<img src="<?php echo ROOT; ?>/assets/img/clients/avendra-resources.jpg" class="case-box-img" alt="">
-						<h4>Avendra Case Study</h4>
-				</a>	
-			</div><!--col-->
-
-			<div class="col-md-4 col-sm-12 col-xs-12 ds-content">
+			<div class="col-md-6 col-sm-6 col-xs-12 ds-content">
 				<a href="https://rizepoint.com/wp-content/uploads/2016/06/datasheet-fsma.pdf" target="_blank">
 					<img src="<?php echo ROOT; ?>/assets/img/datasheets/fsma-thumb-min.jpg" class="case-box-img" alt="">
-						<h4>FSMA Datasheet</h4>
+						<h4 class="heading-4">FSMA Datasheet</h4>
 				</a>	
+			</div><!--col-->
+			
+			<div class="container-fluid col-md-12 col-sm-12 col-xs-12 lightGray-bg box-shadow img-container">
+				<a href="https://rizepoint.com/wp-content/uploads/2016/10/RizePoint-Case-Study-Avendra.pdf" target="_blank">
+					<img src="<?php echo ROOT; ?>/assets/img/clients/avendra-resources.jpg" class="case-box-img" alt="">
+						<h4 class="heading-4">Avendra Case Study</h4>
+				</a>
 			</div><!--col-->
 
 			<div class="res-button">
@@ -122,7 +76,7 @@ get_header(); ?>
 	<div class="container raq-wrapper">
 		<div class="col-md-6 col-sm-12 req-left">
 			<div class="req-title">
-				<h2>Request a Free Demo</h2>
+				<h2 class="heading-2">Request a Free Demo</h2>
 				<div class="raq-form">
 					<span class="raq-disclaimer">*Fill out the form below to request a free demo</span>
 					<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>

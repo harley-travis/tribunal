@@ -1,0 +1,228 @@
+.lg-text-junk-wrapper h2{
+	text-align: center;
+}
+.panel-section{
+	margin-bottom: 35px;
+	padding: 15px;
+}
+.e2018-banner {
+    position: relative;
+    height: 645px;
+    overflow: hidden;
+}
+.e2018-banner-wrapper h1{
+	color: $white;
+	font-family: $gotham-book;
+	font-weight: 900;
+	font-size: 5rem;
+}
+.e2018-banner-wrapper h2{
+	color: $white;
+	font-weight: 600;
+}
+.e2018-banner-wrapper h3 {
+    background: $white;
+    border: 1px solid $white;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    padding: 10px;
+	margin-top: 35px;
+	border-bottom: 2px solid #cecaca;
+}
+.e2018-banner-wrapper {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    color: $white;
+    font-size: 3rem;
+    text-align: center;
+}
+.agenda-icon {
+    font-size: 4rem !important;
+}
+.e2018-venue{
+	background-image: url(https://rizepoint.com/wp-content/uploads/2017/04/mirage-engage.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-attachment: fixed;
+	box-shadow: 1px -1px 15px black inset;
+}
+.e2018-venue-wrapper {
+	color: $white;
+	text-align: center;
+	padding: 100px;
+}	
+.e2018-venue-wrapper a:hover{
+	color: $orangeTwo;
+	text-decoration: underline;
+}
+.e2018-venue-wrapper a{
+	color: $white;
+	text-decoration: underline;
+}
+.e2018-venue-wrapper h2{
+	color: $white;
+	font-weight: 900;
+	text-shadow: 1px 1px 10px black;
+}
+.e2018-venue-wrapper p{
+	text-shadow: 1px 1px 10px black;
+}
+.agenda-icon {
+	font-size: 2rem;
+}
+.sun-icon {
+	color: $orangeTwo;
+}
+.sunset-icon {
+	height: 16px;
+	overflow: hidden;
+	color: $orangeThree;
+}
+.e2018-agenda{
+	padding: 50px;
+}
+.e2018-agenda-wrapper {
+	padding: 30px 0 60px 0;
+}
+.e2018-agenda-wrapper h2{
+	padding-bottom: 35px;
+	text-align: center;
+}
+.e2018-testimony {
+	height: auto;
+	background: $lightGray;
+	background-image: url(https://rizepoint.com/wp-content/uploads/2017/05/geo-pattern.png);
+	padding: 0;
+	margin: 0;
+	background-attachment: fixed;
+}
+.e2018-testimony h4{
+	line-height: inherit;
+}
+.table{
+	width: 100%;
+	max-width: 100%;
+}
+
+td.agenda-event {
+	background: $green;
+	margin: 1px;
+	text-align: center;
+	border: 10px solid $white;
+	color: $white;
+	padding: 10px;
+}
+.engage-schedule-table th {
+    text-align: left;
+}
+td.empty {
+	background: #eee;
+	border: 10px solid $white;
+}
+.e-2018-info-wrapper{
+	text-align: center;
+	padding: 35px;
+}
+.e2018-bootcamp-wrapper {
+	padding: 50px;
+}
+.e2018-bootcamp {
+	position: relative;
+}
+.e2018-bootcamp-wrapper {
+	padding: 100px;
+}
+.icon-position {
+    position: absolute;
+    right: 50px;
+    bottom: -125px;
+}
+.book-foundation-icon {
+	font-size: 15rem;
+	color: rgba(0,0,0,.1);
+}
+.engage-well{
+	margin-top: 10px;
+}
+ul.example-orbit-content.orbit-slides-container {
+	text-align: center;
+	margin-top: 85px;
+}
+.orbit-container .orbit-prev, .orbit-container .orbit-next {
+	background-color: $yellow !important;
+}
+.orbit-container .orbit-prev:hover, .orbit-container .orbit-next:hover{
+	background-color: $orangeTwo !important;
+}
+.e2018-testimony-wrapper {
+	text-align: center;
+	padding: 60px;
+}
+.book-foundation-icon {
+	font-size: 15rem;
+	color: rgba(0,0,0,.1);
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	border-top: none;
+}
+.table>thead>tr>th{
+	border-bottom: 0;
+}
+.sun-icon {
+	color: $orangeTwo;
+}
+th {
+	text-align: center;
+}
+.sunset-icon {
+	height: 16px;
+	overflow: hidden;
+	color: $orangeThree;
+}
+.agenda-icon {
+	font-size: 4rem;
+}
+.panel{
+	margin:55px 0px;	
+}
+.panel-body{
+	padding: 20px 0px;
+}
+.panel-head{
+	background: $green;
+	padding: 10px;
+}
+.panel-head h1{
+	font-size:4rem;	
+}
+.schedule-time {
+    border-bottom: 1px solid;
+    margin-top: 35px;
+}
+.schedule-title {
+    margin-top: 35px;
+}
+.schedule-content {
+    padding: 10px;
+}
+.display-block{
+	display: block;
+}
+.display-none{
+	display: none;
+}
+.early-rate-ind{
+	border-bottom: 1px solid $lightGray;
+}
+th.engage-schedule-heading {
+    font-family: $gotham-bold;
+}
+.engage-schedule-border-right {
+    border-right: 3px solid $green;
+}

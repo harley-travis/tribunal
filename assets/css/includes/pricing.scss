@@ -1,0 +1,94 @@
+.price-box-text{
+	padding-top: 20px;
+	text-align: center;
+}
+.price-box h1 {
+	font-size: 4rem;
+    text-align: center;	
+}
+.price-box-text h3 {
+    font-size: 5rem;
+    text-align: center;
+}	
+.price-box {
+	background: $lightGray;
+    padding: 25px 0px 25px 0px;
+	text-align: center;
+}		
+.footnote {
+    font-size: 1rem;
+}		
+.btn-options{
+	margin-top:-20;
+}
+.align-center{
+		text-align: center;
+}
+#monthly{
+	font-size: 2rem;
+}
+#time{
+	text-align: center;
+}
+.features-header {
+	color: $purple;
+    box-shadow: 3px 3px 3px $lightGray;
+    padding: 25px 0px 25px 0px;
+    margin-right: 100px;
+	text-align: center;
+}
+.header th {
+    font-size: 3rem;
+}
+.pricing{
+	padding-top: 35px;
+}
+.features {
+    padding-top: 80px;
+}
+.pricing-features{
+	text-align: center;
+	padding: 35px 0;
+}
+.cta-pricing-btn{
+	padding: 30px 0;
+	text-align: center;
+}
+.pricing-box-btn {
+    text-align: center;
+    padding-top: 15px;
+}
+.pricing-size{
+	font-size: 4rem;
+}
+.pricing-table {
+    font-size: 1.5rem;
+}
+.pricing-specs {
+    padding: 10px;
+    border-radius: 5px;
+}
+.pricing-specs-wrapper {
+    margin: 35px 0;
+}
+.mobile-pricing {
+    padding: 50px 15px;
+}
+.rp-feature-list{
+	ul{
+		padding: 0;
+		margin: 0;
+	}
+	li {
+		list-style: none;
+		text-align: center;
+		padding: 10px 0px;
+		border-bottom: 1px solid #eee;
+	}
+}
+.rp-e-wrapper {
+    padding-top: 35px;
+}
+#spec-details {
+    padding-bottom: 35px;
+}

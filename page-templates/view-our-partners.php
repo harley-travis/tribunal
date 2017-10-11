@@ -4,19 +4,11 @@
  */
 get_header(); ?>
 
-<style>
-	.view-content{
-		padding-bottom: 90px;
-	}
-</style>
-
-
-
 <div class="container-fluid pink-yellow">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1>Our Partners</h1>
+			<h1 class="heading-1">Our Partners</h1>
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
 </div><!-- container-fluid -->
@@ -24,7 +16,7 @@ get_header(); ?>
 <div class="container-fluid wrap push">
 	<div class="container view-partners">
 	
-	<h2 class="view-title orangeTwo-text">RizePoint Certified Partners</h2>
+	<h2 class="view-title orangeTwo-text heading-2">RizePoint Certified Partners</h2>
 	
 		<div class="view-img">
 			<img src="<?php echo ROOT; ?>assets/img/home/ElevateGlobalLimited.png">
@@ -62,7 +54,7 @@ get_header(); ?>
 		<div class="view-img">
 			<img src="<?php echo ROOT; ?>assets/img/home/Grizwold-Hospitality-background.png">
 		</div><!--view-img-->
-		<div class="view-content">
+		<div class="view-partners-wrapper">
 			<p>
 				With over 20 years entrenched in the operations of the luxury hospitality industry, Griswold Hospitality oversees the development and implementation of service and facility standards, as well as the robust objective rating system for the hotel, restaurant, and spa industries. Founder, Jayne Griswold, brings expertise from executive positions in the hospitality sector, including Forbes Travel Guide and United Airlines—known for establishing the industry’s first ever service and facility across the enterprise.
 				<br>

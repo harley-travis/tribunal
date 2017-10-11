@@ -31,20 +31,24 @@
     text-align: center;
     padding-top: 50px;
 }
-@media only screen and (max-width: 1024px) {
-    .button-pos,
-    .do-intro {
-        padding-bottom: 50px;
-    }
-    .do-intro {
-        padding-top: 40px;
-        padding-bottom: 1px;
-    }
-    .do-clients-title {
-        padding-top: 1px;
-    }
-    .contact-details,
-    .contact-email {
-        margin-left: 40px;
-    }
+.do-text{
+	text-align: center;
+	margin-bottom: -60px;
+}
+
+.do-video{
+	width:100%;
+}
+.man-cons{
+	text-align: center;
+	padding-bottom: 90px;
+}
+.solution-screenshots{
+	max-width: 300px;
+}
+.man-wrapper {
+    width: 100%;
+    max-width: 1050px;
+    padding: 15px 50px;
+    margin: auto;
 }

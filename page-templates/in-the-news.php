@@ -4,24 +4,6 @@
 */
 get_header(); ?>
 
-<style>
-	ul.news-articles-list {
-    padding-top: 35px;
-}
-	.news-post {
-    overflow: auto;
-    padding-bottom: 75px;
-}
-	img.news-post-img {
-    max-width: 100%;
-    max-height: 200px;
-    float: none;
-    height: auto;
-    max-width: 300px;
-    float: right !important;
-}
-</style>
-
 <div class="container-fluid purple-pink">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
@@ -75,8 +57,5 @@ if( $wp_query->have_posts() ) :
 <?php endif;  ?>
 </div>
 <?php wp_reset_query(); ?>
-
-
-
 
 <?php get_footer(); ?>

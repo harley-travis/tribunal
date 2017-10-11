@@ -124,5 +124,11 @@
 	background: $white;
 	transition: 0.5s ease;
 }
-
+.banner-buttons {
+    border: 1px solid $white;
+    border-radius: 5px;
+    background: 0 0;
+    padding: 5px 15px;
+    margin: 20px;
+}
 

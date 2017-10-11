@@ -1,14 +1,4 @@
-@media only screen and (max-width: 1600px) {
-    .sf-pointer-2 {
-        left: 500px;
-    }
-    .sf-pointer-3 {
-        left: 880px;
-    }
-    .blog-post {
-        height: 600px;
-    }
-}
+/* 1500px */
 @media only screen and (max-width: $lg-desktop) {
     .sf-pointer-3 {
         left: 900px;
@@ -19,7 +9,18 @@
     .blog-post {
         height: 665px;
     }
+	.sf-pointer-2 {
+        left: 500px;
+    }
+    .sf-pointer-3 {
+        left: 880px;
+    }
+    .blog-post {
+        height: 600px;
+    }
 }
+
+/* 1440px */
 @media only screen and (max-width: $md-desktop) {
     .home-circle-row {
         padding: 0 100px;
@@ -30,7 +31,41 @@
     .blog-post {
         height: 600px;
     }
+	
+	/* LANDING PAGES */
+	.right-landing {
+		top: -30%;
+	}
+	.left-landing {
+		padding-right: 30px;
+	}	
+	
+	/* DIRECT MAIL LANDING PAGE */
+	.ldr-right-landing {
+		top: -30%;
+	}
+	.ldr-left-landing {
+		padding-right: 30px;
+	}	
+	
+	/* PRODUCTS */
+	.aud-content-mobile{
+		display:none;
+	}	
+	.man-content2-mobile{
+		display:none;
+	}
+	.error-mes {
+        text-align: center;
+    }
+	
+	/* RIZE AND SHINE */
+	.rize-img {
+        padding-bottom: 25px;
+    }
 }
+
+/* 1024px */
 @media only screen and (max-width: $sm-desktop) {
     .sf-pointer-1,
     .sf-pointer-2,
@@ -62,7 +97,41 @@
     .case-sheets {
         padding-bottom: 0;
     }
+	
+	/* CAREERS */
+	.careers-job-text {
+        padding-bottom: 45px;
+    }
+	
+	/* LANDING PAGES */
+	.right-landing {
+		top: -25%;
+	}
+	
+	/* DIRECT MAIL LANDING PAGE */
+	.ldr-right-landing {
+		top: -25%;
+	}
+	
+	/* WHAT WE DO */
+	.button-pos,
+    .do-intro {
+        padding-bottom: 50px;
+    }
+    .do-intro {
+        padding-top: 40px;
+        padding-bottom: 1px;
+    }
+    .do-clients-title {
+        padding-top: 1px;
+    }
+    .contact-details,
+    .contact-email {
+        margin-left: 40px;
+    }
 }
+
+/* 768px */
 @media only screen and (max-width: $tablet) {
     .home-switch-zero,
     .req-right,
@@ -223,7 +292,133 @@
     .final-brand-msg-left p {
         padding: 35px 0;
     }
+	
+	/* BX */
+	.brand-banner-wrapper {
+		text-align: center;
+		padding-top: 0;
+		padding-left: 0;
+		padding: 100px 15px 100px 15px;
+	}
+	.bx-brand-img {
+		float: none;
+		margin-top: -125px;
+		text-align: center;
+	}
+	.brand-img-wrapper {
+		text-align: center;
+	}
+	.bx-logo {
+		padding-bottom: 50px;
+	}
+	.bx-brand-btn-side {
+		margin-top: 10px;
+		margin-bottom: 55px;
+	}
+	.large-brand {
+		display: none;
+	}
+	.small-brand{
+		display: block;
+	}
+	.vot {
+		padding-top: 0;
+	}
+	.circle-mask{
+		margin: 0 auto;
+	}
+	.brand-info {
+		text-align: center;
+	}
+	.flood {
+		padding: 50px 0 0 0;
+	}
+	.brand-info p {
+		padding: 35px 0;
+	}
+	.final-brand-msg-left {
+		text-align: center;
+	}
+	.final-brand-msg-left p, .ds-bx-content p {
+		padding: 35px 0;
+	}
+	.datasheet-bx-wrapper {
+		padding: 35px;
+	}
+	
+	/* CAREERS */
+	.careers-text {
+		padding: 0;
+		padding: 35px 0;
+	}
+	.careers-culture-list ul {
+   		padding: 0;
+	}
+	
+	/* RIZE */
+	.display-block{
+		display: none;
+	}
+	.display-none{
+		display: block;
+	}
+	
+	/* CONTACT */
+	.contact-intro {
+		padding: 15px;
+		text-align: center;
+	}
+	
+	/* ENGAGE */
+	.e2018-banner {
+		background: linear-gradient(135deg, $pink 0%, $yellow 100%);
+		height: 500px;
+	}
+	.e2018-agenda2{
+		display: none;
+	}
+	
+	/* LANDING PAGES */
+	.left-landing {
+		padding-right: 0;
+	}	
+	.right-landing {
+		position: relative;
+		margin-top: 30px;
+	}
+	
+	/* DIRECT MAIL LANDING PAGE */
+	.ldr-left-landing {
+		padding-right: 0;
+	}	
+	.ldr-right-landing {
+		position: relative;
+		margin-top: 30px;
+	}
+	
+	/* PRICING */
+	.top-btn{
+		visibility: hidden;
+		margin-top: -235px;
+	}
+	.banner-btns-mobile{
+		visibility: visible;
+		text-align: center;
+		padding: 40px 0px 60px 0px;
+	}
+	
+	/* REQUEST A DEMO */
+	.request-form,
+    .request-video {
+        text-align: center;
+        padding-top: 35px;
+    }
+	.raq-fix {
+		margin-bottom: 35px;
+	}
 }
+
+/* 425px */
 @media only screen and (max-width: $lg-mobile) {
     .case-study-left,
     .footer-social,
@@ -345,7 +540,241 @@
     .final-brand-msg {
         padding: 35px 0;
     }
+	
+	/* BX */
+	.brand-banner-wrapper {
+		padding: 50px 15px 100px 15px;
+	}
+	.bx-brand-img {
+		margin-top: -165px;
+	}
+	.brand-bx-wrapper {
+		padding: 35px;
+	}
+	.bx-logo {
+		max-width: 350px;
+	}
+	.circle-mask {
+		height: 320px;
+		margin: 0 auto;
+	}
+	.brand-info {
+		padding: 35px;
+		text-align: center;
+	}
+	.vot:first-child {
+		padding-top: 0;
+	}
+	.bx-icon {
+		padding-left: 0;
+		padding: 35px 0 0 0;
+	}
+	.wp-foundation-icon {
+		display: none;
+	}
+	.datasheet-bx-wrapper {
+		padding: 15px;
+	}
+	.final-brand-msg {
+		padding: 35px 0px 35px 0px;
+	}
+	
+	/* CAREERS */
+	.culture-talk {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.office-list ul {
+		padding: 0;
+		padding-top: 35px;
+	}
+	.perks-here {
+		padding: 0;
+		overflow: inherit;
+	}
+	.culture-wrapper {
+		padding: 50px 0 !important;
+	}
+	.perks-wrappin {
+		padding: 50px 0 !important;
+	}
+	.careers-loc-img{
+		padding-right: 0;
+	}
+	.clients-loop-wrapper, 
+	.featured-post-img-wrapper {
+		padding: 35px 0;
+	}
+	.awards-career-wrapper {
+		margin: 25px 0;
+	}
+	.location-wrapper {
+		width: 100%;
+		padding: 50px 0 !important;
+	}
+	
+	/* CONTACT */
+	.contact-details,
+    .contact-email {
+        margin-left: 20px;
+    }
+	.contact-info-wrapper {
+		padding: 50px 0;
+	}
+	
+	/* ENGAGE */
+	.modal{
+		width:100%;
+		max-width:400px;
+	}
+	.empty{
+		padding: 0px !important;
+		visibility: collapse;
+	}
+	.empty2{
+		visibility: hidden;
+	}
+	.e2018-banner {
+		background: linear-gradient(135deg, $pink 0%, $yellow 100%);
+		height:500px;
+	}
+	.e2018-venue-wrapper,
+	.e2018-bootcamp-wrapper,
+	.e2018-testimony-wrapper{
+		padding: 25px;
+	}
+	.e2018-banner-wrapper{
+		top:10%
+	}
+	.e2018-agenda{
+		display:none;
+	}
+	.e2018-agenda2{
+		display:initial;
+	}
+	
+	/* LANDING PAGES */
+	.left-landing {
+		padding-right: inherit;
+	}
+	
+	/* DIRECT MAIL LANDING PAGE */
+	.ldr-left-landing {
+		padding-right: inherit;
+	}	
+	
+	/* PRICING */
+	.price-box {
+		margin-bottom: 35px;
+	}
+	.tb-full{
+		visibility: collapse;
+	}
+	.tb-mobile{
+		text-align: center;
+	}
+	
+	/* PRODUCTS */
+	.products-intro-copy{
+		padding: 15px;
+	}
+	.products-video-wrapper {
+		padding-bottom: 50px;
+	}
+	.man-text,
+	.aud-text2,
+	.aud-text{
+		ul{
+			padding: 0;
+			margin: 0;
+		}
+		li{
+			list-style: none;
+			line-height: 180%;
+		}
+	}
+	.products-video-btn a {
+		margin-top: 11px;
+	}
+	.aud-content{
+		display:none;
+	}
+	.aud-content-mobile{
+		display:inline;
+	}
+	.man-content2{
+		display:none;
+	}
+	.man-content2-mobile{
+		display:inline;
+	}
+	.circle-row {
+        padding: 10px 0;
+		text-align: center;
+    }
+    .aud-img,
+    .man-img {
+        padding-right: 0;
+    }
+    .management-console {
+        padding-top: 10px;
+        padding-bottom: 0;
+        margin-bottom: -37px;
+    }
+    .aud-img2,
+    .man-img2 {
+        padding-left: 0;
+	}
+    .aud-vid {
+        display: none;
+        max-width: 400px;
+    }
+	
+	/* REQUEST A DEMO */
+	.request-wrapper {
+		padding-top: 0;
+	}
+	.request-form {
+		padding: 0px 10px;
+		padding-top: 35px;
+		text-align: center;
+	}
+    .request-video {
+        text-align: center;
+        padding-top: 35px;
+    }
+	
+	/* RIZE AND SHINE */
+	.rize-logos {
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	
+	/* SOLUTIONS */
+	.case-box {
+		margin-bottom: 35px;
+	}
+	.slant-wrapper {
+		display: none;
+	}
+	.case-sheets-wrapper {
+		padding-top: 0 !important;
+	}
+	.case-sheets {
+		margin-top: 35px;
+	}
+	.persona-list: active{
+		opacity:0.5;
+	}
+
+	#persona-1: active{
+		opacity:1;
+	}
+
+
 }
+
+/* 375px */
 @media only screen and (max-width: $md-mobile) {
     .banner {
         height: 485px;
@@ -379,7 +808,69 @@
     .circle-mask {
         height: 300px;
     }
+	
+	/* BX */
+	.bx-brand-img {
+		margin-top: -315px;
+	}
+	.brand-bx-wrapper {
+		padding: 15px;
+	}
+	.arby-brand-container {
+		padding: 35px;
+	}
+	.bx-msg {
+		padding: 15px;
+	}
+	.bx-icon {
+		padding-left: 0;
+		margin: 20px;
+	}
+	.circle-wrapper-thing {
+		padding: 15px;
+	}
+	.brand-info {
+		padding: 15px;
+	}
+	.circle-mask {
+		height: 300px;
+	}
+	
+	/* PRODUCTS */
+	.products-intro-copy {
+		padding: 15px;
+	}
+	.circle-row {
+        padding: 10px 0;
+		text-align: center;
+    }
+    .aud-img,
+    .man-img {
+        padding-right: 0;
+    }
+    .management-console {
+        padding-top: 10px;
+        padding-bottom: 0;
+        margin-bottom: -37px;
+    }
+    .aud-img2,
+    .man-img2 {
+        padding-left: 0;
+    }
+    .aud-vid {
+        display: none;
+        max-width: 400px;
+    }
+	
+	/* REQUEST A DEMO */
+	.request-form,
+    .request-video {
+        text-align: center;
+        padding: 35px 0;
+    }
 }
+
+/* 320px */
 @media only screen and (max-width: $sm-moblie) {
     .banner {
         height: 545px;
@@ -409,4 +900,32 @@
     .circle-mask {
         height: 230px;
     }
+	
+	/* BX */
+	.circle-mask {
+  	 	height: 230px;
+	}
+	
+	/* CONTACT */
+	.contact-info-wrapper p {
+		font-size: 1.5rem;
+	}
+	
+	/* ENGAGE */
+	.e2018-banner {
+		background: linear-gradient(135deg, $pink 0%, $yellow 100%);
+		height:500px;
+	}
+	.e2018-banner-wrapper{
+		top:10%
+	}
+	.e2018-banner-wrapper {
+	
+		h1{
+			font-size: 3rem;
+		}
+		h2{
+			font-weight: none;
+		}
+	}
 }

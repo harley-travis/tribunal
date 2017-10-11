@@ -3,50 +3,12 @@
  * Template Name: Solutions | health-departments
 */
 get_header(); ?>
-<style>
-	.it-content-sec1{
-		padding: 80px 0px;
-	}
-	
-	.it-content-sec2{
-		padding: 80px 0px;
-		text-align: center;
-	}
-	
-	.it-content-sec2 ul{
-		text-align: left;
-	}
-	
-	.it-content-sec2 ul li{
-		padding-bottom: 15px;
-	}
-	
-	.it-content-sec3{
-		padding: 80px 0px;
-		text-align: center;
-	}
-	.purple-text{
-		padding: 0px 0px 100px 0px;
-	}
-	
-	.ds-content{
-		padding-bottom: 150px;
-	}
-	
-	.res-button{
-		padding-top: 90px;
-	}
-	
-	.it-content-sec2 h3 {
-    padding-bottom: 50px;
-	}
-</style>
 
 <div class="container-fluid green-blue-purple">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1>State Departments of Health</h1>
+			<h1 class="heading-1">State Departments of Health</h1>
 			<div class="banner-btns">
 				<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-width btn-inverse-white">Free Demo</a>
 			</div><!-- banner-btns -->
@@ -56,7 +18,7 @@ get_header(); ?>
 
 <div class="container-fluid wrap push">
 	<div class="container it-content-sec1">
-		<h3>Reduce Backlogs. Eliminate Errors. Address Findings.</h3>
+		<h3 class="heading-3">Reduce Backlogs. Eliminate Errors. Address Findings.</h3>
 			<p>
 			Frequent, consistent, and reliable inspections are the cornerstone of any health department in charge of protecting their community against foodborne illnesses and other risks. However, everyday realities such as inspectors stretched thin, busy management teams, and piles of paperwork get in the way of conducting evaluations. And, when it comes to sharing findings, it’s even more difficult to compile scattered pieces of data into clear, comprehensive reports for review. With challenges like these, it’s easy to understand why audits are often overdue or not in compliance with statutes.
 		</p>
@@ -65,7 +27,7 @@ get_header(); ?>
 
 <div class="container-fluid purple-bg wrap push">
 	<div class="container it-content-sec2 white-text">
-			<h3>
+			<h3 class="heading-3">
 				RizePoint has facilitated site inspections for health departments and top private sector brands for nearly 20 years to:
 			</h3>
 			<ul>
@@ -83,19 +45,19 @@ get_header(); ?>
 <div class="contianer-fluid lightGray-bg wrap push">
 	<div class="container it-content-sec3 ">
 		<div class="wp-title purple-text">
-			<h2>Datasheets &amp; White Papers</h2>
+			<h2 class="heading-2">Datasheets &amp; White Papers</h2>
 		</div><!--wp-title-->
 			<div class="col-md-6 col-sm-12 col-xs-12 ds-content">
 				<a href="https://rizepoint.com/wp-content/uploads/2017/04/health-dept-datasheet-2017.pdf" target="_blank">
 						<img src="<?php echo ROOT; ?>/assets/img/datasheets/rizepoint-overview-min.jpg" class="case-box-img" alt="">
-							<h4>Overview Datasheet for Health Departments</h4>
+							<h4 class="heading-4">Overview Datasheet for Health Departments</h4>
 					</a>	
 			</div><!--col-->
 
 			<div class="col-md-6 col-sm-12 col-xs-12 ds-content">
 				<a href="https://rizepoint.com/wp-content/uploads/2017/04/Reduce-Audit-Fatigue-Govt-WP-2017.pdf" target="_blank">
 						<img src="<?php echo ROOT; ?>/assets/img/datasheets/reduce-audit-fatigue-thumbnail-2017.jpg" class="case-box-img" alt="">
-							<h4>White Paper: Audit Fatigue</h4>
+							<h4 class="heading-4">White Paper: Audit Fatigue</h4>
 					</a>	
 			</div><!--col-->
 
@@ -110,7 +72,7 @@ get_header(); ?>
 	<div class="container raq-wrapper">
 		<div class="col-md-6 col-sm-12 req-left">
 			<div class="req-title">
-				<h2>Request a Free Demo</h2>
+				<h2 class="heading-2">Request a Free Demo</h2>
 				<div class="raq-form">
 					<span class="raq-disclaimer">*Fill out the form below to request a free demo</span>
 					<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>

@@ -4,25 +4,6 @@
 */
 get_header(); ?>
 
-<style>
-	.icon-news-columns {
-    background: #fafafa;
-}
-	ul.press-list {
-    padding: 0;
-}
-	.press-release-post {
-}
-	.post-content{
-		height: auto !important;
-	}
-	.press-list li{
-		background: white;
-		margin: 10px 0 10px 0;
-		padding: 15px;
-	}
-</style>
-
 <div class="container-fluid purple-blue-green">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">

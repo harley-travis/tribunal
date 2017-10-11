@@ -4,28 +4,6 @@
 */
 get_header();
 ?>
-<style>
-	.logo-wrapper{
-		padding: 50px 0;
-	}
-	.divider-sections{
-		padding: 50px 0;
-	}
-	img.wp-logo-img {
-    width: 100%;
-    max-width: 250px;
-}
-	.pa-right{
-		padding: 20px;
-	}
-.logo-wrapper{
-    text-align: center;
-    
-}
-	.trust-logo-header{
-		padding-bottom: 50px;
-	}
-</style>
 
 <div class="container-fluid yellow-pink">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
@@ -36,7 +14,6 @@ get_header();
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
 </div><!-- container-fluid -->
-
 
 <section class="container divider-sections wrap push">
 	<div class="">
@@ -70,7 +47,6 @@ get_header();
 	</div><!-- row -->
 </section>
 
-
 <section class="container-fluid lightGray-bg logo-wrapper wrap push">
 	<div class="container">
 	<h3 class="green-text trust-logo-header">RizePoint is Trusted by Top Brands Worldwide</h3>
@@ -95,7 +71,6 @@ get_header();
 	</div><!-- row -->
 </section>
 
-
 <section class="container pg-content wrap push">
 	<div class="">
 		<h3>About ITIC</h3>
@@ -107,6 +82,5 @@ get_header();
 		<p>Discover the world’s most powerful brand, quality, and compliance auditing solution. Discover RizePoint.</p>
 	</div><!-- row -->
 </section>
-
 
 <?php get_footer(); ?>

@@ -6,6 +6,11 @@ footer {
 }
 .footer-card {
     margin-bottom: 50px;
+	color: $white;
+	
+	h5{
+		color: $white;
+	}
 }
 .footer-card ul {
     padding: 0;
@@ -19,7 +24,7 @@ footer {
     color: $orangeTwo;
 }
 .top-divider {
-    border-bottom: 1px solid;
+    border-bottom: 1px solid $white;
 }
 .bottom-divider {
     margin-top: 10px;
@@ -34,32 +39,37 @@ footer {
     font-size: 2.5rem;
 }
 .left-divider-section {
-    font-size: 1.2rem;
+    
+	font-size: 1.2rem;
     padding: 0;
-}
-.left-divider-section ul {
-    padding: 0;
-}
-.left-divider-section li {
-    display: inline-block;
-    padding-right: 7px;
-    padding-left: 7px;
-    border-right: 1px solid;
-}
-.left-divider-section li:first-child {
-    padding-left: 0;
-}
-.left-divider-section li:last-child {
-    padding-right: 0;
-    border-right: none;
-}
-.left-divider-section li a {
-    color: $white;
-}
-.left-divider-section li a:hover {
-    color: $orangeTwo;
+	
+	ul{
+		padding: 0;
+	}
+	li{
+		display: inline-block;
+		padding-right: 10px;
+		padding-left: 7px;
+		border-right: 1px solid $white;
+		font-size: 1.3rem;
+	}
+	li:first-child{
+		padding-left: 0;
+	}
+	li:last-child{
+		padding-right: 0;
+    	border-right: none;
+	}
+	li a{
+		color: $white;
+	}
+	li a:hover{
+		color: $orangeTwo;
+	}
+	
 }
 .right-divider-section {
     text-align: right;
     padding: 0;
+	color: $white;
 }

@@ -1,53 +1,46 @@
+.raq-banner{
+	height: 300px !important;
+}
+.request-wrapper {
+	padding-top: 40px;
+}
+.request-brands-wrapper {
+    padding: 0;
+}
+.request-brand {
+    padding: 50px 0;
+	margin-top: 70px;
+}
+.request-form {
+    padding: 0 50px;
+}
+.client-box-pic {
+    background: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 7px;
+}
+.raq-fix{
+	height: 200px !important;  
+}
+.raq-logo-fix{
+	padding: 5px !important;
+}
 .request-choose p {
     margin-top: -5px;
 }
-.request-demo h3 {
-    padding: 0;
-    margin: 20px 0 0;
-}
-.request-demo h1 {
-    font-size: 66px;
-    padding: none;
-    margin: -10px none none;
-}
+.request-demo{
+	h1 {
+		font-size: 66px;
+		padding: none;
+		margin: -10px none none;
+	}
+	h3 {
+		padding: 0;
+		margin: 20px 0 0;
+	}
+} 
 .request-brands-text {
     padding: 10px 0 80px;
     font-weight: 700;
-}
-@media only screen and (max-width: 768px) {
-    .request-form,
-    .request-video {
-        text-align: center;
-        padding-top: 35px;
-    }
-}
-@media only screen and (max-width: 450px) {
-    .request-form,
-    .request-video {
-        text-align: center;
-        padding-top: 35px;
-    }
-    .circle-row {
-        text-align: center;
-    }
-}
-@media only screen and (max-width: 375px) {
-    .request-form,
-    .request-video {
-        text-align: center;
-        padding-top: 35px;
-    }
-    .circle-row {
-        text-align: center;
-    }
-}
-@media only screen and (max-width: 320px) {
-    .request-form,
-    .request-video {
-        text-align: center;
-        padding-top: 35px
-    }
-    .circle-row {
-        text-align: center;
-    }
 }
