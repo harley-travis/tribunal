@@ -5,25 +5,7 @@
 					<img src="<?php bloginfo('template_directory'); ?>/assets/img/logo/logo.png" alt="RizePoint" class="logo-img regular-logo"></a>
 			</div><!-- logo -->
 			<div class="col-lg-8 col-md-9 col-sm-6 col-xs-2 nav">
-				<?php 
-				
-				
-					include('main-nav.php'); 
-				
-					echo "this is the page4";
-				
-					function get_tv($value){
-						$value = 0;
-						
-						return $value;
-					}
-					
-				
-				
-				
-				
-				
-				?>
+				<?php include('main-nav.php'); ?>
 			</div><!-- nav -->
 		</div><!-- header-wrapper -->
 	</header>

@@ -337,7 +337,6 @@ input.partner-lead-btn {
 }
 .support-sub{
 	padding-top: 70px;
-	padding-bottom: 70px;
 }
 .matrix{
 	text-align: center;
@@ -367,5 +366,91 @@ input.partner-lead-btn {
 	padding-bottom: 90px;
 }
 
-/**/
+/* SEO BLOCK */
+.search-block{
+display: none !important;
+}
 
+/* SAVE YOUR SEATS ENGAGE */
+.sys-banner {
+	background-image: url(https://rizepoint.com/wp-content/uploads/2017/04/mirage-engage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+}
+.sys-wrapper{
+	padding: 50px 0;
+}
+.sys-info {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.reg-form-mk{
+	background: $lightGray;
+	padding: 30px;
+	margin: 0 auto;
+	text-align: center;
+	width: 50%;
+	max-width: 700px;
+}
+
+/* DATASHEET TEMPLATE */
+.datasheets-section-one-wrapper{
+	padding-top: 20px
+}
+.data_sec1_title{
+	text-align: left;
+}
+.sec2-title{
+	text-align: center;
+}
+.datasheets-section-two-wrapper{
+	padding-top: 20px;
+}
+.data_sec2_lists{
+	text-align: center;
+}
+.slogan img{
+	width: 100%;
+	max-width: 200px;
+}
+.datasheet-sections-four-wrapper{
+	text-align: center;
+}
+.data_sec3_img img{
+	width: 100%;
+	max-width: 650px;
+	margin-top: 80px;
+}
+.data-quote{
+	margin: 100px 0px;
+}
+.data-cta-btn{
+	padding-top: 30px;
+	margin-bottom: 100px;
+}
+.data_sec2_fluid{
+	background: $lightGray;
+	margin: 50px 0px;
+	padding: 35px 0;
+}
+
+/* SEO BLOCK */
+.search-block {
+    display: none;
+}
+
+/* SOLUTIONS FSMA */
+.it-content-sec2 img {
+	max-width: 200px;
+}
+.datasheet-case-study-header {
+	margin-bottom: 30px;
+}
+.res-button{
+	padding-top: 50px;	
+}
+.avendra-heading {
+	margin-top: -25px;
+}
+	

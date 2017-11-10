@@ -4,56 +4,6 @@
 */
 get_header(); ?>
 
-<style>
-	
-	.datasheets-section-one-wrapper{
-		padding-top: 20px
-	}
-	
-	.data_sec1_title{
-		text-align: center;
-		padding: 80px 0px;
-	}
-	.sec2-title{
-		text-align: center;
-		padding: 80px 0px;
-	}
-	
-	.datasheets-section-two-wrapper{
-		padding-top: 20px;
-	}
-	
-	.data_sec2_lists{
-		text-align: center;
-	}
-	
-	.slogan img{
-		width: 100%;
-		max-width: 200px;
-	}
-	
-	.datasheet-sections-four-wrapper{
-		text-align: center;
-	}
-	
-	.data_sec3_img img{
-		width: 100%;
-		max-width: 650px;
-		margin-top: 80px;
-	}
-	
-	.data-quote{
-		margin: 100px 0px;
-		
-	}
-	
-	.data-cta-btn{
-		padding-top: 30px;
-    	margin-bottom: 100px;
-	}
-
-</style>
-
 <!--header-->
 <?php if(get_field('data_banner') == 'pink-yellow' ): ?>
 	<div class="container-fluid pink-yellow">
@@ -111,8 +61,7 @@ get_header(); ?>
 	<div class="container-fluid purple-blue-green">
 <?php endif; ?>
 		
-				
-
+			
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
@@ -126,19 +75,15 @@ get_header(); ?>
 	</div><!-- banner -->
 </div><!-- container-fluid -->
 
-
-
-
-
 <!--body section one-->
 <section class="container-fluid datasheets-section-one wrap push">
 	<div class="container datasheets-section-one-wrapper">
 		<div class="data_sec1_title">
-			<h2 class="green-text"><?php the_field('data_title'); ?></h2>
-				<h1 class="green-text"><?php the_field('data_sub_title'); ?></h1>
+			<h1 class="green-text"><?php the_field('data_title'); ?></h1>
+			<h3 class="green-text"><?php the_field('data_sub_title'); ?></h3>
 		</div>
 		<div class="data_sec1_content">	
-					<p class="gray-text"><?php the_field('data_sec1_content'); ?></p>
+			<p class="gray-text"><?php the_field('data_sec1_content'); ?></p>
 		</div>
 		
 	</div><!--datasheets-section-one-wrapper-->
@@ -146,46 +91,40 @@ get_header(); ?>
 
 <!--body section two-->	
 <section class="container-fluid datasheets-section-two wrap push">
-	<div class="container datasheets-section-two-wrapper">
 	
-		<div class="sec2-title">
+<!--
+		<div class="col-md-6 col-sm-12 col-ex-12 data_sec2_content">
+			<?php // the_field('data_s2_main_content'); ?>
+		</div>
+-->
+	<div class="container-fluid data_sec2_fluid">
+
+		<div class="container sec2-title">
 			<h2 class="green-text"><?php the_field('data_s2_title'); ?></h2>
 		</div>
-		
-	
-		<div class="col-md-6 col-sm-12 col-ex-12 data_sec2_content">
-			<?php the_field('data_s2_main_content'); ?>
-		</div>
-		
-		<div class="col-md-6 col-sm-12 col-ex-12 data_sec2_lists">
-		
-			<div class="slogan">
+
+		<div class="data_sec2_lists">
+			<div class="col-md-3 col-sm-6 col-xs-12 slogan">
 				<img src="https://rizepoint.com/wp-content/uploads/2017/10/Mobile-device-black-01.png">
 				<h3 class="green-text">Gather Better</h3>
 				<?php the_field('data_s2_content_1'); ?>
 			</div>
-
-			<div class="slogan">
+			<div class="col-md-3 col-sm-6 col-xs-12 slogan">
 				<img src="https://rizepoint.com/wp-content/uploads/2017/10/Real-time-report-black-01.png">
 				<h3 class="green-text">See Earlier</h3>
 				<?php the_field('data_s2_content_2'); ?>
 			</div>
-
-			<div class="slogan">
+			<div class="col-md-3 col-sm-6 col-xs-12 slogan">
 				<img src="https://rizepoint.com/wp-content/uploads/2017/10/Efficiency-black-01.png">
 				<h3 class="green-text">Act Faster</h3>
 				<?php the_field('data_s2_content_3'); ?>
 			</div>
-
-			<div class="slogan">
+			<div class="col-md-3 col-sm-6 col-xs-12 slogan">
 				<img src="https://rizepoint.com/wp-content/uploads/2017/10/Trends-black-01.png">
 				<h3 class="green-text">Improve Continuously</h3>
 				<?php the_field('data_s2_content_4'); ?>
 			</div>
-
 		</div>
-				
-	
 	</div><!--datasheets-section-two-wrapper-->
 </section><!--datasheets-section-two-->
 

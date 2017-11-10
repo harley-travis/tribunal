@@ -28,7 +28,7 @@ get_header(); ?>
 				<img src="https://rizepoint.com/wp-content/uploads/2017/08/Pricing.png" alt="Support Matrix" class="matrix-img">
 			</div><!--matrix-->
 				<h3 class="heading-3">Product Updates</h3>
-					<span>Innovation and improvement is key at RizePoint.  Keep your solution up-to-date with regular maintenance and feature release updates.</span>
+					<p>Innovation and improvement is key at RizePoint.  Keep your solution up-to-date with regular maintenance and feature release updates.</p>
 						<ul>
 							<li>Standard monthly maintenance releases include software updates that ensure the efficient operation of RizePoint systems </li>
 							<li>Major product improvement releases add new features to the functionality of RizePoint systems </li>
@@ -90,6 +90,12 @@ get_header(); ?>
   </section>
 </div>
 </div><!--support-sub-->
+
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
 
 
 

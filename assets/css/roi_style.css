@@ -1,0 +1,230 @@
+
+	#header{
+		height:auto;
+		padding-bottom: 40px;
+	}
+.roi-spacing{
+	padding-top: 50px;
+}
+h1.roi-intro {
+    font-size: 3rem;
+    padding: 25px 0;
+}
+h4#savemoney {
+    padding-top: 15px;
+}
+h4#savemoney, h4#savehours {
+    font-size: 3rem;
+}
+	.white{
+		background:white;
+		padding:35px 0px 75px 0px;
+	}
+	.ltgray{
+		background:#f8f8f8;
+		padding:35px 0px 65px 0px;
+	}
+	input, select{
+		width:100% !important;
+		margin-bottom:8px !important;
+		border:none;
+		outline:none;
+		background: #f4f4f4;
+		height:32px !important;
+	}
+	input{
+		padding:2px 5px 0px 8px !important;
+		transition: all .3s ease;
+	}
+	label{
+	    font-size: 16px;
+	    letter-spacing: 1px;
+	    clear: both;
+	    display: block;
+	    color: white;
+	    margin-bottom: 16px;
+	}
+    form{
+      	width:100% !important; 
+    }    
+
+	.learn-btn{
+		width: 100%;
+    	float: none;
+    	background: #F8991D;
+        background-color: #F8991D !important;
+    	border: none !important;
+    	letter-spacing: 1px;
+    	padding: 12px 132px !important;
+        margin-top:15px !important;
+        margin-bottom:10px !important;
+        background-color: #F8991D !important;
+        background-image: none !important;
+        border: 1px solid #F8991D !important;
+        transition:all .3s ease;
+        color:white;
+	}
+
+    
+    .learn-btn a, .learn-btn a:visited, .learn-btn a:hover, .learn-btn a:visited, .learn-btn a:focus{
+	    color:white !important;
+	    text-decoration: none !important;
+    }
+    
+    .learn-btn:hover a{
+	    color:#F8991D !important;
+	    text-decoration: none !important;
+    }
+	.learn-btn:hover{
+     	background: white !important;
+    	color: #F8991D !important;
+    	border: 1px solid #F8991D !important; 
+    }
+
+    .centerme{
+	    text-align: center;
+    }
+    .dark{
+	    color:#2C2929;
+    }
+    .subhead{
+	    font-size: 16px;
+	    color: #F8991D;
+	    letter-spacing: 0px;
+	    margin: 0 0 35px 0;
+    }
+    .goodheadline{
+	    margin-bottom: 7px;
+    }
+    .formobile{
+	    display: none;
+    }
+    .ctabutton{
+	    width:100%;
+	    padding:15px 30px;
+	    background:#F8991D;
+	    color:white;
+	    text-transform: uppercase;
+	    display: block;
+	    text-align: center;
+	    letter-spacing: 1px;
+	    margin-top:25px;
+	    cursor: pointer;
+	    position: relative;
+		z-index: 99999;
+		transition: all .3s ease;
+    }
+
+    .btt{
+	    cursor: pointer;
+    }
+    .ctabutton:hover{
+	    background:white;
+	    color:#F8991D;
+    }
+	.range-output{
+		text-align: center;
+	    margin-top: 10px;
+	    font-size: 24px;
+	    color: white;
+	    font-weight: bold;
+	    letter-spacing: 2px;
+	}
+	.datawrap{
+		margin-top:31px;
+	}
+	.rangeslider--horizontal {
+	    height: 10px;
+	    width: 100%;
+	}
+	.rangeslider--horizontal .rangeslider__handle {
+    	top: -7px;
+    }
+	.rangeslider__handle:after {
+    	width: 13px;
+		height: 13px;
+    }
+    .rangeslider__handle {
+    	width: 25px;
+		height: 25px;
+	}
+	#whitebox{
+		background:white;
+		padding: 50px 50px 20px 50px;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		margin-top: 30px;
+	}
+	.rzhr{
+		margin: 40px 0px 35px 0px;
+		border-top:1px solid #8A898A;
+	}
+	#corpaud{
+	    margin-bottom: 38px;
+	}
+	.tsandcs p{
+		text-align: left;
+	    font-size: 13px;
+		line-height: 18px;
+	}
+	.whitebg2{
+		background:white;
+		padding-top:50px;
+		padding-bottom:40px;
+	}
+	#texttwo {
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+	input[type="range"]:focus + .rangeslider .rangeslider__handle {
+	    -moz-box-shadow: none !important;
+	    -webkit-box-shadow:none !important;
+	    box-shadow: none !important;
+	}
+	#textone{
+		font-size:17px;
+	}
+
+.roi-disclaimer {
+    font-size: 12px;
+    font-style: italic;
+}
+
+    @media(max-width: 991px){
+	    .formwrap{
+		    margin-top:0px;
+		    margin-bottom:45px;
+	    }
+	    .formobile{
+		    display: block;
+	    }
+	    .clientwrap{
+		    text-align: center;
+	    }
+	    #corpaud{
+		    margin-bottom: 16px;
+		}
+    }
+    
+    @media(max-width:767px){
+	    h1{
+		    font-size:28px;
+	    }
+    }
+    
+    @media(max-width:480px){
+        label{
+            margin-bottom: 5px !important;
+        }
+		.learn-btn{
+			padding: 12px 20px !important;
+		}
+    }
+    
+    @media(max-width:350px){
+	    .ctabutton{
+		    padding:15px 5px;
+	    }
+    }

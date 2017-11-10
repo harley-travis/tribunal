@@ -8,7 +8,7 @@ get_header(); ?>
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1>In The News</h1>
+			<h1 class="heading-1">In The News</h1>
 			<div class="banner-btns">
 				<a href="<?php echo ROOT_URL; ?>/newsroom" class="btn btn-lg btn-inverse-white">Newsroom</a> <a href="<?php echo ROOT_URL; ?>/blog" class="btn btn-lg btn-inverse-white">RizePoint Blog</a>
 			</div><!-- banner-btns -->
@@ -43,7 +43,7 @@ if( $wp_query->have_posts() ) :
 			<?php endif ; ?>
 		</div><!-- news post img -->
 		<div class="col-lg-7 col-md-6 col-sm-12 news-post-text-wrapper">
-			<a href="<?php the_permalink() ?>"><h3><?php the_title() ?></h3></a>
+			<a href="<?php the_permalink() ?>"><h3 class="heading-3"><?php the_title() ?></h3></a>
 			<hr>
 			<div class="post-content">
 				<div class="news_dated"><?php echo get_the_date(); ?></div>
@@ -57,5 +57,11 @@ if( $wp_query->have_posts() ) :
 <?php endif;  ?>
 </div>
 <?php wp_reset_query(); ?>
+
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
 
 <?php get_footer(); ?>

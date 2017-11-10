@@ -42,7 +42,14 @@ get_header(); ?>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/bigslide.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/headScroll.js"></script>
 
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
+
 <?php wp_footer(); ?>
+
 
 
 </body>

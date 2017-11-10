@@ -3,66 +3,7 @@
  * Template Name: Solutions | Food-Service
 */
 get_header(); ?>
-<style>
-	
-	
-	img{
-	width: 100%;
-	}
-	.ds-box-img{
-		width: 100%;
-	}
-	.case-sheets-wrapper-second{
-		text-align: center;
-	}
-	.sol-fix{
-		background: white;
-		height: 200px;
-		position: relative;
-	}
-	.case-sheets {
-    padding-bottom: 50px !important;
-}
-	.case-sheets-wrapper-second{
-		padding-bottom: 50px;
-	}
-	.solutions-section-four {
-    padding-top: 0 !important;
-}
-	.case-box-title {
-    text-align: center;
-    margin: 0 auto;
-    clear: both;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}	
-	.solution-cs-btn-wrapper {
-    text-align: center;
-    padding-top: 40px;
-    clear: both;
-}
-	.solutions-cs-header{
-		padding-bottom: 35px;
-	}
-	
-	@media only screen and (max-width: 425px){
-		.case-box {
-    margin-bottom: 35px;
-}
-		.slant-wrapper {
-    display: none;
-}
-		.case-sheets-wrapper {
-    padding-top: 0 !important;
-}
-		.case-sheets {
-    margin-top: 35px;
-}
-	}
-	
-</style>
+
 <div class="container-fluid purple-pink">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
@@ -355,7 +296,7 @@ get_header(); ?>
 		<div class="col-md-4 col-sm-4 col-xs-12 case-box">
 			<a href="#" target="_blank">
 				<div class="case-box-wrapper hovereffect">
-				<a href="<?php echo ROOT; ?>/assets/docs/datasheets/solution-june-2017.pdf" target="_blank">
+				<a href="https://rizepoint.com/wp-content/uploads/2017/10/RP_Datasheet-FullSolution.pdf" target="_blank">
 					<img src="<?php echo ROOT; ?>/assets/img/datasheets/rizepoint-solution-min.jpg" class="ds-box-img" alt="">
 						<h4 class="heading-4">Solutions Datasheet</h4>
 				</a>	
@@ -456,6 +397,12 @@ get_header(); ?>
 		</div><!-- req-right -->
 	</div><!-- request a demo wrapper -->
 </section><!-- request a demo -->
+
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
 
 <?php get_footer(); ?>
 

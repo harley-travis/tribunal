@@ -42,19 +42,19 @@ get_header(); ?>
 	</div><!--it-content-->
 </div><!--container-fluid-->
 
-<div class="contianer-fluid lightGray-bg wrap push">
+<div class="container-fluid lightGray-bg wrap push">
 	<div class="container it-content-sec3 ">
 		<div class="wp-title purple-text">
 			<h2 class="heading-2">Datasheets &amp; White Papers</h2>
 		</div><!--wp-title-->
-			<div class="col-md-6 col-sm-12 col-xs-12 ds-content">
+			<div class="col-md-6 col-sm-12 col-xs-12 ">
 				<a href="https://rizepoint.com/wp-content/uploads/2017/04/health-dept-datasheet-2017.pdf" target="_blank">
 						<img src="<?php echo ROOT; ?>/assets/img/datasheets/rizepoint-overview-min.jpg" class="case-box-img" alt="">
 							<h4 class="heading-4">Overview Datasheet for Health Departments</h4>
 					</a>	
 			</div><!--col-->
 
-			<div class="col-md-6 col-sm-12 col-xs-12 ds-content">
+			<div class="col-md-6 col-sm-12 col-xs-12">
 				<a href="https://rizepoint.com/wp-content/uploads/2017/04/Reduce-Audit-Fatigue-Govt-WP-2017.pdf" target="_blank">
 						<img src="<?php echo ROOT; ?>/assets/img/datasheets/reduce-audit-fatigue-thumbnail-2017.jpg" class="case-box-img" alt="">
 							<h4 class="heading-4">White Paper: Audit Fatigue</h4>
@@ -87,6 +87,12 @@ get_header(); ?>
 		</div><!-- req-right -->
 	</div><!-- request a demo wrapper -->
 </section><!-- request a demo -->
+
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
 
 
 

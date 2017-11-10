@@ -34,6 +34,7 @@ var Personas = {
 				Sections:{
 					PersonaOne: function(){
 						Personas.Widget.Banner.Reset(), $('#persona-1').show(), $('#persona-1-content').show()
+
 					},
 					PersonaTwo: function(){
 						Personas.Widget.Banner.Reset(), $('#persona-2').show(), $('#persona-2-content').show()
@@ -52,7 +53,42 @@ var Personas = {
 		}
 	}
 	$(document).ready(function(){
+		
+		
+		$('#persona-img-1').addClass('persona-img-active');
+		
+
+		$('#persona-img-1').click(function(){
+			$('#persona-img-1').addClass('persona-img-active');
+			$('#persona-img-2').removeClass('persona-img-active');
+			$('#persona-img-3').removeClass('persona-img-active');
+			$('#persona-img-4').removeClass('persona-img-active');
+		});
+		
+		$('#persona-img-2').click(function(){
+			$('#persona-img-2').addClass('persona-img-active');
+			$('#persona-img-1').removeClass('persona-img-active');
+			$('#persona-img-3').removeClass('persona-img-active');
+			$('#persona-img-4').removeClass('persona-img-active');
+		});
+		
+		$('#persona-img-3').click(function(){
+			$('#persona-img-3').addClass('persona-img-active');
+			$('#persona-img-2').removeClass('persona-img-active');
+			$('#persona-img-1').removeClass('persona-img-active');
+			$('#persona-img-4').removeClass('persona-img-active');
+		});
+		
+		$('#persona-img-4').click(function(){
+			$('#persona-img-4').addClass('persona-img-active');
+			$('#persona-img-2').removeClass('persona-img-active');
+			$('#persona-img-3').removeClass('persona-img-active');
+			$('#persona-img-1').removeClass('persona-img-active');
+		});
+		
+		
 		Personas.Init(), $('.personaBtn').click(function(e){
 			Personas.Widget.Banner.Swith(e.currentTarget.id)
-		})
+		});
+		
 	});

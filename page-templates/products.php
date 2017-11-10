@@ -35,7 +35,7 @@ get_header(); ?>
 		<div class="banner-wrapper">
 			<h1 class="heading-1">Mobile Auditor</h1>
 			<div class="banner-btns">
-				<a href="https://rizepoint.com/wp-content/uploads/2017/08/RP_Datasheet-FullSolution.pdf" target="_blank" class="btn btn-lg btn-inverse-white">Download Datasheet</a>
+				<a href="https://rizepoint.com/wp-content/uploads/2017/10/RP_Datasheet-FullSolution.pdf" target="_blank" class="btn btn-lg btn-inverse-white">Download Datasheet</a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
@@ -54,6 +54,7 @@ get_header(); ?>
 				<li>Go anywhere with offline access</li>
 				<li>Conduct temperature checks with <a href="<?php echo ROOT_URL; ?>/thermocouple-integration/">thermocouple device integration</a></li>
 				<li>Guide evaluations with step-by-step navigation</li>
+				<li>Capture GPS coordinates for location and question responses to provide greater visibility for onsite audits</li>
 			</ul>
 			<div class="products-video-btn">
 				<a class="btn btn-md btn-green" data-toggle="modal" data-target="#ma-one">View Video</a>
@@ -71,6 +72,7 @@ get_header(); ?>
 				<li>Call out important details</li>
 				<li>Attach files, videos, and annotate images</li>
 				<li>Sync audit app results for immediate use</li>
+				<li>Toggle between multiple audits at one location to increase auditor efficiency</li>
 			</ul>
 		</div>
 
@@ -103,7 +105,7 @@ get_header(); ?>
 		<div class="banner-wrapper">
 			<h1 class="heading-1">Management Console</h1>
 			<div class="banner-btns">
-				<a href="https://rizepoint.com/wp-content/uploads/2017/08/RP_Datasheet-FullSolution.pdf" target="_blank" class="btn btn-lg btn-inverse-white">Download Datasheet</a> 
+				<a href="https://rizepoint.com/wp-content/uploads/2017/10/RP_Datasheet-FullSolution.pdf" target="_blank" class="btn btn-lg btn-inverse-white">Download Datasheet</a> 
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
@@ -285,5 +287,11 @@ get_header(); ?>
 		</div><!-- modal-content -->
 	</div><!-- modal-dialog -->
 </div><!-- modal -->
+
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
 
 <?php get_footer(); ?>

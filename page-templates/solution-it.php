@@ -54,7 +54,7 @@ get_header(); ?>
 			</div><!--col-->
 
 			<div class="col-md-3 col-sm-6 col-xs-12 ds-content">
-				<a href="<?php echo ROOT; ?>/assets/docs/datasheets/solution-june-2017.pdf" target="_blank">
+				<a href="https://rizepoint.com/wp-content/uploads/2017/10/RP_Datasheet-FullSolution.pdf" target="_blank">
 						<img src="<?php echo ROOT; ?>/assets/img/datasheets/rizepoint-solution-min.jpg" class="case-box-img" alt="">
 							<h4 class="heading-4">Solutions Datasheet</h4>
 					</a>	
@@ -100,7 +100,11 @@ get_header(); ?>
 	</div><!-- request a demo wrapper -->
 </section><!-- request a demo -->
 
-
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
 
 
 

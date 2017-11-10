@@ -4,16 +4,196 @@
 */
 get_header(); ?>
 
-<div class="container-fluid <?php the_field('solutions_banner'); ?>">
+<style>
+.rad-solutions,
+.solutions-system-features {
+    color: $white;
+}
+.slant-wrapper .solutions-features-size:after,
+.slant-wrapper .solutions-testimony-size:after {
+    position: absolute;
+    top: -6px;
+    z-index: -1;
+    box-shadow: 0 -8px 8px 0 rgba(0, 0, 0, .05), 0 -12px 28px 0 rgba(0, 0, 0, .05);
+    display: block;
+    content: '';
+    left: 0;
+    right: 0;
+}
+.solutions-section-one-wrapper {
+    padding: 50px 0;
+}
+.solutions-section-one-wrapper h2 {
+    padding-bottom: 35px;
+    text-align: center;
+}
+.persona-list {
+    padding-bottom: 50px;
+}
+.persona-image {
+    cursor: pointer;
+    text-align: center;
+}
+.persona-cta-btn {
+    padding-top: 35px;
+}
+.solutions-section-one {
+    padding-bottom: 200px;
+}
+.persona-img {
+    width: 100%;
+    max-width: 200px;
+}
+.case-sheets {
+    padding-bottom: 120px;
+}
+.case-box-img {
+    width: 100%;
+    max-width: 250px;
+}
+.solutions-testimony-wrapper {
+    color: $white;
+    text-align: center;
+}
+.solutions-testimony-size {
+    height: 360px;
+}
+.persona-title {
+    text-align: center;
+    padding-top: 10px;
+}
+.case-sheets-wrapper {
+    padding: 375px 0 70px;
+    text-align: center;
+}
+.case-sheets-wrapper h2 {
+    padding-bottom: 35px;
+}
+.case-box-wrapper {
+    padding-bottom: 50px;
+}
+.slant-wrapper .solutions-features-size:after {
+    background: inherit;
+    bottom: 0;
+    -webkit-transform: skewY(10.5deg);
+    transform: skewY(10.5deg);
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%;
+    height: 1130px;
+}
+.slant-wrapper .solutions-testimony-size:after {
+    bottom: -20%;
+    -webkit-transform: skewY(10.5deg);
+    transform: skewY(10.5deg);
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%;
+    height: 535px;
+    background: $blue;
+}
+.solutions-section-four {
+    padding-top: 160px
+}
+.testimony {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/* JQUERY USING THIS IN PERSONA.JS */
+.persona-image{
+	opacity: .3;
+}
+.persona-image:hover{
+	opacity: inherit;
+}
+.persona-img-active{
+	opacity: inherit !important;
+}
+.ds-box-img{
+	width: 100%;
+}
+.case-sheets-wrapper-second{
+	text-align: center;
+}
+.sol-fix{
+	background: $white;
+	height: 200px;
+	position: relative;
+}
+.case-sheets {
+    padding-bottom: 50px !important;
+}
+.case-sheets-wrapper-second{
+	padding-bottom: 50px;
+}
+	.solutions-section-four {
+    padding-top: 0 !important;
+}
+.case-box-title {
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}	
+.solution-cs-btn-wrapper {
+    text-align: center;
+    padding-top: 40px;
+    clear: both;
+}
+.solutions-cs-header{
+	padding-bottom: 35px;
+}
+.it-content-sec1{
+	padding: 80px 0px;
+}
+.it-content-sec2{
+	padding: 80px 0px;
+	text-align: center;
+	
+	h3 {
+		padding-bottom: 50px;
+	}
+	ul{
+		text-align: left;
+	}
+	li{
+		padding-bottom: 15px;
+	}
+}
+.it-content-sec3{
+	padding: 80px 0px;
+	text-align: center;
+}
+.ds-content{
+	padding-bottom: 150px;
+}
+.res-button{
+	padding-top: 90px;
+	clear: both;
+}
+.it-content-sec2 img{
+	width: 100%;
+	max-width: 500px;
+	padding-bottom: 50px;
+}
+.img-container {
+	padding: 50px 0px;
+}
+	
+</style>
+
+<div class="container-fluid <?php the_field('banner_color'); ?>">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1 class="heading-1"><?php the_field('solutions_title'); ?></h1>
+			<h1 class="heading-1"><?php the_field('main_header'); ?></h1>
 			<div class="banner-btns">
-				<a href="<?php the_field('sol_btn_1'); ?>" class="btn btn-lg btn-width-lg btn-inverse-white orange-text" target="_blank"><?php the_field('sol_btn_2'); ?></a> 
-				<a href="<?php the_field('sol_btn_3'); ?>" target="_blank" class="btn btn-lg btn-width-lg btn-inverse-white" target="_blank"><?php the_field('sol_btn_4'); ?></a>
-		</div><!--banner-btns-->
-		
+				<a href="<?php echo ROOT_URL; ?><?php the_field('left_button_path'); ?>" class="btn btn-lg btn-width-lg btn-inverse-white orange-text" target="_blank"><?php the_field('left_button_title'); ?></a> 
+				<a href="<?php echo ROOT_URL; ?><?php the_field('right_button_path'); ?>" target="_blank" class="btn btn-lg btn-width-lg btn-inverse-white" target="_blank"><?php the_field('right_button_title'); ?></a>
+			</div><!--banner-btns-->		
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
 </div><!-- container-fluid -->
@@ -27,8 +207,9 @@ get_header(); ?>
 				<h4 class="modal-title heading-4" id="banner-videoLabel"><?php the_field('sol-video-title'); ?></h4>
 			</div>
 			<div class="modal-body">
-				<?php the_field('sol_video'); ?></div>
-			</div><!-- modal-body -->
+				<?php the_field('sol_video'); ?>
+			</div>
+		</div><!-- modal-body -->
 			<div class="modal-footer">
 				<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-green btn-medium">Request A Demo</a>
 			</div>
@@ -39,38 +220,40 @@ get_header(); ?>
 
 <section class="container-fluid solutions-section-one wrap push">
 	<div class="container solutions-section-one-wrapper">
-		<h2 class="pink-text heading-2">How RizePoint Can Work For You</h2>
+		
+		
+		<h2 class="pink-text heading-2"><?php the_field('persona_section_header'); ?></h2>
 		<div class="persona-list">
 			<div class="col-md-3 col-sm-6 col-xs-6 persona-wrapper personaBtn" id="persona-1">
 				<div class="persona-image">
-					<img src="<?php bloginfo('template_directory'); ?>/assets/img/solutions/mr-exec-min.png" class="persona-img" alt="">
+					<img src="<?php the_field('persona_1_image'); ?>" class="persona-img" alt="">
 				</div><!-- persona-image -->
 				<div class="persona-title">
-					<h4 class="heading-4">Operations Executive </h4>
+					<h4 class="heading-4"><?php the_field('persona_1_title'); ?></h4>
 				</div><!-- persona-title -->
 			</div><!-- persona-wrapper -->
 			<div class="col-md-3 col-sm-6 col-xs-6 persona-wrapper personaBtn" id="persona-2">
 				<div class="persona-image">
-					<img src="<?php bloginfo('template_directory'); ?>/assets/img/solutions/ms-director-min.png" class="persona-img" alt="">
+					<img src="<?php the_field('persona_2_image'); ?>" class="persona-img" alt="">
 				</div><!-- persona-image -->
 				<div class="persona-title">
-					<h4 class="heading-4">Director of Operations</h4>
+					<h4 class="heading-4"><?php the_field('persona_2_title'); ?></h4>
 				</div><!-- persona-title -->
 			</div><!-- persona-wrapper -->
 			<div class="col-md-3 col-sm-6 col-xs-6 persona-wrapper personaBtn" id="persona-3">
 				<div class="persona-image">
-					<img src="<?php bloginfo('template_directory'); ?>/assets/img/solutions/ms-auditor-min.png" class="persona-img" alt="">
+					<img src="<?php the_field('persona_3_image'); ?>" class="persona-img" alt="">
 				</div><!-- persona-image -->
 				<div class="persona-title">
-					<h4 class="heading-4">Operations Manager</h4>
+					<h4 class="heading-4"><?php the_field('persona_3_title'); ?></h4>
 				</div><!-- persona-title -->
 			</div><!-- persona-wrapper -->
 			<div class="col-md-3 col-sm-6 col-xs-6 persona-wrapper personaBtn" id="persona-4">
 				<div class="persona-image">
-					<img src="<?php bloginfo('template_directory'); ?>/assets/img/solutions/ms-manager-min.png" class="persona-img" alt="">
+					<img src="<?php the_field('persona_4_image'); ?>" class="persona-img" alt="">
 				</div><!-- persona-image -->
 				<div class="persona-title">
-					<h4 class="heading-4">Auditor</h4>
+					<h4 class="heading-4"><?php the_field('persona_4_title'); ?></h4>
 				</div><!-- persona-title -->
 			</div><!-- persona-wrapper -->
 		</div><!-- persona-list -->
@@ -80,13 +263,13 @@ get_header(); ?>
 			<!-- persona-1 -->
 			<div class="persona-info-wrapper" id="persona-1-content">
 				<div class="col-md-6 col-sm-12 col-xs-12 persona-info-image">
-					<img src="<?php echo ROOT; ?>assets/img/solutions/rizepoint-modern825157-min-min.jpg" class="persona-info-img" alt="">
+					<img src="<?php the_field('persona_1_image'); ?>" class="persona-info-img" alt="">
 				</div><!-- persona-info-image -->
 				<div class="col-md-6 col-sm-12 col-xs-12 persona-info-text">
-					<h3 class="heading-3">Operations Executive </h3>
-					<p>Drive strategy and continuous improvement for your foodservice operations. RizePoint® gives you complete visibility into operations and quality, with tools that go to the core of your business performance: data gathering, reporting, business intelligence, and corrective action. Dashboards highlight key information, and effortless search-driven analytics give you data that matters—enabling you to improve efficiency, customer experience, and safety.</p>
+					<h3 class="heading-3"><?php the_field('persona_1_title'); ?></h3>
+						<?php the_field('persona_1_content'); ?>
 					<div class="persona-cta-btn">
-						<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-green">Request A Demo</a>
+						<a href="<?php echo ROOT_URL; ?><?php the_field('persona_1_button_path'); ?>" class="btn btn-lg btn-green"><?php the_field('persona_1_button_title'); ?></a>
 					</div><!-- persona-cta-btn -->
 				</div><!-- persona-info-text -->
 			</div><!-- persona-info-wrapper -->
@@ -94,13 +277,13 @@ get_header(); ?>
 			<!-- persona-2 -->
 			<div class="persona-info-wrapper" id="persona-2-content">
 				<div class="col-md-6 col-sm-12 col-xs-12 persona-info-image">
-					<img src="<?php echo ROOT; ?>assets/img/solutions/rizepoint-modern8-26585-min-min.jpg" class="persona-info-img" alt="">
+					<img src="<?php the_field('persona_2_image'); ?>" class="persona-info-img" alt="">
 				</div><!-- persona-info-image -->
 				<div class="col-md-6 col-sm-12 col-xs-12 persona-info-text">
-					<h3 class="heading-3">Director of Operations</h3>
-					<p>Give your team the tools they need to audit, correct, and monitor standards and regulations in every location. By ensuring consistency and quality across the company, you manage threats to your brand reputation while driving customer loyalty. RizePoint’s management and mobile evaluation platform helps you execute operational processes perfectly in a hyper-competitive multiunit foodservice industry.</p>
+					<h3 class="heading-3"><?php the_field('persona_2_title'); ?></h3>
+						<?php the_field('persona_2_content'); ?>
 					<div class="persona-cta-btn">
-						<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-green">Request A Demo</a>
+						<a href="<?php echo ROOT_URL; ?><?php the_field('persona_2_button_path'); ?>" class="btn btn-lg btn-green"><?php the_field('persona_2_button_title'); ?></a>
 					</div><!-- persona-cta-btn -->
 				</div><!-- persona-info-text -->
 			</div><!-- persona-info-wrapper -->
@@ -108,13 +291,13 @@ get_header(); ?>
 			<!-- persona-3 -->
 			<div class="persona-info-wrapper" id="persona-3-content">
 				<div class="col-md-6 col-sm-12 col-xs-12 persona-info-image">
-					<img src="<?php echo ROOT; ?>assets/img/solutions/rizepoint-small-min-min.jpg" class="persona-info-img" alt="">
+					<img src="<?php the_field('persona_3_image'); ?>" class="persona-info-img" alt="">
 				</div><!-- persona-info-image -->
 				<div class="col-md-6 col-sm-12 col-xs-12 persona-info-text">
-					<h3 class="heading-3">Operations Manager</h3>
-					<p>Stop the ops management juggling act. RizePoint’s cloud-based management console gives you the tools to manage efficient, accurate audits in every location. Simply push updated schedules and forms to auditors through their mobile auditing app. And corrective actions or last-minute reports are no problem with RizePoint’s intuitive platform that lets you automate corrections and create ad-hoc reports as fast as you can type.</p>
+					<h3 class="heading-3"><?php the_field('persona_3_title'); ?></h3>
+						<?php the_field('persona_3_content'); ?>
 					<div class="persona-cta-btn">
-						<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-green">Request A Demo</a>
+						<a href="<?php echo ROOT_URL; ?><?php the_field('persona_3_button_path'); ?>" class="btn btn-lg btn-green"><?php the_field('persona_3_button_title'); ?></a>
 					</div><!-- persona-cta-btn -->
 				</div><!-- persona-info-text -->
 			</div><!-- persona-info-wrapper -->
@@ -122,13 +305,13 @@ get_header(); ?>
 			<!-- persona-4 -->
 			<div class="persona-info-wrapper" id="persona-4-content">
 				<div class="col-md-6 col-sm-12 col-xs-12 persona-info-image">
-					<img src="<?php echo ROOT; ?>assets/img/solutions/rizepoint-modern8-26402-min-min.jpg" class="persona-info-img" alt="">
+					<img src="<?php the_field('persona_4_image'); ?>" class="persona-info-img" alt="">
 				</div><!-- persona-info-image -->
 				<div class="col-md-6 col-sm-12 col-xs-12 persona-info-text">
-					<h3 class="heading-3">Auditor</h3>
-					<p>RizePoint Mobile Auditor® makes you an efficiency master. There’s never enough time when you’re in the field, and if it can go wrong, it will go wrong. With RizePoint, there’s no late-night data entry, or bulky binders to carry. You gather the details you need on a phone or tablet, work offline when connections are a problem, upload your results easily, and highlight critical details for quick correction.</p>
+					<h3 class="heading-3"><?php the_field('persona_4_title'); ?></h3>
+						<?php the_field('persona_4_content'); ?>
 					<div class="persona-cta-btn">
-						<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-green">Request A Demo</a>
+						<a href="<?php echo ROOT_URL; ?><?php the_field('persona_4_button_path'); ?>" class="btn btn-lg btn-green"><?php the_field('persona_4_button_title'); ?></a>
 					</div><!-- persona-cta-btn -->
 				</div><!-- persona-info-text -->
 			</div><!-- persona-info-wrapper -->
@@ -143,144 +326,123 @@ get_header(); ?>
 			<div class="slant-content-wrap">
 				<div class="system-features solutions-system-features">
 					<div class="container system-features-wrapper">
-						<h2 class="heading-2">System Features</h2>
+						<h2 class="heading-2"><?php the_field('system_features_section_header'); ?></h2>
 						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-1" aria-expanded="false" aria-controls="collapseExample">
-							<div class="box-feature" style="background-image: url(<?php echo ROOT; ?>assets/img/home/Mobile-Auditor-App_RizePoint-min.jpg)"></div><!-- box-feature -->
+							<div class="box-feature" style="background-image: url(<?php the_field('feature_1_image'); ?>)"></div><!-- box-feature -->
 							<div class="box-feature-header">
-								<h5 class="heading-5">Mobile Auditor</h5>
+								<h5 class="heading-5"><?php the_field('feature_1_title'); ?></h5>
 							</div><!-- box-feature-header -->
 						</div><!-- box-feature -->
 						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-2" aria-expanded="false" aria-controls="collapseExample">
-							<div class="box-feature" style="background-image: url(<?php echo ROOT; ?>assets/img/home/Business-Intelligence-Analytics_RizePoint-min.PNG)"></div><!-- box-feature -->
+							<div class="box-feature" style="background-image: url(<?php the_field('feature_2_image'); ?>)"></div><!-- box-feature -->
 							<div class="box-feature-header">
-								<h5 class="heading-5">Thermocouple Integration </h5>
+								<h5 class="heading-5"><?php the_field('feature_2_title'); ?></h5>
 							</div><!-- box-feature-header -->
 						</div><!-- box-feature -->
 						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-3" aria-expanded="false" aria-controls="collapseExample">
-							<div class="box-feature" style="background-image: url(<?php echo ROOT; ?>assets/img/home/Corrective-Action-Planning-Management_RizePoint-min.jpg)"></div><!-- box-feature -->
+							<div class="box-feature" style="background-image: url(<?php the_field('feature_3_image'); ?>)"></div><!-- box-feature -->
 							<div class="box-feature-header">
-								<h5 class="heading-5">Automated Corrective Action</h5>
+								<h5 class="heading-5"><?php the_field('feature_3_title'); ?></h5>
 							</div><!-- box-feature-header -->
 						</div><!-- box-feature -->
-					</div><!-- system-feature-wrapper -->
-				
-					<!-- SECTION 3 COLLAPSED DATA -->
+						
+					<!-- SECTIONS 1-3 COLLAPSED DATA -->
 					<div class="container-fluid clear green-bg feature-drop">
 						<div class="container">
 							<div class="collapse pointer-position" id="home-box-feature-1">
 								<div class="img-pointer sf-pointer-1"></div>
 								<div class="feature-content">
-									<h2 class="heading-2">Mobile app for site inspections</h2>
-									<p>Mobile Auditor streamlines remote location assessments for inspectors and managers. Teams see immediate assessment results in the cloud-based RizePoint Management Console, replacing long, manual upload processes.</p>
-									<ul>
-										<li>Capture data easily using powerful forms, with navigation that leads auditors through the process.</li>
-										<li>Offline availability frees inspectors from connection concerns.</li>
-										<li>Attach short videos, upload files, and mark-up photos to highlight important audit details. </li>
-										<li>Communicate details on non-compliant findings through comment features </li>
-										<li>Start audits with just one click when you use RizePoint to schedule your inspections.</li>
-									</ul>
-									<p>Start audits with just one click when you use RizePoint to schedule your inspections.</p>
+									<h2 class="heading-2"><?php the_field('feature_1_header'); ?></h2>
+										<?php the_field('feature_1_content'); ?>
 								</div><!-- home-box-feature-1 -->
 							</div>
 						</div><!-- container -->
 					</div><!-- container-fluid -->
-					<div class="container-fluid clear pink-bg feature-drop">
+					<div class="container-fluid clear green-bg feature-drop">
 						<div class="container">
 							<div class="collapse pointer-position" id="home-box-feature-2">
-							<div class="img-pointer sf-pointer-2"></div>
+								<div class="img-pointer sf-pointer-1"></div>
 								<div class="feature-content">
-									<h2 class="heading-2">Streamline temperature and line checks</h2>
-									<p>Conduct temperature checks and automate your line check process with thermocouple device integration in Mobile Auditor.</p>
-									<ul>
-										<li>Integrate with Cooper-Atkins Blue2 instrument</li>
-										<li>Upload line check temperature data seamlessly</li>
-										<li>Eliminate errors and prevent tampering</li>
-									</ul>
+									<h2 class="heading-2"><?php the_field('feature_2_header'); ?></h2>
+										<?php the_field('feature_2_content'); ?>
 								</div><!-- home-box-feature-1 -->
 							</div>
 						</div><!-- container -->
 					</div><!-- container-fluid -->
-					<div class="container-fluid clear blue-bg feature-drop">
+					<div class="container-fluid clear green-bg feature-drop">
 						<div class="container">
 							<div class="collapse pointer-position" id="home-box-feature-3">
-							<div class="img-pointer sf-pointer-3"></div>
+								<div class="img-pointer sf-pointer-1"></div>
 								<div class="feature-content">
-									<h2 class="heading-2">Act quickly to correct issues before they become costly liabilities</h2>
-									<p>Action plans are automatically created for any item marked out of compliance during a Mobile Auditor on-site assessment. Within RizePoint, you can use rules to trigger action plan tasks, establish due dates, send notifications, create alerts, issue reminders, and monitor task completion.</p>
+									<h2 class="heading-2"><?php the_field('feature_3_header'); ?></h2>
+										<?php the_field('feature_3_content'); ?>
 								</div><!-- home-box-feature-1 -->
 							</div>
 						</div><!-- container -->
 					</div><!-- container-fluid -->
-
-					<div class="container system-features-wrapper">
+						
+						
 						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-4" aria-expanded="false" aria-controls="collapseExample">
-							<div class="box-feature" style="background-image: url(<?php echo ROOT; ?>assets/img/home/Supplier-Onboarding_RizePoint-min.PNG)"></div><!-- box-feature -->
+							<div class="box-feature" style="background-image: url(<?php the_field('feature_4_image'); ?>)"></div><!-- box-feature -->
 							<div class="box-feature-header">
-								<h5 class="heading-5">Business Intelligence</h5>
+								<h5 class="heading-5"><?php the_field('feature_4_title'); ?></h5>
 							</div><!-- box-feature-header -->
 						</div><!-- box-feature -->
 						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-5" aria-expanded="false" aria-controls="collapseExample">
-							<div class="box-feature" style="background-image: url(<?php echo ROOT; ?>assets/img/home/Role-Based-Access_RizePoint-min.PNG)"></div><!-- box-feature -->
+							<div class="box-feature" style="background-image: url(<?php the_field('feature_5_image'); ?>)"></div><!-- box-feature -->
 							<div class="box-feature-header">
-								<h5 class="heading-5">Automated Communication Tools</h5>
+								<h5 class="heading-5"><?php the_field('feature_5_title'); ?></h5>
 							</div><!-- box-feature-header -->
 						</div><!-- box-feature -->
 						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-6" aria-expanded="false" aria-controls="collapseExample">
-							<div class="box-feature" style="background-image: url(<?php echo ROOT; ?>assets/img/home/Automated-Communication_RizePoinnt-min.jpg)"></div><!-- box-feature -->
+							<div class="box-feature" style="background-image: url(<?php the_field('feature_6_image'); ?>)"></div><!-- box-feature -->
 							<div class="box-feature-header">
-								<h5 class="heading-5">Audit Scheduling</h5>
+								<h5 class="heading-5"><?php the_field('feature_6_title'); ?></h5>
 							</div><!-- box-feature-header -->
 						</div><!-- box-feature -->
 					</div><!-- system-feature-wrapper -->
-
-					<!-- SECTION 3 COLLAPSED DATA -->
+				
+					<!-- SECTIONS 4-6 COLLAPSED DATA -->				
 					<div class="container-fluid clear green-bg feature-drop">
 						<div class="container">
 							<div class="collapse pointer-position" id="home-box-feature-4">
 								<div class="img-pointer sf-pointer-1"></div>
 								<div class="feature-content">
-									<h2 class="heading-2">Turn audit results into a reporting powerhouse</h2>
-									<p>With RizePoint, audit data is brought to life with dynamic visual reporting and dashboards for key analysis.</p>
-									<ul>
-										<li>Management Dashboards<br>
-											RizePoint Management Dashboards put the data you need most at your fingertips, visually highlighting important information. View top-level details and drill down to specific information using any of the available standard dashboard options.
-										</li>
-										
-										<li>Search-Driven Analytics<br>
-											When reporting needs go beyond standard dashboards, you can now get answers as fast as you can type. Create ad-hoc reports with Search-Driven Analytics (SDA), powered by search engine technologies that give you answers and insights that matter. With SDA, you can analyze the many details of your quality performance activities—ask questions, analyze data, and build pinboards—in seconds. See data in new ways, tell a story with impact, and provide increased visibility for your stakeholders by including this optional RizePoint add-on in your operations.
-										</li>
-									</ul>
+									<h2 class="heading-2"><?php the_field('feature_4_header'); ?></h2>
+										<?php the_field('feature_4_content'); ?>
 								</div><!-- home-box-feature-1 -->
 							</div>
 						</div><!-- container -->
 					</div><!-- container-fluid -->
-					<div class="container-fluid clear pink-bg feature-drop">
+					<div class="container-fluid clear green-bg feature-drop">
 						<div class="container">
 							<div class="collapse pointer-position" id="home-box-feature-5">
-							<div class="img-pointer sf-pointer-2"></div>
+								<div class="img-pointer sf-pointer-1"></div>
 								<div class="feature-content">
-									<h2 class="heading-2">Provide complete visibility throughout the entire organization</h2>
-									<p>Provide a single-pane-of-glass view into company-wide operations. With RizePoint, you have visibility and transparency at all levels of the business, paired with automated notifications and reporting subscription options to keep stakeholders informed. Standardized templates, email alerts, push-notifications, and report communications make it easy to manage, monitor, and communicate compliance progress.</p>
+									<h2 class="heading-2"><?php the_field('feature_5_header'); ?></h2>
+										<?php the_field('feature_5_content'); ?>
 								</div><!-- home-box-feature-1 -->
 							</div>
 						</div><!-- container -->
 					</div><!-- container-fluid -->
-					<div class="container-fluid clear blue-bg feature-drop">
+					<div class="container-fluid clear green-bg feature-drop">
 						<div class="container">
 							<div class="collapse pointer-position" id="home-box-feature-6">
-							<div class="img-pointer sf-pointer-3"></div>
+								<div class="img-pointer sf-pointer-1"></div>
 								<div class="feature-content">
-									<h2 class="heading-2">Schedule audits with ease</h2>
-									<p>You’ll appreciate how easy it is to schedule audits using RizePoint. Create and view schedules with ease in the cloud-based RizePoint Management Console.</p>
+									<h2 class="heading-2"><?php the_field('feature_6_header'); ?></h2>
+										<?php the_field('feature_6_content'); ?>
 								</div><!-- home-box-feature-1 -->
 							</div>
 						</div><!-- container -->
 					</div><!-- container-fluid -->
-				</div><!-- system-features -->
-			</div><!-- mobile-auditor-container -->
-		</div><!-- solutions-features-size -->
-	</section><!-- solutions-system-features-wrapper -->
-</section><!-- slant-wrapper -->
+					
+				</div>
+			</div>
+		</div>
+	</section>
+</section>
+
 
 <section class="container-fluid case-sheets lightGray-bg wrap push">
 	<div class="container case-sheets-wrapper">
@@ -424,6 +586,12 @@ get_header(); ?>
 		</div><!-- req-right -->
 	</div><!-- request a demo wrapper -->
 </section><!-- request a demo -->
+
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
 
 <?php get_footer(); ?>
 

@@ -4,6 +4,112 @@
  */
 get_header(); ?>
 
+<style>
+.careers-why {
+	width: 100%;
+}
+.location-content {
+    max-width: 1500px;
+}
+.join-video-wrapper{
+	max-width: 900px;
+	margin: 0 auto;
+}
+.careers-pg-title{
+	padding-top: 35px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+.careers-value-img {
+    height: 300px;
+	position: relative;
+}
+.car-par-head {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.careers-text{
+	text-align: center;
+	padding:  50px 0;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.careers-awards-title {
+    padding-bottom: 35px;
+}
+.perks-wrappin{
+	padding: 50px 0;
+	text-align: center;
+}
+.perks-here {
+    padding: 50px 0;
+    overflow: auto;
+}
+.perk-icons {
+    font-size: 4rem !important;
+    padding-bottom: 10px;
+}
+.perk-container {
+    border-radius: 5px;
+    height: 180px;
+}
+.perk-container-wrapper {
+    text-align: center;
+    padding: 30px;
+}
+.culture-talk {
+    padding-bottom: 35px;
+    text-align: center;
+}
+.careers-culture-list ul li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+.culture-list-center{
+	text-align: center;
+}
+.careers-loc-img {
+    padding-right: 50px;
+}
+.car-loc-img{
+	max-width: 200px;
+	width: 100%;
+}
+.office-list ul li{
+	list-style: none;
+}
+.careers-job-heading {
+	text-align: center;
+	padding-top: 50px;
+}
+.join-team-text{
+	padding: 35px 0;
+	text-align: center;
+}
+.righ-ls{
+	margin-left: 50px;
+}
+.careers-culture-title {
+    text-align: center;
+    padding-bottom: 25px;
+}
+.culture-wrapper {
+    padding: 50px 0;
+}
+.locations-title {
+    text-align: center;
+    padding-bottom: 45px;
+}
+.location-wrapper {
+    width: 100%;
+    padding: 50px 0;
+}
+
+</style>
+
 <div class="container-fluid pink-yellow">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
@@ -73,14 +179,6 @@ get_header(); ?>
 				</div><!-- client-name -->
 			</div><!-- client-box-wrapper -->
 			
-			<div class="col-md-3 col-sm-6 col-xs-12 awards-career-wrapper">
-				<div class="award-sec-wrapper customer-logo box-shadow">
-					<img src="https://rizepoint.com/wp-content/uploads/2016/06/CEO-of-the-Year.jpg" alt="" class="customerLogo-img awards-img">
-				</div><!-- award-sec-wrapper customer-logo box-shadow -->
-				<div class="client-name">
-					<h4 class="text-center"><a href="https://rizepoint.com/press-releases/frank-maylett-ceo-of-the-year/">Frank Maylett named CEO of the Year</a></h4>
-				</div><!-- client-name -->
-			</div><!-- client-box-wrapper -->
 			
 			<div class="col-md-3 col-sm-6 col-xs-12 awards-career-wrapper">
 				<div class="award-sec-wrapper customer-logo box-shadow">
@@ -89,7 +187,17 @@ get_header(); ?>
 				<div class="client-name">
 					<h4 class="text-center"><a href="https://rizepoint.com/press-releases/rizepoint-2016-top-workplace/">Salt Lake Tribune Names RizePoint As A 2016 Top Workplace </a></h4>
 				</div><!-- client-name -->
-			</div><!-- client-box-wrapper -->			
+			</div><!-- client-box-wrapper -->	
+			
+			<div class="col-md-3 col-sm-6 col-xs-12 awards-career-wrapper">
+				<div class="award-sec-wrapper customer-logo box-shadow">
+					<img src="https://agamotto.rizepoint.com/wp-content/uploads/2017/10/parity-min.png" alt="" class="customerLogo-img awards-img">
+				</div><!-- award-sec-wrapper customer-logo box-shadow -->
+				<div class="client-name">
+					<h4 class="text-center"><a href="https://rizepoint.com/press-releases/rizepoint-joins-paritypledge/">RizePoint Joins ParityPledge, Expanding the Pathway for Women in Leadership Positions </a></h4>
+				</div><!-- client-name -->
+			</div><!-- client-box-wrapper -->		
+									
 		</div><!--awards list end-->
 	</section><!--employee-awards-->
 

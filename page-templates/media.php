@@ -8,9 +8,9 @@ get_header(); ?>
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1>Media</h1>
+			<h1 class="heading-1"><?php the_field('main_header'); ?></h1>
 			<div class="banner-btns">
-				<a href="<?php echo ROOT_URL; ?>/newsroom" class="btn btn-lg btn-inverse-white">Newsroom</a> <a href="<?php echo ROOT_URL; ?>/blog" class="btn btn-lg btn-inverse-white">RizePoint Blog</a>
+				<a href="<?php echo ROOT_URL; ?><?php the_field('left_button_path'); ?>" class="btn btn-lg btn-inverse-white"><?php the_field('left_button_title'); ?></a> <a href="<?php echo ROOT_URL; ?><?php the_field('right_button_path'); ?>" class="btn btn-lg btn-inverse-white"><?php the_field('right_button_title'); ?></a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
@@ -18,9 +18,14 @@ get_header(); ?>
 
 <section class="container-fluid media-container wrap push">
 	<div class="container media-wrapper">
-		<p>If you are interested in contacting us, you can reach us by email or phone. We will respond within 24 hours.</p>
-		<p>Email us at <a href="mailto:pr@rizepoint.com">pr@rizepoint.com</a> or call us at 801-285-9827</p>
+		<?php the_field('the_content'); ?>
 	</div><!-- media-wrapper -->
+</section>
+
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
 </section>
 
 <?php get_footer(); ?>

@@ -51,3 +51,25 @@
 .cs-col-left{
 	padding-left: 35px;
 }
+.cs-body-content h1,
+.cs-body-content h2,
+.cs-body-content h3,
+.cs-body-content h4,
+.cs-body-content h5,
+.cs-body-content h6 {
+	color: $yellow;
+}
+.cs-by-the-numbers {
+/*		border: 3px solid rgb(231,107,124);*/
+	margin-bottom: 25px;
+	background-color: $white;
+	padding: 15px 0px;
+}
+.line {
+	border: 2px solid $yellow;
+}
+.cs-video-center {
+	margin: 0 auto;
+	width: 65%;
+	margin-bottom: 35px;
+}

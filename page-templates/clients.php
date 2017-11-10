@@ -8,7 +8,7 @@ get_header(); ?>
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1>Our Clients</h1>
+			<h1 class="heading-1">Our Clients</h1>
 			<div class="banner-btns">
 				<a href ="<?php echo ROOT_URL; ?>/case-studies" class="btn btn-lg btn-inverse-white">Case Studies</a> <a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-inverse-white">Request A Demo</a>
 			</div><!-- banner-btns -->
@@ -19,7 +19,7 @@ get_header(); ?>
 <section class="container-fluid clients-loop lightGray-bg wrap push">	
 	<div class="container clients-loop-wrapper">
 		<div class="clients-heading">
-			<h2 class="pink-text">Fan club, meet our potential customer.<br> Potential customer, meet the Fan Club.</h2>
+			<h2 class="pink-text heading-2">Fan club, meet our potential customer.<br> Potential customer, meet the Fan Club.</h2>
 		</div><!-- clients-heading -->
 
 		<?php
@@ -39,10 +39,12 @@ get_header(); ?>
 
 					<div class="col-md-4 col-sm-6 col-xs-12">
 						<div class="client-box-pic customer-logo cl-overide box-shadow">
-							<img src="<?php the_field('customer_logo') ?>" class="customerLogo-img" alt="">
+							<a href="<?php the_field('customer_case_study_link'); ?>">
+								<img src="<?php the_field('customer_logo') ?>" class="customerLogo-img" alt="">
+							</a>
 						</div><!-- client-box-pic -->
 						<div class="client-name">
-							<h4><?php the_field('customer_name') ?></h4>
+							<h4 class="heading-4"><?php the_field('customer_name') ?></h4>
 						</div><!-- client-name -->
 					</div><!-- client-box-wrapper -->
 
@@ -58,5 +60,32 @@ get_header(); ?>
 		<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-green">Join The Club</a>
 	</div><!-- clients-cta -->
 </div>
+
+<style>
+	.clients-heading{
+		padding-top: 35px;
+		padding-bottom: 35px;
+		text-align: center;
+	}
+	.client-box-pic {
+    background: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 7px;
+}
+	.clients-cta{
+		text-align: center;
+		padding-bottom: 35px;
+	}
+	.cl-overide{
+		height: 180px !important;
+	}
+</style>
+
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
 
 <?php get_footer(); ?>

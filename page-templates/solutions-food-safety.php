@@ -25,7 +25,7 @@ get_header(); ?>
 				<h4 class="modal-title heading-4" id="banner-videoLabel">RizePoint Can Help Food Safety</h4>
 			</div>
 			<div class="modal-body">
-				<script src="https://fast.wistia.com/embed/medias/ns55p7zhie.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_ns55p7zhie videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+				<script src="https://fast.wistia.com/embed/medias/ns55p7zhie.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsdative_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_ns55p7zhie videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
 			</div><!-- modal-body -->
 			<div class="modal-footer">
 				<a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-green btn-medium">Request A Demo</a>
@@ -296,7 +296,7 @@ get_header(); ?>
 		<div class="col-md-4 col-sm-4 col-xs-12 case-box">
 			<a href="#" target="_blank">
 				<div class="case-box-wrapper hovereffect">
-				<a href="<?php echo ROOT; ?>/assets/docs/datasheets/solution-june-2017.pdf" target="_blank">
+				<a href="https://rizepoint.com/wp-content/uploads/2017/10/RP_Datasheet-FullSolution.pdf" target="_blank">
 					<img src="<?php echo ROOT; ?>/assets/img/datasheets/rizepoint-solution-min.jpg" class="ds-box-img" alt="">
 						<h4 class="heading-4">Solutions Datasheet</h4>
 				</a>	
@@ -380,8 +380,8 @@ get_header(); ?>
 				<div class="raq-form">
 					<span class="raq-disclaimer">*Fill out the form below to request a free demo</span>
 					<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>
-						<form id="mktoForm_218"></form>
-						<script>MktoForms2.loadForm("//app-ab09.marketo.com", "318-YYG-377", 218);</script>
+						<form id="mktoForm_547"></form>
+						<script>MktoForms2.loadForm("//app-ab09.marketo.com", "318-YYG-377", 547);</script>
 						<script>MktoForms2.loadForm("//app-ab09.marketo.com", "318-YYG-377", 81);</script>	
 				</div><!-- raq-form -->
 			</div><!-- req-title -->
@@ -391,6 +391,12 @@ get_header(); ?>
 		</div><!-- req-right -->
 	</div><!-- request a demo wrapper -->
 </section><!-- request a demo -->
+
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
 
 <?php get_footer(); ?>
 

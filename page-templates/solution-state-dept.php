@@ -402,6 +402,12 @@ get_header(); ?>
 	</div><!-- request a demo wrapper -->
 </section><!-- request a demo -->
 
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
+
 <?php get_footer(); ?>
 
 <script>

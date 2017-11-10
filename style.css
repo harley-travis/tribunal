@@ -598,7 +598,7 @@ ul.industries {
 
 ul.company {
   padding: 5px 0 15px;
-  width: 450px;
+  width: 225px;
   left: inherit !important;
   right: 0; }
 
@@ -1577,6 +1577,13 @@ span.mktoButtonWrap.mktoNative {
   background-size: cover;
   background-repeat: no-repeat; }
 
+.read-case-study {
+  text-align: center;
+  display: block; }
+
+.read-case-study span {
+  padding-top: 15px; }
+
 .blog-archive,
 .case-study-text {
   padding-top: 35px; }
@@ -1638,7 +1645,7 @@ span.mktoButtonWrap.mktoNative {
 ***************************/
 .blog-post {
   padding: 16px;
-  height: 600px; }
+  height: 700px; }
 
 .post-content {
   height: 160px; }
@@ -1652,6 +1659,10 @@ span.mktoButtonWrap.mktoNative {
   font-size: .9rem; }
 
 .attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+  width: 100%;
+  height: auto; }
+
+img.alignnone.size-medium {
   width: 100%;
   height: auto; }
 
@@ -2891,9 +2902,64 @@ img.news-post-img {
 .cs-col-left {
   padding-left: 35px; }
 
+.cs-body-content h1,
+.cs-body-content h2,
+.cs-body-content h3,
+.cs-body-content h4,
+.cs-body-content h5,
+.cs-body-content h6 {
+  color: #f7d569; }
+
+.cs-by-the-numbers {
+  /*		border: 3px solid rgb(231,107,124);*/
+  margin-bottom: 25px;
+  background-color: #ffffff;
+  padding: 15px 0px; }
+
+.line {
+  border: 2px solid #f7d569; }
+
+.cs-video-center {
+  margin: 0 auto;
+  width: 65%;
+  margin-bottom: 35px; }
+
 /*
   BX
 ***************************/
+.brand-body {
+  background-color: #FAFAFA; }
+
+.brand-banner {
+  background: #28b29a;
+  background: -moz-linear-gradient(-45deg, #28b29a 0%, #59bec9 100%);
+  background: -webkit-linear-gradient(-45deg, #28b29a 0%, #59bec9 100%);
+  background: linear-gradient(135deg, #28b29a 0%, #59bec9 100%);
+  height: 315px;
+  width: 100%; }
+
+.brand-banner-wrapper {
+  text-align: left;
+  padding-top: 100px;
+  max-width: 890px;
+  margin: 0;
+  padding-left: 100px; }
+  .brand-banner-wrapper h1 {
+    padding-bottom: 35px;
+    color: #ffffff; }
+  .brand-banner-wrapper h2 {
+    color: #ffffff; }
+
+.brand-btn-wrapper {
+  margin-top: 35px; }
+
+.be-wp-btn {
+  background: #ffffff;
+  padding: 10px 30px;
+  color: #6B6B6B;
+  border-radius: 7px;
+  border-bottom: 2px solid #cecaca; }
+
 .brand-try-btn {
   background: #28b29a;
   padding: 10px;
@@ -2904,7 +2970,7 @@ img.news-post-img {
   padding-right: 30px; }
 
 .brand-ds-btn {
-  background: #fff;
+  background: #ffffff;
   padding: 10px;
   color: #28b29a;
   border-radius: 7px;
@@ -2940,10 +3006,9 @@ img.news-post-img {
 .bx-msg {
   text-align: center;
   padding: 30px; }
-
-.bx-msg h2 {
-  color: #28b29a;
-  font-family: gotham-book; }
+  .bx-msg h2 {
+    color: #28b29a;
+    font-family: gotham-book; }
 
 /* icons circles */
 .circle-row {
@@ -3005,6 +3070,10 @@ img.news-post-img {
 a.brand-try-btn:hover {
   color: #1f8876; }
 
+.circle-wrapper-thing {
+  padding: 50px;
+  background-color: #ffffff; }
+
 .arby-brand {
   background-image: url(https://rizepoint.com/wp-content/uploads/2017/05/arbys-int.jpg);
   background-size: cover;
@@ -3024,6 +3093,15 @@ a.brand-try-btn:hover {
 .arby-brand-container p {
   font-weight: bold;
   padding: 35px 0 35px 0; }
+
+.brand-img {
+  float: right;
+  margin-top: -300px;
+  z-index: 9;
+  text-align: right;
+  max-width: 640px;
+  position: relative;
+  width: 100%; }
 
 .flood {
   padding: 50px 0 35px 0; }
@@ -3277,6 +3355,17 @@ a.brand-try-btn:hover {
 .agenda-icon {
   font-size: 4rem !important; }
 
+video#vid-bg {
+  width: 100%;
+  height: auto; }
+
+.engage-video-wrapper {
+  padding: 50px; }
+
+.engage-video-title {
+  text-align: center;
+  padding-bottom: 30px; }
+
 .e2018-venue {
   background-image: url(https://rizepoint.com/wp-content/uploads/2017/04/mirage-engage.jpg);
   background-size: cover;
@@ -3502,7 +3591,7 @@ th.engage-schedule-heading {
 /*
   Landing Pages
 ***************************/
-THANK.landing-logo {
+.landing-logo {
   padding: 25px 0;
   width: 100%;
   max-width: 300px; }
@@ -3534,7 +3623,6 @@ img.landing-logo-img {
 .right-landing {
   position: absolute;
   right: 0;
-  top: -25%;
   padding: 25px; }
 
 /* THANK YOU */
@@ -3980,8 +4068,7 @@ input.partner-lead-btn {
   border-bottom: 1px solid #FAFAFA; }
 
 .support-sub {
-  padding-top: 70px;
-  padding-bottom: 70px; }
+  padding-top: 70px; }
 
 .matrix {
   text-align: center;
@@ -4006,7 +4093,89 @@ input.partner-lead-btn {
 .view-partners-wrapper {
   padding-bottom: 90px; }
 
-/**/
+/* SEO BLOCK */
+.search-block {
+  display: none !important; }
+
+/* SAVE YOUR SEATS ENGAGE */
+.sys-banner {
+  background-image: url(https://rizepoint.com/wp-content/uploads/2017/04/mirage-engage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%; }
+
+.sys-wrapper {
+  padding: 50px 0; }
+
+.sys-info {
+  text-align: center;
+  padding-bottom: 50px; }
+
+.reg-form-mk {
+  background: #FAFAFA;
+  padding: 30px;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  max-width: 700px; }
+
+/* DATASHEET TEMPLATE */
+.datasheets-section-one-wrapper {
+  padding-top: 20px; }
+
+.data_sec1_title {
+  text-align: left; }
+
+.sec2-title {
+  text-align: center; }
+
+.datasheets-section-two-wrapper {
+  padding-top: 20px; }
+
+.data_sec2_lists {
+  text-align: center; }
+
+.slogan img {
+  width: 100%;
+  max-width: 200px; }
+
+.datasheet-sections-four-wrapper {
+  text-align: center; }
+
+.data_sec3_img img {
+  width: 100%;
+  max-width: 650px;
+  margin-top: 80px; }
+
+.data-quote {
+  margin: 100px 0px; }
+
+.data-cta-btn {
+  padding-top: 30px;
+  margin-bottom: 100px; }
+
+.data_sec2_fluid {
+  background: #FAFAFA;
+  margin: 50px 0px;
+  padding: 35px 0; }
+
+/* SEO BLOCK */
+.search-block {
+  display: none; }
+
+/* SOLUTIONS FSMA */
+.it-content-sec2 img {
+  max-width: 200px; }
+
+.datasheet-case-study-header {
+  margin-bottom: 30px; }
+
+.res-button {
+  padding-top: 50px; }
+
+.avendra-heading {
+  margin-top: -25px; }
+
 /*
   Footer
 ***************************/
@@ -4092,10 +4261,7 @@ footer {
     left: 500px; }
 
   .sf-pointer-3 {
-    left: 880px; }
-
-  .blog-post {
-    height: 600px; } }
+    left: 880px; } }
 /* 1440px */
 @media only screen and (max-width: 1440px) {
   .home-circle-row {
@@ -4103,9 +4269,6 @@ footer {
 
   .ma-slant-right {
     right: 3%; }
-
-  .blog-post {
-    height: 600px; }
 
   /* LANDING PAGES */
   .right-landing {

@@ -1,0 +1,26 @@
+<div class="brag-time">
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/applebees.png" alt="Applebees" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="/wp-content/uploads/2015/12/logo-arbys-e1449709681898.png" alt="Avendra" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="https://rizepoint.com/wp-content/uploads/2015/12/Dennys_logo.svg.png" alt="Denny's" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/checkers.png" alt="Checkers and Rally's" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/cracker-barrel.png" alt="Cracker Barrel" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/dairy-queen.png" alt="Dairy Queen" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/firehouse-subs.png" alt="Firehouse Subs" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/friendlys.png" alt="Friendly's" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/ASI.png" alt="ASI" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/golden-corral.png" alt="Golden Corral" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/hard-rock.png" alt="Hard Rock" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/ihop.png" alt="IHop" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/longhorn-steakhouse.png" alt="Longhorn Steakhouse" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/macaroni-grill.png" alt="Macaroni Grill" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/mcdonalds.png" alt="Mcdonalds" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/olive-garden.png" alt="Olive Garden" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/papa-murphies.png" alt="Papa Murphy's" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/pollo-loco.png" alt="Pollo Loco" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/Chemstar.PNG" alt="Chemstar" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/Ocean_Spray_Logo.png" alt="Ocean Spray" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/starbucks.png" alt="Starbucks" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/staybrdige.png" alt="Stay Bridge" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/texas-roadhouse.png" alt="Texas Roadhouse" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="https://rizepoint.com/wp-content/uploads/2017/10/alko_hotels-min-1.png" alt="Alko" class="customerLogo-img"></div><!-- customer-logo -->
+</div><!--brag-time -->

@@ -51,4 +51,10 @@ get_header(); ?>
 
 </div><!-- video-container -->
 
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
+
 <?php get_footer(); ?>

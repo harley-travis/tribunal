@@ -13,7 +13,7 @@ get_header(); ?>
 <section class="container-fluid landing-thank wrap push">
 <div class="stripe-shape green-bg"></div>
 	<div class="container landing-thank-wrapper lightGray-bg box-shadow">
-		<h2 class="green-text">Thank You!</h2>
+		<h2 class="green-text heading-2">Thank You!</h2>
 		<div class="p-text">
 			<span class="green-text"><?php the_field('action'); ?></span>
 		</div>
@@ -26,7 +26,7 @@ get_header(); ?>
 <section class="container thank-you-extra wrap push">
 	<div class="col-md-4 col-sm-4 col-xs-12">
 		<div class="thanks-card lightGray-bg box-shadow">
-			<h4 class="green-text">Connect With Us</h4>
+			<h4 class="green-text heading-4">Connect With Us</h4>
 			<div class="thanks-social">
 				<ul>
 					<li><a href="https://www.facebook.com/rizepoint/"><i class="fa fa-facebook purple-text thanks-icon"></i></a></li>
@@ -41,7 +41,7 @@ get_header(); ?>
 	</div>
 	<div class="col-md-4 col-sm-4 col-xs-12">
 		<div class="thanks-card lightGray-bg box-shadow">
-			<h4 class="green-text">Call Us Today</h4>
+			<h4 class="green-text heading-4">Call Us Today</h4>
 			<div class="thanks-number">
 				<span class="btn btn-purple"><?php the_field('number'); ?></span>
 			</div>
@@ -50,7 +50,7 @@ get_header(); ?>
 	</div>	
 	<div class="col-md-4 col-sm-4 col-xs-12">
 		<div class="thanks-card lightGray-bg box-shadow">
-			<h4 class="green-text">Check Out Our Resources</h4>
+			<h4 class="green-text heading-4">Check Out Our Resources</h4>
 			<a href="<?php echo ROOT_URL; ?>/resources" class="btn btn-purple btn-this">Resources</a>
 		</div>
 		

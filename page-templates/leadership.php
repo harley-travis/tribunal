@@ -3,26 +3,7 @@
  * Template Name: Leadership
 */
 get_header(); ?>
-<style>
-.leadership-wrapper {
-    padding: 50px 0;
-}
-.leader-container {
-    padding-bottom: 35px;
-}
-.leader-img {
-    border-radius: 7px 7px 7px 7px;
-}
-.the-board {
-    border-top: 1px solid #eee;
-}
-.the-board h2 {
-    padding-bottom: 35px;
-}
-	img{
-		width: 100%;
-	}
-</style>
+
 <div class="container-fluid green-blue">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
@@ -59,13 +40,14 @@ get_header(); ?>
 		
 		<div class="col-md-4 col-sm-6 col-xs-12 leader-container">
 			<div class="leader-pic">
-				<a href="<?php echo ROOT_URL; ?>/tim-harris"><img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/ec/tim-harris.jpg" class="leader-img" alt=""></a>
+				<a href="<?php echo ROOT_URL; ?>/dan-strong"><img src="https://rizepoint.com/wp-content/uploads/2017/10/dan-strong-thumbnail.png" class="leader-img" alt=""></a>
 			</div><!-- leader-pic -->
 			<div class="leader-title">
-				<a href="<?php echo ROOT_URL; ?>/tim-harris"><h4 class="leader-name orangeTwo-text heading-4">Tim Harris</h4></a>
-				<a href="<?php echo ROOT_URL; ?>/tim-harris"><span class="leader-position">Senior Vice President of Product</span></a>
+				<a href="<?php echo ROOT_URL; ?>/dan-strong"><h4 class="leader-name orangeTwo-text heading-4">Dan Strong</h4></a>
+				<a href="<?php echo ROOT_URL; ?>/dan-strong"><span class="leader-position">Chief Financial Officer</span></a>
 			</div><!-- leader-tile -->
 		</div><!-- leader-container -->
+		
 		
 		<div class="col-md-4 col-sm-6 col-xs-12 leader-container">
 			<div class="leader-pic">
@@ -73,7 +55,17 @@ get_header(); ?>
 			</div><!-- leader-pic -->
 			<div class="leader-title">
 				<a href="<?php echo ROOT_URL; ?>/jesse-dowdle"><h4 class="leader-name orangeTwo-text heading-4">Jesse Dowdle</h4></a>
-				<a href="<?php echo ROOT_URL; ?>/jesse-dowdle"><span class="leader-position">Vice President of Technology</span></a>
+				<a href="<?php echo ROOT_URL; ?>/jesse-dowdle"><span class="leader-position">Chief Technology Officer</span></a>
+			</div><!-- leader-tile -->
+		</div><!-- leader-container -->
+		
+		<div class="col-md-4 col-sm-6 col-xs-12 leader-container">
+			<div class="leader-pic">
+				<a href="<?php echo ROOT_URL; ?>/tim-harris"><img src="<?php bloginfo('template_directory'); ?>/assets/img/employees/ec/tim-harris.jpg" class="leader-img" alt=""></a>
+			</div><!-- leader-pic -->
+			<div class="leader-title">
+				<a href="<?php echo ROOT_URL; ?>/tim-harris"><h4 class="leader-name orangeTwo-text heading-4">Tim Harris</h4></a>
+				<a href="<?php echo ROOT_URL; ?>/tim-harris"><span class="leader-position">Senior Vice President of Product</span></a>
 			</div><!-- leader-tile -->
 		</div><!-- leader-container -->
 		
@@ -89,21 +81,21 @@ get_header(); ?>
 		
 				<div class="col-md-4 col-sm-6 col-xs-12 leader-container">
 			<div class="leader-pic">
-				<a href="https://rizepoint.com/greg-staley/"><img src="https://rizepoint.com/wp-content/uploads/2017/10/greg-thumbnail-2.png" class="leader-img" alt=""></a>
+				<a href="<?php echo ROOT_URL; ?>/greg-staley/"><img src="https://rizepoint.com/wp-content/uploads/2017/10/greg-thumbnail-2.png" class="leader-img" alt=""></a>
 			</div><!-- leader-pic -->
 			<div class="leader-title">
-				<a href="https://rizepoint.com/greg-staley/"><h4 class="leader-name orangeTwo-text heading-4">Greg Staley</h4></a>
-				<a href="https://rizepoint.com/greg-staley/"><span class="leader-position">Vice President of Sales</span></a>
+				<a href="<?php echo ROOT_URL; ?>/greg-staley/"><h4 class="leader-name orangeTwo-text heading-4">Greg Staley</h4></a>
+				<a href="<?php echo ROOT_URL; ?>/greg-staley/"><span class="leader-position">Vice President of Sales</span></a>
 			</div><!-- leader-tile -->
 		</div><!-- leader-container -->
 		
 				<div class="col-md-4 col-sm-6 col-xs-12 leader-container">
 			<div class="leader-pic">
-				<a href="https://rizepoint.com/gary-ashcraft/"><img src="https://rizepoint.com/wp-content/uploads/2017/10/gary-thumbnail.png" class="leader-img" alt=""></a>
+				<a href="<?php echo ROOT_URL; ?>/gary-ashcraft/"><img src="https://rizepoint.com/wp-content/uploads/2017/10/gary-thumbnail.png" class="leader-img" alt=""></a>
 			</div><!-- leader-pic -->
 			<div class="leader-title">
-				<a href="https://rizepoint.com/gary-ashcraft/"><h4 class="leader-name orangeTwo-text heading-4">Gary Ashcraft</h4></a>
-				<a href="https://rizepoint.com/gary-ashcraft/"><span class="leader-position">Senior Director of Customer Success</span></a>
+				<a href="<?php echo ROOT_URL; ?>/gary-ashcraft/"><h4 class="leader-name orangeTwo-text heading-4">Gary Ashcraft</h4></a>
+				<a href="<?php echo ROOT_URL; ?>/gary-ashcraft/"><span class="leader-position">Senior Director of Customer Success</span></a>
 			</div><!-- leader-tile -->
 		</div><!-- leader-container -->
 		
@@ -284,5 +276,11 @@ get_header(); ?>
 		</div>
 	</div>
 </div>
+
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
 
 <?php get_footer(); ?>

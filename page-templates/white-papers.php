@@ -69,4 +69,10 @@ get_header(); ?>
 	</div><!-- logo-white-paper-wrapper -->
 </section>
 
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
+
 <?php get_footer(); ?>

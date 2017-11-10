@@ -55,7 +55,7 @@ function populateCountries(countryElementId, stateElementId) {
 
 <div class="contain-wrapper partner-lead-banner wrap push">
 	<div class="partner-lead-banner-wrapper">
-		<h1>Enter a Lead</h1>
+		<h1 class="heading-1">Enter a Lead</h1>
 	</div><!-- partner-lead-banner-wrapper -->
 </div><!-- partner-lead-banner -->
 
@@ -63,7 +63,7 @@ function populateCountries(countryElementId, stateElementId) {
 	<div class="row">
 		
 		<div class="partner-lead-stuff">
-			<h3>Lead Information</h3>
+			<h3 class="heading-3">Lead Information</h3>
 			<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 				<input type=hidden name="oid" value="00D70000000K6QD">
 				<input type=hidden name="retURL" value="http://rizepoint.com/thank-you">
@@ -127,4 +127,10 @@ function populateCountries(countryElementId, stateElementId) {
 		</div><!-- partner-lead-right -->
 	</div><!-- row -->
 </div><!-- partner-lead-body -->
+
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
 <?php get_footer(); ?>

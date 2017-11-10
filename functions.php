@@ -1,5 +1,8 @@
 <?php 
 
+// rewrite permalink rule for custom post type
+ flush_rewrite_rules();
+
 //enable post thumbnails
 add_theme_support( 'post-thumbnails' ); 
 the_post_thumbnail('medium');

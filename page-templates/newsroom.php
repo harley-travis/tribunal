@@ -8,9 +8,9 @@ get_header(); ?>
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1>Newsroom</h1>
+			<h1 class="heading-1"><?php the_field('main_header'); ?></h1>
 			<div class="banner-btns">
-				<a href="<?php echo ROOT_URL; ?>/blog" class="btn btn-lg btn-inverse-white">RizePoint Blog</a> <a href="<?php echo ROOT_URL; ?>/resources" class="btn btn-lg btn-width-lg btn-inverse-white">Resources</a>
+				<a href="<?php echo ROOT_URL; ?><?php the_field('left_button_path'); ?>" class="btn btn-lg btn-inverse-white"><?php the_field('left_button_title'); ?></a> <a href="<?php echo ROOT_URL; ?><?php the_field('right_button_path'); ?>" class="btn btn-lg btn-width-lg btn-inverse-white"><?php the_field('right_button_title'); ?></a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
@@ -22,39 +22,39 @@ get_header(); ?>
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="tab-menu" class="news-tab container-medium" data-tab>
 			<li class="col-lg-2 col-md-2 col-sm-12 news-icon-title">
-			  <a href="<?php echo ROOT_URL; ?>/newsroom">
-				  <img src="https://rizepoint.com/wp-content/uploads/2016/10/press-01.png" alt="" class="newsroom-icon-png-img"><br>
-				  <span class="ntext">Newsroom</span>
+			  <a href="<?php echo ROOT_URL; ?><?php the_field('nav_1_link'); ?>">
+				  <img src="<?php the_field('nav_1_image'); ?>" alt="" class="newsroom-icon-png-img"><br>
+				  <span class="ntext"><?php the_field('nav_1_title'); ?></span>
 			  </a>
 			</li>
 			<li class="col-lg-2 col-md-2 col-sm-12 news-icon-title">
-			  <a href="<?php echo ROOT_URL; ?>/in-the-news">
-				  <img src="https://rizepoint.com/wp-content/uploads/2016/10/news-01.png" alt="" class="newsroom-icon-png-img"><br>
-				  <span class="ntext">News</span>
+			  <a href="<?php echo ROOT_URL; ?><?php the_field('nav_2_link'); ?>">
+				  <img src="<?php the_field('nav_2_image'); ?>" alt="" class="newsroom-icon-png-img"><br>
+				  <span class="ntext"><?php the_field('nav_2_title'); ?></span>
 			  </a>
 			</li>
 			<li class="col-lg-2 col-md-2 col-sm-12 news-icon-title" onclick="location.href='http://rizepoint.com/blog/'">
-				<a href="<?php echo ROOT_URL; ?>/blog">
-					<img src="https://rizepoint.com/wp-content/uploads/2016/10/blog-01.png" alt="" class="newsroom-icon-png-img"><br>
-					<span class="ntext">Blog</span>
+				<a href="<?php echo ROOT_URL; ?><?php the_field('nav_3_link'); ?>">
+					<img src="<?php the_field('nav_3_image'); ?>" alt="" class="newsroom-icon-png-img"><br>
+					<span class="ntext"><?php the_field('nav_3_title'); ?></span>
 				</a>
 			</li>
 			<li class="col-lg-2 col-md-2 col-sm-12 news-icon-title" onclick="location.href='http://rizepoint.com/solutions/corporate-responsibility/'">
-				<a href="<?php echo ROOT_URL; ?>/community-relations">
-					<img src="https://rizepoint.com/wp-content/uploads/2016/10/csr-01-new.png" alt="" class="newsroom-icon-png-img"><br>
-					<span class="ntext">CSR</span>
+				<a href="<?php echo ROOT_URL; ?><?php the_field('nav_4_link'); ?>">
+					<img src="<?php the_field('nav_4_image'); ?>" alt="" class="newsroom-icon-png-img"><br>
+					<span class="ntext"><?php the_field('nav_4_title'); ?></span>
 				</a>
 			</li>
 			<li class="col-lg-2 col-md-2 col-sm-12 news-icon-title">
-				<a href="<?php echo ROOT_URL; ?>/awards">
-					<img src="https://rizepoint.com/wp-content/uploads/2016/10/awards.png" alt="" class="newsroom-icon-png-img"><br>
-					<span class="ntext">Awards</span>
+				<a href="<?php echo ROOT_URL; ?><?php the_field('nav_5_link'); ?>">
+					<img src="<?php the_field('nav_5_image'); ?>" alt="" class="newsroom-icon-png-img"><br>
+					<span class="ntext"><?php the_field('nav_5_title'); ?></span>
 				</a>
 			</li>
 			<li class="col-lg-2 col-md-2 col-sm-12 news-icon-title">
-				<a href="<?php echo ROOT_URL; ?>/media">
-					<img src="https://rizepoint.com/wp-content/uploads/2016/10/multimedia-01.png" alt="" class="newsroom-icon-png-img"><br>
-					<span class="ntext">Media</span>
+				<a href="<?php echo ROOT_URL; ?><?php the_field('nav_6_link'); ?>">
+					<img src="<?php the_field('nav_6_image'); ?>" alt="" class="newsroom-icon-png-img"><br>
+					<span class="ntext"><?php the_field('nav_6_title'); ?></span>
 				</a>
 			</li>
 		</ul>
@@ -92,7 +92,7 @@ get_header(); ?>
 												<?php if ($src) : ?>
 
 												<?php endif ; ?>
-												<a href="<?php the_permalink() ?>"><h3><?php the_title() ?></h3></a>
+												<a href="<?php the_permalink() ?>"><h3 class="heading-3"><?php the_title() ?></h3></a>
 												<hr>
 												<div class="post-content">
 													<?php get_excerpt(450, get_the_id()) ?>
@@ -119,6 +119,12 @@ get_header(); ?>
        
     </div><!-- tabs-content -->    
 </div><!-- icon-news-columns -->
+
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
 
 
 <?php get_footer(); ?>

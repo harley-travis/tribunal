@@ -17,8 +17,8 @@ get_header(); ?>
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1><?php the_field('ec_name'); ?></h1>
-			<h3><?php the_field('ec_title'); ?></h3>
+			<h1 class="heading-1"><?php the_field('ec_name'); ?></h1>
+			<h3 class="heading-3"><?php the_field('ec_title'); ?></h3>
 			<div class="banner-btns">
 				<a href="<?php the_field('ec_btn_1'); ?>" class="btn btn-lg btn-width-lg btn-inverse-white orange-text"><?php the_field('ec_btn_2'); ?></a> 
 				<a href="<?php the_field('ec_btn_3'); ?>" target="_blank" class="btn btn-lg btn-width-lg btn-inverse-white"><?php the_field('ec_btn_4'); ?></a>
@@ -39,4 +39,10 @@ get_header(); ?>
 	</div><!-- ec-wrapper -->
 </section><!-- ec -->
 
-<?php get_footer(); ?>
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
+
+<?php get_footer(); ?><!doctype html>

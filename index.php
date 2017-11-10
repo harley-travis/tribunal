@@ -20,11 +20,12 @@ img.aligncenter.wp-image-6368.size-full {
 
 </style>
 
+
 <div class="container-fluid green-blue small-header">
 	<?php include  __DIR__ . "/includes/page-header.php"; ?>
 </div>
 
-<article class="container indie-blog">
+<article class="container indie-blog wrap push">
 	<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 blog-post-content">
 		<?php while (have_posts()) : the_post(); ?>
 			<h1 class="green-text post-title"><?php the_title() ?></h1>

@@ -42,26 +42,21 @@ get_header(); ?>
 <div class="contianer-fluid white-bg wrap push">
 	<div class="container it-content-sec3 ">
 		<div class="wp-title purple-text">
-			<h2 class="heading-2">Datasheets &amp; White Papers</h2>
+			<h2 class="heading-2 datasheet-case-study-header">Datasheets &amp; White Papers</h2>
 		</div><!--wp-title-->
-			<div class="col-md-6 col-sm-6 col-xs-12 ds-content">
+			<div class="col-md-6 col-sm-6 col-xs-12">
 				<a href="<?php echo ROOT_URL; ?>/fsma-ebook/">
 					<img src="<?php echo ROOT; ?>/assets/img/datasheets/FSMAeBookHD-min.jpg" class="case-box-img" alt="">
 						<h4 class="heading-4">FSMA eBook</h4>
 				</a>	
 			</div><!--col-->
 
-			<div class="col-md-6 col-sm-6 col-xs-12 ds-content">
-				<a href="https://rizepoint.com/wp-content/uploads/2016/06/datasheet-fsma.pdf" target="_blank">
-					<img src="<?php echo ROOT; ?>/assets/img/datasheets/fsma-thumb-min.jpg" class="case-box-img" alt="">
-						<h4 class="heading-4">FSMA Datasheet</h4>
-				</a>	
-			</div><!--col-->
+
 			
-			<div class="container-fluid col-md-12 col-sm-12 col-xs-12 lightGray-bg box-shadow img-container">
+			<div class="container-fluid col-md-12 col-sm-12 col-xs-12 img-container">
 				<a href="https://rizepoint.com/wp-content/uploads/2016/10/RizePoint-Case-Study-Avendra.pdf" target="_blank">
 					<img src="<?php echo ROOT; ?>/assets/img/clients/avendra-resources.jpg" class="case-box-img" alt="">
-						<h4 class="heading-4">Avendra Case Study</h4>
+						<h4 class="heading-4 avendra-heading">Avendra Case Study</h4>
 				</a>
 			</div><!--col-->
 
@@ -93,5 +88,17 @@ get_header(); ?>
 		
 	</div><!-- request a demo wrapper -->
 </section><!-- request a demo -->
+
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
+
+<section class="container-fluid search-block">
+	<div class="container wrapper">
+		<p class="seo-post"><?php the_field('seo_content') ?></p>
+	</div>
+</section>
 
 <?php get_footer(); ?>

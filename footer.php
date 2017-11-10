@@ -79,7 +79,7 @@
 							<li><a href="<?php echo ROOT_URL; ?>/awards">Awards</a></li>
 							<li><a href="<?php echo ROOT_URL; ?>/engage">Engage 2018</a></li>
 							<li><a href="http://trust.rizepoint.com/" target="_blank">Trust.RizePoint.com</a></li>
-							<li><a href="<?php echo ROOT_URL; ?>/contact">Contact Us</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/contact-us/">Contact Us</a></li>
 						</ul>
 					</div><!-- footer-card -->
 				</div><!-- footer-col -->
@@ -192,6 +192,7 @@
 		<script src="<?php bloginfo('template_directory'); ?>/assets/js/bootstrap.min.js"></script>		
 		<script src="<?php bloginfo('template_directory'); ?>/assets/js/bigslide.js"></script>
 		<script src="<?php bloginfo('template_directory'); ?>/assets/js/headScroll.js"></script>
+		<script src="<?php bloginfo('template_directory'); ?>/assets/js/roi.js"></script>
 		<script>
 						
 			// BS collapse hide one show other

@@ -26,24 +26,31 @@
 		
 		<!-- meta -->
 		<meta charset="utf-8">
-		<meta name="description" content="Build a better brand experience with RizePoint enterprise compliance management. Improve risk and quality processes with quality management software—from audits to automated corrective action, with integrated business intelligence.">
+<!--		<meta name="description" content="Build a better brand experience with RizePoint enterprise compliance management. Improve risk and quality processes with quality management software—from audits to automated corrective action, with integrated business intelligence.">-->
 		<meta name="keywords" content="Brand Experience, Quality Management Software, Risk management software, Corrective Action, Checklist app, Compliance Management, Audit Software, Auditing App, FSMA compliance, Safety and quality management">
 		<meta name="author" content="RizePoint">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="mobile-web-app-capable" content="yes" />
-		<meta name="theme-color" content="#FCB040" />		
-		<?php if(is_attachment()) {echo '<meta name="robots" content="noindex" />';}?>
+		<meta name="theme-color" content="#FCB040" />
 		
 		<!-- css -->
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/assets/css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/assets/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/style.css">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/assets/css/font-awesome.min.css">
-			
+		
 		<!-- jquery -->
 		<script src="<?php bloginfo('template_directory'); ?>/assets/js/3.2.0/jquery-3.2.0.slim.min.js"></script>
 		
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-P5S234G');</script>
+		<!-- End Google Tag Manager -->
+
 		<script>
 			// init big slide
 			jQuery(document).ready(function() {
@@ -76,6 +83,12 @@
 		<?php wp_head(); ?>
 	</head>
 	<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5S234G"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	
+	<!-- google analytics -->
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -83,6 +96,5 @@
 	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
 	  ga('create', 'UA-30261239-1', 'auto');
-	  ga('send', 'pageview');
-
+	  ga('send', 'pageview')
 	</script>

@@ -8,7 +8,7 @@ get_header(); ?>
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1>RizePoint Pricing</h1>
+			<h1 class="heading-1">RizePoint Pricing</h1>
 			<div class="banner-btns">
 				<button type="button" class="btn btn-lg btn-inverse-white" data-toggle="modal" data-target="#homeVideo">Watch a Video</button> <a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-inverse-white">Free Demo</a>
 			</div><!-- banner-btns -->
@@ -21,9 +21,9 @@ get_header(); ?>
 	
 		<div class="col-md-6 col-sm-12 col-xs-12 pricing-option">
 			<div class="price-box box-shadow">
-				<h1 class="purple-text">RizePoint<br>Small Business</h1>
+				<h1 class="purple-text heading-1">RizePoint<br>Small Business</h1>
 				<div class="pricing-info">
-					<h3 class="green-text pricing-size">$49.95</h3>
+					<h3 class="green-text pricing-size heading-3">$49.95</h3>
 					<span class="small-biz-terms">per month, per location <span><a href="#spec-details" class="lorraine">&#x2628;</a></span></span>
 				</div>
 				<div class="pricing-box-btn">
@@ -34,9 +34,9 @@ get_header(); ?>
 	
 		<div class="col-md-6 col-sm-12 col-xs-12 pricing-option">
 			<div class="price-box box-shadow">
-				<h1 class="green-text">RizePoint<br>Enterprise</h1>
+				<h1 class="green-text heading-1">RizePoint<br>Enterprise</h1>
 				<div class="pricing-info">
-					<h3 class="pricing-size">Contact Us</h3>
+					<h3 class="pricing-size heading-3">Contact Us</h3>
 					<span class="small-biz-terms">Please contact us so we can meet your unique needs <span><a href="#spec-details" class="lorraine">&#x2628;</a></span></span>
 				</div>
 				<div class="pricing-box-btn">
@@ -198,7 +198,7 @@ get_header(); ?>
 	<!-- MOBILE PRICING -->
 	<div class="container mobile-pricing display-none">
 		<div class="rp-sb-wrapper">
-			<h2 class="purple-text">RizePoint Small Business</h2>
+			<h2 class="purple-text heading-2">RizePoint Small Business</h2>
 			<div class="rp-feature-list rp-sb-features">
 				<ul>
 					<li>Industry-Standard, Best Practice Audit Forms</li>
@@ -221,7 +221,7 @@ get_header(); ?>
 			</div>
 		</div><!-- rp-sb-wrapper -->
 		<div class="rp-e-wrapper">
-			<h2 class="green-text">RizePoint Enterprise</h2>
+			<h2 class="green-text heading-2">RizePoint Enterprise</h2>
 			<div class="rp-feature-list rp-e-features">
 				<ul>
 					<li>Industry-Standard, Best Practice Audit Forms</li>
@@ -264,12 +264,12 @@ get_header(); ?>
 	<div class="container-fluid lightGray-bg">
 		<div class="container pricing-specs">
 			<div class="pricing-specs-wrapper">
-				<h4 class="purple-text">RizePoint Small Business</h4>
+				<h4 class="purple-text heading-4">RizePoint Small Business</h4>
 				<span>RizePoint Small Business accommodates up to 20 audits per year, per location. Available to businesses with a minimum of 5 locations.</span>
 				<span><i>(Paid annually. Renewed automatically.)</i></span>
 			</div><!--price-box-text-->
 			<div class="pricing-specs-wrapper">
-				<h4 class="green-text">RizePoint Enterprise</h4>
+				<h4 class="green-text heading-4">RizePoint Enterprise</h4>
 				<span><b>Call for pricing</b> Meeting your unique quality management system needs and configuration requirements is our specialty. Contact RizePoint today to learn more.</span>
 			</div><!--price-box-text-->
 		</div>
@@ -278,13 +278,14 @@ get_header(); ?>
 				
 </div><!--container-fluid-->
 
+
 <!-- HOME VIDEO MODAL -->
 <div class="modal fade" id="homeVideo" tabindex="-1" role="dialog" aria-labelledby="homeVideoLabel">
 	<div class="large-modal modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="homeVideoLabel">Allow Us To Introduce Ourselves</h4>
+				<h4 class="modal-title heading-4" id="homeVideoLabel">Allow Us To Introduce Ourselves</h4>
 			</div>
 			<div class="modal-body">
 				<script src="https://fast.wistia.com/embed/medias/in3fdjpcii.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_in3fdjpcii videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
@@ -297,3 +298,12 @@ get_header(); ?>
 </div><!-- modal -->
 
 <?php get_footer(); ?>
+
+
+
+
+
+
+
+
+

@@ -12,21 +12,21 @@ get_header(); ?>
 
 <section class="container-fluid banner-strip green-bg">
 	<div class="container banner-strip-wrapper">
-		<h1 class="white-text"><?php the_field('banner-title'); ?></h1>
+		<h1 class="white-text heading-1"><?php the_field('banner-title'); ?></h1>
 	</div>
 </section>
 
 <section class="container-fluid landing-content">
 	<div class="container landing-content-wrapper">
 		<div class="col-md-7 left-landing">
-			<h2 class="green-text"><?php the_field('title'); ?></h2>
+			<h2 class="green-text heading-2"><?php the_field('title'); ?></h2>
 			<?php the_field('content'); ?>
 			<div class="video-container">
 				<?php the_field('video'); ?>
 			</div>
 		</div>
 		<div class="col-md-5 extraGray-bg box-shadow right-landing">
-			<h3 class="purple-text"><?php the_field('form-title'); ?></h3>
+			<h3 class="purple-text heading-3"><?php the_field('form-title'); ?></h3>
 			<span class="landing-req purple-text"><?php the_field('form_info_text'); ?></span>
 			<?php the_field('marketo-form'); ?>
 		</div>		
@@ -68,7 +68,12 @@ get_header(); ?>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/bigslide.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/headScroll.js"></script>
 
+
+
+
 <?php wp_footer(); ?>
+
+
 
 </body>
 </html>

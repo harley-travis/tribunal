@@ -2,11 +2,26 @@
 .products-dp {
     width: 500px;
 }
+ul.company {
+    width: 225px !important;
+}
+	
+.searchform{
+		
+	}
+
+
 </style>
 
 
 <nav class="upper-nav">
+
+
+
 	<ul class="nav nav-pills">
+	
+	<!--search bar-->
+
 		<li><a href="/engage">Engage 2018</a></li>
 		<li><a href="<?php echo ROOT_URL; ?>/support/">Support</a></li>
 		<li><a href="<?php echo ROOT_URL; ?>/partners">Partners</a></li>
@@ -17,12 +32,27 @@
 <!-- DESKTOP NAV -->
 <nav>
 	<ul class="nav nav-pills main-nav">
-		<li role="presentation" role="button"><a href="<?php echo ROOT_URL; ?>/pricing">Pricing</a></li>
+	
+		<li role="presentation" class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Pricing <span class="caret"></span></a>
+			<ul class="dropdown-menu">	
+			
+				<div class="col-md-6 col-dropdown-menu">
+					<h4 class="green-text">Pricing</h4>
+				
+					<li><a href="<?php echo ROOT_URL; ?>/pricing">Pricing</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/roi-calculator">ROI Calculator</a></li>
+				</div>
+			</ul>
+		</li>
+	
 		<li role="presentation" class="dropdown">
 			<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
 			<ul class="products-dp dropdown-menu">
+		
+				
 				<div class="col-md-6 col-dropdown-menu">
-					<h4>Product</h4>
+					<h4 class="green-text">Product</h4>
 					
 					<li><a href="<?php echo ROOT_URL; ?>/products">Products</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/products#mc">Management Console</a></li>
@@ -31,7 +61,7 @@
 					<li><a href="#" data-toggle="modal" data-target="#products-nav"><span class="glyphicon glyphicon-play-circle play-icon" aria-hidden="true"></span> &nbsp; Watch A Quick Demo</a></li>
 				</div>
 				<div class="col-md-6 col-dropdown-menu">
-					<h4>Features</h4>
+					<h4 class="green-text">Features</h4>
 					<li><a href="<?php echo ROOT_URL; ?>/search-driven-analytics">Search-Driven Analytics</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/automated-corrective-action/">Automated Corrective Action</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/rizepoint-onboarding/">RizePoint Onboarding</a></li>
@@ -43,6 +73,7 @@
 					<li><a href="<?php echo ROOT_URL; ?>/security/">Security</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/mobile-auditor-product-feature/">Mobile Auditor</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/thermocouple-integration/">Thermocouple Integration</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/business-intelligence/">Business Intelligence</a></li>
 				</div>
 			
 				
@@ -53,7 +84,7 @@
 			<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Industries <span class="caret"></span></a>
 			<ul class="industries dropdown-menu">
 				<div class="col-md-6 col-dropdown-menu">
-					<h4>Industries</h4>
+					<h4 class="green-text">Industries</h4>
 					<li><a href="<?php echo ROOT_URL; ?>/solutions-food-service">Food Service</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/solutions-hospitality">Hospitality</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/solutions-retail">Retail</a></li>
@@ -64,7 +95,7 @@
 					<li><a href="#" data-toggle="modal" data-target="#industries-nav"><span class="glyphicon glyphicon-play-circle play-icon" aria-hidden="true"></span> &nbsp; Watch A Quick Demo</a></li>
 				</div>	
 				<div class="col-md-6 col-dropdown-menu">
-					<h4>Uses</h4>
+					<h4 class="green-text">Uses</h4>
 					<li><a href="https://rizepoint.com/freshprepared/">Fresh Prepared</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/solution-fsma">FSMA</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/solutions-health-department">Health Departments</a></li>
@@ -74,37 +105,40 @@
 		</li>
 		
 		<li role="presentation" class="dropdown">
-			<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Clients <span class="caret"></span></a>
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
 			<ul class="dropdown-menu">
-				<li><a href="<?php echo ROOT_URL; ?>/clients">Clients</a></li>
+			<div class="col-md-6 col-dropdown-menu">
+			<h4 class="green-text">Resources</h4>
+				<li><a href="<?php echo ROOT_URL; ?>/resources">Resources</a></li>
 				<li><a href="<?php echo ROOT_URL; ?>/case-studies">Case Studies</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/blog">Blog</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/newsroom">Newsroom</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/awards">Awards</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/newsroom">Press Releases</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/media">Media Library</a></li>
 				<li role="separator" class="divider"></li>
 				<li><a href="#" data-toggle="modal" data-target="#clients-nav"><span class="glyphicon glyphicon-play-circle play-icon" aria-hidden="true"></span> &nbsp; Watch A Testimonial</a></li>
+				</div>
 			</ul>
 		</li>
+
 		
 		<li role="presentation" class="dropdown">
 			<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Company <span class="caret"></span></a>
 			<ul class="company dropdown-menu">
 				<div class="col-md-6 col-dropdown-menu">
-					<h4>Company</h4>
+					<h4 class="green-text">Company</h4>
 					<li><a href="<?php echo ROOT_URL; ?>/company">About Us</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/what-we-do">What We Do</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/leadership">Leadership</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/resources">Resources</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/careers">Careers</a></li>
-					<li><a href="<?php echo ROOT_URL; ?>/contact">Contact Us</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/contact-us">Contact Us</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/clients">Clients</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/community-relations">Community Relations</a></li>
+					
 					<li role="separator" class="divider"></li>
 					<li><a href="#" data-toggle="modal" data-target="#company-nav"><span class="glyphicon glyphicon-play-circle play-icon" aria-hidden="true"></span> &nbsp; Watch A Testimonial</a></li>
-				</div>
-				<div class="col-md-6 col-dropdown-menu">
-					<h4>Newsroom</h4>
-					<li><a href="<?php echo ROOT_URL; ?>/blog">Blog</a></li>
-					<li><a href="<?php echo ROOT_URL; ?>/newsroom">Newsroom</a></li>
-					<li><a href="<?php echo ROOT_URL; ?>/awards">Awards</a></li>
-					<li><a href="<?php echo ROOT_URL; ?>/newsroom">Press Releases</a></li>
-					<li><a href="<?php echo ROOT_URL; ?>/community-relations/">Community Relations</a></li>
-					<li><a href="<?php echo ROOT_URL; ?>/media">Media Resources</a></li>
 				</div>
 			</ul>
 		</li>
@@ -113,13 +147,21 @@
 	</ul>
 </nav>
 
+
+
 <!-- MOBILE NAV -->
 <div class="mobile-nav-slide">
 <a href="#menu" class="menu-link"><span class="glyphicon glyphicon-menu-hamburger m-nav-img" aria-hidden="true"></span></a>
 	<nav id="menu" class="col-sm-6 col-xs-12 mobile-nav panel-nav side-nav" role="navigation">                        
 		<ul class="nav dont-nav">
 			<li class="parent"><a href="<?php echo ROOT_URL; ?>/" class="current-home-bar current">Home</a></li>
-			<li class="parent"><a href="<?php echo ROOT_URL; ?>/pricing">Pricing</a></li>
+			<li class="parent"><a href="javascript:void(0);" class="parentInt">Pricing <span class="caret"></span></a>
+				<ul class="subnav">
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/pricing">Pricing</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/roi-calculator">ROI Calculator</a></li>
+				</ul>
+			
+			
 			<li class="parent"><a href="javascript:void(0);" class="parentInt">Products <span class="caret"></span></a>
 				<ul class="subnav">
 					
@@ -143,26 +185,33 @@
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/solution-it">I.T.</a></li>
 				</ul>
 			</li>
-			<li class="parent"><a href="javascript:void(0);" class="parentInt">Clients <span class="caret"></span></a>
+			
+			<li class="parent"><a href="javascript:void(0);" class="parentInt">Resources <span class="caret"></span></a>
 				<ul class="subnav">
-					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/clients">Clients</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/resources">Resources</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/case-studies">Case Studies</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/blog">Blog</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/newsroom">Newsroom</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/awards">Awards</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/newsroom">Press Releases</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/media">Media Library</a></li>
 				</ul>
-			</li>
+			</li>			
+			
 			<li class="parent"><a href="javascript:void(0);" class="">Company <span class="caret"></span></a>
 				<ul class="subnav">
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/company">About Us</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/what-we-do">What We Do</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/leadership">Leadership</a></li>
-					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/resources">Resources</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/careers">Careers</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/blog">Blog</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/newsroom">Newsroom</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/awards">Awards</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/newsroom">Press Releases</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/clients">Clients</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/community-relations">Community Relations</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/media">Media Resources</a></li>
-					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/contact">Contact Us</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/contact-us">Contact Us</a></li>
 				</ul>
 			</li>
 			<li class="parent"><a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-green">Request a Demo</a></li>
