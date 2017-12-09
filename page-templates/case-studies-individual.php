@@ -50,34 +50,19 @@ get_header(); ?>
 				<img src="<?php the_field('client-logo'); ?>" class="cs-logo-img" alt="">
 			</div><!--unique client logo-->
 				
-			<div class="display-block cs-by-the-numbers">
+			<div class="display-block cs-by-the-numbers lightGray-bg">
 				<h4 class="orangeThree-text"><i><?php the_field('by_the_numbers_header'); ?></i></h4>
-							
-				<div class="circles orangeOne-bg">
-					<p class="case-study-circle-big-text"><?php the_field('bubble_1_top'); ?></p>
-					<p class="circle-small-text"><?php the_field('bubble_1_bottom'); ?></p>
-				</div>
-
-				<div class="circles green-bg">
-					<p class="case-study-circle-big-text"><?php the_field('bubble_2_top'); ?></p>
-					<p class="circle-small-text"><?php the_field('bubble_2_bottom'); ?></p>
-				</div>
-
-				<div class="circles blue-bg">
-					<p class="case-study-circle-big-text"><?php the_field('bubble_3_top'); ?></p>
-					<p class="circle-small-text"><?php the_field('bubble_3_middle'); ?></p>
-					<p class="circle-small-text"><?php the_field('bubble_3_bottom'); ?></p>
-				</div>
-
-				<div class="circles pink-bg">
-					<p class="case-study-circle-big-text"><?php the_field('bubble_4_top'); ?></p>
-					<p class="circle-small-text"><?php the_field('bubble_4_bottom'); ?></p>
-				</div>
-
-				<div class="circles purple-bg">
-					<p class="case-study-circle-big-text"><?php the_field('bubble_5_top'); ?></p>
-					<p class="circle-small-text"><?php the_field('bubble_5_bottom'); ?></p>
-				</div>				
+						
+		<?php if( have_rows('bubble_repeater') ): ?>
+			<?php while( have_rows('bubble_repeater') ): the_row(); ?>
+				<div class="circles <?php the_sub_field('bubble_color'); ?>">
+					<p class="case-study-circle-big-text"><?php the_sub_field('bubble_top'); ?></p>
+					<p class="circle-small-text"><?php the_sub_field('bubble_middle'); ?></p>
+					<p class="circle-small-text"><?php the_sub_field('bubble_bottom'); ?></p>
+				</div>	
+			<?php endwhile; ?>
+		<?php endif; ?>		
+										
 			</div><!--static RizePoint images-->		
 		</div><!--right side logos-->
 	</div>		

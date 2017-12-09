@@ -1,4 +1,11 @@
 <aside class="sidebar col-lg-3 col-md-3 col-sm-12" role="complementary">
+<div class="media-contact-sb">
+	<h3 class="green-text">Media Contact</h3>
+	<span>Whitney McCarthy</span><br>
+	<i>Communications Manager</i><br>
+	<a href="mailto:pr@rizepoint.com" target="_blank">pr@rizepoint</a>
+</div>
+	
 	<div class="press-loop">
 	<h3 class="green-text">Press Releases</h3>
 	<?php 
@@ -20,13 +27,6 @@
 		
 		<?php endwhile; ?>
 	</div><!-- press-post -->
-
-	<div class="blog-categories">
-		<h3 class="green-text">Categories </h3>
-		<ul>
-			<?php wp_list_categories('show_count=1&title_li='); ?>
-		</ul>
-	</div><!-- categories -->
 
 	<?php wp_reset_query(); ?>
 

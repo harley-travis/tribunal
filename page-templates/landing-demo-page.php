@@ -4,6 +4,14 @@
 */
 get_header(); ?>
 
+<style>
+
+.landing-logos {
+	margin-top: 100px;
+}
+
+</style>
+
 <section class="container-fluid">
 	<div class="container landing-logo-wrapper">
 		<a href="/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/logo/logo.png" alt="RizePoint" class="landing-logo"></a>

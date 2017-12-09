@@ -29,7 +29,7 @@ get_header(); ?>
 					<div class="case-study-wrapper border-right-green">
 						<div class="col-md-7 col-sm-6 col-xs-12 case-study-logo case-study-left">
 							<div class="read-case-study">
-								<a href="<?php echo ROOT_URL; ?><?php the_sub_field('case_study_link'); ?>" class="image-link" target="_blank">
+								<a href="<?php echo ROOT_URL; ?><?php the_sub_field('case_study_link'); ?>" target="_blank">		
 									<img src="<?php the_sub_field('case_study_logo'); ?>" class="case-study-img" alt="">
 									<div class="rcs-link">
 										<span class="read-case-study-link">Read Case Study</span>

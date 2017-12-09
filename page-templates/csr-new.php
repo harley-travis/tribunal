@@ -4,6 +4,17 @@
  */
 get_header(); ?>
 
+<style>
+
+	.csr-sectional {
+		height: 500px;
+	}
+	.csr-btn {
+		width: 100%;
+	}
+	
+</style>
+
 <div class="container-fluid purple-pink">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
@@ -39,23 +50,22 @@ get_header(); ?>
 			<div class="csr-sectional col-md-3 col-sm-6 col-xs-12 orangeOne-bg white-text">
 				<h4 class="csr-spacing-top csr-spacing-side heading-4"><?php the_field('csr-section-2-heading-1'); ?></h4>
 				<p class="white-text csr-spacing-side"><?php the_field('csr-section-2-content-1'); ?></p>
-				<a href="<?php the_field('csr-section-2-button-1-link'); ?>" class="btn btn-md btn-inverse-white csr-spacing-top csr-spacing-side"><?php the_field('csr-section-2-button-1'); ?></a>
-				<i class="fa-desktop csr-bg-icon"></i>
+				<a href="<?php the_field('csr-section-2-button-1-link'); ?>" class="btn btn-lg btn-inverse-white csr-spacing-top csr-spacing-side csr-btn"><?php the_field('csr-section-2-button-1'); ?></a>
 			</div>
 			<div class="csr-sectional col-md-3 col-sm-6 col-xs-12 green-bg white-text">
 				<h4 class="csr-spacing-top csr-spacing-side heading-4"><?php the_field('csr-section-2-heading-2'); ?></h4>
 				<p class="csr-paragraphs"><?php the_field('csr-section-2-content-2'); ?></p>
-				<a href="<?php the_field('csr-section-2-button-2-link'); ?>" class="btn btn-md btn-inverse-white csr-spacing-top csr-spacing-side" download><?php the_field('csr-section-2-button-2'); ?></a>
+				<a href="<?php the_field('csr-section-2-button-2-link'); ?>" class="btn btn-lg btn-inverse-white csr-spacing-top csr-spacing-side" download><?php the_field('csr-section-2-button-2'); ?></a>
 			</div>
 			<div class="csr-sectional col-md-3 col-sm-6 col-xs-12 blue-bg white-text">
 				<h4 class="csr-spacing-top csr-spacing-side heading-4"><?php the_field('csr-section-2-heading-3'); ?></h4>
 				<p class="csr-paragraphs"><?php the_field('csr-section-2-content-3'); ?></p>
-				<a href="<?php the_field('csr-section-2-button-3-link'); ?>" class="btn btn-md btn-inverse-white csr-spacing-top csr-spacing-side" download><?php the_field('csr-section-2-button-3'); ?></a>
+				<a href="<?php the_field('csr-section-2-button-3-link'); ?>" class="btn btn-lg btn-inverse-white csr-spacing-top csr-spacing-side" download><?php the_field('csr-section-2-button-3'); ?></a>
 			</div>
 			<div class="csr-sectional col-md-3 col-sm-6 col-xs-12 purple-bg white-text">
 				<h4 class="csr-spacing-top csr-spacing-side heading-4"><?php the_field('csr-section-2-heading-4'); ?></h4>
 				<p class="csr-paragraphs"><?php the_field('csr-section-2-content-4'); ?></p>
-				<a href="<?php the_field('csr-section-2-button-4-link'); ?>" class="btn btn-md btn-inverse-white csr-spacing-top csr-spacing-side" download><?php the_field('csr-section-2-button-4'); ?></a>
+				<a href="<?php the_field('csr-section-2-button-4-link'); ?>" class="btn btn-lg btn-inverse-white csr-spacing-top csr-spacing-side" download><?php the_field('csr-section-2-button-4'); ?></a>
 			</div>
 		</div>
 	</div>

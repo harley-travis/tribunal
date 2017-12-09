@@ -29,9 +29,12 @@ img.aligncenter.wp-image-6368.size-full {
 	<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 blog-post-content">
 		<?php while (have_posts()) : the_post(); ?>
 			<h1 class="green-text post-title"><?php the_title() ?></h1>
+			<span class="post-date">
+				<?php the_field('post-date') ?>
+			</span>
+			
 			<span class="blog-post-author">
-				<?php if(get_field('title_author_bio'))  :  ?> <span>By: <?php the_field('title_author_bio') ?></span> <br>
-				<?php endif ; ?><span class="news_dated_side">Published <?php echo get_the_date(); ?></span>
+				<?php if(get_field('title_author_bio'))  :  ?> <span>By: <?php the_field('title_author_bio') ?><?php endif ; ?></span> <br>
 			</span>
 
 			<div class="featured-post-img-wrapper">
@@ -40,6 +43,7 @@ img.aligncenter.wp-image-6368.size-full {
 			
 			
 			<div class="blog-content">
+			
 				<?php the_content('[...]'); ?> 
 			</div><!-- blog-content -->
 			

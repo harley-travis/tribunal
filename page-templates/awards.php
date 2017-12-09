@@ -26,7 +26,9 @@ get_header(); ?>
 			<?php while( have_rows('the_awards') ): the_row(); ?>
 				<div class="col-md-3 col-sm-6 col-xs-12 awards-box-wrapper">
 					<div class="award-sec-wrapper customer-logo box-shadow">
-						<img src="<?php the_sub_field('award_image'); ?>" class="customerLogo-img awards-img" alt="">
+						<a href="<?php the_sub_field('award_link'); ?>">
+							<img src="<?php the_sub_field('award_image'); ?>" class="customerLogo-img awards-img" alt="">
+						</a>
 					</div><!-- award image -->
 					<div class="client-name">
 						<h4 class="heading-4"><a href="<?php the_sub_field('award_link'); ?>"><?php the_sub_field('award_name'); ?></h4>

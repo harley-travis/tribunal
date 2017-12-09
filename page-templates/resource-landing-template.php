@@ -22,7 +22,7 @@ get_header(); ?>
 			<h2 class="green-text heading-2"><?php the_field('title'); ?></h2>
 			<?php the_field('content'); ?>
 		</div>
-		<div class="col-md-6 extraGray-bg box-shadow ldr-right-landing">
+		<div class="col-md-6 extraGray-bg box-shadow">
 			<h3 class="purple-text heading-3"><?php the_field('form-title'); ?></h3>
 			<span class="landing-req purple-text"><?php the_field('form_info_text'); ?></span>
 			<?php the_field('marketo-form'); ?>

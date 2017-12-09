@@ -13,10 +13,14 @@ get_header(); ?>
 	.res-button{
 		padding-top: 50px;	
 	}
-
+	
+	.smaller-container {
+		width: 80%;
+		margin: 0 auto;
+	}
 </style>
 
-<div class="container-fluid <?php the_field('banner_color'); ?>">
+<div class="container-fluid <?php the_field('banner_background_color'); ?>">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
@@ -54,17 +58,34 @@ get_header(); ?>
 		</div>
 	</div>
 
-	<div class="container-fluid lightGray-bg wrap push">
-		<div class="container it-content-sec2">
+	<div class="container-fluid <?php the_field('section_2_bg'); ?> wrap push">
+		<div class="container it-content-sec2 <?php the_field('section_2_text_color'); ?>">
 			<img src="<?php the_field('image_2'); ?>">
 			<?php the_field('content_2'); ?>
 		</div>
 	</div>
 
 
-<section class="container-fluid wrap push">
+<section class="container-fluid <?php the_field('datasheet_section_bg'); ?> wrap push">
 	<div class="container it-content-sec2">
-		<h2 class="purple-text heading-2"><?php the_field('datasheet_section_heading'); ?></h2>
+		<h2 class="purple-text heading-2"><?php the_field('datasheet_section_header'); ?></h2>
+		
+		<div class="smaller-container">
+			<?php if( have_rows('case_repeater') ): ?>
+				<?php while( have_rows('case_repeater') ): the_row(); ?>
+					<div class="col-md-6 col-sm-12 col-xs-12 ">
+						<a href="<?php echo ROOT_URL; ?><?php the_sub_field('cs_path'); ?>" target="_blank">
+								<img src="<?php the_sub_field('image_if_link'); ?>" class="case-box-img" alt="">
+								<h4 class="heading-4"><?php the_sub_field('title_if_link'); ?></h4>
+						</a>
+						<a href="<?php the_sub_field('source_if_file'); ?>" target="_blank">
+								<img src="<?php the_sub_field('image_if_file'); ?>" class="case-box-img" alt="">
+								<h4 class="heading-4"><?php the_sub_field('title_if_file'); ?></h4>
+						</a>			
+					</div><!--col-->
+				<?php endwhile; ?>
+			<?php endif; ?>
+		</div>
 		
 		
 	<div class="res-button">

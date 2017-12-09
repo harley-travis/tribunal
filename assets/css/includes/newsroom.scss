@@ -1,3 +1,68 @@
+.post-content{
+	margin-bottom: 20px;
+	padding-bottom: 35px;
+}
+.press-releases-archive h4{
+	text-transform: uppercase;	
+}
+.press-release-class{
+	border-bottom: 5px solid;
+	margin-bottom: 30px;
+	padding-bottom:15px;
+}
+.nav-parts{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.media-contact{
+	padding-bottom: 20px;
+}
+.newsroom-navbar {
+    border-bottom: 1px solid $gray-2;
+    padding: 10px 0;
+}	
+.newsroom-pills {
+    display: flex;
+    justify-content: center;
+    float: none !important;
+}
+.news-icon-wrapper{
+    width: 100%;
+    height: 53px;
+    box-shadow: 1px 1px 1px;
+	margin-bottom: 80px;
+}
+.media-wraps {
+    padding-bottom: 50px;
+}
+.media-box-wrapper {
+    background: $lightGray;
+    padding: 15px;
+}
+.media-img-box-wrapper {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid $gray-2;
+}
+ul.news-tab {
+	font-weight: 700;
+	width: 845px;
+	margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+}
+.date-display{
+	margin-right: -35px;
+}
+.media-contact-sb {
+    border-bottom: 1px solid $gray-2;
+    padding-bottom: 35px;
+    margin-bottom: 40px;
+}
 .news-banner {
     background: url(http://landing.rizepoint.com/wp-content/uploads/2016/02/Demo-v2.jpg) no-repeat #eee;
     background-size: cover;
@@ -13,10 +78,6 @@
 }
 .icon {
     font-size: 5rem;
-}
-ul.news-tab {
-    border-bottom: #eee 1px solid;
-    padding-bottom: 30px;
 }
 li.news-icon-title {
     display: inline-block;
@@ -99,6 +160,15 @@ img.news-post-img {
 }
 
 
+/* NEED TO FIGURE OUT WHAT THIS IS DOING
+ *
+ * Looks like it's pulling in some of the resources and previous newsroom
+ * Once we get the newsroom and resources rebuilt, look at this to see if it 
+ * breaks.
+ *
+ * - Travis 
+ *
+*/
 @media only screen and (max-width: 828px) {
     h2.resoure-heading {
         top: 20%;

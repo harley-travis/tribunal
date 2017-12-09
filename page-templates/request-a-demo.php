@@ -16,7 +16,7 @@ get_header(); ?>
 <div class="container request-wrapper wrap push">
 	<div class="col-md-6 col-sm-6 col-xs-12 request-video">
 			<div class="request-choose">
-				<h1 class="green-text heading-1"><?php the_field('video_header'); ?></h1>
+				<h2 class="green-text heading-2"><?php the_field('video_header'); ?></h2>
 			</div><!--request-choose-->
 				<div class="video-size">
 					<script src="https://fast.wistia.com/embed/medias/d1hjzc3dsq.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_d1hjzc3dsq videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>

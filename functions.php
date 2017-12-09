@@ -89,4 +89,31 @@ function redirect_attachment_page() {
 }
 add_action( 'template_redirect', 'redirect_attachment_page' );
 
+
+//REDIRECT UPPERCASE URLS TO LOWERCASE	
+function force_lowercase_urls() {
+  // Grab requested URL
+  $url = $_SERVER['REQUEST_URI'];
+  // If URL contains a period, halt
+  if ( preg_match('/[\.]/', $url) ) {
+    return;
+  }
+  // If URL contains a question mark, halt
+  if ( preg_match('/[\?]/', $url) ) {
+    return;
+  }
+  if ( preg_match('/[A-Z]/', $url) ) {
+    // Convert URL to lowercase
+    $lc_url = strtolower($url);
+    // 301 redirect to new lowercase URL
+    header('Location: ' . $lc_url, TRUE, 301);
+    exit();
+  }
+}
+add_action( 'template_redirect', 'force_lowercase_urls' );
+
+
+
+
+
 ?>

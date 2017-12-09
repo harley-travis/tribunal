@@ -6,17 +6,11 @@
     .sf-pointer-2 {
         left: 495px;
     }
-    .blog-post {
-        height: 665px;
-    }
 	.sf-pointer-2 {
         left: 500px;
     }
     .sf-pointer-3 {
         left: 880px;
-    }
-    .blog-post {
-        height: 600px;
     }
 }
 
@@ -28,14 +22,8 @@
     .ma-slant-right {
         right: 3%;
     }
-    .blog-post {
-        height: 600px;
-    }
 	
 	/* LANDING PAGES */
-	.right-landing {
-		top: -30%;
-	}
 	.left-landing {
 		padding-right: 30px;
 	}	
@@ -104,9 +92,6 @@
     }
 	
 	/* LANDING PAGES */
-	.right-landing {
-		top: -25%;
-	}
 	
 	/* DIRECT MAIL LANDING PAGE */
 	.ldr-right-landing {
@@ -415,6 +400,19 @@
     }
 	.raq-fix {
 		margin-bottom: 35px;
+	}
+	
+	/* NEWSROOM | IN THE NEWS */
+	.news-post{
+		padding-bottom: 0;
+	}
+	.news-post-img{
+		float: none !important;
+	}
+	
+	/* NEWSROOM \ MEDIA */
+	.media-box-wrapper {
+  		margin-bottom: 20px;
 	}
 }
 

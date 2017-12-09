@@ -99,7 +99,8 @@
 				<div class="bottom-divider">
 					<div class="col-md-4 col-sm-6 col-xs-12 left-divider-section">
 						<ul>
-							<li><a href="<?php echo ROOT_URL; ?>/termsandconditions">Terms of Use</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/termsandconditions">Terms &amp; Conditions</a></li>
+							<li><a href="<?php echo ROOT_URL; ?>/termsofuse">Terms of Use</a></li>
 							<li><a href="<?php echo ROOT_URL; ?>/privacypolicy">Privacy Policy</a></li>
 						</ul>
 					</div><!-- left-divider-sections -->

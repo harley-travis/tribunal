@@ -88,7 +88,7 @@ img.news-post-img {
     float: none;
     height: auto;
     max-width: 300px;
-    float: right !important;
+    float: right;
 }
 
 /* NEWSROOM */
@@ -239,6 +239,47 @@ input.partner-lead-btn {
 	padding-top: 100px;
 	max-width: 900px;
 	margin: 0 auto;
+}
+
+/* PROFESSIONAL SERVICES */
+.ps-contact-form {
+	margin-bottom: 50px;
+	padding-top: 0;
+}
+.ps-img {
+	width: 100%;
+	max-width: 400px;
+	padding-top: 50px;
+}
+h4.pro-services {
+	font-size: 14px;
+}
+h2.pro-services {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.ps-btn {
+	width: 100%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+.ps-intro-copy {
+	padding-top: 75px;
+}
+.persona-wrapper {
+	height: 250px;
+}
+.persona-info-wrapper {
+	width: 100%;		
+}
+.as-wrapper {
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+.ps-section-list {
+   	padding-bottom: 50px;
 }
 
 /* SUPPORT */

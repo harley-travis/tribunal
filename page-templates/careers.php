@@ -4,112 +4,6 @@
  */
 get_header(); ?>
 
-<style>
-.careers-why {
-	width: 100%;
-}
-.location-content {
-    max-width: 1500px;
-}
-.join-video-wrapper{
-	max-width: 900px;
-	margin: 0 auto;
-}
-.careers-pg-title{
-	padding-top: 35px;
-	padding-bottom: 40px;
-	text-align: center;
-}
-.careers-value-img {
-    height: 300px;
-	position: relative;
-}
-.car-par-head {
-    position: absolute;
-    top: 40%;
-    text-align: center;
-    width: 100%;
-    color: white;
-}
-.careers-text{
-	text-align: center;
-	padding:  50px 0;
-	max-width: 900px;
-	margin: 0 auto;
-}
-.careers-awards-title {
-    padding-bottom: 35px;
-}
-.perks-wrappin{
-	padding: 50px 0;
-	text-align: center;
-}
-.perks-here {
-    padding: 50px 0;
-    overflow: auto;
-}
-.perk-icons {
-    font-size: 4rem !important;
-    padding-bottom: 10px;
-}
-.perk-container {
-    border-radius: 5px;
-    height: 180px;
-}
-.perk-container-wrapper {
-    text-align: center;
-    padding: 30px;
-}
-.culture-talk {
-    padding-bottom: 35px;
-    text-align: center;
-}
-.careers-culture-list ul li {
-    list-style: none;
-    padding-bottom: 15px;
-}
-.culture-list-center{
-	text-align: center;
-}
-.careers-loc-img {
-    padding-right: 50px;
-}
-.car-loc-img{
-	max-width: 200px;
-	width: 100%;
-}
-.office-list ul li{
-	list-style: none;
-}
-.careers-job-heading {
-	text-align: center;
-	padding-top: 50px;
-}
-.join-team-text{
-	padding: 35px 0;
-	text-align: center;
-}
-.righ-ls{
-	margin-left: 50px;
-}
-.careers-culture-title {
-    text-align: center;
-    padding-bottom: 25px;
-}
-.culture-wrapper {
-    padding: 50px 0;
-}
-.locations-title {
-    text-align: center;
-    padding-bottom: 45px;
-}
-.location-wrapper {
-    width: 100%;
-    padding: 50px 0;
-}
-
-</style>
-
 <div class="container-fluid pink-yellow">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
@@ -143,7 +37,7 @@ get_header(); ?>
 <div class="container-fluid wrap push">
 	<div class="container careers-why">
 		<div class="careers-pg-title">
-			<h1 class="orangeTwo-text">Why Work At RizePoint?</h1>
+			<h2 class="orangeTwo-text">Why Work At RizePoint?</h2>
 		</div><!--careers-pg-title-->
 		<div class="join-video-wrapper">
 			<script src="https://fast.wistia.com/embed/medias/ovpzlqhpdm.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_ovpzlqhpdm videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>

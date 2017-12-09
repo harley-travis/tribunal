@@ -170,7 +170,7 @@
 							Use the RizePoint ROI Calculator to estimate your potential savings after moving from a manual audit process to a mobile- and cloud-based solution.<br><br>
 							<span>Learn more about how RizePoint is helping our customers save time, reduce risk, and increase consistency.</span><br><br><br>
 						</span>
-						<a class="learn-btn "href="https://rizepoint.com/rizepoint-roi-one-sheet/ " target="_blank">Learn More</a><br><br><br>
+						<a class="btn btn-lg btn-orange" href="https://rizepoint.com/rizepoint-roi-one-sheet/ " target="_blank">Learn More</a><br><br><br>
 						<span class="roi-disclaimer">*Use of the ROI calculator tool is subject to a <a href="/roi-terms-conditions/" class="orangeOne-text">disclaimer</a></span>
 					</div>
 				</div>

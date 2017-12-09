@@ -4,6 +4,26 @@
  */
 get_header(); ?>
 
+<style>
+
+.do-intro {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+	
+.aud-vid {
+    margin: auto;
+	margin-top: 50px;
+    text-align: center;
+    padding-bottom: 110px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    max-width: 1000px;
+}	
+
+</style>
+
 <div class="container-fluid purple-blue">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
@@ -21,6 +41,9 @@ get_header(); ?>
 		<div class="do-intro">
 			<?php the_field('introduction_content'); ?>
 		</div><!--do-text-->
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container avengers-cta center">
+				<a href="<?php the_field('fast_facts_source'); ?>" class="btn btn-lg btn-width-lg btn-green"><?php the_field('fast_facts_header'); ?></a>
+		</div>
 	</div><!--do-intro-->
 </div><!--container-fluid-->
 

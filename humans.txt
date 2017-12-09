@@ -5,7 +5,6 @@
 
     Travis Harley -- Web Manager / UI/UX Design 
     Riley Hein    -- Frontend Developer Intern / UI/UX Design
-    Corey McGarr  -- Frontend Developer Intern / UI/UX Design
 
 # TECHNOLOGY USED
 
@@ -15,7 +14,6 @@
     jQuery
     PHP5
     Bootstrap
-    Normalize.css
     WordPress
 
 # BUILT IN SALT LAKE CITY, UTAH

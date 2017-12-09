@@ -38,7 +38,7 @@ get_header(); ?>
     padding-top: 35px;
 }
 .solutions-section-one {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 .persona-img {
     width: 100%;
@@ -183,16 +183,15 @@ get_header(); ?>
 	padding: 50px 0px;
 }
 	
-	
-	@media screen and (max-width: 767px) {
-		.solutions-feature-size {
-			height: 200px;
+	@media screen and (max-width: 768px) {
+		.case-sheets-wrapper {
+			padding: 75px 0 70px;
 		}
 	}
 	
 </style>
 
-<div class="container-fluid <?php the_field('banner_color'); ?>">
+<div class="container-fluid <?php the_field('banner_background_color'); ?>">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
@@ -327,7 +326,7 @@ get_header(); ?>
 	</div><!-- solutions-section-one-wrapper -->
 </section><!-- solutions-section-one -->
 
-<section id="system-features" class="container-fluid slant-wrapper wrap push">	
+<section id="system-features" class="container-fluid slant-wrapper display-block wrap push">	
 	<section class="solutions-system-features-wrapper">
 		<div class="slant purple-bg solutions-features-size">
 			<div class="slant-content-wrap">
@@ -360,8 +359,7 @@ get_header(); ?>
 							<div class="collapse pointer-position" id="home-box-feature-1">
 								<div class="img-pointer sf-pointer-1"></div>
 								<div class="feature-content">
-									<h2 class="heading-2"><?php the_field('feature_1_header'); ?></h2>
-										<?php the_field('feature_1_content'); ?>
+									<?php the_field('feature_1_content'); ?>
 								</div><!-- home-box-feature-1 -->
 							</div>
 						</div><!-- container -->
@@ -372,8 +370,7 @@ get_header(); ?>
 							<div class="collapse pointer-position" id="home-box-feature-2">
 								<div class="img-pointer sf-pointer-1"></div>
 								<div class="feature-content">
-									<h2 class="heading-2"><?php the_field('feature_2_header'); ?></h2>
-										<?php the_field('feature_2_content'); ?>
+									<?php the_field('feature_2_content'); ?>
 								</div><!-- home-box-feature-1 -->
 							</div>
 						</div><!-- container -->
@@ -384,8 +381,7 @@ get_header(); ?>
 							<div class="collapse pointer-position" id="home-box-feature-3">
 								<div class="img-pointer sf-pointer-1"></div>
 								<div class="feature-content">
-									<h2 class="heading-2"><?php the_field('feature_3_header'); ?></h2>
-										<?php the_field('feature_3_content'); ?>
+									<?php the_field('feature_3_content'); ?>
 								</div><!-- home-box-feature-1 -->
 							</div>
 						</div><!-- container -->
@@ -418,9 +414,8 @@ get_header(); ?>
 						<div class="container">
 							<div class="collapse pointer-position" id="home-box-feature-4">
 								<div class="img-pointer sf-pointer-1"></div>
-								<div class="feature-content">
-									<h2 class="heading-2"><?php the_field('feature_4_header'); ?></h2>
-										<?php the_field('feature_4_content'); ?>
+								<div class="feature-content">					
+									<?php the_field('feature_4_content'); ?>
 								</div><!-- home-box-feature-1 -->
 							</div>
 						</div><!-- container -->
@@ -430,8 +425,7 @@ get_header(); ?>
 							<div class="collapse pointer-position" id="home-box-feature-5">
 								<div class="img-pointer sf-pointer-1"></div>
 								<div class="feature-content">
-									<h2 class="heading-2"><?php the_field('feature_5_header'); ?></h2>
-										<?php the_field('feature_5_content'); ?>
+									<?php the_field('feature_5_content'); ?>
 								</div><!-- home-box-feature-1 -->
 							</div>
 						</div><!-- container -->
@@ -441,14 +435,63 @@ get_header(); ?>
 							<div class="collapse pointer-position" id="home-box-feature-6">
 								<div class="img-pointer sf-pointer-1"></div>
 								<div class="feature-content">
-									<h2 class="heading-2"><?php the_field('feature_6_header'); ?></h2>
-										<?php the_field('feature_6_content'); ?>
+									<?php the_field('feature_6_content'); ?>
 								</div><!-- home-box-feature-1 -->
 							</div>
 						</div><!-- container -->
 					</div><!-- container-fluid -->			
 				</div>
 			</div>
+		</div>
+	</section>
+</section>
+
+<section id="system-features" class="container-fluid display-none purple-bg wrap push">	
+	<section class="solutions-system-features-wrapper">
+		<div class="purple-bg solutions-features-size">
+				<div class="system-features solutions-system-features">
+					<div class="container system-features-wrapper">
+						<h2 class="heading-2"><?php the_field('system_features_section_header'); ?></h2>
+						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-1" aria-expanded="false" aria-controls="collapseExample">
+							<div class="box-feature" style="background-image: url(<?php the_field('feature_1_image'); ?>)"></div><!-- box-feature -->
+							<div class="box-feature-header">
+								<h5 class="heading-5"><?php the_field('feature_1_title'); ?></h5>
+							</div><!-- box-feature-header -->
+						</div><!-- box-feature -->
+						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-2" aria-expanded="false" aria-controls="collapseExample">
+							<div class="box-feature" style="background-image: url(<?php the_field('feature_2_image'); ?>)"></div><!-- box-feature -->
+							<div class="box-feature-header">
+								<h5 class="heading-5"><?php the_field('feature_2_title'); ?></h5>
+							</div><!-- box-feature-header -->
+						</div><!-- box-feature -->
+						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-3" aria-expanded="false" aria-controls="collapseExample">
+							<div class="box-feature" style="background-image: url(<?php the_field('feature_3_image'); ?>)"></div><!-- box-feature -->
+							<div class="box-feature-header">
+								<h5 class="heading-5"><?php the_field('feature_3_title'); ?></h5>
+							</div><!-- box-feature-header -->
+						</div><!-- box-feature -->	
+						
+					
+						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-4" aria-expanded="false" aria-controls="collapseExample">
+							<div class="box-feature" style="background-image: url(<?php the_field('feature_4_image'); ?>)"></div><!-- box-feature -->
+							<div class="box-feature-header">
+								<h5 class="heading-5"><?php the_field('feature_4_title'); ?></h5>
+							</div><!-- box-feature-header -->
+						</div><!-- box-feature -->
+						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-5" aria-expanded="false" aria-controls="collapseExample">
+							<div class="box-feature" style="background-image: url(<?php the_field('feature_5_image'); ?>)"></div><!-- box-feature -->
+							<div class="box-feature-header">
+								<h5 class="heading-5"><?php the_field('feature_5_title'); ?></h5>
+							</div><!-- box-feature-header -->
+						</div><!-- box-feature -->
+						<div class="col-lg-4 col-sm-6 col-xs-12 box-feature-wrapper" role="button" data-toggle="collapse" href="#home-box-feature-6" aria-expanded="false" aria-controls="collapseExample">
+							<div class="box-feature" style="background-image: url(<?php the_field('feature_6_image'); ?>)"></div><!-- box-feature -->
+							<div class="box-feature-header">
+								<h5 class="heading-5"><?php the_field('feature_6_title'); ?></h5>
+							</div><!-- box-feature-header -->
+						</div><!-- box-feature -->
+					</div><!-- system-feature-wrapper -->		
+				</div>
 		</div>
 	</section>
 </section>
@@ -509,7 +552,7 @@ get_header(); ?>
 	</div><!-- case-sheets-wrapper -->
 </section><!-- case-sheets -->
 
-
+<!--
 <section class="container-fluid section-four wrap push">
 	<div class="section-four-wrapper">
 		<h2 class="green-text heading-2"><?php the_field('customer_section_header'); ?></h2>
@@ -519,24 +562,23 @@ get_header(); ?>
 				<?php while( have_rows('customer_repeater') ): the_row(); ?>			
 				<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible">
 					<img src="<?php the_sub_field('customer_image'); ?>" alt="" class="customerLogo-img">
-				</div><!-- customer logo -->			
+				</div>			
 				<?php endwhile; ?>
 			<?php endif; ?>				
 		</div>
 		
 		<div class="brag-btn-wrapper">
 			<a href="<?php echo ROOT_URL; ?><?php the_field('customer_button_path'); ?>" class="btn btn-lg btn-green"><?php the_field('customer_button_title'); ?></a>
-		</div><!-- brag-btn-wrapper -->
+		</div>
 		
 	</div>
 </section>
+-->
 			
-			
-		
-<!--		
+					
 <section class="container-fluid section-four wrap push">
 	<div class="section-four-wrapper">
-		<h2 class="green-text heading-2"></h2>				
+		<h2 class="green-text heading-2"><?php the_field('customer_section_header'); ?></h2>				
 		<div class="brag-time">
 			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/applebees.png" alt="Applebees" class="customerLogo-img"></div>
 			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/avendra.png" alt="Avendra" class="customerLogo-img"></div>
@@ -568,7 +610,7 @@ get_header(); ?>
 		</div>
 	</div>
 </section>
--->
+
 
 <section class="container-fluid green-bg wrap push">
 	<div class="container raq-wrapper">

@@ -4,6 +4,7 @@
 */
 get_header(); ?>
 
+
 <?php if(get_field('blog_banner') == 'pink-yellow' ): ?>
 	<div class="container-fluid pink-yellow">
 <?php endif; ?>
@@ -73,6 +74,8 @@ get_header(); ?>
 	</div><!-- banner -->
 </div><!-- container-fluid -->
 
+
+
 <section class="container blog-archive wrap push">
 	<article class="col-lg-9 col-md-9 col-sm-12<?php if ($src[0]) : ?> post-image<?php endif ; ?>">			
 		<?php 
@@ -93,7 +96,7 @@ get_header(); ?>
 				<li>
 					<div class="col-md-6 col-sm-6 col-xs-12 blog-post">
 						<?php if ($src) : ?>
-						<a href="<?php the_permalink(); ?>"><div class="post-bg" style="background-image: url(<?php echo $src[0]; ?>)"></div></a>
+						<a href="<?php the_permalink(); ?>"><div class="post-bg""><img src="<?php echo $src[0]; ?>" alt="" class="blog-art-img></div></a>
 						<?php endif ; ?>
 
 						<a href="<?php the_permalink() ?>"><h3 class="blue-text heading-3"><?php the_title() ?></h3></a>

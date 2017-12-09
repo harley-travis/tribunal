@@ -1,4 +1,4 @@
-
+﻿
 <?php 
 /**
  * Template Name: Corporate Social Responsibility
@@ -10,6 +10,7 @@
 	<head>
 	<meta http-equiv="content-type" content="text/html" charset="utf-8" />
 	<meta name="author" content="SemiColonWeb" />
+	<link rel="canonical" href="https://rizepoint.com/csr/"/>
 
 	<!-- Stylesheets
 	============================================= -->

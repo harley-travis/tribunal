@@ -4,6 +4,18 @@
 */
 get_header(); ?>
 
+<style>
+
+	.vot {
+		text-align: center;
+	}
+	
+	.circle-mask {
+		margin: auto;
+	}
+
+</style>
+
 <div class="container-fluid blue-green">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
@@ -73,7 +85,7 @@ get_header(); ?>
 		</div><!-- flood-wrapper -->
 	</div><!-- flood -->
 	
-	<div class="container-fliud brand-info">
+	<div class="container-fluid brand-info">
 		<div class="container">
 			<div class="col-lg-6 col-md-7 col-sm-12">
 				<h3 class="vot heading-3"><?php the_field('voq_header'); ?><img src="<?php the_field('voq_image'); ?>" class="bx-icon" alt=""></h3>
@@ -86,7 +98,7 @@ get_header(); ?>
 	</div><!-- brand-info -->
 
 	<!-- show when large -->
-	<div class="container-fliud brand-info large-brand">
+	<div class="container-fluid brand-info large-brand">
 		<div class="container">
 			<div class="col-lg-6 col-md-5 col-sm-12">
 				<div class="circle-mask circle-img-two"></div>
@@ -99,7 +111,7 @@ get_header(); ?>
 	</div><!-- brand-info -->
 	
 	<!-- show when small -->
-	<div class="container-fliud brand-info small-brand">
+	<div class="container-fluid brand-info small-brand">
 		<div class="container">
 			<div class="col-lg-6 col-md-7 col-sm-12">
 				<h3 class="vot heading-3"><?php the_field('voe_header'); ?><img src="<?php the_field('voe_image'); ?>" class="bx-icon" alt=""></h3>
@@ -111,7 +123,7 @@ get_header(); ?>
 		</div><!-- row -->
 	</div><!-- brand-info -->
 	
-	<div class="container-fliud brand-info">
+	<div class="container-fluid brand-info">
 		<div class="container">
 			<div class="col-lg-6 col-md-7 col-sm-12">
 				<h3 class="vot heading-3"><?php the_field('voc_header'); ?><img src="<?php the_field('voc_image'); ?>" class="bx-icon" alt=""></h3>

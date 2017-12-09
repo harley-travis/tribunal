@@ -4,6 +4,28 @@
 */
 get_header(); ?>
 
+<style>
+
+	@media screen and (min-width: 1700px) {	
+		.fast-facts-btn1 {
+			display: none;
+		}
+		.fast-facts-btn2 {
+			display: block;
+		}
+	}
+
+	@media screen and (max-width: 1699px) {
+		.fast-bacts-btn1 {
+			display: block;			
+		}
+		.fast-facts-btn2 {
+			display: none;
+		}
+	}	
+
+</style>
+
 <div class="container-fluid green-blue-purple">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
@@ -16,14 +38,21 @@ get_header(); ?>
 	</div><!-- banner -->
 </div><!-- container-fluid -->
 
-<section class="container-fluid about-videos wrap push">
+<section class="container-fluid about-videos lightGray-bg wrap push">
 	<div class="container about-videos-wrapper">
 		<div class="col-md-6 col-sm-6 col-xs-12 about-video-container">
 			<p><?php the_field('the_content'); ?></p>
 		</div><!-- about-video-container -->
 		<div class="col-md-6 col-sm-6 col-xs-12 about-video-container">
 			<script src="https://fast.wistia.com/embed/medias/in3fdjpcii.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_in3fdjpcii videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container avengers-cta center fast-facts-btn1">
+				<a href="<?php the_field('fast_facts_source'); ?>" class="btn btn-lg btn-width-lg btn-green"><?php the_field('fast_facts_header'); ?></a>
+			</div>
 		</div><!-- about-video-container -->
+		
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container avengers-cta center fast-facts-btn2">
+				<a href="<?php the_field('fast_facts_source'); ?>" class="btn btn-lg btn-width-lg btn-green"><?php the_field('fast_facts_header'); ?></a>
+		</div>
 	</div><!-- about-videos-wrapper -->
 </section><!-- about-videos -->
 

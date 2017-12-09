@@ -1,6 +1,6 @@
 .blog-post {
     padding: 16px;
-    height: 600px;
+    height: 685px;
 }
 .post-content {
     height: 160px;
@@ -16,6 +16,11 @@
 .attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
     width: 100%;
     height: auto;
+}
+.alignnone.size-medium {
+    max-width: 400px !important;
+    height: auto;
+    padding-top: 35px;
 }
 .screen-reader-text {
     color: $green;

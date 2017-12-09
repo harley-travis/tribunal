@@ -8,9 +8,9 @@ get_header(); ?>
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
-			<h1 class="heading-1">Our Clients</h1>
+			<h1 class="heading-1"><?php the_field('main_header'); ?></h1>
 			<div class="banner-btns">
-				<a href ="<?php echo ROOT_URL; ?>/case-studies" class="btn btn-lg btn-inverse-white">Case Studies</a> <a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-lg btn-inverse-white">Request A Demo</a>
+				<a href ="<?php the_field('left_button_path'); ?>" class="btn btn-lg btn-inverse-white"><?php the_field('left_button_title'); ?></a> <a href="<?php the_field('right_button_path'); ?>" class="btn btn-lg btn-inverse-white"><?php the_field('right_button_title'); ?></a>
 			</div><!-- banner-btns -->
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->

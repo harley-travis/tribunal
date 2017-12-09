@@ -240,7 +240,8 @@ ul.subnav {
     font-size: 4rem; }
 
 .banner-btns {
-  margin-top: 50px; }
+  margin-top: 50px;
+  text-align: center; }
   .banner-btns a {
     margin: 15px; }
 
@@ -737,8 +738,7 @@ span.mktoButtonWrap.mktoPaperMashup {
   border: none !important;
   padding: 10px !important;
   width: 100% !important;
-  margin-top: 15px !important;
-  text-transform: uppercase !important; }
+  margin-top: 15px !important; }
 
 span.mktoButtonWrap.mktoNative {
   margin-left: 0 !important; }
@@ -1320,6 +1320,18 @@ span.mktoButtonWrap.mktoNative {
   top: 0;
   right: 0; }
 
+@media screen and (min-width: 1700px) {
+  .fast-facts-btn1 {
+    display: none; }
+
+  .fast-facts-btn2 {
+    display: block; } }
+@media screen and (max-width: 1699px) {
+  .fast-bacts-btn1 {
+    display: block; }
+
+  .fast-facts-btn2 {
+    display: none; } }
 /*
   Solutions Template
 ***************************/
@@ -1577,13 +1589,6 @@ span.mktoButtonWrap.mktoNative {
   background-size: cover;
   background-repeat: no-repeat; }
 
-.read-case-study {
-  text-align: center;
-  display: block; }
-
-.read-case-study span {
-  padding-top: 15px; }
-
 .blog-archive,
 .case-study-text {
   padding-top: 35px; }
@@ -1640,12 +1645,19 @@ span.mktoButtonWrap.mktoNative {
 .image-link img {
   display: block; }
 
+.read-case-study {
+  text-align: center;
+  display: block; }
+
+.read-case-study span {
+  padding-top: 15px; }
+
 /*
   Blog
 ***************************/
 .blog-post {
   padding: 16px;
-  height: 700px; }
+  height: 685px; }
 
 .post-content {
   height: 160px; }
@@ -1662,9 +1674,10 @@ span.mktoButtonWrap.mktoNative {
   width: 100%;
   height: auto; }
 
-img.alignnone.size-medium {
-  width: 100%;
-  height: auto; }
+.alignnone.size-medium {
+  max-width: 400px !important;
+  height: auto;
+  padding-top: 35px; }
 
 .screen-reader-text {
   color: #28b29a;
@@ -2032,11 +2045,15 @@ input[type=checkbox] {
 
 .show-menu {
   font-family: gotham-book;
-  background: #fcb040;
   text-align: center;
   padding: 20px;
   font-size: 1em;
-  width: 100%; }
+  width: 100%;
+  background: #e76b7c;
+  background: -moz-linear-gradient(-45deg, #e76b7c 0%, #fc842a 100%);
+  background: -webkit-linear-gradient(-45deg, #e76b7c 0%, #fc842a 100%);
+  background: linear-gradient(135deg, #e76b7c 0%, #fc842a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e76b7c', endColorstr='#fc842a',GradientType=1 ); }
 
 .resource-info-title {
   text-align: left;
@@ -2119,6 +2136,74 @@ li.news-icon-title {
 /*
   Newsroom
 ***************************/
+.post-content {
+  margin-bottom: 20px;
+  padding-bottom: 35px; }
+
+.press-releases-archive h4 {
+  text-transform: uppercase; }
+
+.press-release-class {
+  border-bottom: 5px solid;
+  margin-bottom: 30px;
+  padding-bottom: 15px; }
+
+.nav-parts {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.media-contact {
+  padding-bottom: 20px; }
+
+.newsroom-navbar {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0; }
+
+.newsroom-pills {
+  display: flex;
+  justify-content: center;
+  float: none !important; }
+
+.tabs-content {
+  margin-top: 35px; }
+
+.news-icon-wrapper {
+  width: 100%;
+  height: 53px;
+  box-shadow: 1px 1px 1px;
+  margin-bottom: 80px; }
+
+.media-wraps {
+  padding-bottom: 50px; }
+
+.media-box-wrapper {
+  background: #FAFAFA;
+  padding: 15px; }
+
+.media-img-box-wrapper {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #eee; }
+
+ul.news-tab {
+  font-weight: 700;
+  width: 845px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px; }
+
+.date-display {
+  margin-right: -35px; }
+
+.media-contact-sb {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 35px;
+  margin-bottom: 40px; }
+
 .news-banner {
   background: url(http://landing.rizepoint.com/wp-content/uploads/2016/02/Demo-v2.jpg) no-repeat #eee;
   background-size: cover;
@@ -2134,10 +2219,6 @@ li.news-icon-title {
 
 .icon {
   font-size: 5rem; }
-
-ul.news-tab {
-  border-bottom: #eee 1px solid;
-  padding-bottom: 30px; }
 
 li.news-icon-title {
   display: inline-block; }
@@ -2218,6 +2299,15 @@ img.news-post-img {
 .press-list li {
   list-style: none; }
 
+/* NEED TO FIGURE OUT WHAT THIS IS DOING
+ *
+ * Looks like it's pulling in some of the resources and previous newsroom
+ * Once we get the newsroom and resources rebuilt, look at this to see if it 
+ * breaks.
+ *
+ * - Travis 
+ *
+*/
 @media only screen and (max-width: 828px) {
   h2.resoure-heading {
     top: 20%; }
@@ -2250,7 +2340,11 @@ img.news-post-img {
     width: 100%; }
 
   li.tab-list a {
-    background: orange;
+    background: #e76b7c;
+    background: -moz-linear-gradient(-45deg, #e76b7c 1%, #fc842a 100%);
+    background: -webkit-linear-gradient(-45deg, #e76b7c 1%, #fc842a 100%);
+    background: linear-gradient(135deg, #e76b7c 1%, #fc842a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e76b7c', endColorstr='#fc842a',GradientType=1 );
     color: #ffffff; }
 
   input[type=checkbox]:checked ~ #tab-menu {
@@ -2795,7 +2889,7 @@ img.news-post-img {
 ***************************/
 .do-intro {
   padding-top: 100px;
-  padding-bottom: 200px; }
+  padding-bottom: 0px; }
 
 .wwd-cw,
 .wwd-features {
@@ -2808,7 +2902,7 @@ img.news-post-img {
   padding-left: 50px;
   padding-right: 50px;
   width: 100%;
-  max-width: 1200px; }
+  max-width: 1000px; }
 
 .partners-form,
 .partners-text {
@@ -2891,7 +2985,7 @@ img.news-post-img {
 .circles {
   color: #ffffff;
   border-radius: 50%;
-  max-width: 150px;
+  max-width: 160px;
   height: 150px;
   position: relative;
   margin: 20px auto; }
@@ -2913,7 +3007,7 @@ img.news-post-img {
 .cs-by-the-numbers {
   /*		border: 3px solid rgb(231,107,124);*/
   margin-bottom: 25px;
-  background-color: #ffffff;
+  background-color: #FAFAFA;
   padding: 15px 0px; }
 
 .line {
@@ -3125,7 +3219,8 @@ a.brand-try-btn:hover {
   max-width: 1000px; }
 
 .vot {
-  padding-top: 60px; }
+  padding-top: 60px;
+  text-align: center; }
 
 .circle-mask {
   border-radius: 50%;
@@ -3137,7 +3232,8 @@ a.brand-try-btn:hover {
   border: 5px solid;
   background-repeat: no-repeat;
   position: relative;
-  background-position: 50%; }
+  background-position: 50%;
+  margin: auto; }
 
 .circle-img-one {
   border-color: #FAAD41;
@@ -3367,7 +3463,7 @@ video#vid-bg {
   padding-bottom: 30px; }
 
 .e2018-venue {
-  background-image: url(https://rizepoint.com/wp-content/uploads/2017/04/mirage-engage.jpg);
+  background-image: url(https://rizepoint.com/wp-content/uploads/2017/04/mirage-engage-2018.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 0;
@@ -3591,6 +3687,9 @@ th.engage-schedule-heading {
 /*
   Landing Pages
 ***************************/
+.landing-logos {
+  margin-top: 100px; }
+
 .landing-logo {
   padding: 25px 0;
   width: 100%;
@@ -3748,7 +3847,6 @@ input.thanks-url {
 .ldr-right-landing {
   position: absolute;
   right: 0;
-  top: -25%;
   padding-top: 10px; }
 
 /*
@@ -3839,7 +3937,7 @@ img.news-post-img {
   float: none;
   height: auto;
   max-width: 300px;
-  float: right !important; }
+  float: right; }
 
 /* NEWSROOM */
 .icon-news-columns {
@@ -3981,6 +4079,45 @@ input.partner-lead-btn {
   padding-top: 100px;
   max-width: 900px;
   margin: 0 auto; }
+
+/* PROFESSIONAL SERVICES */
+.ps-contact-form {
+  margin-bottom: 50px; }
+
+.ps-img {
+  width: 100%;
+  max-width: 400px;
+  padding-top: 50px; }
+
+h4.pro-services {
+  font-size: 14px; }
+
+h2.pro-services {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+.ps-btn {
+  width: 100%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both; }
+
+.ps-intro-copy {
+  padding-top: 75px; }
+
+.persona-wrapper {
+  height: 250px; }
+
+.persona-info-wrapper {
+  width: 100%; }
+
+.as-wrapper {
+  padding-top: 10px;
+  padding-bottom: 40px; }
+
+.ps-section-list {
+  padding-bottom: 50px; }
 
 /* SUPPORT */
 .support-head {
@@ -4254,9 +4391,6 @@ footer {
   .sf-pointer-2 {
     left: 495px; }
 
-  .blog-post {
-    height: 665px; }
-
   .sf-pointer-2 {
     left: 500px; }
 
@@ -4271,9 +4405,6 @@ footer {
     right: 3%; }
 
   /* LANDING PAGES */
-  .right-landing {
-    top: -30%; }
-
   .left-landing {
     padding-right: 30px; }
 
@@ -4334,9 +4465,6 @@ footer {
     padding-bottom: 45px; }
 
   /* LANDING PAGES */
-  .right-landing {
-    top: -25%; }
-
   /* DIRECT MAIL LANDING PAGE */
   .ldr-right-landing {
     top: -25%; }
@@ -4630,7 +4758,21 @@ footer {
     padding-top: 35px; }
 
   .raq-fix {
-    margin-bottom: 35px; } }
+    margin-bottom: 35px; }
+
+  /* NEWSROOM | IN THE NEWS */
+  .news-post {
+    padding-bottom: 0; }
+
+  .news-post-img {
+    float: none !important; }
+
+  /* NEWSROOM \ MEDIA */
+  .media-box-wrapper {
+    margin-bottom: 20px; }
+
+  .blog-post-sidebar {
+    float: left; } }
 /* 425px */
 @media only screen and (max-width: 425px) {
   .case-study-left,

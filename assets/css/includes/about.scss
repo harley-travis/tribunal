@@ -132,3 +132,23 @@
     top: 0;
     right: 0;
 }
+
+//RESPONSIVE FAST FACTS BUTTONS
+
+	@media screen and (min-width: 1700px) {	
+		.fast-facts-btn1 {
+			display: none;
+		}
+		.fast-facts-btn2 {
+			display: block;
+		}
+	}
+
+	@media screen and (max-width: 1699px) {
+		.fast-bacts-btn1 {
+			display: block;			
+		}
+		.fast-facts-btn2 {
+			display: none;
+		}
+	}	
