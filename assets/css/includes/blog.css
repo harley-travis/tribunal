@@ -1,22 +1,22 @@
 /*
 Error: Undefined variable: "$green".
-        on line 21 of C:\xampp\htdocs\living-tribunal\assets\css\includes\blog.scss
+        on line 2 of C:\RizePoint\assets\css\includes\blog.scss
 
-16: .attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
-17:     width: 100%;
-18:     height: auto;
-19: }
-20: .screen-reader-text {
-21:     color: $green;
-22:     font-size: 3rem;
-23: }
-24: .page-numbers {
-25:     padding-right: 7px;
-26:     font-size: 1.7rem;
+1: .heading-border-green {
+2: 	border-bottom: $green solid 5px;
+3: 	margin: 45px 0px;
+4: }
+5: .fbpi-details {
+6: 	padding: 10px;
+7: 	margin-bottom: 50px;
 
 Backtrace:
-C:\xampp\htdocs\living-tribunal\assets\css\includes\blog.scss:21
+C:\RizePoint\assets\css\includes\blog.scss:2
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/list_literal.rb:63:in `map'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/list_literal.rb:63:in `_perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
@@ -61,4 +61,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$green\".\A         on line 21 of C:\xampp\htdocs\living-tribunal\assets\css\includes\blog.scss\A \A 16: .attachment-post-thumbnail.size-post-thumbnail.wp-post-image {\A 17:     width: 100%;\A 18:     height: auto;\A 19: }\A 20: .screen-reader-text {\A 21:     color: $green;\A 22:     font-size: 3rem;\A 23: }\A 24: .page-numbers {\A 25:     padding-right: 7px;\A 26:     font-size: 1.7rem;"; }
+  content: "Error: Undefined variable: \"$green\".\A         on line 2 of C:\RizePoint\assets\css\includes\blog.scss\A \A 1: .heading-border-green {\A 2: 	border-bottom: $green solid 5px;\A 3: 	margin: 45px 0px;\A 4: }\A 5: .fbpi-details {\A 6: 	padding: 10px;\A 7: 	margin-bottom: 50px;"; }

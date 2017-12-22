@@ -7,7 +7,7 @@
 </div>
 	
 	<div class="press-loop">
-	<h3 class="green-text">Press Releases</h3>
+	<h3 class="green-text"><a href="/press_releases" class="green-text">Press Releases</a></h3>
 	<?php 
 		$type = 'press_releases';
 		$args = array( 

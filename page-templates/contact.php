@@ -4,6 +4,7 @@
 */
 get_header(); ?>
 
+
 <div class="container-fluid pink-yellow">
 	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
@@ -25,9 +26,9 @@ get_header(); ?>
 		</div><!--contact-text-->
 		<div class="col-md-6 col-sm-12 col-xs-12 contact-form green-bg white-text">
 			<h2 class="heading-2"><?php the_field('form_heading'); ?></h2>
-			<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script></p>
-			<form id="mktoForm_41"></form>
-			<p><script>MktoForms2.loadForm("//app-ab09.marketo.com", "318-YYG-377", 41);</script>
+			<script src="//app-ab09.marketo.com/js/forms2/js/forms2.min.js"></script>
+			<form id="mktoForm_598"></form>
+			<script>MktoForms2.loadForm("//app-ab09.marketo.com", "318-YYG-377", 598);</script>
 		</div><!--contact-form-->
 	</div><!--row-->	
 </div><!--contact-container-->
@@ -37,9 +38,6 @@ get_header(); ?>
 		<div class="col-md-6 col-sm-12 col-xs-12 details-text green-text">
 			<h3 class="heading-3">Salt Lake City</h3>
 			<p>2890 East Cottonwood Pwky, Suite 250</br>Salt Lake City, UT 84121</p>
-
-			<h3 class="heading-3">St. George</h3>
-			<p>229 East Saint George Blvd., Suite 101</br>Saint George, UT 84770</p>
 		</div><!--details-text -->
 
 		<div class="col-md-6 col-sm-12 col-xs-12 details-text green-text">

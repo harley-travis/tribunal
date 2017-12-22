@@ -4,7 +4,6 @@
 */
 get_header(); ?>
 
-
 <?php if(get_field('blog_banner') == 'pink-yellow' ): ?>
 	<div class="container-fluid pink-yellow">
 <?php endif; ?>
@@ -62,7 +61,7 @@ get_header(); ?>
 <?php endif; ?>
 
 
-	<?php include  __DIR__ . "/../includes/page-header.php"; ?>
+<?php include  __DIR__ . "/../includes/page-header.php"; ?>
 	<div class="container banner wrap push">
 		<div class="banner-wrapper">
 			<h1 class="heading-1"><?php the_field('main_blog_title'); ?></h1>
@@ -73,69 +72,77 @@ get_header(); ?>
 		</div><!-- banner-wrapper -->
 	</div><!-- banner -->
 </div><!-- container-fluid -->
+		
+<div class="container-fluid lightGray-bg">
+	<div class="container blog-overview-wrapper wrap push">
+		<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 blog-post-content">
+			<h2 class="heading-border-green green-text">RizePoint Blog</h2>
+			<section class="blog-ov-featured-post">
+				<article>
+					<?php 
+						// make it display 1 posts per page
+						$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+						$args = [
+							'orderby'        => 'date',
+							'posts_per_page' => '1',
+							'paged'          => $paged,
+							'post_status'    => 'publish'
+						];
 
+						$wp_query = null;
+						$wp_query = new WP_Query($args); ?>
+						<?php if ($wp_query->have_posts()) : ?>
+							<?php while ($wp_query->have_posts()) : the_post(); ?>
+								<?php $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full', false); ?>
 
+									<div class="featured-blog-post-individual white-bg box-shadow">
+										<div class="fbpi-img-wrapper">
+											<?php if ($src) : ?>
+												<a href="<?php the_permalink(); ?>"><img src="<?php echo $src[0]; ?>" alt="" class="fbpi-img"></a>
+											<?php endif ; ?>
+											<?php if($src == null || $src == 0) :?>
+												<a href="<?php the_permalink(); ?>"><img src="<?php echo ROOT; ?>/assets/img/blog/backup-blog.png" alt="" class="fbpi-img"></a>
+											<?php endif; ?>
+										</div>
+										<div class="fbpi-details">
+											<a href="<?php the_permalink() ?>"><h3 class="blue-text heading-3"><?php the_title() ?></h3></a>
+											<span class="blog-author">
+												<?php if(get_field('title_author_bio'))  :  ?> <p>By: <?php the_field('title_author_bio') ?></p> 
+												<?php endif ; ?>
+											</span>
+											<span class="share-social-blog">
+												<?php if ( function_exists( 'ADDTOANY_SHARE_SAVE_KIT' ) ) { ADDTOANY_SHARE_SAVE_KIT(); } ?>
+											</span>
+										</div>
+									</div><!-- featured-blog-post-individual -->
 
-<section class="container blog-archive wrap push">
-	<article class="col-lg-9 col-md-9 col-sm-12<?php if ($src[0]) : ?> post-image<?php endif ; ?>">			
-		<?php 
-		// make it display 10 posts per page
-		$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-		$args = [
-			'orderby'        => 'date',
-			'posts_per_page' => '10',
-			'paged'          => $paged
-		];
+							<?php endwhile; ?>
+						<?php endif; ?>
+				</article>
+			</section>
+			
+			<section>
 
-		$wp_query = null;
-		$wp_query = new WP_Query($args);?>
-		<?php if ($wp_query->have_posts()) : ?>
-		<ul class="blog-list">
-			<?php while ($wp_query->have_posts()) : the_post(); ?>
-				<?php $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full', false); ?>
-				<li>
-					<div class="col-md-6 col-sm-6 col-xs-12 blog-post">
-						<?php if ($src) : ?>
-						<a href="<?php the_permalink(); ?>"><div class="post-bg""><img src="<?php echo $src[0]; ?>" alt="" class="blog-art-img></div></a>
-						<?php endif ; ?>
-
-						<a href="<?php the_permalink() ?>"><h3 class="blue-text heading-3"><?php the_title() ?></h3></a>
-
-						<!-- once ACF installed -->
-						<span class="blog-author">
-							<?php if(get_field('title_author_bio'))  :  ?> <p>By: <?php the_field('title_author_bio') ?></p> 
-							<?php endif ; ?>
-						</span>
-							
-						<hr>
-						<p><?php if ( function_exists( 'ADDTOANY_SHARE_SAVE_KIT' ) ) { ADDTOANY_SHARE_SAVE_KIT(); } ?></p>
-						<div class="blog-post-content">
-							<div class="news_dated"><strong><?php echo get_the_date(); ?></strong></div>
-						<?php get_excerpt(450, get_the_id()) ?>
-						</div>
-					</div>
-				</li>
-			<?php endwhile; ?>
-		</ul>
-		<div class="pagination-location">
-			<?php if ($wp_query->max_num_pages > 1) : ?>
-				<?php the_posts_pagination( array(
-					'mid_size' => 2,
-					'prev_text' => __( 'Previous', 'textdomain' ),
-					'next_text' => __( 'Next', 'textdomain' ),
-				) ); ?>
-			<?php endif; ?>
-		</div><!-- pagination-location -->
-	  <?php endif; ?>
-	</article>
-	<?php include  __DIR__ . "/../includes/blog-sidebar.php"; ?>
-</section>
-
+				<!-- load articles with AJAX | Pulling from blog-content-loader.php -->
+				<div id="article_load_more"></div>
+				
+			</section>
+			
+		</div><!-- blog-post-content -->
+		<div class="blog-post-sidebar">
+			<?php include  __DIR__ . "/../includes/blog-sidebar.php"; ?>
+		</div><!-- blog-post-sidebar -->
+	</div><!-- blog-overview-wrapper -->
+</div>
+		
 <section class="container-fluid search-block">
 	<div class="container wrapper">
 		<p class="seo-post"><?php the_field('seo_content') ?></p>
 	</div>
 </section>
+
+<!-- add ajax script -->
+<script src="<?php bloginfo('template_directory'); ?>/assets/js/blog-ajax.js"></script>
 
 <?php get_footer(); ?>
 

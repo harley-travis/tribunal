@@ -252,6 +252,38 @@
 			  document.getElementsByTagName('head')[0].appendChild(s);
 			})();
 		</script>
+
+<script>	
+	
+	$(document).ready(function(){
+
+		// hide the related posts if the user is viewing press-release article
+		// also display the social icons 
+		var first = $(location).attr('pathname');
+		first.indexOf(1);
+		first.toLowerCase();
+		first = first.split("/")[1];
+
+		var press = 'press-releases';
+		var blog = 'blog';
+
+		if(first == press){
+			$('.related-wrapper').hide();
+			$('.a2a_kit.a2a_kit_size_32.a2a_floating_style.a2a_vertical_style').css('display', 'block');
+			$('.post-nav-wrapper').css({'padding-bottom': '80px','margin': '0'});
+			
+		}else if(first == blog){
+			$('.a2a_kit.a2a_kit_size_32.a2a_floating_style.a2a_vertical_style').css('display', 'block');
+			
+		 }else{
+			console.log('Error loading content. Please try again. ');
+		}
+		
+
+	});
+	
+
+</script>
 		
 		<style>
 			.g-retarg {

@@ -112,6 +112,8 @@ function force_lowercase_urls() {
 }
 add_action( 'template_redirect', 'force_lowercase_urls' );
 
+// AJAX for blogs
+
 
 
 

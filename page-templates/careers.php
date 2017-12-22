@@ -53,11 +53,11 @@ get_header(); ?>
 	<section class="container-fluid clients-loop careers-award lightGray-bg wrap push"><!--employee-awards-->		
 		<div class="container clients-loop-wrapper">
 			<div class="careers-awards-title">
-				<h3 class="text-center green-text">Award-Winning Employee Satisfaction</h3>	
+				<h2 class="text-center green-text">Award-Winning Employee Satisfaction</h2>	
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-12 awards-career-wrapper">
 				<div class="award-sec-wrapper customer-logo box-shadow">
-					<img src="https://rizepoint.com/wp-content/uploads/2017/09/logo-deseret-news-min.png" alt="" class="customerLogo-img awards-img">
+					<img src="<?php echo ROOT_URL; ?>/wp-content/uploads/2017/09/logo-deseret-news-min.png" alt="" class="customerLogo-img awards-img">
 				</div>
 				<div class="client-name">
 					<h4 class="text-center"><a href="http://www.deseretnews.com/top/3901/0/The-top-62-companies-to-work-for-in-Utah.html">RizePoint Makes Deseret News Top Companies to Work for in Utah</a></h4>
@@ -66,29 +66,29 @@ get_header(); ?>
 			
 			<div class="col-md-3 col-sm-6 col-xs-12 awards-career-wrapper">
 				<div class="award-sec-wrapper customer-logo box-shadow">
-					<img src="https://rizepoint.com/wp-content/uploads/2017/06/silver.png" alt="" class="customerLogo-img awards-img">
+					<img src="<?php echo ROOT_URL; ?>/wp-content/uploads/2017/06/silver.png" alt="" class="customerLogo-img awards-img">
 				</div><!-- award-sec-wrapper customer-logo box-shadow -->
 				<div class="client-name">
-					<h4 class="text-center"><a href="https://rizepoint.com/press-releases/corporate-social-responsibility-award/">RizePoint Corporate Social Responsibility Program Wins Stevie Award  </a></h4>
+					<h4 class="text-center"><a href="<?php echo ROOT_URL; ?>/press-releases/corporate-social-responsibility-award/">RizePoint Corporate Social Responsibility Program Wins Stevie Award  </a></h4>
 				</div><!-- client-name -->
 			</div><!-- client-box-wrapper -->
 			
 			
 			<div class="col-md-3 col-sm-6 col-xs-12 awards-career-wrapper">
 				<div class="award-sec-wrapper customer-logo box-shadow">
-					<img src="https://rizepoint.com/wp-content/uploads/2016/11/top-places-to-work.png" alt="" class="customerLogo-img awards-img">
+					<img src="<?php echo ROOT_URL; ?>/wp-content/uploads/2016/11/top-places-to-work.png" alt="" class="customerLogo-img awards-img">
 				</div><!-- award-sec-wrapper customer-logo box-shadow -->
 				<div class="client-name">
-					<h4 class="text-center"><a href="https://rizepoint.com/press-releases/rizepoint-2016-top-workplace/">Salt Lake Tribune Names RizePoint As A 2016 Top Workplace </a></h4>
+					<h4 class="text-center"><a href="<?php echo ROOT_URL; ?>/press-releases/rizepoint-2016-top-workplace/">Salt Lake Tribune Names RizePoint As A 2016 Top Workplace </a></h4>
 				</div><!-- client-name -->
 			</div><!-- client-box-wrapper -->	
 			
 			<div class="col-md-3 col-sm-6 col-xs-12 awards-career-wrapper">
 				<div class="award-sec-wrapper customer-logo box-shadow">
-					<img src="https://agamotto.rizepoint.com/wp-content/uploads/2017/10/parity-min.png" alt="" class="customerLogo-img awards-img">
+					<img src="<?php echo ROOT_URL; ?>/wp-content/uploads/2017/10/parity-min.png" alt="" class="customerLogo-img awards-img">
 				</div><!-- award-sec-wrapper customer-logo box-shadow -->
 				<div class="client-name">
-					<h4 class="text-center"><a href="https://rizepoint.com/press-releases/rizepoint-joins-paritypledge/">RizePoint Joins ParityPledge, Expanding the Pathway for Women in Leadership Positions </a></h4>
+					<h4 class="text-center"><a href="<?php echo ROOT_URL; ?>/press-releases/rizepoint-joins-paritypledge/">RizePoint Joins ParityPledge, Expanding the Pathway for Women in Leadership Positions </a></h4>
 				</div><!-- client-name -->
 			</div><!-- client-box-wrapper -->		
 									
@@ -182,27 +182,19 @@ get_header(); ?>
 
 <div class="container-fluid wrap push">
 	<div class="container location-wrapper lightGray-bg">
-		<div class="locations-title">
-			<h2 class="green-text">Locations</h2>
+		<div class="careers-culture-title">
+			<h2 class="green-text">Location</h2>
 		</div>
 		<div class="container location-content">
-			<div class="col-md-4 col-sm-12 col-xs-12 careers-loc-img">
+			<div class="col-md-3 col-sm-12 col-xs-12 careers-loc-img">
 				<img src="<?php echo ROOT; ?>\assets\img\icons\content-icon1.png" class="car-loc-img" alt="">
 			</div><!--careers-loc-img-->
-			<div class="col-md-4 col-sm-6 col-xs-12 office-list">
-				<ul>
-					<li><h2 class="orangeTwo-text">Salt Lake City</h2></li>
-					<li><p>2890 East Cottonwood Pkwy, Suite 250</p></li>
-					<li><p>Salt Lake City, UT 84121</p></li>
-				</ul>		
+			<div class="col-md-9 col-sm-12 col-xs-12 office-list ">
+				<p>RizePoint isn't just a company where we love what we do, we also love <i>where</i> we do it! Nestled at the base of Big Cottonwood Canyon, team members get to enjoy lunchtime strolls and scenic mountain views, with quick and convenient access to both the Wasatch Mountains and the heart of Salt Lake City.</p>
+			<h3 class="orangeTwo-text">Salt Lake City</h3>
+				<p>2890 East Cottonwood Pkwy, Suite 250</p>
+				<p>Salt Lake City, UT 84121</p>
 			</div><!--office-list-->
-			<div class="col-md-4 col-sm-6 col-xs-12 office-list">
-				<ul>
-					<li><h2 class="pink-text">St. George</h2></li>
-					<li><p>229 East Saint George Blvd., Suite 101</p></li>
-					<li><p>Saint George, UT 84770</p></li>
-				</ul>
-			</div>
 		</div>
 	</div><!--location-wrapper-->
 </div><!--container-fluid-->

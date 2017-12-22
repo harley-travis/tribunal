@@ -332,7 +332,7 @@ get_header(); ?>
 		<div class="col-md-4 col-sm-4 col-xs-12 case-box">
 			<div class="customer-logo client-box-pic box-shadow sol-fix">
 				<a href="https://rizepoint.com/wp-content/uploads/2015/08/Case-Study-IHG.pdf" target="_blank">
-					<img src="<?php echo ROOT; ?>/assets/img/clients/ihg-resources.jpg" class="customerLogo-img raq-logo-fix" alt=""><br>
+					<img src="<?php echo ROOT; ?>/assets/img/clients/ihg_logo.png" class="customerLogo-img raq-logo-fix" alt=""><br>
 					<div class="case-box-title">
 						<h4 class="heading-4">IHG Case study</h4>
 					</div>

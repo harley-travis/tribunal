@@ -9,13 +9,27 @@ ul.company {
 .searchform{
 		
 	}
+#searchform{
+	font-size: 20px;
+	color: blue;
+	}
 
 
 </style>
 
 
 <nav class="upper-nav">
+
+
+
 	<ul class="nav nav-pills">
+	
+	<!--search bar-->
+		<li>
+			<div class="searchform">
+				
+			</div><!--searchform-->
+		</li>
 		<li><a href="/engage">Engage 2018</a></li>
 		<li><a href="<?php echo ROOT_URL; ?>/support/">Support</a></li>
 		<li><a href="<?php echo ROOT_URL; ?>/partners">Partners</a></li>
@@ -49,7 +63,6 @@ ul.company {
 					<h4 class="green-text">Product</h4>
 					
 					<li><a href="<?php echo ROOT_URL; ?>/products">Products</a></li>
-					<li><a href="<?php echo ROOT_URL; ?>/professional-services">Professional Services</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/products#mc">Management Console</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/products#ma">Mobile Auditor</a></li>
 					<li role="separator" class="divider"></li>
@@ -107,7 +120,9 @@ ul.company {
 				<li><a href="<?php echo ROOT_URL; ?>/resources">Resources</a></li>
 				<li><a href="<?php echo ROOT_URL; ?>/case-studies">Case Studies</a></li>
 				<li><a href="<?php echo ROOT_URL; ?>/blog">Blog</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/newsroom">Newsroom</a></li>
 				<li><a href="<?php echo ROOT_URL; ?>/awards">Awards</a></li>
+				<li><a href="<?php echo ROOT_URL; ?>/newsroom">Press Releases</a></li>
 				<li><a href="<?php echo ROOT_URL; ?>/media">Media Library</a></li>
 				<li role="separator" class="divider"></li>
 				<li><a href="#" data-toggle="modal" data-target="#clients-nav"><span class="glyphicon glyphicon-play-circle play-icon" aria-hidden="true"></span> &nbsp; Watch A Testimonial</a></li>
@@ -125,10 +140,9 @@ ul.company {
 					<li><a href="<?php echo ROOT_URL; ?>/what-we-do">What We Do</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/leadership">Leadership</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/resources">Resources</a></li>
-					<li><a href="<?php echo ROOT_URL; ?>/newsroom">Newsroom</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/careers">Careers</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/contact-us">Contact Us</a></li>
-					<li><a href="<?php echo ROOT_URL; ?>/case-studies">Clients</a></li>
+					<li><a href="<?php echo ROOT_URL; ?>/clients">Clients</a></li>
 					<li><a href="<?php echo ROOT_URL; ?>/community-relations">Community Relations</a></li>
 					
 					<li role="separator" class="divider"></li>
@@ -185,7 +199,9 @@ ul.company {
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/resources">Resources</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/case-studies">Case Studies</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/blog">Blog</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/newsroom">Newsroom</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/awards">Awards</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/newsroom">Press Releases</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/media">Media Library</a></li>
 				</ul>
 			</li>			
@@ -195,12 +211,15 @@ ul.company {
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/company">About Us</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/what-we-do">What We Do</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/leadership">Leadership</a></li>
-					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/resources">Resources</a></li>
-					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/newsroom">Newsroom</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/careers">Careers</a></li>
-					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/contact-us">Contact Us</a></li>
-					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/media">Media Resources</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/blog">Blog</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/newsroom">Newsroom</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/awards">Awards</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/newsroom">Press Releases</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/clients">Clients</a></li>
 					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/community-relations">Community Relations</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/media">Media Resources</a></li>
+					<li class="subnav-list"><a href="<?php echo ROOT_URL; ?>/contact-us">Contact Us</a></li>
 				</ul>
 			</li>
 			<li class="parent"><a href="<?php echo ROOT_URL; ?>/request-a-demo" class="btn btn-green">Request a Demo</a></li>

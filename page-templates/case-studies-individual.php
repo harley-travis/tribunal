@@ -10,7 +10,7 @@ get_header(); ?>
 		<div class="banner-wrapper">
 			<h1><?php the_field('client-name'); ?>  |  Case Study</h1>
 			<div class="banner-btns">
-				<a href="<?php the_field('case-study-individual-banner_button_1_link'); ?>" class="btn btn-lg btn-inverse-white" download>
+				<a href="<?php echo ROOT_URL; ?><?php the_field('case-study-individual-banner_button_1_link'); ?>" class="btn btn-lg btn-inverse-white" download>
 					<?php the_field('case-study-individual-banner-button-1-title'); ?>
 				</a> 
 				<a href="<?php the_field('case-study-individual-banner_button_2_link'); ?>" class="btn btn-lg btn-inverse-white">

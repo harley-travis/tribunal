@@ -1,6 +1,6 @@
 <?php 
 /**
- * Template Name: Resources Custom Post 
+ * Template Name: Resources The New Frontier
 */
 get_header(); ?>
 

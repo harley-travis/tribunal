@@ -20,7 +20,7 @@
 	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/Chemstar.PNG" alt="Chemstar" class="customerLogo-img"></div><!-- customer-logo -->
 	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/Ocean_Spray_Logo.png" alt="Ocean Spray" class="customerLogo-img"></div><!-- customer-logo -->
 	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/starbucks.png" alt="Starbucks" class="customerLogo-img"></div><!-- customer-logo -->
-	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/staybrdige.png" alt="Stay Bridge" class="customerLogo-img"></div><!-- customer-logo -->
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo visible"><img src="<?php echo ROOT; ?>assets/img/clients/ihg_logo.png" alt="IHG" class="customerLogo-img"></div><!-- customer-logo -->
 	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="<?php echo ROOT; ?>assets/img/clients/texas-roadhouse.png" alt="Texas Roadhouse" class="customerLogo-img"></div><!-- customer-logo -->
 	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 customer-logo"><img src="https://rizepoint.com/wp-content/uploads/2017/10/alko_hotels-min-1.png" alt="Alko" class="customerLogo-img"></div><!-- customer-logo -->
 </div><!--brag-time -->

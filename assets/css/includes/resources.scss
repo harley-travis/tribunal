@@ -345,6 +345,39 @@ li.news-icon-title {
     .displayOff {
         display: block;
     }
+	.res-headline-heading,
+	.res-subheadline-heading {
+		background: rgb(250, 250, 250);
+		color: rgb(40, 178, 154);
+		width: 100%;
+		bottom: 0;
+	}
+	.res-headline-heading {
+		padding: 30px;
+		position: absolute;
+		margin: 0;
+		left: 0;
+	}
+	.res-subheadline-heading {
+		position: absolute;
+		margin: 0;
+		padding: 17px;
+		font-size: 1.2rem;
+	}
+	.res-title {
+		margin-top: 10px;
+		height: 55px;
+	}
+	.res-loop-wrapper {
+   		padding: 20px 0;
+	}
+	.res-heading {
+		padding-left: 1.5%;
+		padding-bottom: 20px;
+	}
+	.res-individual-wrapper {
+		margin-bottom: 50px;
+	}
 }
 @media only screen and (max-width: 476px) {
     h2.resoure-heading {

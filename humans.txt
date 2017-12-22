@@ -4,7 +4,8 @@
 # TEAM AND AUTHORS
 
     Travis Harley -- Web Manager / UI/UX Design 
-    Riley Hein    -- Frontend Developer Intern / UI/UX Design
+    Riley Hein    -- Frontend Developer / UI/UX Design
+    Corey McGarr  -- Frontend Developer
 
 # TECHNOLOGY USED
 
